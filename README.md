@@ -1,16 +1,7 @@
 # Humanitarian Data Service
+An interactively documented REST API serving data about the refugee crisis from a variety of sources.
 The aspirational goal is to consolidate the various fragmented raw data sources, whether it be APIs, libraries, raw urls, or PDFs, behind a single REST API and exposed via Swagger UI.
 This is the initial effort to lay the groundwork for this to be possible.
-
-# Preliminary TODOs (by 3/10)
-- [x] install all dependencies and track them in reqs.txt files (e.g. swagger)
-- [x] use hdx api to download, parse, and merge some data (first focus on lake chad basin)
-- [x] lay out structure
-- [x] lay out skeleton for rest api and swagger ui
-- [x] add landing page with links to api docs and repo
-- [x] construct endpoints for accessing the data
-- [x] a single data source end to end
-- [x] a set of lake chad basin data sources end to end (more granular than country level, or historic data)
 
 # Swagger UI
 See the [website](http://127.0.0.1:5000) with interactive API documentation [here](http://127.0.0.1:5000/apidocs/index.html). 
@@ -18,11 +9,6 @@ Note: this is currently local, to see it run the following:
 ```sh
 python api.py
 ```
-Current set of endpoints (for Lake Chad Basin, 2016-2017):
-- GET /funding/totals/:country
-- GET /funding/categories/:country
-- GET /needs/totals/:country
-- GET /needs/regions/:country
 
 # Raw data sources
 To pull data from HDX (the Humanitarian Data Exchange), run the following:
@@ -38,4 +24,4 @@ See `resources/constants.py` and `resources/data/raw`:
 - [UNOCHA ORS ROWCA](http://ors.ocharowca.info/api/v2/KeyFigures/KeyFiguresLakeChad.ashx?country=4,8,9,3&subcat=9,10,4&datefrom=01-01-2016&dateto=21-02-2017&inclids=yes&final=1&format=json&lng=en)
 
 # Derived data sources
-See `resources/data/derived` - this cleaned and formatted data is what the API is ultimately serving.
+See `resources/data/derived` - this cleaned and formatted data with metadata is what the API is ultimately serving.

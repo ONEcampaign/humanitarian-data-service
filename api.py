@@ -55,7 +55,7 @@ def hello():
         <h1> Welcome to the Humanitarian Data Service</h1>
         <i class="fa fa-globe" style="font-size:48px;"></i>
         <p>See the interactive API docs <a href="/apidocs/index.html" style="color: #EEEEEE">here</a> </p>
-        <p>See the open source repository <a href="https://github.com/dragonaire/humdata" style="color: #EEEEEE">here</a></p>
+        <p>See the open source repository <a href="https://github.com/onecampaign/humanitarian-data-service" style="color: #EEEEEE">here</a></p>
         <p>See the Kenya-Somalia concept dashboard <a href="http://127.0.0.1:5000/dashboard-kenya" style="color: #EEEEEE">here</a></p>
       </body>
       </html>
@@ -83,7 +83,7 @@ def kenya_dashboard():
       <body>
         <h1> Kenya-Somalia Concept Dashboard</h1>
         <i class="fa fa-bar-chart fa-lg"></i>
-        <p>This is a concept dashboard that documents the refugee and asylum-seeking crisis in Kenya with a focus around the Dadaab region, host to the world's largest refugee camp. The Kenyan government plans to shut down refugee camps in Dadaab by mid-2017, which hosts around 250,000 Somalian refugees driven from drought-induced famine and Al-Shabaab terrorism.</p>
+        <p>This is a sample dashboard that documents the refugee and asylum-seeking crisis in Kenya with a focus around the Dadaab region, host to the world's largest refugee camp. The Kenyan government plans to shut down refugee camps in Dadaab by mid-2017, which hosts around 250,000 Somalian refugees driven from drought-induced famine and Al-Shabaab terrorism.</p>
         <p>Go back to the main page <a href="http://127.0.0.1:5000" style="color: #EEEEEE">here</a></p>
         <p></p>
         <iframe width="900" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/19.embed?logo=false"></iframe>
