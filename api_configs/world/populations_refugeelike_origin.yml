@@ -1,0 +1,62 @@
+Get population data for refugee-like people by origin country
+Call this endpoint to get the population data for refugee-like displaced people by origin country and type of people
+---
+tags:
+  - World
+parameters:
+  - name: country
+    in: query
+    type: string
+    required: false
+    description: The origin country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No population data was found for refugee-like people by origin country and type of people
+  200:
+    description: The latest population data for refugee-like people by origin country and type of people
+    schema:
+      id: populations_refugeelike_origin
+      properties:
+        source:
+          type: string
+          description: The data source
+          default: "UNHCR"
+        data:
+          type: json
+          description: The population data for refugee-like people by origin country and type of people
+          default: {
+            "Country": [
+              "Somalia"
+            ],
+            "Asylum-seekers": [
+              61988
+            ],
+            "IDPs protected/assisted by UNHCR, incl. people in IDP-like situations": [
+              1133000
+            ],
+            "Others of concern to UNHCR": [
+              337
+            ],
+            "People in refugee-like situations": [
+              174
+            ],
+            "Persons under UNHCR's statelessness mandate": [
+              0
+            ],
+            "Returned IDPs": [
+              0
+            ],
+            "Returned refugees": [
+              13859
+            ],
+            "Total Refugee and people in refugee-like situations": [
+              1097757
+            ],
+            "Total population of concern": [
+              2306941
+            ]
+          }
+        update:
+          type: string
+          description: The update frequency of this data
+          default: Every year

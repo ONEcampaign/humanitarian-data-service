@@ -21,7 +21,6 @@ def loadDataByDimension(dimension):
         date_str = f.read().strip()
     data = {}
     for code, country in constants.COUNTRY_CODES.iteritems():
-        print country
         file_name = '-'.join([constants.FTS_FILE_PREFIX, code, dimension, date_str])
         file_path = os.path.join(data_dir, '{}.csv'.format(file_name))
         df = pd.read_csv(file_path, encoding='utf-8')

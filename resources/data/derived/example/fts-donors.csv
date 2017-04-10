@@ -1,41 +1,57 @@
+#{"source_key": "FTS", "source_url": {"Cameroon": "https://fts.unocha.org/appeals/537/donors", "Chad": "https://fts.unocha.org/appeals/532/donors", "Niger": "https://fts.unocha.org/appeals/530/donors", "Nigeria": "https://fts.unocha.org/appeals/536/donors"}, "source_date": "Unknown, 2017", "update_frequency": "Unknown / Irregular", "extract_date": "2017-04-10"}
 Donor organization,Funding US$,Pledges US$,Country
-Central Emergency Response Fund,10058848,0,Niger
-"Denmark, Government of",284398,0,Niger
-European Commission,5004025,0,Niger
-European Commission's Humanitarian Aid and Civil Protection Department,12317747,0,Niger
-"France, Government of",364513,0,Niger
-"Germany, Government of",226757,0,Niger
-"Italy, Government of",1000000,0,Niger
-"Japan, Government of",5131000,0,Niger
-"Niger, Government of",4379442,0,Niger
-Not specified,9278754,0,Niger
-"Switzerland, Government of",986193,0,Niger
-UN Peacebuilding Fund,326390,0,Niger
-"United States of America, Government of",35174964,0,Niger
-World Food Programme,2247000,0,Niger
-Central Emergency Response Fund,10000000,0,Cameroon
-European Commission's Humanitarian Aid and Civil Protection Department,640342,0,Cameroon
-"Germany, Government of",7284296,0,Cameroon
-"Korea, Republic of, Government of",2000000,0,Cameroon
+Canada Government of,3822156,0,Cameroon
+Central Emergency Response Fund,10005413,0,Cameroon
+European Commission's Humanitarian Aid and Civil Protection Department,3715634,0,Cameroon
+Germany Government of,7284296,0,Cameroon
+Japan Government of,636000,0,Cameroon
+Korea Republic of Government of,2000000,0,Cameroon
 Not specified,67684,0,Cameroon
 Private (individuals & organizations),376,0,Cameroon
-"United Kingdom, Government of",9882448,0,Cameroon
-"United States of America, Government of",6000000,0,Cameroon
-World Food Programme,15187916,0,Cameroon
-Central Emergency Response Fund,22000000,0,Nigeria
-"Denmark, Government of",142653,0,Nigeria
-European Commission's Humanitarian Aid and Civil Protection Department,2916224,0,Nigeria
-"Germany, Government of",1020408,0,Nigeria
-"Japan, Government of",1903000,0,Nigeria
-"Malta, Government of",10672,0,Nigeria
+Sweden Government of,2442998,0,Cameroon
+United Kingdom Government of,9882448,0,Cameroon
+United States of America Government of,6665000,0,Cameroon
+World Food Programme,9095000,0,Cameroon
+Canada Government of,5124833,0,Chad
+European Commission's Humanitarian Aid and Civil Protection Department,261506,0,Chad
+Japan Government of,1913640,0,Chad
+Malta Government of,10672,0,Chad
+Private (individuals & organizations),2124552,0,Chad
+Canada Government of,4361262,0,Niger
+Central Emergency Response Fund,10058848,0,Niger
+Denmark Government of,284398,0,Niger
+European Commission,5004025,0,Niger
+European Commission's Humanitarian Aid and Civil Protection Department,21013399,0,Niger
+France Government of,364513,0,Niger
+Germany Government of,226757,0,Niger
+Italy Government of,1000000,0,Niger
+Japan Government of,5131000,0,Niger
+Niger Government of,4379442,0,Niger
+Not specified,9278754,0,Niger
+Switzerland Government of,986193,0,Niger
+UN Peacebuilding Fund,326390,0,Niger
+United States of America Government of,35174964,0,Niger
+World Food Programme,2247000,0,Niger
+Arab Gulf Programme for United Nations Development Organizations,25000,0,Nigeria
+Belgium Government of,500000,0,Nigeria
+Canada Government of,15266436,0,Nigeria
+Central Emergency Response Fund,21997157,0,Nigeria
+Denmark Government of,142653,0,Nigeria
+European Commission's Humanitarian Aid and Civil Protection Department,18633544,0,Nigeria
+Finland Government of,2120891,0,Nigeria
+Germany Government of,1563886,0,Nigeria
+Japan Government of,5039000,0,Nigeria
+Korea Republic of Government of,500000,0,Nigeria
+Luxembourg Government of,266809,0,Nigeria
+Malta Government of,32017,0,Nigeria
+Norway Government of,4798921,0,Nigeria
 Not specified,9134,0,Nigeria
-"Sweden, Government of",1161116,0,Nigeria
-"Switzerland, Government of",4426614,0,Nigeria
+OPEC Fund for International Development,400000,0,Nigeria
+Sri Lanka Government of,1250,0,Nigeria
+Sweden Government of,12961480,0,Nigeria
+Switzerland Government of,4426614,0,Nigeria
 UNICEF National Committee/Canada,91559,0,Nigeria
 UNICEF National Committee/Germany,106724,0,Nigeria
-"United Kingdom, Government of",1255154,0,Nigeria
-"United States of America, Government of",22700048,0,Nigeria
-World Food Programme,3579971,0,Nigeria
-European Commission's Humanitarian Aid and Civil Protection Department,261506,0,Chad
-"Malta, Government of",10672,0,Chad
-Private (individuals & organizations),2124552,0,Chad
+United Kingdom Government of,1255154,0,Nigeria
+United States of America Government of,51983073,0,Nigeria
+World Food Programme,19300000,0,Nigeria

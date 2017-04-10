@@ -2,7 +2,7 @@ import os.path
 # Constants
 
 # TODO: make these relative paths
-BASE_DATA_PATH = '/Users/yang/Documents/clients/onecampaign/project/humdata/resources/data'
+BASE_DATA_PATH = '/Users/yang/Documents/clients/onecampaign/project/humanitarian-data-service/resources/data'
 RAW_DATA_PATH = os.path.join(BASE_DATA_PATH, 'raw')
 DERIVED_DATA_PATH = os.path.join(BASE_DATA_PATH, 'derived')
 LATEST_RAW_DATA_PATH = os.path.join(RAW_DATA_PATH, 'latest')
@@ -26,10 +26,12 @@ COUNTRY_CODES = {
 
 # Metadata on original data sources
 DATA_SOURCES = {
-  'HNO': 'UN OCHA Humanitarian Needs Overview Jan 2017',
-  'DTM': 'IOM, NEMA, SEMA, Red Cross: Displacement Tracking Matrix, Round XIV Jan 2017',
+  'HNO': 'UN OCHA Humanitarian Needs Overview',
+  'DTM': 'IOM, NEMA, SEMA, Red Cross: Displacement Tracking Matrix',
   'ORS': 'Online Reporting System run by UN OCHA ROWCA (via HDX)',
-  'FTS': 'Financial Tracking Service run by UN OCHA'
+  'FTS': 'Financial Tracking Service run by UN OCHA',
+  'WB' : 'World Bank: World Development Indicators',
+  'HCR': 'UNHCR: The UN Refugee Agency'
 }
 
 # HDX website environments, in order of priority to pull data from (i.e. always try 'prod' first)
@@ -90,5 +92,18 @@ DTM_FILE_NAMES = {
   'location': '14_DTM_NIgeria_Round_XIV_Dataset_of_Location_Assessment.csv',
   'site': '06_DTM_Nigeria_Round_XIV_Dataset_of_Site_Assessment.csv',
   'baseline': 'wards_05_DTM_Nigeria_Round_XIV_Dataset_of_Baseline_Assessment.csv'
+}
+
+# World Bank file mapping
+WB_FILE_NAMES = {
+  'gni': 'API_NY.GNP.PCAP.PP.CD_DS2_en_csv_v2.csv'
+}
+
+# UNHCR file mapping
+UNHCR_FILE_NAMES = {
+  'raw_asylum_country': 'unhcr_midyeartrends_table1_1_2016.csv',
+  'asylum_country': 'unhcr_midyeartrends_population_by_asylum_country_2016.csv',
+  'raw_origin_country': 'unhcr_midyeartrends_table1_2_2016.csv',
+  'origin_country': 'unhcr_midyeartrends_population_by_origin_country_2016.csv'
 }
 

@@ -4,6 +4,7 @@ import pandas as pd
 from flask import Flask, jsonify, request
 from flasgger import Swagger
 from flasgger.utils import swag_from
+from fuzzywuzzy import process
 
 from resources import constants
 from utils import api_utils
@@ -95,26 +96,28 @@ def kenya_dashboard():
 
 
 @app.route('/funding/totals/<string:country>/', methods=['GET'])
-@swag_from('api_configs/funding_totals_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/funding_totals_by_country.yml')
 def get_funding_totals(country):
     country = country.strip().capitalize()
-    success, result = api_utils.safely_load_data('hno_funding_2016_2017.csv', 'funding', country)
+    success, result, metadata = api_utils.safely_load_data('hno_funding_2016_2017.csv', 'funding', country, has_metadata=True)
     if not success:
         return result, 501
     result = result.iloc[0].to_dict()
-    return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 @app.route('/funding/categories/<string:country>/', methods=['GET'])
-@swag_from('api_configs/funding_categories_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/funding_categories_by_country.yml')
 def get_funding_categories(country):
     country = country.strip().capitalize()
     hno_funding_file = 'hno_funding_%s_2017.csv' % country.lower()
-    success, result = api_utils.safely_load_data(hno_funding_file, 'category funding')
+    success, result, metadata = api_utils.safely_load_data(hno_funding_file, 'category funding', has_metadata=True)
     if not success:
         return result, 501
     result = result.to_dict(orient='list')
-    return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 def get_funding_by_fts_dimension(country, fts_dimension):
@@ -124,74 +127,79 @@ def get_funding_by_fts_dimension(country, fts_dimension):
     """
     country = country.strip().capitalize()
     fts_donors_file = 'fts-{}.csv'.format(fts_dimension)
-    success, result = api_utils.safely_load_data(fts_donors_file, '{} funding'.format(fts_dimension), country)
+    success, result, metadata = api_utils.safely_load_data(fts_donors_file, '{} funding'.format(fts_dimension), country, has_metadata=True)
     if not success:
         return 501, result
     result.drop(constants.COUNTRY_COL, axis=1, inplace=True)
-    return success, result.to_dict(orient='list')
+    return success, result.to_dict(orient='list'), metadata
 
 
 @app.route('/funding/donors/<string:country>/', methods=['GET'])
-@swag_from('api_configs/funding_donors_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/funding_donors_by_country.yml')
 def get_funding_donors(country):
     country = country.strip().capitalize()
-    success, result = get_funding_by_fts_dimension(country, 'donors')
+    success, result, metadata = get_funding_by_fts_dimension(country, 'donors')
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 @app.route('/funding/clusters/<string:country>/', methods=['GET'])
-@swag_from('api_configs/funding_clusters_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/funding_clusters_by_country.yml')
 def get_funding_clusters(country):
     country = country.strip().capitalize()
-    success, result = get_funding_by_fts_dimension(country, 'clusters')
+    success, result, metadata = get_funding_by_fts_dimension(country, 'clusters')
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 @app.route('/funding/recipients/<string:country>/', methods=['GET'])
-@swag_from('api_configs/funding_recipients_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/funding_recipients_by_country.yml')
 def get_funding_recipients(country):
     country = country.strip().capitalize()
-    success, result = get_funding_by_fts_dimension(country, 'recipients')
+    success, result, metadata = get_funding_by_fts_dimension(country, 'recipients')
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 @app.route('/needs/totals/<string:country>/', methods=['GET'])
-@swag_from('api_configs/needs_totals_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/needs_totals_by_country.yml')
 def get_needs_totals(country):
     data_keys = ['HNO']
     country = country.strip().capitalize()
 
-    success, result = api_utils.safely_load_data('hno_needs_total_2017.csv', 'needs', country)
+    success, result, hno_metadata = api_utils.safely_load_data('hno_needs_total_2017.csv', 'HNO needs', country, has_metadata=True)
     if not success:
         return result, 501
     result = result.iloc[0]
     result = result.to_dict()
     result['Additional Data'] = ast.literal_eval(result['Additional Data'])
 
-    success, iom = api_utils.safely_load_data('iom_dtm14_needs_feb2017.csv', 'IOM needs', country)
+    success, dtm, dtm_metadata = api_utils.safely_load_data('iom_dtm14_needs_feb2017.csv', 'IOM DTM needs', country, has_metadata=True)
     if success:
-        iom = iom.iloc[0].to_dict()
-        iom['Percent Main Unmet Need'] = ast.literal_eval(iom['Percent Main Unmet Need'])
-        iom['Percent Main Cause Of Displacement'] = ast.literal_eval(iom['Percent Main Cause Of Displacement'])
-        iom['Regional Summary'] = ast.literal_eval(iom['Regional Summary'])
-        result['Additional Data'].update(iom)
+        dtm = dtm.iloc[0].to_dict()
+        dtm['Percent Main Unmet Need'] = ast.literal_eval(dtm['Percent Main Unmet Need'])
+        dtm['Percent Main Cause Of Displacement'] = ast.literal_eval(dtm['Percent Main Cause Of Displacement'])
+        dtm['Regional Summary'] = ast.literal_eval(dtm['Regional Summary'])
+        result['Additional Data'].update(dtm)
         data_keys.append('DTM')
 
     sources = [constants.DATA_SOURCES[data_key] for data_key in data_keys]
-    return jsonify(country=country, source=sources, data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, source=sources, data=result, update=constants.UPDATE_FREQUENCY[3])
+    metadata = {"HNO": hno_metadata, "DTM": dtm_metadata, "Merge Notes": "DTM data appended to HNO data under 'Additional Data'"}
+    return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
 @app.route('/needs/regions/<string:country>/', methods=['GET'])
-@swag_from('api_configs/needs_regions_by_country.yml')
+@swag_from('api_configs/lake_chad_basin/needs_regions_by_country.yml')
 def get_needs_regions(country):
     country = country.strip().capitalize()
-    success, result = api_utils.safely_load_data('lcb_displaced_2017.csv', 'regional needs', country)
+    success, result, metadata = api_utils.safely_load_data('lcb_displaced_2017.csv', 'regional needs', country, has_metadata=True)
     if not success:
         return result, 501
     result['PeriodDate'] = pd.to_datetime(result['Period'])
@@ -210,7 +218,8 @@ def get_needs_regions(country):
     data = {}
     data['dates'] = dates
     data['values'] = values
-    return jsonify(country=country, source=constants.DATA_SOURCES['ORS'], data=data, update=constants.UPDATE_FREQUENCY[-1])
+    #return jsonify(country=country, source=constants.DATA_SOURCES['ORS'], data=data, update=constants.UPDATE_FREQUENCY[-1])
+    return jsonify(metadata=metadata, data=data, params={"country": country})
 
 
 def get_needs_assessment_by_type(country='Nigeria', state='Borno', dtm_assessment_type='baseline'):
@@ -223,61 +232,119 @@ def get_needs_assessment_by_type(country='Nigeria', state='Borno', dtm_assessmen
         return 501, 'This country [{}] is currently not supported for site assessment data'.format(country)
     dtm_file = constants.DTM_FILE_NAMES[dtm_assessment_type]
     state_col = constants.DTM_STATE_COLS[dtm_assessment_type]
-    success, result = api_utils.safely_load_data(dtm_file, 'site assessment needs', state.upper(), state_col)
+    success, result, metadata = api_utils.safely_load_data(dtm_file, 'site assessment needs', state.upper(), state_col, has_metadata=True)
     if not success:
         return 501, result
     result.drop(state_col, axis=1, inplace=True)
     result = result.to_dict(orient='list')
-    return success, result
+    return success, result, metadata
 
 
 @app.route('/needs/assessment/site/<string:country>/', methods=['GET'])
-@swag_from('api_configs/needs_assessment_site_by_state.yml')
+@swag_from('api_configs/lake_chad_basin/needs_assessment_site_by_state.yml')
 def get_needs_assessment_site(country):
     # Note: this endpoint is only available for Nigeria for now, and assumes states in Nigeria
     country = country.strip().capitalize()
     dtm_assessment_type = 'site'
     state = str(request.args.get('state', 'Borno')).strip().capitalize()
-    success, result = get_needs_assessment_by_type(country, state, dtm_assessment_type)
+    success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
 @app.route('/needs/assessment/location/<string:country>/', methods=['GET'])
-@swag_from('api_configs/needs_assessment_location_by_state.yml')
+@swag_from('api_configs/lake_chad_basin/needs_assessment_location_by_state.yml')
 def get_needs_assessment_location(country):
     # Note: this endpoint is only available for Nigeria for now, and assumes states in Nigeria
     country = country.strip().capitalize()
     dtm_assessment_type = 'location'
     state = str(request.args.get('state', 'Borno')).strip().capitalize()
-    success, result = get_needs_assessment_by_type(country, state, dtm_assessment_type)
+    success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
 @app.route('/needs/assessment/baseline/<string:country>/', methods=['GET'])
-@swag_from('api_configs/needs_assessment_baseline_by_state.yml')
+@swag_from('api_configs/lake_chad_basin/needs_assessment_baseline_by_state.yml')
 def get_needs_assessment_baseline(country):
     # Note: this endpoint is only available for Nigeria for now, and assumes states in Nigeria
     country = country.strip().capitalize()
     dtm_assessment_type = 'baseline'
     state = str(request.args.get('state', 'Borno')).strip().capitalize()
-    success, result = get_needs_assessment_by_type(country, state, dtm_assessment_type)
+    success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
+    return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
-@app.route('/test/<string:country>/', methods=['GET'])
-@swag_from('api_configs/test.yml')
-def test(country):
-    country = country.strip().capitalize()
-    success, result = api_utils.safely_load_data('test.csv', 'test')
+@app.route('/indicators/gni', methods=['GET'])
+@swag_from('api_configs/world/indicators_gni.yml')
+def get_indicators_gni():
+    gni_file = constants.WB_FILE_NAMES['gni']
+    success, result, metadata = api_utils.safely_load_data(gni_file, 'GNI PPP indicator', has_metadata=True)
     if not success:
         return result, 501
-    return jsonify(country=country, source='test', data=result.to_dict(), update=constants.UPDATE_FREQUENCY[-1])
+    result = result[['Country Name', 'Country Code', '2011', '2012', '2013', '2014', '2015']]  # No data after 2015
+    result = result.to_dict(orient='list')
+    #return jsonify(source=constants.DATA_SOURCES['WB'], data=result, update=constants.UPDATE_FREQUENCY[6])
+    return jsonify(metadata=metadata, data=result)
+
+
+@app.route('/populations/refugeelike/asylum', methods=['GET'])
+@swag_from('api_configs/world/populations_refugeelike_asylum.yml')
+def get_populations_refugeelike_asylum():
+    params = None
+    data_path = constants.UNHCR_FILE_NAMES['asylum_country']
+    success, result, metadata = api_utils.safely_load_data(data_path, 'UNHCR refugee-like populations by asylum country', has_metadata=True)
+    if not success:
+        return result, 501
+    country = request.args.get('country', None)
+    if country:
+        params = {"country": country}
+        # Fuzzy match filter for country name
+        country = str(country).strip().capitalize()
+        countries = set(result[constants.COUNTRY_COL].tolist())
+        extracted_country, fuzzy_match_ratio = process.extractOne(country, countries)
+        result = result[result[constants.COUNTRY_COL] == extracted_country]
+    result = result.to_dict(orient='list')
+    #return jsonify(source=constants.DATA_SOURCES['HCR'], data=result, update=constants.UPDATE_FREQUENCY[6])
+    return jsonify(metadata=metadata, data=result, params=params)
+
+
+@app.route('/populations/refugeelike/origin', methods=['GET'])
+@swag_from('api_configs/world/populations_refugeelike_origin.yml')
+def get_populations_refugeelike_origin():
+    params = None
+    data_path = constants.UNHCR_FILE_NAMES['origin_country']
+    success, result, metadata = api_utils.safely_load_data(data_path, 'UNHCR refugee-like populations by origin country', has_metadata=True)
+    if not success:
+        return result, 501
+    country = request.args.get('country', None)
+    if country:
+        params = {"country": country}
+        # Fuzzy match filter for country name
+        country = str(country).strip().capitalize()
+        countries = set(result[constants.COUNTRY_COL].tolist())
+        extracted_country, fuzzy_match_ratio = process.extractOne(country, countries)
+        result = result[result[constants.COUNTRY_COL] == extracted_country]
+    result = result.to_dict(orient='list')
+    #return jsonify(source=constants.DATA_SOURCES['HCR'], data=result, update=constants.UPDATE_FREQUENCY[6])
+    return jsonify(metadata=metadata, data=result, params=params)
+
+
+#@app.route('/test/<string:country>/', methods=['GET'])
+#@swag_from('api_configs/test.yml')
+#def test(country):
+#    country = country.strip().capitalize()
+#    success, result = api_utils.safely_load_data('test.csv', 'test')
+#    if not success:
+#        return result, 501
+#    return jsonify(country=country, source='test', data=result.to_dict(), update=constants.UPDATE_FREQUENCY[-1])
 
 
 def main():
