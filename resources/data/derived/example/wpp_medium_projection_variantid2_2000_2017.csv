@@ -1,3 +1,4 @@
+#{"source_key": "ESA", "source_url": "https://esa.un.org/unpd/wpp/Download/Standard/ASCII/", "source_date": "2015-07-29", "extract_date": "2017-04-11", "update_frequency": "Every two years", "additional_metadata": {"Note on population data": "All years up to 2015 are estimates, all years after 2015 are projections calculated according to a particular projection variant", "Projection Variant Code": 2, "Projection Variant Name": "Medium", "wpp_faq_url": "https://esa.un.org/unpd/wpp/General/FAQs.aspx", "source_download_url": "https://esa.un.org/unpd/wpp/Download/Standard/ASCII/unpd/wpp/DVD/Files/1_Indicators (Standard)/ASCII_FILES/WPP2015_DB02_Populations_Annual.zip"}}
 Country,Year,PopMale,PopFemale,PopTotal,GrowthRatePercent,PopDensity
 Afghanistan,2000,10146537.0,9555403.0,19701940.0,4.1227,30.178
 Afghanistan,2001,10579486.0,9951674.0,20531160.0,4.5508,31.448

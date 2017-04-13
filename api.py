@@ -334,7 +334,7 @@ def get_populations_refugeelike_origin():
 def get_populations_totals():
     params = None
     data_path = constants.ESA_FILE_NAMES['wpp_overall']
-    success, result, metadata = api_utils.safely_load_data(data_path, 'UN ESA WPP world populations', has_metadata=False)
+    success, result, metadata = api_utils.safely_load_data(data_path, 'UN ESA WPP world populations', has_metadata=True)
     if not success:
         return result, 501
     result = result[result['Year'] > 2014]  # The latest official statistics are from 2015, followed by projections into 2017

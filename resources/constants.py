@@ -31,7 +31,8 @@ DATA_SOURCES = {
   'ORS': 'Online Reporting System run by UN OCHA ROWCA (via HDX)',
   'FTS': 'Financial Tracking Service run by UN OCHA',
   'WB' : 'World Bank: World Development Indicators',
-  'HCR': 'UNHCR: The UN Refugee Agency'
+  'HCR': 'UNHCR: The UN Refugee Agency',
+  'ESA': 'UN Department of Economic and Social Affairs: World Population Prospects'
 }
 
 # HDX website environments, in order of priority to pull data from (i.e. always try 'prod' first)
