@@ -3,6 +3,17 @@ Call this endpoint to get the indicator data for GNI PPP by year and country
 ---
 tags:
   - World
+parameters:
+  - name: country
+    in: query
+    type: string
+    required: false
+    description: The optional country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
+  - name: country_code
+    in: query
+    type: string
+    required: false
+    description: The optional country code (will take precendence over country name if both are given, case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
 responses:
   501:
     description: No world indicator data was found for GNI PPP

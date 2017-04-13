@@ -1,5 +1,20 @@
 import os
 import errno
+import pandas
+from fuzzywuzzy import process
+
+
+def fuzzy_filter(df, col, val, return_verbose=False):
+    """
+    Filter a pandas dataframe (df) for rows where the given column (col) has the closest fuzzy string match ratio to the given value (val). For exampl if a df had a 'Country' column and the given value is 'dominican rep', it would find 'Dominican Republic' as the closest string match and return that row of data. By default, return_verbose is false, which means just return thefiltered dataframe. If true, then also return the matched value and fuzzy string match ratio between the given value and the matched value.
+    Return filtered df, matched value, and fuzzy match ratio
+    """
+    values = set(df[col].tolist())
+    matched_value, fuzzy_match_ratio = process.extractOne(val, values)
+    if return_verbose:
+        return df.loc[df[col] == matched_value], matched_value, fuzzy_match_ratio
+    else:
+        return df.loc[df[col] == matched_value]
 
 
 def safely_mkdir(directory_path):

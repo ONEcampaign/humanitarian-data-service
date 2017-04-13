@@ -107,3 +107,7 @@ UNHCR_FILE_NAMES = {
   'origin_country': 'unhcr_midyeartrends_population_by_origin_country_2016.csv'
 }
 
+# UN Department of Economic and Social Affairs file mapping
+ESA_FILE_NAMES = {
+  'wpp_overall': 'wpp_medium_projection_variantid2_2000_2017.csv'
+}

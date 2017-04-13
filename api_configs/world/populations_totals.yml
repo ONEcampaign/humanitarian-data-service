@@ -1,0 +1,31 @@
+Get population totals data by country and year
+Call this endpoint to get the population totals data by country and year
+---
+tags:
+  - World
+parameters:
+  - name: country
+    in: query
+    type: string
+    required: false
+    description: The optional country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No population totals data was found 
+  200:
+    description: The latest population totals data 
+    schema:
+      id: populations_totals
+      properties:
+        data:
+          type: json
+          description: The population totals data by country and year
+          default: {
+            "Country": [
+              "Somalia"
+            ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}

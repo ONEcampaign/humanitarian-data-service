@@ -4,10 +4,10 @@ import pandas as pd
 from flask import Flask, jsonify, request
 from flasgger import Swagger
 from flasgger.utils import swag_from
-from fuzzywuzzy import process
+from string import capwords
 
 from resources import constants
-from utils import api_utils
+from utils import api_utils, data_utils
 
 
 SWAGGER_CONFIG = {
@@ -103,7 +103,6 @@ def get_funding_totals(country):
     if not success:
         return result, 501
     result = result.iloc[0].to_dict()
-    #return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -116,7 +115,6 @@ def get_funding_categories(country):
     if not success:
         return result, 501
     result = result.to_dict(orient='list')
-    #return jsonify(country=country, source=constants.DATA_SOURCES['HNO'], data=result, update=constants.UPDATE_FREQUENCY[3])
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -141,7 +139,6 @@ def get_funding_donors(country):
     success, result, metadata = get_funding_by_fts_dimension(country, 'donors')
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -152,7 +149,6 @@ def get_funding_clusters(country):
     success, result, metadata = get_funding_by_fts_dimension(country, 'clusters')
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -163,7 +159,6 @@ def get_funding_recipients(country):
     success, result, metadata = get_funding_by_fts_dimension(country, 'recipients')
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, source=constants.DATA_SOURCES['FTS'], data=result, update=constants.UPDATE_FREQUENCY[2])
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -190,7 +185,6 @@ def get_needs_totals(country):
         data_keys.append('DTM')
 
     sources = [constants.DATA_SOURCES[data_key] for data_key in data_keys]
-    #return jsonify(country=country, source=sources, data=result, update=constants.UPDATE_FREQUENCY[3])
     metadata = {"HNO": hno_metadata, "DTM": dtm_metadata, "Merge Notes": "DTM data appended to HNO data under 'Additional Data'"}
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
@@ -218,7 +212,6 @@ def get_needs_regions(country):
     data = {}
     data['dates'] = dates
     data['values'] = values
-    #return jsonify(country=country, source=constants.DATA_SOURCES['ORS'], data=data, update=constants.UPDATE_FREQUENCY[-1])
     return jsonify(metadata=metadata, data=data, params={"country": country})
 
 
@@ -250,7 +243,6 @@ def get_needs_assessment_site(country):
     success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
     return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
@@ -264,7 +256,6 @@ def get_needs_assessment_location(country):
     success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
     return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
@@ -278,20 +269,29 @@ def get_needs_assessment_baseline(country):
     success, result, metadata = get_needs_assessment_by_type(country, state, dtm_assessment_type)
     if not success or success == 501:
         return result, 501
-    #return jsonify(country=country, state=state, source=constants.DATA_SOURCES['DTM'], data=result, update=constants.UPDATE_FREQUENCY[3])
     return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
 @app.route('/indicators/gni', methods=['GET'])
 @swag_from('api_configs/world/indicators_gni.yml')
 def get_indicators_gni():
+    params = None
     gni_file = constants.WB_FILE_NAMES['gni']
     success, result, metadata = api_utils.safely_load_data(gni_file, 'GNI PPP indicator', has_metadata=True)
     if not success:
         return result, 501
+    country = request.args.get('country', None)
+    country_code = request.args.get('country_code', None)
+    if country_code:
+        params = {"country_code": country_code}
+        country_code = capwords(str(country_code).strip())
+        result = data_utils.fuzzy_filter(result, 'Country Code', country_code)
+    elif country:
+        params = {"country": country}
+        country = str(country).strip().capitalize()
+        result = data_utils.fuzzy_filter(result, 'Country Name', country)
     result = result[['Country Name', 'Country Code', '2011', '2012', '2013', '2014', '2015']]  # No data after 2015
     result = result.to_dict(orient='list')
-    #return jsonify(source=constants.DATA_SOURCES['WB'], data=result, update=constants.UPDATE_FREQUENCY[6])
     return jsonify(metadata=metadata, data=result)
 
 
@@ -306,13 +306,9 @@ def get_populations_refugeelike_asylum():
     country = request.args.get('country', None)
     if country:
         params = {"country": country}
-        # Fuzzy match filter for country name
         country = str(country).strip().capitalize()
-        countries = set(result[constants.COUNTRY_COL].tolist())
-        extracted_country, fuzzy_match_ratio = process.extractOne(country, countries)
-        result = result[result[constants.COUNTRY_COL] == extracted_country]
+        result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     result = result.to_dict(orient='list')
-    #return jsonify(source=constants.DATA_SOURCES['HCR'], data=result, update=constants.UPDATE_FREQUENCY[6])
     return jsonify(metadata=metadata, data=result, params=params)
 
 
@@ -327,24 +323,28 @@ def get_populations_refugeelike_origin():
     country = request.args.get('country', None)
     if country:
         params = {"country": country}
-        # Fuzzy match filter for country name
         country = str(country).strip().capitalize()
-        countries = set(result[constants.COUNTRY_COL].tolist())
-        extracted_country, fuzzy_match_ratio = process.extractOne(country, countries)
-        result = result[result[constants.COUNTRY_COL] == extracted_country]
+        result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     result = result.to_dict(orient='list')
-    #return jsonify(source=constants.DATA_SOURCES['HCR'], data=result, update=constants.UPDATE_FREQUENCY[6])
     return jsonify(metadata=metadata, data=result, params=params)
 
 
-#@app.route('/test/<string:country>/', methods=['GET'])
-#@swag_from('api_configs/test.yml')
-#def test(country):
-#    country = country.strip().capitalize()
-#    success, result = api_utils.safely_load_data('test.csv', 'test')
-#    if not success:
-#        return result, 501
-#    return jsonify(country=country, source='test', data=result.to_dict(), update=constants.UPDATE_FREQUENCY[-1])
+@app.route('/populations/totals', methods=['GET'])
+@swag_from('api_configs/world/populations_totals.yml')
+def get_populations_totals():
+    params = None
+    data_path = constants.ESA_FILE_NAMES['wpp_overall']
+    success, result, metadata = api_utils.safely_load_data(data_path, 'UN ESA WPP world populations', has_metadata=False)
+    if not success:
+        return result, 501
+    result = result[result['Year'] > 2014]  # The latest official statistics are from 2015, followed by projections into 2017
+    country = request.args.get('country', None)
+    if country:
+        params = {"country": country}
+        country = str(country).strip().capitalize()
+        result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
+    result = result.to_dict(orient='list')
+    return jsonify(metadata=metadata, data=result, params=params)
 
 
 def main():

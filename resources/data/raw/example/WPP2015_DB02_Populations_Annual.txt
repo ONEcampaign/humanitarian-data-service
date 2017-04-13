@@ -1,0 +1,41 @@
+File WPP2015_DB02_Populations_Annual.csv
+
+Description: Total population (by sex and both sexes combined), average annual rate of population change, and population density by major area, region and country, for estimates and all 8 projection variants or scenarios, annually for 1950-2100.
+Source: Population Division of the Department of Economic and Social Affairs of the United Nations Secretariat, World Population Prospects: The 2015 Revision, http://esa.un.org/unpd/wpp/index.htm, July 2015.
+
+File format is ASCII CSV text file (comma delimited separator with text fields in quotes). File size is 28.2MB
+
+This data file contains 327,601 data records, plus one header record containing the 11 field names as specified below:
+
+-------------------------------------------------------------------------------
+Field name      Description
+-------------------------------------------------------------------------------
+LocID           Numerical country code
+Location        Name of country, region major area or other aggregate
+VarID           Projection variant code
+                2=Medium; 3=High; 4=Low; 5=Constant fertility;
+                6=Instant-replacement; 7=Zero-migration; 8=Constant-mortality; 9=No change
+Variant         Projection variant name
+Time            Calendar year (1 July)
+MidPeriod       Mid-Period
+PopMale         Total male population (thousands)
+PopFemale       Total female population (thousands)
+PopTotal        Total population, both sexes (thousands)
+GrowthRate      Annual average annual rate of population change (%)
+PopDensity      Population density (persons per square km)
+-------------------------------------------------------------------------------
+Sorted by:   VarID  LocID  Time
+
+
+Sample records (beginning and end of file):
+
+LocID,Location,VarID,Variant,Time,MidPeriod,PopMale,PopFemale,PopTotal,GrowthRate,PopDensity
+4,"Afghanistan",2,"Medium",1950,1950.5,4099.241,3652.877,7752.118,1.1200,11.874
+4,"Afghanistan",2,"Medium",1951,1951.5,4134.532,3704.894,7839.426,1.2092,12.008
+4,"Afghanistan",2,"Medium",1952,1952.5,4174.108,3760.690,7934.798,1.2961,12.154
+4,"Afghanistan",2,"Medium",1953,1953.5,4218.022,3820.290,8038.312,1.3803,12.312
+...
+5501,"Southern Asia",9,"No change",2096,2096.5,1779604.564,1705430.671,3485035.235,0.7590,544.526
+5501,"Southern Asia",9,"No change",2097,2097.5,1793101.787,1718486.727,3511588.514,0.7668,548.675
+5501,"Southern Asia",9,"No change",2098,2098.5,1806846.937,1731773.697,3538620.634,0.7748,552.899
+5501,"Southern Asia",9,"No change",2099,2099.5,1820847.116,1745297.735,3566144.851,0.7829,557.199
