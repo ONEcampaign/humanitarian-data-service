@@ -103,6 +103,8 @@ def get_funding_totals(country):
     if not success:
         return result, 501
     result = result.iloc[0].to_dict()
+    contact = api_utils.load_metadata('/funding/totals/:country', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -115,6 +117,8 @@ def get_funding_categories(country):
     if not success:
         return result, 501
     result = result.to_dict(orient='list')
+    contact = api_utils.load_metadata('/funding/categories/:country', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -129,6 +133,8 @@ def get_funding_by_fts_dimension(country, fts_dimension):
     if not success:
         return 501, result
     result.drop(constants.COUNTRY_COL, axis=1, inplace=True)
+    contact = api_utils.load_metadata('/funding/{}/:country'.format(fts_dimension), 'contact', literal=True)
+    metadata['contact'] = contact
     return success, result.to_dict(orient='list'), metadata
 
 
@@ -186,6 +192,8 @@ def get_needs_totals(country):
 
     sources = [constants.DATA_SOURCES[data_key] for data_key in data_keys]
     metadata = {"HNO": hno_metadata, "DTM": dtm_metadata, "Merge Notes": "DTM data appended to HNO data under 'Additional Data'"}
+    contact = api_utils.load_metadata('/needs/totals/:country', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params={"country": country})
 
 
@@ -212,6 +220,8 @@ def get_needs_regions(country):
     data = {}
     data['dates'] = dates
     data['values'] = values
+    contact = api_utils.load_metadata('/needs/regions/:country', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=data, params={"country": country})
 
 
@@ -230,6 +240,8 @@ def get_needs_assessment_by_type(country='Nigeria', state='Borno', dtm_assessmen
         return 501, result
     result.drop(state_col, axis=1, inplace=True)
     result = result.to_dict(orient='list')
+    contact = api_utils.load_metadata('/needs/assessment/{}/:country'.format(dtm_assessment_type), 'contact', literal=True)
+    metadata['contact'] = contact
     return success, result, metadata
 
 
@@ -275,6 +287,7 @@ def get_needs_assessment_baseline(country):
 @app.route('/indicators/gni', methods=['GET'])
 @swag_from('api_configs/world/indicators_gni.yml')
 def get_indicators_gni():
+    # TODO: Why is metadata parsing failing in utils/api_utils.py L47 (metadata_str.startswith('#{'))
     params = None
     gni_file = constants.WB_FILE_NAMES['gni']
     success, result, metadata = api_utils.safely_load_data(gni_file, 'GNI PPP indicator', has_metadata=True)
@@ -292,6 +305,8 @@ def get_indicators_gni():
         result = data_utils.fuzzy_filter(result, 'Country Name', country)
     result = result[['Country Name', 'Country Code', '2011', '2012', '2013', '2014', '2015']]  # No data after 2015
     result = result.to_dict(orient='list')
+    #contact = api_utils.load_metadata('/indicators/gni', 'contact', literal=True)
+    #metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result)
 
 
@@ -309,6 +324,8 @@ def get_populations_refugeelike_asylum():
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     result = result.to_dict(orient='list')
+    contact = api_utils.load_metadata('/populations/refugeelike/asylum', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
 
 
@@ -326,6 +343,8 @@ def get_populations_refugeelike_origin():
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     result = result.to_dict(orient='list')
+    contact = api_utils.load_metadata('/populations/refugeelike/origin', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
 
 
@@ -344,6 +363,8 @@ def get_populations_totals():
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     result = result.to_dict(orient='list')
+    contact = api_utils.load_metadata('/populations/totals', 'contact', literal=True)
+    metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
 
 

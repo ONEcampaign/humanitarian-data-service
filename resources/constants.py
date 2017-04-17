@@ -11,6 +11,8 @@ LATEST_DERIVED_DATA_PATH = os.path.join(DERIVED_DATA_PATH, 'latest')
 LATEST_DERIVED_RUN_DATE_FILE = os.path.join(LATEST_DERIVED_DATA_PATH, 'run_dates.txt')
 EXAMPLE_RAW_DATA_PATH = os.path.join(RAW_DATA_PATH, 'example')
 EXAMPLE_DERIVED_DATA_PATH = os.path.join(DERIVED_DATA_PATH, 'example')
+METADATA_FILE = os.path.join(EXAMPLE_DERIVED_DATA_PATH, 'metadata.csv')
+ONLINE_METADATA_URL = 'https://docs.google.com/spreadsheets/d/1eOphCuvRHRErw81vIGlt9XcKqT3aP-xtu3P_1_a_1QI/edit#gid=0'
 
 # Standard name for a column of country names
 COUNTRY_COL = 'Country'
@@ -26,10 +28,10 @@ COUNTRY_CODES = {
 
 # Metadata on original data sources
 DATA_SOURCES = {
-  'HNO': 'UN OCHA Humanitarian Needs Overview',
+  'HNO': 'UNOCHA: Humanitarian Needs Overview',
   'DTM': 'IOM, NEMA, SEMA, Red Cross: Displacement Tracking Matrix',
-  'ORS': 'Online Reporting System run by UN OCHA ROWCA (via HDX)',
-  'FTS': 'Financial Tracking Service run by UN OCHA',
+  'ORS': 'UNOCHA ROWCA: Online Reporting System (via HDX)',
+  'FTS': 'UNOCHA: Financial Tracking Service',
   'WB' : 'World Bank: World Development Indicators',
   'HCR': 'UNHCR: The UN Refugee Agency',
   'ESA': 'UN Department of Economic and Social Affairs: World Population Prospects'

@@ -1,3 +1,4 @@
+import ast
 import json
 import os.path
 import pandas as pd
@@ -17,10 +18,8 @@ def safely_load_data(data_file, data_description, filter_value=None, filter_colu
         file_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, data_file)
         if has_metadata and na_values:
             result = pd.read_csv(file_path, encoding='utf-8', header=1, na_values=na_values)
-            # TODO: also extract metadata (read first line of file) an return it
         elif has_metadata:
             result = pd.read_csv(file_path, encoding='utf-8', header=1)
-            # TODO: also extract metadata (read first line of file) an return it
         elif na_values:
             result = pd.read_csv(file_path, encoding='utf-8', na_values=na_values)
         else:
@@ -50,4 +49,24 @@ def safely_load_data(data_file, data_description, filter_value=None, filter_colu
                     metadata["source_org"] = constants.DATA_SOURCES[metadata["source_key"]]
 
     return success, result, metadata
+
+
+def load_metadata(endpoint_str=None, column=None, literal=False):
+    """
+    Load the metadata.csv file that maps metadata to each endpoint as a pandas dataframe. 
+    Filter for the given endpoint string (e.g. '/funding/totals/:country' or '/indicators/gni') or metadata file column name (e.g. 'contact', 'source_date') if given.
+    """
+    metadata = pd.read_csv(constants.METADATA_FILE, encoding='utf-8')
+    metadata = metadata.where((pd.notnull(metadata)), None)
+    if endpoint_str and column:
+        metadata = metadata[metadata.data_endpoint == endpoint_str].iloc[0][column]
+        if metadata and literal:
+            metadata = ast.literal_eval(metadata)
+    elif endpoint_str:
+        metadata = metadata[metadata.data_endpoint == endpoint_str]
+    elif column:
+        metadata = metadata[column]
+    return metadata
+
+
 
