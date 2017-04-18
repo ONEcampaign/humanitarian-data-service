@@ -368,6 +368,13 @@ def get_populations_totals():
     return jsonify(metadata=metadata, data=result, params=params)
 
 
+@app.route('/metadata/all/<string:orientation>', methods=['GET'])
+@swag_from('api_configs/metadata/all.yml')
+def get_metadata_all(orientation):
+    metadata = api_utils.format_metadata(orientation)
+    return jsonify(metadata=metadata)
+
+
 def main():
     env_type = 'local'
     if len(sys.argv) == 2:

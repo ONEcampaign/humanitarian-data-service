@@ -11,8 +11,13 @@ LATEST_DERIVED_DATA_PATH = os.path.join(DERIVED_DATA_PATH, 'latest')
 LATEST_DERIVED_RUN_DATE_FILE = os.path.join(LATEST_DERIVED_DATA_PATH, 'run_dates.txt')
 EXAMPLE_RAW_DATA_PATH = os.path.join(RAW_DATA_PATH, 'example')
 EXAMPLE_DERIVED_DATA_PATH = os.path.join(DERIVED_DATA_PATH, 'example')
+
+# Metadata
+METADATA_URL = 'https://docs.google.com/spreadsheets/d/1eOphCuvRHRErw81vIGlt9XcKqT3aP-xtu3P_1_a_1QI/edit#gid=0'
 METADATA_FILE = os.path.join(EXAMPLE_DERIVED_DATA_PATH, 'metadata.csv')
-ONLINE_METADATA_URL = 'https://docs.google.com/spreadsheets/d/1eOphCuvRHRErw81vIGlt9XcKqT3aP-xtu3P_1_a_1QI/edit#gid=0'
+METADATA_INDEX = 'data_endpoint'
+METADATA_LIST_COLS = ['contact']
+METADATA_JSON_COLS = ['additional_metadata', 'merged_metadata']
 
 # Standard name for a column of country names
 COUNTRY_COL = 'Country'
@@ -26,7 +31,7 @@ COUNTRY_CODES = {
   'NGR': 'Nigeria'
 }
 
-# Metadata on original data sources
+# Metadata on original data sources (map from source_key to source_org)
 DATA_SOURCES = {
   'HNO': 'UNOCHA: Humanitarian Needs Overview',
   'DTM': 'IOM, NEMA, SEMA, Red Cross: Displacement Tracking Matrix',

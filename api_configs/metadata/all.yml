@@ -1,0 +1,39 @@
+Get all metadata for the other data endpoints
+Call this endpoint to get the full metadata for all other data endpoints
+---
+tags:
+  - Metadata
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by endpoint, "list" to group by column)
+    enum:
+      - index
+      - list
+responses:
+  501:
+    description: No metadata was found
+  200:
+    description: Full metadata for all other endpoints
+    schema:
+      id: metadata_all
+      properties:
+        metadata:
+          type: json
+          description: Metadata for all other endpoints
+          default: {
+            "data_tag": ["Lake Chad Basin", "World"],
+            "data_endpoint": ["/funding/totals/:country", "/populations/refugeelike/asylum"],
+            "data_filename": ["hno_funding_2016_2017.csv", "unhcr_midyeartrends_population_by_asylum_country_2016.csv"],
+            "data_endpoint_config": ["lake_chad_basin/funding_totals_by_country.yml", "world/populations_refugeelike_asylum.yml"],
+            "data_source_type": ["single", "single"],
+            "source_key": ["HNO", "HCR"],
+            "source_org": ["UNOCHA: Humanitarian Needs Overview", "UNHCR: The UN Refugee Agency"],
+            "source_url": ["https://www.humanitarianresponse.info/en/operations/nigeria/document/lake-chad-basin-emergency-humanitarian-needs-and-requirement-overview", "http://www.unhcr.org/en-us/statistics/unhcrstats/58aa8f247/mid-year-trends-june-2016.html"],
+            "source_date": ["2017-01-09", "2017-02-01"],
+            "extract_date": ["2017-03-07", "2017-04-04"],
+            "update_frequency": ["Unknown / Irregular", "Every six months"],
+            "additional_metadata": [{"Coordination hub": "Bureau Regional pour l'Afrique de l'Ouest et du Centre", "Tagged For Refugee Response": "http://reliefweb.int/report/niger/nigeria-regional-refugee-response-plan-january-december-2017", "Humanitarian Needs Overview Guidance and Templates": "https://www.humanitarianresponse.info/en/programme-cycle/space/document/2016-humanitarian-needs-overview-template-0"}, {"Raw Annex Tables URL": "http://www.unhcr.org/cgi-bin/texis/vtx/home/opendocAttachment.zip?COMID=58aa8f854"}]
+          }

@@ -69,4 +69,28 @@ def load_metadata(endpoint_str=None, column=None, literal=False):
     return metadata
 
 
+def safe_apply(row, fn):
+    """
+    Safely apply the given function fn to the row (e.g for a pandas series apply function).
+    """
+    if row:
+        return fn(row)
+    else:
+        return row
+
+def format_metadata(orient='index'):
+    """
+    Load the metadata.csv file that maps metadata to each endpoint as a pandas dataframe.
+    Reformat it to be json-friendly.
+    """
+    metadata = pd.read_csv(constants.METADATA_FILE, encoding='utf-8', index_col=constants.METADATA_INDEX)
+    metadata = metadata.where((pd.notnull(metadata)), None)
+    cols = set(metadata.columns.tolist())
+    for col in constants.METADATA_LIST_COLS:
+        if col in cols:
+            metadata[col] = metadata[col].apply(lambda x: safe_apply(x, ast.literal_eval))
+    for col in constants.METADATA_JSON_COLS:
+        if col in cols:
+            metadata[col] = metadata[col].apply(lambda x: safe_apply(x, json.loads))
+    return metadata.to_dict(orient=orient)
 
