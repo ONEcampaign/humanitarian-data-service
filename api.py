@@ -91,6 +91,7 @@ def kenya_dashboard():
         <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/13.embed?logo=false"></iframe>
         <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/20.embed?logo=false"></iframe>
         <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/22.embed?logo=false"></iframe>
+        <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/24.embed?logo=false"></iframe>
       </body>
       </html>
     """
