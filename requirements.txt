@@ -1,5 +1,6 @@
 Flask==0.12
 flask-restplus==0.10.0
+gunicorn==19.7.1
 httpie==0.9.9
 pandas==0.19.2
 flasgger==0.5.14

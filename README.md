@@ -3,20 +3,27 @@ An interactively documented REST API serving data about the refugee crisis from 
 The aspirational goal is to consolidate the various fragmented raw data sources, whether it be APIs, libraries, raw urls, or PDFs, behind a single REST API and exposed via Swagger UI.
 This is the initial effort to lay the groundwork for this to be possible.
 
-# Swagger UI
-See the [website](http://127.0.0.1:5000) with interactive API documentation [here](http://127.0.0.1:5000/apidocs/index.html). 
-Note: this is currently local, to see it run the following:
+# Run 
+## Local
 ```sh
 python api.py
 ```
+## Remote
+```sh
+sudo start gunicorn
+```
+
+# Swagger UI
+See the local [site](http://127.0.0.1:5000) with interactive API documentation [here](http://127.0.0.1:5000/apidocs/index.html). 
 
 # Raw data sources
 To pull data from HDX (the Humanitarian Data Exchange), run the following:
 ```sh
 python3 run_hdx.py
 ```
-This data script is configured to run every Monday at 2:30am (system time) for the latest data.
-See `resources/constants.py` and `resources/data/raw`:
+This data script can be configured to run every Monday at 2:30am (system time) for the latest data, see `data_update_cron` for reference.
+
+See `resources/constants.py` and `resources/data/raw` for sample HDX data:
 - [HDX Lake Chad Basin Key Figures January 2017](https://data.humdata.org/dataset/lake-chad-basin-key-figures-january-2017)
 - [HDX Lake Chad Basin FTS Appeal Data](https://data.humdata.org/dataset/lake-chad-basin-fts-appeal-data)
 - [HDX Lake Chad Basin Crisis Displaced Persons](https://data.humdata.org/dataset/lcb-displaced)
