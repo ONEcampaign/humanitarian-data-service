@@ -39,13 +39,6 @@ python3 run_hdx.py
 ```
 This data script can be configured to run every Monday at 2:30am (system time) for the latest data, see `data_update_cron` for reference.
 
-See `resources/constants.py` and `resources/data/raw` for sample HDX data:
-- [HDX Lake Chad Basin Key Figures January 2017](https://data.humdata.org/dataset/lake-chad-basin-key-figures-january-2017)
-- [HDX Lake Chad Basin FTS Appeal Data](https://data.humdata.org/dataset/lake-chad-basin-fts-appeal-data)
-- [HDX Lake Chad Basin Crisis Displaced Persons](https://data.humdata.org/dataset/lcb-displaced)
-- [Lake Chad Basin Humanitarian Needs Overview January 2017](https://www.humanitarianresponse.info/system/files/documents/files/lcb_hnro_2017-en-final.pdf)
-- [UNOCHA ORS ROWCA](http://ors.ocharowca.info/api/v2/KeyFigures/KeyFiguresLakeChad.ashx?country=4,8,9,3&subcat=9,10,4&datefrom=01-01-2016&dateto=21-02-2017&inclids=yes&final=1&format=json&lng=en)
-
 Other examples of data scripts are of the form `run_*.py` and use Python 2.
 
 # Derived data sources
