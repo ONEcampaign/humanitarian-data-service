@@ -384,6 +384,24 @@ def get_funding_progress():
     return jsonify(data=result, params=params)
 
 
+@app.route('/events/acled', methods=['GET'])
+@swag_from('api_configs/world/events_acled.yml')
+def get_events_acled():
+    success, result, metadata = api_utils.safely_load_data('acled.csv', 'ACLED events', has_metadata=False)
+    if not success:
+        return result, 501
+    return jsonify(data=result.to_dict(orient='list'))
+
+
+@app.route('/events/acled-africa', methods=['GET'])
+@swag_from('api_configs/world/events_acled_africa.yml')
+def get_events_acled_africa():
+    success, result, metadata = api_utils.safely_load_data('acled_all_africa.csv', 'ACLED Africa events', has_metadata=False)
+    if not success:
+        return result, 501
+    return jsonify(data=result.to_dict(orient='list'))
+
+
 @app.route('/metadata/all/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/metadata/all.yml')
 def get_metadata_all(orientation):

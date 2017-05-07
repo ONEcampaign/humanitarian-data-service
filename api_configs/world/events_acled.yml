@@ -1,0 +1,27 @@
+Get world events data from ACLED
+Call this endpoint to get world events data from the Armed Conflict Location And Event Data Project
+---
+tags:
+  - World
+responses:
+  501:
+    description: No world events data from ACLED was found
+  200:
+    description: "World events data from the Armed Conflict Location And Event Data Project"
+    schema:
+      id: events_acled
+      properties:
+        source:
+          type: string
+          description: The data source
+          default: "ACLED: Armed Conflict Location And Event Data Project"
+        data:
+          type: json
+          description: Armed conflict locations and events
+          default: {
+            "test": "me"
+          }
+        update:
+          type: string
+          description: The update frequency of this data
+          default: Every year
