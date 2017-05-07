@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import ast
 import pandas as pd
@@ -18,7 +19,7 @@ SWAGGER_CONFIG = {
             "version": "0.1",
             "title": "Humanitarian Data Service",
             "description": "Consolidating fragmented raw sources of humanitarian data and serving up parsed and "
-                           "cleaned data from a single API",
+                           "cleaned data from a single API (financials in USD)",
             "endpoint": 'spec',
             "route": '/spec',
             "rule_filter": lambda rule: True  # all in
@@ -28,6 +29,7 @@ SWAGGER_CONFIG = {
     "static_folder": "swaggerui",
     "specs_route": "/specs"
 }
+
 
 app = Flask(__name__)
 api = Swagger(app, config=SWAGGER_CONFIG)
@@ -56,16 +58,15 @@ def hello():
         <i class="fa fa-globe" style="font-size:48px;"></i>
         <p>See the interactive API docs <a href="/apidocs/index.html" style="color: #EEEEEE">here</a> </p>
         <p>See the open source repository <a href="https://github.com/onecampaign/humanitarian-data-service" style="color: #EEEEEE">here</a></p>
-        <p>See the Kenya-Somalia concept dashboard <a href="/dashboard-kenya" style="color: #EEEEEE">here</a></p>
+        <p>See a concept dashboard <a href="/dashboard" style="color: #EEEEEE">here</a></p>
       </body>
       </html>
     """
     return landing_page
 
 
-# TODO: change this to a general dashboard showing global data as well
-@app.route('/dashboard-kenya')
-def kenya_dashboard():
+@app.route('/dashboard')
+def dashboard():
     landing_page = """
       <!DOCTYPE html>
       <html>
@@ -82,9 +83,9 @@ def kenya_dashboard():
         </style>
       </head>
       <body>
-        <h1> Kenya-Somalia Concept Dashboard</h1>
+        <h1> Concept Dashboard</h1>
         <i class="fa fa-bar-chart fa-lg"></i>
-        <p>This is a sample dashboard that documents the refugee and asylum-seeking crisis in Kenya with a focus around the Dadaab region, host to the world's largest refugee camp. The Kenyan government plans to shut down refugee camps in Dadaab by mid-2017, which hosts around 250,000 Somalian refugees driven from drought-induced famine and Al-Shabaab terrorism.</p>
+        <p>This is a sample dashboard built with Plotly. Some graphs here documents the refugee and asylum-seeking crisis in Kenya with a focus around the Dadaab region, host to the world's largest refugee camp. The Kenyan government plans to shut down refugee camps in Dadaab by mid-2017, which hosts around 250,000 Somalian refugees driven from drought-induced famine and Al-Shabaab terrorism.</p>
         <p>Go back to the main page <a href="/" style="color: #EEEEEE">here</a></p>
         <p></p>
         <iframe width="900" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~shoshininsights/19.embed?logo=false"></iframe>
@@ -290,10 +291,8 @@ def get_needs_assessment_baseline(country):
 @app.route('/indicators/gni', methods=['GET'])
 @swag_from('api_configs/world/indicators_gni.yml')
 def get_indicators_gni():
-    # TODO: Why is metadata parsing failing in utils/api_utils.py L47 (metadata_str.startswith('#{'))
     params = None
-    gni_file = constants.WB_FILE_NAMES['gni']
-    success, result, metadata = api_utils.safely_load_data(gni_file, 'GNI PPP indicator', has_metadata=True)
+    success, result, metadata = api_utils.safely_load_data('gni_per_capita.csv', 'GNI PPP indicator', has_metadata=True)
     if not success:
         return result, 501
     country = request.args.get('country', None)
@@ -308,8 +307,6 @@ def get_indicators_gni():
         result = data_utils.fuzzy_filter(result, 'Country Name', country)
     result = result[['Country Name', 'Country Code', '2011', '2012', '2013', '2014', '2015']]  # No data after 2015
     result = result.to_dict(orient='list')
-    #contact = api_utils.load_metadata('/indicators/gni', 'contact', literal=True)
-    #metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result)
 
 
@@ -369,6 +366,22 @@ def get_populations_totals():
     contact = api_utils.load_metadata('/populations/totals', 'contact', literal=True)
     metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
+
+
+@app.route('/funding/progress', methods=['GET'])
+@swag_from('api_configs/world/funding_progress.yml')
+def get_funding_progress():
+    params = None
+    success, result, metadata = api_utils.safely_load_data('funding_progress.csv', 'FTS funding progress by country appeal', has_metadata=False)
+    if not success:
+        return result, 501
+    countryCode = request.args.get('countryCode', None)
+    if countryCode:
+        params = {"countryCode": countryCode}
+        countryCode = str(countryCode).strip().upper()
+        result = result[result.countryCode == countryCode]
+    result = result.to_dict(orient='list')
+    return jsonify(data=result, params=params)
 
 
 @app.route('/metadata/all/<string:orientation>', methods=['GET'])

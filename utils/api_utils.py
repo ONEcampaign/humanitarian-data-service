@@ -1,6 +1,10 @@
+# -*- coding: utf-8 -*-
+import io
 import ast
 import json
 import os.path
+import requests
+from pandas.io.json import json_normalize
 import pandas as pd
 from resources import constants
 
@@ -42,7 +46,7 @@ def safely_load_data(data_file, data_description, filter_value=None, filter_colu
         if has_metadata:
             # Extract metadata as json, expected to have the form "#{metadata_json}"
             # Find "source_key" key and do an org lookup and append with "source_org"
-            with open(file_path, 'r') as data_file:
+            with io.open(file_path, 'r', encoding='utf-8') as data_file:
                 metadata_str = data_file.readline().strip()
                 if metadata_str.startswith('#{') and metadata_str.endswith('}'):
                     metadata = json.loads(metadata_str[1:])
@@ -93,4 +97,28 @@ def format_metadata(orient='index'):
         if col in cols:
             metadata[col] = metadata[col].apply(lambda x: safe_apply(x, json.loads))
     return metadata.to_dict(orient=orient)
+
+
+def get_fts_endpoint(endpoint_str, key=None):
+    """
+    Make a request to the FTS API for the given endpoint_str, and optionally takes a key for additional json filtering.
+    Return the normalized json response as a pandas dataframe if successful, or None if not.
+    Example: endpoint_str = '/public/fts/flow?year=2017'
+    """
+    url = None
+    if endpoint_str.startswith('/'):
+        url = constants.FTS_API_BASE_URL + endpoint_str
+    else:
+        url = '/'.join([constants.FTS_API_BASE_URL, endpoint_str])
+    result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
+    result.raise_for_status()
+    result = result.json()['data']
+    if result:
+        if key:
+            result = result[key]
+        result = json_normalize(result)
+    else:
+        print 'Empty data from this endpoint: {}'.format(url)
+        result = None
+    return result
 

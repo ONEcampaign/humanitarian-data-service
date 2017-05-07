@@ -1,8 +1,15 @@
 import os.path
-# Constants
 
-# TODO: make these relative paths
-BASE_DATA_PATH = '/Users/yang/Documents/clients/onecampaign/project/humanitarian-data-service/resources/data'
+# Load secrets
+try:
+    from secrets import *
+except ImportError:
+    print 'Could not import secrets!'
+    pass
+
+# Paths
+BASE = os.path.abspath(os.path.dirname(__file__))
+BASE_DATA_PATH = os.path.join(BASE, 'data')
 RAW_DATA_PATH = os.path.join(BASE_DATA_PATH, 'raw')
 DERIVED_DATA_PATH = os.path.join(BASE_DATA_PATH, 'derived')
 LATEST_RAW_DATA_PATH = os.path.join(RAW_DATA_PATH, 'latest')
@@ -71,6 +78,9 @@ UPDATE_FREQUENCY = [
 # UNHCR sub-directory (e.g. under data/raw/latest)
 UNHCR_DIR = 'unhcr'
 
+# FTS API (under UNOCHA)
+FTS_API_BASE_URL = 'https://api.hpc.tools/v1'
+
 # FTS sub-directory (e.g. under data/raw/latest)
 FTS_DIR = 'fts'
 
@@ -100,11 +110,6 @@ DTM_FILE_NAMES = {
   'location': '14_DTM_NIgeria_Round_XIV_Dataset_of_Location_Assessment.csv',
   'site': '06_DTM_Nigeria_Round_XIV_Dataset_of_Site_Assessment.csv',
   'baseline': 'wards_05_DTM_Nigeria_Round_XIV_Dataset_of_Baseline_Assessment.csv'
-}
-
-# World Bank file mapping
-WB_FILE_NAMES = {
-  'gni': 'API_NY.GNP.PCAP.PP.CD_DS2_en_csv_v2.csv'
 }
 
 # UNHCR file mapping

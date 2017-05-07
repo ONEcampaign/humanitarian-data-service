@@ -4,7 +4,57 @@ from datetime import date
 from distutils import dir_util
 
 from resources import constants
-from utils import data_utils
+from utils import data_utils, api_utils
+
+"""
+This script currently updates the committed and paid funding for appeals, and replaces the old `funding_progress.csv` file.
+Scheduling this script to run on a nightly or weekly basis is sufficient to automatically update the /world/funding_progress endpoint.
+
+Functions to query raw funding data from the UNOCHA FTS API, perform transformations, and save the data.
+See API docs here: https://fts.unocha.org/sites/default/files/publicftsapidocumentation.pdf
+"""
+
+
+def updateCommittedAndPaidFunding(year=2017):
+    data = pd.read_csv('funding_progress.csv', encoding='utf-8')
+
+    # Get committed and paid funding from the FTS API
+    def pull_committed_funding_for_plan(plan_id):
+        plan_funds = api_utils.get_fts_endpoint('/public/fts/flow?planId={}'.format(plan_id), 'flows')
+        funded = plan_funds[(plan_funds.boundary == 'incoming') & (plan_funds.status != 'pledge')]
+        return funded['amountUSD'].sum()
+
+    data['appealFunded'] = data['id'].apply(pull_committed_funding_for_plan)
+    data['percentFunded'] = data.appealFunded / data.revisedRequirements
+
+    return data
+
+
+def getInitialRequiredAndCommittedFunding(year=2017):
+    # Get required funding from the FTS API
+    data = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
+
+    # Extract names from objects
+    data['categoryName'] = data.categories.apply(lambda x: x[0]['name'])
+    data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
+    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'])
+
+    data.drop(['origRequirements', 'startDate', 'endDate', 'years', 'categories', 'emergencies', 'locations'], axis=1, inplace=True)
+    data = data.where((pd.notnull(data)), None)
+
+    # Get committed and paid funding from the FTS API
+    def pull_committed_funding_for_plan(plan_id):
+        plan_funds = api_utils.get_fts_endpoint('/public/fts/flow?planId={}'.format(plan_id), 'flows')
+        funded = plan_funds[(plan_funds.boundary == 'incoming') & (plan_funds.status != 'pledge')]
+        return funded['amountUSD'].sum()
+    data['appealFunded'] = data['id'].apply(pull_committed_funding_for_plan)
+    
+    # Calculate percent funded
+    data['percentFunded'] = data.appealFunded / data.revisedRequirements
+
+    #data.to_csv('initial_funding_progress.csv', encoding='utf-8', index=False)
+
+    return data
 
 
 def loadDataByDimension(dimension):
@@ -91,7 +141,6 @@ def createCurrentDateDir(parent_dir):
     dir_path = os.path.join(parent_dir, current_date_str)
     success = data_utils.safely_mkdir(dir_path)
     if not success:
-        # TODO: handle this better
         # Safely default to returning the parent_dir if we cannot create the dir_path
         print 'Could not create a new directory for the current date [{}], defaulting to existing parent dir: {}'.format(current_date_str, parent_dir)
         dir_path = parent_dir
@@ -115,9 +164,11 @@ def saveDerivedData(data, dir_path):
     return success
 
 
-def run():
+def run_transformations_by_dimension():
+    """
+    This is an example of some data transformations we can do to go from raw data to derived data.
+    """
     print 'Load and process downloaded data from FTS'
-    # Create current date directory
     print 'Create current date directory as the download path...'
     _, download_path, current_date_str = createCurrentDateDir(constants.DERIVED_DATA_PATH)
     print 'Load data by dimension...'
@@ -135,6 +186,19 @@ def run():
     
     #dir_util.copy_tree(download_path, constants.EXAMPLE_DERIVED_DATA_PATH)
 
+    print 'Done!'
+
+
+def run():
+    print 'Get required and committed funding from the FTS API'
+    # This function worked for the FTS API as of 4/28/17, but due to unexpected API changes this no longer works.
+    # Fortunately, the original required funding data was already pulled, which is assumed to stay constant.
+    # Instead, we will update the committed and paid funding over time.
+    #initial_result = getInitialRequiredAndCommittedFunding()
+    result = updateCommittedAndPaidFunding()
+    print result.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
+    result.to_csv(official_data_path, encoding='utf-8', index=False)
     print 'Done!'
 
 

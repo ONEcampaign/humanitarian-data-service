@@ -1,0 +1,52 @@
+Get funding progress data by country 
+Call this endpoint to get the funding progress data by country and year 
+---
+tags:
+  - World
+parameters:
+  - name: countryCode
+    in: query
+    type: string
+    required: false
+    description: The optional country code (ISO-3, case-insensitive, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No funding progress data was found 
+  200:
+    description: The latest funding progress data 
+    schema:
+      id: funding_progress
+      properties:
+        data:
+          type: json
+          description: The funding progress data by country and year
+          default: {
+            "appealFunded": [
+              361595856
+            ],
+            "categoryName": [
+              "Humanitarian response plan"
+            ],
+            "code": [
+              "HSOM17"
+            ],
+            "countryCode": [
+              "SOM"
+            ],
+            "id": [
+              528
+            ],
+            "name": [
+              "Somalia 2017"
+            ],
+            "percentFunded": [
+              0.418744987227
+            ],
+            "revisedRequirements": [
+              863522829
+            ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}
