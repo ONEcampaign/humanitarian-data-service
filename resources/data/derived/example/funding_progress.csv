@@ -1,32 +1,32 @@
 code,id,name,revisedRequirements,categoryName,countryCode,appealFunded,percentFunded
-R17,551,2017 Europe Situation - Regional Refugee and Migrant Response,,Other,,116558679,
 HAFG17,544,Afghanistan 2017,550236457.0,Humanitarian response plan,AFG,111746475,0.203088097087
+R17,551,2017 Europe Situation - Regional Refugee and Migrant Response,,Other,,116558679,
 HBFA17,548,Burkina Faso 2017,61089000.0,Humanitarian response plan,BFA,636000,0.0104110396307
-HBDI17,541,Burundi 2017,73700000.0,Humanitarian response plan,BDI,25240874,0.342481329715
 HCAF17,549,Central African Republic 2017,399500000.0,Humanitarian response plan,CAF,64834924,0.162290172716
 HTCD17,532,Chad 2017,588608263.0,Humanitarian response plan,TCD,64112091,0.108921493343
 OPRK17,592,DPR Korea Needs and Priorities 2017,113502775.0,Other,PRK,21073672,0.185666579518
-HCOD17,587,Democratic Republic of the Congo 2017,812614297.0,Humanitarian response plan,COD,158545930,0.195106006115
+HBDI17,541,Burundi 2017,73700000.0,Humanitarian response plan,BDI,25240874,0.342481329715
 HCMR17,537,Cameroon 2017,309643212.0,Humanitarian response plan,CMR,64207982,0.207361180584
+HCOD17,587,Democratic Republic of the Congo 2017,812614297.0,Humanitarian response plan,COD,158545930,0.195106006115
 HDJI17,539,Djibouti 2017,42977698.0,Humanitarian response plan,DJI,6087574,0.141644952692
 HHTI17,543,Haiti 2017,291459691.0,Humanitarian response plan,HTI,50378801,0.172849977392
+HIRQ17,550,Iraq 2017,984647064.0,Humanitarian response plan,IRQ,255538681,0.259523122896
 FKEN17,589,Kenya Flash Appeal 2017,165767183.0,Flash appeal,KEN,54544534,0.329043016916
 HLBY17,533,Libya 2017,151013476.0,Humanitarian response plan,LBY,23240115,0.153894312055
-HETH17,588,Ethiopia 2017,948634696.0,Humanitarian response plan,ETH,203571801,0.214594513418
-HIRQ17,550,Iraq 2017,984647064.0,Humanitarian response plan,IRQ,250202502,0.254103740465
-HMLI17,535,Mali 2017,293098319.0,Humanitarian response plan,MLI,42239898,0.144115115174
 FMDG17,590,Madagascar Flash Appeal 2017,20067549.0,Flash appeal,MDG,23865832,1.18927488354
-HMMR17,545,Myanmar 2017,150300000.0,Humanitarian response plan,MMR,37984347,0.252723532934
-HNER17,530,Niger 2017,271346996.0,Humanitarian response plan,NER,137804462,0.507853280233
-HNGA17,536,Nigeria 2017,1054431494.0,Humanitarian response plan,NGA,222096003,0.210631040768
+HETH17,588,Ethiopia 2017,948634696.0,Humanitarian response plan,ETH,203571801,0.214594513418
+HMLI17,535,Mali 2017,293098319.0,Humanitarian response plan,MLI,42239898,0.144115115174
 HMRT17,547,Mauritania 2017,74500000.0,Humanitarian response plan,MRT,7205672,0.0967204295302
+HNGA17,536,Nigeria 2017,1054431494.0,Humanitarian response plan,NGA,222096003,0.210631040768
+HNER17,530,Niger 2017,271346996.0,Humanitarian response plan,NER,137804462,0.507853280233
 FMOZ17,586,Mozambique Cyclone Dineo Flash Appeal 2017,10246400.0,Flash appeal,MOZ,2209919,0.215677603841
-FPER17,593,Peru Flash Appeal 2017,39472408.0,Flash appeal,PER,5178766,0.131199647105
+HMMR17,545,Myanmar 2017,150300000.0,Humanitarian response plan,MMR,37984347,0.252723532934
 HSSD17,538,Republic of South Sudan 2017,1639694893.0,Humanitarian response plan,SSD,443726142,0.27061506619
 HSEN17,546,Senegal 2017,15808722.0,Humanitarian response plan,SEN,1281997,0.0810942845348
+FPER17,593,Peru Flash Appeal 2017,39472408.0,Flash appeal,PER,5178766,0.131199647105
+RSYR17,552,Syria regional refugee and resilience plan (3RP) 2017,5575937077.0,Regional response plan,TUR,955616579,0.171382238681
+HUKR17,531,Ukraine Humanitarian Response Plan 2017,214058212.0,Humanitarian response plan,UKR,29119107,0.136033589779
 HSYR17,526,Syria Humanitarian Response Plan 2017,3407792269.0,Humanitarian response plan,SYR,439993654,0.129113989137
 HSOM17,528,Somalia 2017,1508830247.0,Humanitarian response plan,SOM,361905150,0.239858095846
 HYEM17,542,Yemen 2017,2067662020.0,Humanitarian response plan,YEM,411343420,0.198941324076
-RSYR17,552,Syria regional refugee and resilience plan (3RP) 2017,5575937077.0,Regional response plan,TUR,955616579,0.171382238681
-HUKR17,531,Ukraine Humanitarian Response Plan 2017,214058212.0,Humanitarian response plan,UKR,29119107,0.136033589779
 HPSE17,529,occupied Palestinian territory 2017,546626643.0,Humanitarian response plan,PSE,147586319,0.269994741182

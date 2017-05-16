@@ -3,6 +3,9 @@ import pandas as pd
 from datetime import date
 from distutils import dir_util
 
+import requests
+from pandas.io.json import json_normalize
+
 from resources import constants
 from utils import data_utils, api_utils
 
@@ -55,6 +58,47 @@ def getInitialRequiredAndCommittedFunding(year=2017):
     #data.to_csv('initial_funding_progress.csv', encoding='utf-8', index=False)
 
     return data
+
+
+def getDonorFundingAmounts(year=2017):
+    """
+    For each plan, pull the amount funded by each donor.
+    Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
+    TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key
+    TODO: make column indexes of final output a constant
+    """
+    def getFundingByDonorOrg(plan_id):
+        url = None
+        endpoint_str = '/public/fts/flow?planId={}&groupby=Organization'.format(plan_id)
+        url = constants.FTS_API_BASE_URL + endpoint_str
+        result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
+        result.raise_for_status()
+        result = result.json()['data']['report1']['fundingTotals']['objects'][0]['singleFundingObjects']
+        if result:
+            result = json_normalize(result)
+            result['plan_id'] = plan_id
+        else:
+            print 'Empty data from this endpoint: {}'.format(url)
+            result = None
+        return result
+
+    plans = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
+    plans = plans[['id', 'code', 'name']]
+    plan_ids = plans['id']
+
+    data = pd.DataFrame([])
+
+    #loop through each plan and append the donor data for it to a combined data set
+    for plan in plan_ids:
+        funding = getFundingByDonorOrg(plan)
+        data = data.append(funding)
+
+    data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
+    data.drop(['id_y'], axis=1,inplace=True)
+    data.columns = (['direction', 'organization_id', 'organization_name', 'totalFunding', 'donor_type', 'plan_id', 'plan_code', 'plan_name'])
+
+    return data
+
 
 
 def loadDataByDimension(dimension):
@@ -199,7 +243,15 @@ def run():
     print initial_result.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
     initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get donor funding amounts to each plan from the FTS API'
+    donor_funding = getDonorFundingAmounts()
+    print donor_funding.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
+    donor_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+
     print 'Done!'
+
 
 
 if __name__ == "__main__":
