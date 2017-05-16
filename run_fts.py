@@ -16,7 +16,7 @@ See API docs here: https://fts.unocha.org/sites/default/files/publicftsapidocume
 
 
 def updateCommittedAndPaidFunding(year=2017):
-    data = pd.read_csv('funding_progress.csv', encoding='utf-8')
+    data = pd.read_csv('resources/data/derived/example/funding_progress.csv', encoding='utf-8')
 
     # Get committed and paid funding from the FTS API
     def pull_committed_funding_for_plan(plan_id):
@@ -37,7 +37,7 @@ def getInitialRequiredAndCommittedFunding(year=2017):
     # Extract names from objects
     data['categoryName'] = data.categories.apply(lambda x: x[0]['name'])
     data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
-    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'])
+    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'] if x else None)
 
     data.drop(['origRequirements', 'startDate', 'endDate', 'years', 'categories', 'emergencies', 'locations'], axis=1, inplace=True)
     data = data.where((pd.notnull(data)), None)
@@ -194,11 +194,11 @@ def run():
     # This function worked for the FTS API as of 4/28/17, but due to unexpected API changes this no longer works.
     # Fortunately, the original required funding data was already pulled, which is assumed to stay constant.
     # Instead, we will update the committed and paid funding over time.
-    #initial_result = getInitialRequiredAndCommittedFunding()
-    result = updateCommittedAndPaidFunding()
-    print result.head()
+    initial_result = getInitialRequiredAndCommittedFunding()
+    #result = updateCommittedAndPaidFunding()
+    print initial_result.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
-    result.to_csv(official_data_path, encoding='utf-8', index=False)
+    initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
     print 'Done!'
 
 
