@@ -1,0 +1,46 @@
+Get the donors to each humanitarian appeal
+Call this endpoint to get the donors and funding amounts to each open appeal
+---
+tags:
+  - World
+parameters:
+  - name: planID
+    in: query
+    type: integer
+    required: false
+    description: The optional ID # for a humanitarian appeal
+responses:
+  501:
+    description: No funding progress data was found 
+  200:
+    description: The latest funding progress data 
+    schema:
+      id: funding_donor
+      properties:
+        data:
+          type: json
+          description: The funding progress data by country and year
+          default: {
+            "organization_id": [
+                  2924
+                ],
+                "organization_name": [
+                  "Switzerland, Government of"
+                ],
+                "plan_code": [
+                  "HNGA17"
+                ],
+                "plan_id": [
+                  536
+                ],
+                "plan_name": [
+                  "Nigeria 2017"
+                ],
+                "totalFunding": [
+                  5817869
+                ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}

@@ -66,6 +66,7 @@ def getDonorFundingAmounts(year=2017):
     Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
     TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key
     TODO: make column indexes of final output a constant
+    TODO: add metadata! With update date.
     """
     def getFundingByDonorOrg(plan_id):
         url = None
@@ -94,8 +95,8 @@ def getDonorFundingAmounts(year=2017):
         data = data.append(funding)
 
     data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
-    data.drop(['id_y'], axis=1,inplace=True)
-    data.columns = (['direction', 'organization_id', 'organization_name', 'totalFunding', 'donor_type', 'plan_id', 'plan_code', 'plan_name'])
+    data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
+    data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name'])
 
     return data
 

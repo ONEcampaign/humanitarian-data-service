@@ -368,7 +368,7 @@ def get_populations_totals():
     return jsonify(metadata=metadata, data=result, params=params)
 
 
-@app.route('/funding/progress', methods=['GET'])
+@app.route('/funding/plans/progress', methods=['GET'])
 @swag_from('api_configs/world/funding_progress.yml')
 def get_funding_progress():
     params = None
@@ -380,6 +380,22 @@ def get_funding_progress():
         params = {"countryCode": countryCode}
         countryCode = str(countryCode).strip().upper()
         result = result[result.countryCode == countryCode]
+    result = result.to_dict(orient='list')
+    return jsonify(data=result, params=params)
+
+
+@app.route('/funding/plans/donors', methods=['GET'])
+@swag_from('api_configs/world/funding_donors.yml')
+def get_funding_plan_donors():
+    params = None
+    success, result, metadata = api_utils.safely_load_data('funding_donors.csv', 'FTS funding donors to each appeal', has_metadata=False)
+    if not success:
+        return result, 501
+    planID = request.args.get('planID', None)
+    if planID:
+        params = {"planID": planID}
+        planID = int(planID)
+        result = result[result.plan_id == planID]
     result = result.to_dict(orient='list')
     return jsonify(data=result, params=params)
 
