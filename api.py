@@ -310,9 +310,9 @@ def get_indicators_gni():
     return jsonify(metadata=metadata, data=result)
 
 
-@app.route('/populations/refugeelike/asylum', methods=['GET'])
+@app.route('/populations/refugeelike/asylum/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/world/populations_refugeelike_asylum.yml')
-def get_populations_refugeelike_asylum():
+def get_populations_refugeelike_asylum(orientation):
     params = None
     data_path = constants.UNHCR_FILE_NAMES['asylum_country']
     success, result, metadata = api_utils.safely_load_data(data_path, 'UNHCR refugee-like populations by asylum country', has_metadata=True)
@@ -323,7 +323,9 @@ def get_populations_refugeelike_asylum():
         params = {"country": country}
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
-    result = result.to_dict(orient='list')
+    if orientation == 'index':
+        result = result.set_index('Country')
+    result = result.to_dict(orient=orientation)
     contact = api_utils.load_metadata('/populations/refugeelike/asylum', 'contact', literal=True)
     metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)

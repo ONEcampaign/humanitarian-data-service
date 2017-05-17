@@ -9,6 +9,14 @@ parameters:
     type: string
     required: false
     description: The optional asylum country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country, "list" to group by column)
+    enum:
+      - index
+      - list
 responses:
   501:
     description: No population data was found for refugee-like people by asylum country and type of people
