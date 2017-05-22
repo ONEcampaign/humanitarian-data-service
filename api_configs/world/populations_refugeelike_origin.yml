@@ -4,6 +4,14 @@ Call this endpoint to get the population data for refugee-like displaced people 
 tags:
   - World
 parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country, "list" to group by column)
+    enum:
+      - index
+      - list
   - name: country
     in: query
     type: string

@@ -64,10 +64,11 @@ def getDonorFundingAmounts(year=2017):
     """
     For each plan, pull the amount funded by each donor.
     Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
-    TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key
-    TODO: make column indexes of final output a constant
-    TODO: add metadata! With update date.
+
     """
+    # TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key chain
+    # TODO: make column indexes of final output a constant
+    # TODO: add metadata! With update date.
     def getFundingByDonorOrg(plan_id):
         url = None
         endpoint_str = '/public/fts/flow?planId={}&groupby=Organization'.format(plan_id)

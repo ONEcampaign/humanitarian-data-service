@@ -4,6 +4,14 @@ Call this endpoint to get the indicator data for GNI PPP by year and country
 tags:
   - World
 parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
   - name: country
     in: query
     type: string

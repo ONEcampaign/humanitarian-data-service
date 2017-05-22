@@ -4,11 +4,6 @@ Call this endpoint to get the population data for refugee-like displaced people 
 tags:
   - World
 parameters:
-  - name: country
-    in: query
-    type: string
-    required: false
-    description: The optional asylum country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
   - name: orientation
     in: path
     type: string
@@ -17,6 +12,11 @@ parameters:
     enum:
       - index
       - list
+  - name: country
+    in: query
+    type: string
+    required: false
+    description: The optional asylum country name (case-insensitive, fuzzy-match, ascii, slugified, i.e. no special characters)
 responses:
   501:
     description: No population data was found for refugee-like people by asylum country and type of people

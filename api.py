@@ -288,9 +288,9 @@ def get_needs_assessment_baseline(country):
     return jsonify(metadata=metadata, data=result, params={"country": country, "state": state})
 
 
-@app.route('/indicators/gni', methods=['GET'])
+@app.route('/indicators/gni/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/world/indicators_gni.yml')
-def get_indicators_gni():
+def get_indicators_gni(orientation):
     params = None
     success, result, metadata = api_utils.safely_load_data('gni_per_capita.csv', 'GNI PPP indicator', has_metadata=True)
     if not success:
@@ -306,7 +306,9 @@ def get_indicators_gni():
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, 'Country Name', country)
     result = result[['Country Name', 'Country Code', '2011', '2012', '2013', '2014', '2015']]  # No data after 2015
-    result = result.to_dict(orient='list')
+    if orientation == 'index':
+        result = result.set_index('Country Code')
+    result = result.to_dict(orient=orientation)
     return jsonify(metadata=metadata, data=result)
 
 
@@ -331,9 +333,9 @@ def get_populations_refugeelike_asylum(orientation):
     return jsonify(metadata=metadata, data=result, params=params)
 
 
-@app.route('/populations/refugeelike/origin', methods=['GET'])
+@app.route('/populations/refugeelike/origin/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/world/populations_refugeelike_origin.yml')
-def get_populations_refugeelike_origin():
+def get_populations_refugeelike_origin(orientation):
     params = None
     data_path = constants.UNHCR_FILE_NAMES['origin_country']
     success, result, metadata = api_utils.safely_load_data(data_path, 'UNHCR refugee-like populations by origin country', has_metadata=True)
@@ -344,15 +346,17 @@ def get_populations_refugeelike_origin():
         params = {"country": country}
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
-    result = result.to_dict(orient='list')
+    if orientation == 'index':
+        result = result.set_index('Country')
+    result = result.to_dict(orient=orientation)
     contact = api_utils.load_metadata('/populations/refugeelike/origin', 'contact', literal=True)
     metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
 
 
-@app.route('/populations/totals', methods=['GET'])
+@app.route('/populations/totals/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/world/populations_totals.yml')
-def get_populations_totals():
+def get_populations_totals(orientation):
     params = None
     data_path = constants.ESA_FILE_NAMES['wpp_overall']
     success, result, metadata = api_utils.safely_load_data(data_path, 'UN ESA WPP world populations', has_metadata=True)
@@ -364,15 +368,17 @@ def get_populations_totals():
         params = {"country": country}
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
-    result = result.to_dict(orient='list')
+    if orientation == 'index':
+        result = result.set_index('Country')
+    result = result.to_dict(orient=orientation)
     contact = api_utils.load_metadata('/populations/totals', 'contact', literal=True)
     metadata['contact'] = contact
     return jsonify(metadata=metadata, data=result, params=params)
 
 
-@app.route('/funding/plans/progress', methods=['GET'])
+@app.route('/funding/plans/progress/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/world/funding_progress.yml')
-def get_funding_progress():
+def get_funding_progress(orientation):
     params = None
     success, result, metadata = api_utils.safely_load_data('funding_progress.csv', 'FTS funding progress by country appeal', has_metadata=False)
     if not success:
@@ -382,7 +388,9 @@ def get_funding_progress():
         params = {"countryCode": countryCode}
         countryCode = str(countryCode).strip().upper()
         result = result[result.countryCode == countryCode]
-    result = result.to_dict(orient='list')
+    if orientation == 'index':
+        result = result.set_index('countryCode')
+    result = result.to_dict(orient=orientation)
     return jsonify(data=result, params=params)
 
 
