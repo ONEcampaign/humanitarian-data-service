@@ -326,7 +326,7 @@ def get_populations_refugeelike_asylum(orientation):
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     if orientation == 'index':
-        result = result.set_index('Country')
+        result = result.set_index('countryCode')
     result = result.to_dict(orient=orientation)
     contact = api_utils.load_metadata('/populations/refugeelike/asylum', 'contact', literal=True)
     metadata['contact'] = contact
@@ -347,7 +347,7 @@ def get_populations_refugeelike_origin(orientation):
         country = str(country).strip().capitalize()
         result = data_utils.fuzzy_filter(result, constants.COUNTRY_COL, country)
     if orientation == 'index':
-        result = result.set_index('Country')
+        result = result.set_index('countryCode')
     result = result.to_dict(orient=orientation)
     contact = api_utils.load_metadata('/populations/refugeelike/origin', 'contact', literal=True)
     metadata['contact'] = contact
