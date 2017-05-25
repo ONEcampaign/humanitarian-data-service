@@ -81,6 +81,7 @@ Czechia,CZE
 Dem. People's Rep. of Korea,PRK
 Dem. Rep. of the Congo,COD
 Democratic People's Republic of Korea,PRK
+Dem. People's Republic of Korea,PRK
 Democratic Republic of the Congo,COD
 Denmark,DNK
 Djibouti,DJI
@@ -95,7 +96,9 @@ Eritrea,ERI
 Estonia,EST
 Ethiopia,ETH
 Falkland Islands,FLK
+Falkland Islands (Malvinas),FLK
 Faroe Islands,FRO
+Faeroe Islands,FRO
 Fiji,FJI
 Finland,FIN
 France,FRA
@@ -158,6 +161,7 @@ Lithuania,LTU
 Luxembourg,LUX
 Macau,MAC
 Macedonia,MKD
+TFYR Macedonia,MKD
 Madagascar,MDG
 Malawi,MWI
 Malaysia,MYS
@@ -172,6 +176,7 @@ Mayotte,MYT
 Mexico,MEX
 Micronesia,FSM
 Micronesia (Federated States of),FSM
+Micronesia (Fed. States of),FSM
 Moldova,MDA
 Monaco,MCO
 Mongolia,MNG
@@ -246,11 +251,13 @@ South Sudan,SSD
 Spain,ESP
 Sri Lanka,LKA
 St. Helena,SHN
+Saint Helena,SHN
 St. Kitts & Nevis,KNA
 St. Kitts and Nevis,KNA
 St. Lucia,LCA
 St. Martin,MAF
 St. Pierre & Miquelon,SPM
+Saint Pierre and Miquelon,SPM
 St. Vincent & Grenadines,VCT
 State of Palestine,PSE
 Stateless,XXA 
@@ -263,6 +270,7 @@ Sweden,SWE
 Switzerland,CHE
 Syria,SYR
 Syrian Arab Rep.,SYR
+Syrian Arab Republic,SYR
 Taiwan,TWN
 Tajikistan,TJK
 Tanzania,TZA
@@ -289,10 +297,12 @@ Ukraine,UKR
 United Arab Emirates,ARE
 United Kingdom,GBR
 United Rep. of Tanzania,TZA
+United Republic of Tanzania,TZA
 United States of America,USA
 Uruguay,URY
 US,USA
 US Virgin Islands,VIR
+United States Virgin Islands,VIR
 Uzbekistan,UZB
 Vanuatu,VUT
 Various/unknown,XXX
@@ -303,6 +313,7 @@ Viet Nam,VNM
 Vietnam,VNM
 Wallis & Futuna,WLF
 Wallis and Futuna Islands ,WLF
+Wallis and Futuna Islands,WLF
 Western Sahara,ESH
 Yemen,YEM
 Zambia,ZMB
