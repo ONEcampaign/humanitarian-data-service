@@ -428,6 +428,18 @@ def get_events_acled_africa():
     return jsonify(data=result.to_dict(orient='list'))
 
 
+@app.route('/fragility/fragile-state-index/<string:orientation>', methods=['GET'])
+@swag_from('api_configs/world/fragile_state_index.yml')
+def get_fragile_state_index(orientation):
+    success, result, metadata = api_utils.safely_load_data('fsi_2017.csv', 'Fragile State Index', has_metadata=True)
+    if not success:
+        return result, 501
+    if orientation == 'index':
+        result = result.set_index('countryCode')
+    result = result.to_dict(orient=orientation)
+    return jsonify(metadata=metadata, data=result)
+
+
 @app.route('/metadata/all/<string:orientation>', methods=['GET'])
 @swag_from('api_configs/metadata/all.yml')
 def get_metadata_all(orientation):

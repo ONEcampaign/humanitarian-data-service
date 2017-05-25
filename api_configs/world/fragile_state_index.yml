@@ -1,0 +1,36 @@
+Get Fragile State Index
+Call this endpoint to get the results of the Fragile State Index from the Fund for Peace
+---
+tags:
+  - World
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
+responses:
+  501:
+    description: No Fragile State Index data was found
+  200:
+    description: "Fragile State Index from the Fund for Peace"
+    schema:
+      id: fragile_state_index
+      properties:
+        source:
+          type: string
+          description: The data source
+          default: "FFP: Fund For Peace"
+        data:
+          type: json
+          description: Fragile state index scores and rankings
+          default: {
+            "test": "me"
+          }
+        update:
+          type: string
+          description: The update frequency of this data
+          default: Every year

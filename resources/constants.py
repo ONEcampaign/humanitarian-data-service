@@ -46,7 +46,8 @@ DATA_SOURCES = {
   'FTS': 'UNOCHA: Financial Tracking Service',
   'WB' : 'World Bank: World Development Indicators',
   'HCR': 'UNHCR: The UN Refugee Agency',
-  'ESA': 'UN Department of Economic and Social Affairs: World Population Prospects'
+  'ESA': 'UN Department of Economic and Social Affairs: World Population Prospects',
+  'FSI': 'FFP: Fund For Peace'
 }
 
 # HDX website environments, in order of priority to pull data from (i.e. always try 'prod' first)

@@ -63,6 +63,8 @@ Cocos (Keeling) Islands,CCK
 Colombia,COL
 Comoros,COM
 Congo,COG
+Congo Democratic Republic,COD
+Congo Republic,COG
 Congo - Brazzaville,COG
 Congo - Kinshasa,COD
 "Congo, Republic of",COG
@@ -120,6 +122,7 @@ Guatemala,GTM
 Guernsey,GGY
 Guinea,GIN
 Guinea-Bissau,GNB
+Guinea Bissau,GNB
 Guyana,GUY
 Haiti,HTI
 Heard & McDonald Islands,HMD
@@ -138,6 +141,7 @@ Iraq,IRQ
 Ireland,IRL
 Isle of Man,IMN
 Israel,ISR
+Israel and West Bank,ISR
 Italy,ITA
 Jamaica,JAM
 Japan,JPN
@@ -148,6 +152,7 @@ Kenya,KEN
 Kiribati,KIR
 Kuwait,KWT
 Kyrgyzstan,KGZ
+Kyrgyz Republic,KGZ
 Lao People's Dem. Rep.,LAO
 Lao People's Democratic Republic,LAO
 Laos,LAO
@@ -241,6 +246,7 @@ Singapore,SGP
 Sint Maarten,SXM
 Sint Maarten (Dutch part),SXM
 Slovakia,SVK
+Slovak Republic,SVK
 Slovenia,SVN
 Solomon Islands,SLB
 Somalia,SOM
@@ -299,6 +305,7 @@ United Kingdom,GBR
 United Rep. of Tanzania,TZA
 United Republic of Tanzania,TZA
 United States of America,USA
+United States,USA
 Uruguay,URY
 US,USA
 US Virgin Islands,VIR
