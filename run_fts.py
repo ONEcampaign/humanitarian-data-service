@@ -18,6 +18,22 @@ See API docs here: https://fts.unocha.org/sites/default/files/publicftsapidocume
 """
 
 
+def getPlans(year=2017):
+    # Get all plans from the FTS API
+    data = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
+
+    # Extract names from objects
+    data['categoryName'] = data.categories.apply(lambda x: x[0]['name'])
+    data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
+    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'] if x else None)
+
+    #Tidy the dataset
+    data.drop(['origRequirements', 'startDate', 'endDate', 'years', 'categories', 'emergencies', 'locations'], axis=1, inplace=True)
+    data = data.where((pd.notnull(data)), None).sort_values('name')
+
+    return data
+
+
 def updateCommittedAndPaidFunding(year=2017):
     data = pd.read_csv('resources/data/derived/example/funding_progress.csv', encoding='utf-8')
 
@@ -33,23 +49,14 @@ def updateCommittedAndPaidFunding(year=2017):
     return data
 
 
-def getInitialRequiredAndCommittedFunding(year=2017):
-    # Get required funding from the FTS API
-    data = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
-
-    # Extract names from objects
-    data['categoryName'] = data.categories.apply(lambda x: x[0]['name'])
-    data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
-    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'] if x else None)
-
-    data.drop(['origRequirements', 'startDate', 'endDate', 'years', 'categories', 'emergencies', 'locations'], axis=1, inplace=True)
-    data = data.where((pd.notnull(data)), None)
+def getInitialRequiredAndCommittedFunding(data):
 
     # Get committed and paid funding from the FTS API
     def pull_committed_funding_for_plan(plan_id):
         plan_funds = api_utils.get_fts_endpoint('/public/fts/flow?planId={}'.format(plan_id), 'flows')
         funded = plan_funds[(plan_funds.boundary == 'incoming') & (plan_funds.status != 'pledge')]
         return funded['amountUSD'].sum()
+
     data['appealFunded'] = data['id'].apply(pull_committed_funding_for_plan)
     
     # Calculate percent funded
@@ -60,7 +67,7 @@ def getInitialRequiredAndCommittedFunding(year=2017):
     return data
 
 
-def getDonorFundingAmounts(year=2017):
+def getDonorFundingAmounts(plans):
     """
     For each plan, pull the amount funded by each donor.
     Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
@@ -84,8 +91,6 @@ def getDonorFundingAmounts(year=2017):
             result = None
         return result
 
-    plans = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
-    plans = plans[['id', 'code', 'name']]
     plan_ids = plans['id']
 
     data = pd.DataFrame([])
@@ -97,10 +102,76 @@ def getDonorFundingAmounts(year=2017):
 
     data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
     data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
-    data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name'])
+    data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
 
     return data
 
+
+def getClusterFundingAmounts(plans):
+    """
+    For each plan, pull the amount required and funded at the cluster level.
+
+    """
+    # TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key chain
+    # TODO: make column indexes of final output a constant
+    # TODO: add metadata! With update date.
+
+    def getFundingByCluster(plan_id):
+        url = None
+        endpoint_str = '/public/fts/flow?planId={}&groupby=Cluster'.format(plan_id)
+        url = 'https://api.hpc.tools/v1' + endpoint_str
+        result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
+        result.raise_for_status()
+
+        #Get the required funding amounts for each cluster
+        requirements = result.json()['data']['requirements']
+        if requirements and 'objects' in requirements:
+            requirements = requirements['objects']
+            requirements = json_normalize(requirements)
+            requirements['plan_id'] = plan_id
+        else:
+            print ('No requirements data from this endpoint: {}'.format(url))
+            requirements = None
+
+        #Get the actual funded amounts for each cluster
+        funding = result.json()['data']['report3']['fundingTotals']['objects'][0]['singleFundingObjects']
+        if funding:
+            funding = json_normalize(funding)
+            funding['plan_id'] = plan_id
+        else:
+            print ('Empty data from this endpoint: {}'.format(url))
+            funding = None
+
+        #Join required and actual funding amounts together
+        combined = requirements.merge(funding, how='outer', on=['name', 'plan_id'])
+
+        return combined
+
+    plan_ids = plans['id']
+
+    data = pd.DataFrame([])
+
+    #loop through each plan and append the donor data for it to a combined data set
+    for plan in plan_ids:
+        print ('Getting for plan {}'.format(plan))
+        funding = getFundingByCluster(plan)
+        print ('Success! Appending plan {}'.format(plan))
+        data = data.append(funding)
+    #TODO: if a plan result in an error, skip that and move on
+
+    #Merge on plan information for reference
+    data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
+
+    #Select certain columns and rename them
+    data = data[['name_x', 'revisedRequirements', 'totalFunding', 'plan_id','code','name_y','countryCode']]
+    data.columns = (['cluster', 'revisedRequirements', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
+
+    #Replace NaN funded amounts with 0s
+    data.totalFunding = data.totalFunding.fillna(0)
+    #Calculate percent funded
+    data['percentFunded'] = data['totalFunding']/data['revisedRequirements']
+
+    return data
 
 
 def loadDataByDimension(dimension):
@@ -236,21 +307,33 @@ def run_transformations_by_dimension():
 
 
 def run():
+
+    print 'Get list of plans'
+    plans = getPlans(year=2017)
+    print plans.head()
+
+    #Filter plans to only include those that are not RRPs and where the funding requirement is > 0
+    plans = plans[(plans.categoryName != 'Regional response plan') & (plans.revisedRequirements > 0)]
+
+    plan_index = plans[['id', 'code', 'name', 'countryCode']]
+
     print 'Get required and committed funding from the FTS API'
-    # This function worked for the FTS API as of 4/28/17, but due to unexpected API changes this no longer works.
-    # Fortunately, the original required funding data was already pulled, which is assumed to stay constant.
-    # Instead, we will update the committed and paid funding over time.
-    initial_result = getInitialRequiredAndCommittedFunding()
-    #result = updateCommittedAndPaidFunding()
+    initial_result = getInitialRequiredAndCommittedFunding(plans)
     print initial_result.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
     initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Get donor funding amounts to each plan from the FTS API'
-    donor_funding = getDonorFundingAmounts()
+    donor_funding = getDonorFundingAmounts(plan_index)
     print donor_funding.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
     donor_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get required and committed funding at the cluster level from the FTS API'
+    cluster_funding = getClusterFundingAmounts(plan_index)
+    print cluster_funding.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_clusters.csv')
+    cluster_funding.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Done!'
 

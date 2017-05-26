@@ -410,6 +410,25 @@ def get_funding_plan_donors():
     return jsonify(data=result, params=params)
 
 
+
+@app.route('/funding/plans/clusters/<string:orientation>', methods=['GET'])
+@swag_from('api_configs/world/funding_clusters.yml')
+def get_funding_plan_clusters(orientation):
+    params = None
+    success, result, metadata = api_utils.safely_load_data('funding_clusters.csv', 'FTS funding progress by country appeal and cluster', has_metadata=False)
+    if not success:
+        return result, 501
+    countryCode = request.args.get('countryCode', None)
+    if countryCode:
+        params = {"countryCode": countryCode}
+        countryCode = str(countryCode).strip().upper()
+        result = result[result.countryCode == countryCode]
+    if orientation == 'index':
+        result = result.set_index('countryCode')
+    result = result.to_dict(orient=orientation)
+    return jsonify(data=result, params=params)
+
+
 @app.route('/events/acled', methods=['GET'])
 @swag_from('api_configs/world/events_acled.yml')
 def get_events_acled():

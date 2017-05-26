@@ -1,0 +1,54 @@
+Get the cluster breakdown of each humanitarian appeal
+Call this endpoint to get the clusters and funding amounts to each open appeal
+---
+tags:
+  - World
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
+  - name: countryCode
+    in: query
+    type: string
+    required: false
+    description: The optional country code (ISO-3, case-insensitive, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No funding progress data was found 
+  200:
+    description: The latest funding progress data 
+    schema:
+      id: funding_cluster
+      properties:
+        data:
+          type: json
+          description: The funding progress data by country and year and cluster
+          default: {
+            "organization_id": [
+                  2924
+                ],
+                "organization_name": [
+                  "Switzerland, Government of"
+                ],
+                "plan_code": [
+                  "HNGA17"
+                ],
+                "plan_id": [
+                  536
+                ],
+                "plan_name": [
+                  "Nigeria 2017"
+                ],
+                "totalFunding": [
+                  5817869
+                ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}
