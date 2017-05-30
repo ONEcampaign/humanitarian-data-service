@@ -423,9 +423,13 @@ def get_funding_plan_clusters(orientation):
         params = {"countryCode": countryCode}
         countryCode = str(countryCode).strip().upper()
         result = result[result.countryCode == countryCode]
+    if orientation == 'list':
+        result = result.to_dict(orient='list')
     if orientation == 'index':
-        result = result.set_index('countryCode')
-    result = result.to_dict(orient=orientation)
+        result = result.groupby('countryCode')[['cluster','revisedRequirements','totalFunding',
+                                                'percentFunded']]
+        result = result.apply(lambda x: x.to_dict(orient='record'))
+        result = result.to_dict()
     return jsonify(data=result, params=params)
 
 
