@@ -55,6 +55,26 @@ def safely_load_data(data_file, data_description, filter_value=None, filter_colu
     return success, result, metadata
 
 
+def safely_load_json_data(data_file, data_description):
+    success = False
+    result = None
+    file_path = None
+    try:
+        file_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, data_file)
+        file = open(file_path, 'r')
+        result =  file.read()
+        result = json.loads(result)
+        success = True
+        if result == '':
+            result = 'Error: No {} data was found (empty file)'.format(data_description)
+            success = False
+    except Exception as e:
+        result = 'Error: No {} data was found ({})'.format(data_description, e)
+        success = False
+
+    return success, result
+
+
 def load_metadata(endpoint_str=None, column=None, literal=False):
     """
     Load the metadata.csv file that maps metadata to each endpoint as a pandas dataframe. 

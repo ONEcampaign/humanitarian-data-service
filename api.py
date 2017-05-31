@@ -470,6 +470,15 @@ def get_metadata_all(orientation):
     return jsonify(metadata=metadata)
 
 
+@app.route('/displacement_tracker/', methods=['GET'])
+@swag_from('api_configs/displacement_tracker/displacement_tracker.yml')
+def get_tracker_data():
+    success, result = api_utils.safely_load_json_data('displacement_tracker.json','Displacement Tracker Data')
+    if not success:
+        return result, 501
+    return jsonify(result)
+
+
 def main():
     env_type = 'local'
     if len(sys.argv) == 2:

@@ -1,0 +1,9 @@
+Get a JSON file containing all data used in the displacement tracker project
+---
+tags:
+  - Displacement Tracker
+responses:
+  501:
+    description: No data was found
+  200:
+    description: The latest data for the displacement tracker
