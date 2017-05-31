@@ -62,7 +62,7 @@ def getInitialRequiredAndCommittedFunding(data):
     # Calculate percent funded
     data['percentFunded'] = data.appealFunded / data.revisedRequirements
 
-    #data.to_csv('initial_funding_progress.csv', encoding='utf-8', index=False)
+    data['neededFunding'] = data.revisedRequirements - data.appealFunded
 
     return data
 
@@ -172,6 +172,45 @@ def getClusterFundingAmounts(plans):
     data['percentFunded'] = data['totalFunding']/data['revisedRequirements']
 
     return data
+
+
+def getCountryFundingAmounts(years):
+    """
+    For each country, pull the amount funded in each year.
+    Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
+
+    """
+    # TODO: make a helper function like api_utils.get_fts_endpoint() that can take a very long key chain
+    # TODO: make column indexes of final output a constant
+    # TODO: add metadata! With update date.
+    def getActualFundingByCountryGroup(year):
+        url = None
+        endpoint_str = '/public/fts/flow?year={}&groupby=Country'.format(year)
+        url = 'https://api.hpc.tools/v1' + endpoint_str
+        result = requests.get(url, auth=(CLIENT_ID, PASSWORD))
+        result.raise_for_status()
+        single = result.json()['data']['report3']['fundingTotals']['objects'][0]['singleFundingObjects']
+        if single:
+            single = json_normalize(single)
+            single['year'] = year
+        else:
+            print ('Empty data from this endpoint: {}'.format(url))
+            single = None
+        return single
+
+    data = pd.DataFrame([])
+
+    #loop through each year and append the data for it to a combined data set
+    for year in years:
+        funding = getActualFundingByCountryGroup(year)
+        data = data.append(funding)
+
+    #data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
+    #data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
+    #data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
+
+    return data
+
 
 
 def loadDataByDimension(dimension):
