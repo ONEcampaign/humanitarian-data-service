@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import os.path
 from resources import constants
+import json
 
 
 
@@ -160,18 +161,71 @@ def merge_data(
     df_final['Refugees and IDPs as Percent of Population'] = df_final['Total population of concern']/df_final['Population']
 
 
-    return df_final
+    ################## STRUCTURE DICTIONARY ##################
+
+    # Transform dataframe to dictionary
+    df_as_dict = df_final.to_dict(orient='index')
+
+    # Define field names for each strand
+    strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date']
+    strand_02_fields = ['Refugees and IDPs as Percent of Population', 'Fragile State Index Score',
+                        'Total population of concern', 'Total Refugee and people in refugee-like situations',
+                        'GDP Per Capita']
+
+    # For every object, get / group the values by strand
+    data = {}
+    for x in df_as_dict.keys():
+
+        # Create an empty dict
+        country_dict = {}
+
+        # Populate the dict with those value that don't require nesting
+        country_dict['Country'] = df_as_dict[x]['Country']
+        country_dict['Fragile State Index Rank'] = df_as_dict[x]['Fragile State Index Rank']
+
+        # Populate the dict with strand 1 data
+        strand_01_dict = {}
+        for names_01 in strand_01_fields:
+            strand_01_dict[names_01] = (df_as_dict[x][names_01])
+        country_dict['Strand_01_Needs'] = strand_01_dict
+
+        # Populate the dict with strand 2 data
+        strand_02_dict = {}
+        for names_02 in strand_02_fields:
+            strand_02_dict[names_02] = (df_as_dict[x][names_02])
+        country_dict['Strand_02_People'] = strand_02_dict
+
+        # Add the country dict to the data dict
+        data[x] = country_dict
+
+    # Create the metadata dict
+    metadata = {
+        "State fragility index": "some metadata here",
+        "Total amount of money funded to date": "some metadata here",
+        "Total amount of money needed": "some metadata here"
+    }
+
+    # At the higher level, structure the json with 'data' and 'metadata'
+    final_json = {
+        'data': data,
+        'metadata': metadata
+    }
+
+    return final_json
 
 
 
 def run():
     print 'Pulling and merging data'
     data = merge_data()
-    print data.head()
+    #print data.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
     print 'Writing file'
-    data.to_json(official_data_path, orient='index')
 
+    with open(official_data_path, 'w') as outfile:
+        json.dump(data, outfile, indent=4, separators=(',', ': '))
+    #data.to_json(official_data_path, orient='index')
+    #json.dumps(data, indent=4, separators=(',', ': '))
 
 
 if __name__ == "__main__":

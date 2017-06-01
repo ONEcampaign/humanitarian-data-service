@@ -9,6 +9,7 @@ from string import capwords
 
 from resources import constants
 from utils import api_utils, data_utils
+import json
 
 
 SWAGGER_CONFIG = {
@@ -476,7 +477,7 @@ def get_tracker_data():
     success, result = api_utils.safely_load_json_data('displacement_tracker.json','Displacement Tracker Data')
     if not success:
         return result, 501
-    return jsonify(result)
+    return json.dumps(result, indent=4, separators=(',', ': '))
 
 
 def main():
@@ -491,4 +492,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
