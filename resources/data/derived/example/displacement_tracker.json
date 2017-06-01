@@ -11,9 +11,9 @@
                 "GDP Per Capita": 6470.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DZA": {
@@ -27,9 +27,9 @@
                 "GDP Per Capita": 14310.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EGY": {
@@ -43,9 +43,9 @@
                 "GDP Per Capita": 10710.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BGD": {
@@ -59,25 +59,25 @@
                 "GDP Per Capita": 3560.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LIC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 1602.1294232677699
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SOM": {
@@ -88,7 +88,7 @@
                 "Refugees and IDPs as Percent of Population": 0.10256670448865612,
                 "Total Refugee and people in refugee-like situations": 10027,
                 "Fragile State Index Score": 113.4,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 1145883788.0,
@@ -97,35 +97,35 @@
             }
         },
         "MIC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 10746.086224705401
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NRU": {
             "Country": "Nauru",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 796,
                 "Refugees and IDPs as Percent of Population": 0.0772740510630036,
                 "Total Refugee and people in refugee-like situations": 506,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NAM": {
@@ -139,25 +139,25 @@
                 "GDP Per Capita": 10380.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EUU": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 38490.6124818505
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BGR": {
@@ -171,9 +171,9 @@
                 "GDP Per Capita": 17880.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BOL": {
@@ -187,9 +187,9 @@
                 "GDP Per Capita": 6710.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GHA": {
@@ -203,9 +203,9 @@
                 "GDP Per Capita": 4080.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PAK": {
@@ -219,25 +219,25 @@
                 "GDP Per Capita": 5320.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "WLD": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 15655.4261814833
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CPV": {
@@ -251,25 +251,25 @@
                 "GDP Per Capita": 6320.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PRE": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3564.95649905052
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BHS": {
@@ -283,9 +283,9 @@
                 "GDP Per Capita": 21970.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "JOR": {
@@ -299,9 +299,9 @@
                 "GDP Per Capita": 10760.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LBR": {
@@ -315,25 +315,25 @@
                 "GDP Per Capita": 720.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IDX": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 2694.48191314555
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LBY": {
@@ -344,7 +344,7 @@
                 "Refugees and IDPs as Percent of Population": 0.07372289288599854,
                 "Total Refugee and people in refugee-like situations": 9300,
                 "Fragile State Index Score": 96.3,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 125562053.0,
@@ -363,52 +363,52 @@
                 "GDP Per Capita": 26190.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PRI": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MYT": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PRK": {
-            "Country": NaN,
+            "Country": "",
             "Fragile State Index Rank": "30th",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": 93.3,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 92215656.0,
@@ -427,9 +427,9 @@
                 "GDP Per Capita": 2630.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BWA": {
@@ -443,9 +443,9 @@
                 "GDP Per Capita": 15510.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KHM": {
@@ -459,25 +459,25 @@
                 "GDP Per Capita": 3300.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SAS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5658.13079136485
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PRY": {
@@ -491,25 +491,25 @@
                 "GDP Per Capita": 8680.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HKG": {
             "Country": "China, Hong Kong SAR",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 2456,
                 "Refugees and IDPs as Percent of Population": 0.0003318048603737857,
                 "Total Refugee and people in refugee-like situations": 140,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 57860.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SAU": {
@@ -523,9 +523,9 @@
                 "GDP Per Capita": 54840.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LBN": {
@@ -539,9 +539,9 @@
                 "GDP Per Capita": 13750.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SVN": {
@@ -555,9 +555,9 @@
                 "GDP Per Capita": 31180.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BFA": {
@@ -587,9 +587,9 @@
                 "GDP Per Capita": 64100.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KEN": {
@@ -616,7 +616,7 @@
                 "Refugees and IDPs as Percent of Population": 0.016172000690035365,
                 "Total Refugee and people in refugee-like situations": 68590,
                 "Fragile State Index Score": 93.7,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 55526541.0,
@@ -635,9 +635,9 @@
                 "GDP Per Capita": 22380.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CHL": {
@@ -651,9 +651,9 @@
                 "GDP Per Capita": 22760.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CHN": {
@@ -667,25 +667,25 @@
                 "GDP Per Capita": 14390.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KNA": {
             "Country": "Saint Kitts and Nevis",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 24370.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "JAM": {
@@ -699,25 +699,25 @@
                 "GDP Per Capita": 8680.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GIB": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DJI": {
@@ -728,7 +728,7 @@
                 "Refugees and IDPs as Percent of Population": 0.021827290861570668,
                 "Total Refugee and people in refugee-like situations": 16696,
                 "Fragile State Index Score": 88.9,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 36890124.0,
@@ -747,25 +747,25 @@
                 "GDP Per Capita": 1120.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "REU": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FIN": {
@@ -779,9 +779,9 @@
                 "GDP Per Capita": 42600.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "URY": {
@@ -795,41 +795,41 @@
                 "GDP Per Capita": 20400.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VAT": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SYC": {
-            "Country": NaN,
+            "Country": "",
             "Fragile State Index Rank": "125th",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": 59.4,
                 "GDP Per Capita": 25670.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NPL": {
@@ -843,9 +843,9 @@
                 "GDP Per Capita": 2500.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LAO": {
@@ -859,9 +859,9 @@
                 "GDP Per Capita": 5400.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "YEM": {
@@ -891,9 +891,9 @@
                 "GDP Per Capita": 8940.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ZAF": {
@@ -907,57 +907,57 @@
                 "GDP Per Capita": 12870.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KIR": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 4230.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LAC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 14631.924304833501
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VIR": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SYR": {
@@ -968,7 +968,7 @@
                 "Refugees and IDPs as Percent of Population": 0.3579913943618594,
                 "Total Refugee and people in refugee-like situations": 20323,
                 "Fragile State Index Score": 110.6,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 2958128625.0,
@@ -978,34 +978,34 @@
         },
         "MAC": {
             "Country": "China, Macao SAR",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 6,
                 "Refugees and IDPs as Percent of Population": 9.894720177313386e-06,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 102480.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LIE": {
             "Country": "Liechtenstein",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 254,
                 "Refugees and IDPs as Percent of Population": 0.00668034295933933,
                 "Total Refugee and people in refugee-like situations": 154,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NIC": {
@@ -1019,9 +1019,9 @@
                 "GDP Per Capita": 5060.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KAZ": {
@@ -1035,9 +1035,9 @@
                 "GDP Per Capita": 23480.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MNG": {
@@ -1051,41 +1051,41 @@
                 "GDP Per Capita": 11220.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PYF": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NIU": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IRL": {
@@ -1099,25 +1099,25 @@
                 "GDP Per Capita": 54610.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DMA": {
             "Country": "Dominica",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 10500.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ARG": {
@@ -1131,9 +1131,9 @@
                 "GDP Per Capita": 20010.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BEN": {
@@ -1147,9 +1147,9 @@
                 "GDP Per Capita": 2050.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NGA": {
@@ -1179,9 +1179,9 @@
                 "GDP Per Capita": 45660.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DEU": {
@@ -1195,25 +1195,25 @@
                 "GDP Per Capita": 49090.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GUM": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LKA": {
@@ -1227,41 +1227,41 @@
                 "GDP Per Capita": 11500.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EMU": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 41179.3970598869
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FLK": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GBR": {
@@ -1275,25 +1275,25 @@
                 "GDP Per Capita": 40900.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BES": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GUY": {
@@ -1307,9 +1307,9 @@
                 "GDP Per Capita": 7540.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CRI": {
@@ -1323,9 +1323,9 @@
                 "GDP Per Capita": 14910.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ETH": {
@@ -1345,19 +1345,19 @@
             }
         },
         "LDC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 2503.28750540732
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MAR": {
@@ -1371,57 +1371,57 @@
                 "GDP Per Capita": 7690.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CEB": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 25251.3722198911
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MNP": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IDB": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5652.825109122421
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HUN": {
@@ -1435,9 +1435,9 @@
                 "GDP Per Capita": 25240.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TKM": {
@@ -1451,9 +1451,9 @@
                 "GDP Per Capita": 15760.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TTO": {
@@ -1467,9 +1467,9 @@
                 "GDP Per Capita": 32180.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NLD": {
@@ -1483,9 +1483,9 @@
                 "GDP Per Capita": 49410.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "COM": {
@@ -1499,25 +1499,25 @@
                 "GDP Per Capita": 1490.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BMU": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TCD": {
@@ -1537,19 +1537,19 @@
             }
         },
         "IDA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3754.61391845812
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GEO": {
@@ -1563,9 +1563,9 @@
                 "GDP Per Capita": 9340.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ROU": {
@@ -1579,41 +1579,41 @@
                 "GDP Per Capita": 21610.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TCA": {
             "Country": "Turks and Caicos Islands",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 4,
                 "Refugees and IDPs as Percent of Population": 0.00011286044805597878,
                 "Total Refugee and people in refugee-like situations": 4,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MHL": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5430.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MLI": {
@@ -1643,9 +1643,9 @@
                 "GDP Per Capita": 8020.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SWE": {
@@ -1659,9 +1659,9 @@
                 "GDP Per Capita": 48700.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AFG": {
@@ -1698,18 +1698,18 @@
         },
         "VGB": {
             "Country": "British Virgin Islands",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BLR": {
@@ -1723,9 +1723,9 @@
                 "GDP Per Capita": 16920.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GRD": {
@@ -1739,9 +1739,9 @@
                 "GDP Per Capita": 13090.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GRC": {
@@ -1755,9 +1755,9 @@
                 "GDP Per Capita": 26530.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MNE": {
@@ -1771,57 +1771,57 @@
                 "GDP Per Capita": 16460.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GRL": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CSS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 15095.8425125507
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AND": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MOZ": {
@@ -1841,35 +1841,35 @@
             }
         },
         "OSS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 24348.5548499976
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SST": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 21459.7269610637
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TJK": {
@@ -1883,9 +1883,9 @@
                 "GDP Per Capita": 3460.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "THA": {
@@ -1899,25 +1899,25 @@
                 "GDP Per Capita": 15520.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "XKX": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 9870.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HTI": {
@@ -1938,34 +1938,34 @@
         },
         "PSE": {
             "Country": "State of Palestine",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LCA": {
             "Country": "Saint Lucia",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 3,
                 "Refugees and IDPs as Percent of Population": 1.597716330791189e-05,
                 "Total Refugee and people in refugee-like situations": 2,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 10780.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IND": {
@@ -1979,9 +1979,9 @@
                 "GDP Per Capita": 6030.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LVA": {
@@ -1995,41 +1995,41 @@
                 "GDP Per Capita": 24840.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BTN": {
-            "Country": NaN,
+            "Country": "",
             "Fragile State Index Rank": "83rd",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": 76.0,
                 "GDP Per Capita": 7630.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SSA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3567.0801395881394
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VNM": {
@@ -2043,9 +2043,9 @@
                 "GDP Per Capita": 5720.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NOR": {
@@ -2059,9 +2059,9 @@
                 "GDP Per Capita": 65430.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CZE": {
@@ -2075,9 +2075,9 @@
                 "GDP Per Capita": 31550.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ATG": {
@@ -2091,9 +2091,9 @@
                 "GDP Per Capita": 22280.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FJI": {
@@ -2107,9 +2107,9 @@
                 "GDP Per Capita": 8850.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MDA": {
@@ -2123,9 +2123,9 @@
                 "GDP Per Capita": 5400.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HND": {
@@ -2139,9 +2139,9 @@
                 "GDP Per Capita": 4750.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MUS": {
@@ -2155,9 +2155,9 @@
                 "GDP Per Capita": 19940.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DOM": {
@@ -2171,9 +2171,9 @@
                 "GDP Per Capita": 13600.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LUX": {
@@ -2187,9 +2187,9 @@
                 "GDP Per Capita": 72080.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ISR": {
@@ -2203,41 +2203,41 @@
                 "GDP Per Capita": 36040.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ABW": {
             "Country": "Aruba",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 6,
                 "Refugees and IDPs as Percent of Population": 5.736795808314529e-05,
                 "Total Refugee and people in refugee-like situations": 2,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SMR": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PER": {
@@ -2258,18 +2258,18 @@
         },
         "SXM": {
             "Country": "Sint Maarten (Dutch part)",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 8,
                 "Refugees and IDPs as Percent of Population": 0.00019941670613455643,
                 "Total Refugee and people in refugee-like situations": 3,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IDN": {
@@ -2283,25 +2283,25 @@
                 "GDP Per Capita": 10700.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VUT": {
             "Country": "Vanuatu",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GNQ": {
@@ -2315,9 +2315,9 @@
                 "GDP Per Capita": 27200.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SUR": {
@@ -2331,9 +2331,9 @@
                 "GDP Per Capita": 16610.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "COG": {
@@ -2347,9 +2347,9 @@
                 "GDP Per Capita": 6320.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ISL": {
@@ -2363,25 +2363,25 @@
                 "GDP Per Capita": 47160.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GLP": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GAB": {
@@ -2395,25 +2395,25 @@
                 "GDP Per Capita": 18880.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "COK": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NER": {
@@ -2443,57 +2443,57 @@
                 "GDP Per Capita": 13550.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GUF": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FCS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3875.93139624202
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ECA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 17744.037976851
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PRT": {
@@ -2507,41 +2507,41 @@
                 "GDP Per Capita": 29060.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TEA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 13030.194927474098
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TEC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 18472.6693242667
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "STP": {
@@ -2555,9 +2555,9 @@
                 "GDP Per Capita": 3250.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MDG": {
@@ -2587,41 +2587,41 @@
                 "GDP Per Capita": 11270.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ECS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 30039.689025109503
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SHN": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SEN": {
@@ -2641,67 +2641,67 @@
             }
         },
         "ESH": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MDV": {
-            "Country": NaN,
+            "Country": "",
             "Fragile State Index Rank": "86th",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": 74.4,
                 "GDP Per Capita": 11480.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ASM": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SPM": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TLS": {
@@ -2715,9 +2715,9 @@
                 "GDP Per Capita": 4550.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FRA": {
@@ -2731,9 +2731,9 @@
                 "GDP Per Capita": 41680.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LTU": {
@@ -2747,9 +2747,9 @@
                 "GDP Per Capita": 27570.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "RWA": {
@@ -2763,9 +2763,9 @@
                 "GDP Per Capita": 1720.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ZMB": {
@@ -2779,9 +2779,9 @@
                 "GDP Per Capita": 3640.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GMB": {
@@ -2792,44 +2792,44 @@
                 "Refugees and IDPs as Percent of Population": 0.0037223792667294845,
                 "Total Refugee and people in refugee-like situations": 7890,
                 "Fragile State Index Score": 89.4,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "WLF": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FRO": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GTM": {
@@ -2843,9 +2843,9 @@
                 "GDP Per Capita": 7530.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "DNK": {
@@ -2859,9 +2859,9 @@
                 "GDP Per Capita": 49240.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ZWE": {
@@ -2875,9 +2875,9 @@
                 "GDP Per Capita": 1710.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AUS": {
@@ -2891,9 +2891,9 @@
                 "GDP Per Capita": 45320.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AUT": {
@@ -2907,25 +2907,25 @@
                 "GDP Per Capita": 49160.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LTE": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 15687.057188955
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ARE": {
@@ -2939,9 +2939,9 @@
                 "GDP Per Capita": 70020.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VEN": {
@@ -2952,28 +2952,28 @@
                 "Refugees and IDPs as Percent of Population": 0.005457483241168832,
                 "Total Refugee and people in refugee-like situations": 173999,
                 "Fragile State Index Score": 82.9,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PSS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5696.373020036221
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IRN": {
@@ -2984,60 +2984,60 @@
                 "Refugees and IDPs as Percent of Population": 0.012085728858443136,
                 "Total Refugee and people in refugee-like situations": 978120,
                 "Fragile State Index Score": 85.8,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PLW": {
             "Country": "Palau",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 1,
                 "Refugees and IDPs as Percent of Population": 4.602780079167817e-05,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 14730.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LMY": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 9797.29636828972
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MEA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 18846.5171905185
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TUR": {
@@ -3051,9 +3051,9 @@
                 "GDP Per Capita": 19740.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "JPN": {
@@ -3067,9 +3067,9 @@
                 "GDP Per Capita": 42310.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ALB": {
@@ -3083,9 +3083,9 @@
                 "GDP Per Capita": 11310.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "OMN": {
@@ -3099,25 +3099,25 @@
                 "GDP Per Capita": 38650.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TUV": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 6690.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MMR": {
@@ -3147,9 +3147,9 @@
                 "GDP Per Capita": 82140.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CAN": {
@@ -3163,9 +3163,9 @@
                 "GDP Per Capita": 43900.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TUN": {
@@ -3179,9 +3179,9 @@
                 "GDP Per Capita": 11100.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "RUS": {
@@ -3195,25 +3195,25 @@
                 "GDP Per Capita": 23770.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LMC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 6408.66470776376
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MEX": {
@@ -3227,9 +3227,9 @@
                 "GDP Per Capita": 16860.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BRA": {
@@ -3243,57 +3243,57 @@
                 "GDP Per Capita": 15050.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "OED": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 40985.2596349686
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CUW": {
             "Country": "Cura\u00e7ao",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 90,
                 "Refugees and IDPs as Percent of Population": 0.0005625457068386806,
                 "Total Refugee and people in refugee-like situations": 47,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "UMC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 15664.815443129599
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MKD": {
@@ -3307,9 +3307,9 @@
                 "GDP Per Capita": 13730.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "USA": {
@@ -3323,25 +3323,25 @@
                 "GDP Per Capita": 57540.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SSF": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3569.1425237646004
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "QAT": {
@@ -3355,9 +3355,9 @@
                 "GDP Per Capita": 138480.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "WSM": {
@@ -3371,25 +3371,25 @@
                 "GDP Per Capita": 5740.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MSR": {
             "Country": "Montserrat",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "GNB": {
@@ -3403,9 +3403,9 @@
                 "GDP Per Capita": 1450.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SWZ": {
@@ -3419,25 +3419,25 @@
                 "GDP Per Capita": 8260.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TON": {
             "Country": "Tonga",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5590.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CIV": {
@@ -3451,9 +3451,9 @@
                 "GDP Per Capita": 3260.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "UKR": {
@@ -3483,25 +3483,25 @@
                 "GDP Per Capita": 34810.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AIA": {
             "Country": "Anguilla",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 1,
                 "Refugees and IDPs as Percent of Population": 6.70870790285791e-05,
                 "Total Refugee and people in refugee-like situations": 1,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CAF": {
@@ -3531,25 +3531,25 @@
                 "GDP Per Capita": 29440.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NCL": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CYP": {
@@ -3563,9 +3563,9 @@
                 "GDP Per Capita": 31660.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BIH": {
@@ -3579,9 +3579,9 @@
                 "GDP Per Capita": 10900.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SGP": {
@@ -3595,9 +3595,9 @@
                 "GDP Per Capita": 81360.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "AZE": {
@@ -3611,9 +3611,9 @@
                 "GDP Per Capita": 17170.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "UZB": {
@@ -3627,9 +3627,9 @@
                 "GDP Per Capita": 6200.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CMR": {
@@ -3659,9 +3659,9 @@
                 "GDP Per Capita": 13420.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "POL": {
@@ -3675,25 +3675,25 @@
                 "GDP Per Capita": 25930.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HIC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 46131.502274992
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KWT": {
@@ -3707,9 +3707,9 @@
                 "GDP Per Capita": 84360.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ERI": {
@@ -3720,60 +3720,60 @@
                 "Refugees and IDPs as Percent of Population": 0.00042029177443028026,
                 "Total Refugee and people in refugee-like situations": 2293,
                 "Fragile State Index Score": 98.1,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EAP": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 12893.5172170753
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EAS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 16127.6412743205
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EAR": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 8613.2413385251
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TGO": {
@@ -3787,41 +3787,41 @@
                 "GDP Per Capita": 1330.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CYM": {
             "Country": "Cayman Islands",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 74,
                 "Refugees and IDPs as Percent of Population": 0.0012021378559708888,
                 "Total Refugee and people in refugee-like situations": 13,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TSA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 5658.13079136485
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "EST": {
@@ -3835,9 +3835,9 @@
                 "GDP Per Capita": 28390.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MWI": {
@@ -3851,9 +3851,9 @@
                 "GDP Per Capita": 1140.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ESP": {
@@ -3867,9 +3867,9 @@
                 "GDP Per Capita": 34880.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IRQ": {
@@ -3899,36 +3899,36 @@
                 "GDP Per Capita": 8240.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MTQ": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "null": {
             "Country": "Bonaire, Saint Eustatius and Saba",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": 389284999.0,
@@ -3937,35 +3937,35 @@
             }
         },
         "LCN": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 15042.3670830344
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VCT": {
             "Country": "Saint Vincent and the Grenadines",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": NaN,
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 11090.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MLT": {
@@ -3979,9 +3979,9 @@
                 "GDP Per Capita": 33170.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SSD": {
@@ -4001,19 +4001,19 @@
             }
         },
         "HPC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 2110.2956217406895
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SLE": {
@@ -4027,41 +4027,41 @@
                 "GDP Per Capita": 1560.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IBT": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 9963.816945561979
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IMN": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PAN": {
@@ -4075,9 +4075,9 @@
                 "GDP Per Capita": 20460.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SDN": {
@@ -4091,9 +4091,9 @@
                 "GDP Per Capita": 3990.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "SLB": {
@@ -4107,9 +4107,9 @@
                 "GDP Per Capita": 2190.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NZL": {
@@ -4123,25 +4123,25 @@
                 "GDP Per Capita": 36150.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "MCO": {
             "Country": "Monaco",
-            "Fragile State Index Rank": NaN,
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 32,
                 "Refugees and IDPs as Percent of Population": 0.0008418837148118916,
                 "Total Refugee and people in refugee-like situations": 32,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ITA": {
@@ -4155,9 +4155,9 @@
                 "GDP Per Capita": 37030.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "COD": {
@@ -4187,25 +4187,25 @@
                 "GDP Per Capita": 15610.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "NAC": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 56178.1737561654
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "KGZ": {
@@ -4219,25 +4219,25 @@
                 "GDP Per Capita": 3310.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TLA": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 14827.2283355509
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ARM": {
@@ -4251,41 +4251,41 @@
                 "GDP Per Capita": 8770.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TSS": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 3569.1425237646004
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ARB": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 16428.806381051698
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "UGA": {
@@ -4299,9 +4299,9 @@
                 "GDP Per Capita": 1820.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "FSM": {
@@ -4315,25 +4315,25 @@
                 "GDP Per Capita": 4120.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PST": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 44378.4383571722
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "LSO": {
@@ -4347,25 +4347,25 @@
                 "GDP Per Capita": 3290.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "IBD": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
                 "GDP Per Capita": 12256.6571444749
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "BHR": {
@@ -4379,25 +4379,25 @@
                 "GDP Per Capita": 38660.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "TKL": {
-            "Country": NaN,
-            "Fragile State Index Rank": NaN,
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": NaN,
-                "Refugees and IDPs as Percent of Population": NaN,
-                "Total Refugee and people in refugee-like situations": NaN,
-                "Fragile State Index Score": NaN,
-                "GDP Per Capita": NaN
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "PNG": {
@@ -4408,12 +4408,12 @@
                 "Refugees and IDPs as Percent of Population": 0.00122513168590094,
                 "Total Refugee and people in refugee-like situations": 9652,
                 "Fragile State Index Score": 86.4,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "CUB": {
@@ -4424,12 +4424,12 @@
                 "Refugees and IDPs as Percent of Population": 3.1167187465979475e-05,
                 "Total Refugee and people in refugee-like situations": 333,
                 "Fragile State Index Score": 64.6,
-                "GDP Per Capita": NaN
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": NaN,
-                "Appeal funds committed to date": NaN,
-                "Appeal funds requested": NaN
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         }
     },

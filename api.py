@@ -477,8 +477,7 @@ def get_tracker_data():
     success, result = api_utils.safely_load_json_data('displacement_tracker.json','Displacement Tracker Data')
     if not success:
         return result, 501
-    return json.dumps(result, indent=4, separators=(',', ': '))
-
+    return jsonify(result)
 
 def main():
     env_type = 'local'

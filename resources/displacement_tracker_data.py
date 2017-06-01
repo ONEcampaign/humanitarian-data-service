@@ -163,6 +163,9 @@ def merge_data(
 
     ################## STRUCTURE DICTIONARY ##################
 
+    # Clean up NaN values
+    df_final = df_final.fillna('')
+
     # Transform dataframe to dictionary
     df_as_dict = df_final.to_dict(orient='index')
 
