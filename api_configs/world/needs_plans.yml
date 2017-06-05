@@ -1,0 +1,31 @@
+Get funding progress data by country 
+Call this endpoint to get key needs metrics for each humanitarian response plan
+---
+tags:
+  - World
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
+  - name: countryCode
+    in: query
+    type: string
+    required: false
+    description: The optional country code (ISO-3, case-insensitive, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No needs data was found
+  200:
+    description: The latest needs data
+    schema:
+      id: funding_progress
+      properties:
+        data:
+          type: json
+          description: Needs data by country
+

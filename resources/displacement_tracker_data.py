@@ -4,8 +4,6 @@ import os.path
 from resources import constants
 import json
 
-
-
 """
 This script aggregates data from multiple endpoints and returns a single .json file containing all data
 used in the displacement tracker project.
@@ -13,7 +11,6 @@ used in the displacement tracker project.
 Scheduling this script would mean that the /displacement_tracker endpoint always returned the latest data
 contained within the Humanitarian Data Service API.
 """
-
 
 # For development
 ROOT = 'http://localhost:5000'
@@ -28,22 +25,21 @@ URL_INDICATORS_GNI = '/indicators/gni/index'
 URL_PLANS_PROGRESS = '/funding/plans/progress/index'
 URL_POPULATION = '/populations/totals/index'
 URL_FRAGILE_STATE = '/fragility/fragile-state-index/index'
+URL_NEEDS = '/needs/plans/index'
 
 # Define path for raw country names data
 country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
 
 
 def merge_data(
-    country_names_path=country_names_path,
-    url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
-    url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
-    url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
-    url_population=(ROOT + URL_POPULATION),
-    url_fragile_state=(ROOT + URL_FRAGILE_STATE)
-    ):
-
-
-
+        country_names_path=country_names_path,
+        url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
+        url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
+        url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
+        url_population=(ROOT + URL_POPULATION),
+        url_fragile_state=(ROOT + URL_FRAGILE_STATE),
+        url_needs=(ROOT + URL_NEEDS)
+):
     ####################  COUNTRY NAMES ####################
     # Get the data from .csv
     df_country_names = pd.read_csv(country_names_path, encoding='utf-8')
@@ -63,7 +59,6 @@ def merge_data(
     # Rename fields
     df_country_names.rename(columns={'Country or Area': 'Country'}, inplace=True)
 
-
     ####################  POPULATIONS ####################
     # Get the data from the API
     population_data = requests.get(url_population).json()
@@ -82,7 +77,6 @@ def merge_data(
     # Drop null values
     df_population = df_population.dropna()
 
-
     ####################  FRAGILE STATE ####################
     # Get the data from the API
     fragile_state_data = requests.get(url_fragile_state).json()
@@ -97,11 +91,10 @@ def merge_data(
 
     # Rename fields
     df_fragile_state.rename(columns={'Total': 'Fragile State Index Score',
-                                  'Rank': 'Fragile State Index Rank'}, inplace=True)
+                                     'Rank': 'Fragile State Index Rank'}, inplace=True)
 
     # Drop null values
     df_fragile_state = df_fragile_state.dropna()
-
 
     ####################  POPULATIONS_REFUGEELIKE_ASYLUM ####################
     # Get the data from the API
@@ -117,8 +110,6 @@ def merge_data(
 
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
-
-
 
     ####################  INDICATORS GNI ####################
     # Get the data from the API
@@ -138,8 +129,6 @@ def merge_data(
     # Drop null values
     df_indicators_gni = df_indicators_gni.dropna()
 
-
-
     ####################  PLANS PROGRESS ####################
     # Get the data from the API
     plans_progress_data = requests.get(url_plans_progress).json()
@@ -149,7 +138,7 @@ def merge_data(
 
     # Select relevant fields
     df_plans_progress = df_plans_progress[[
-        'appealFunded','revisedRequirements','neededFunding'                        # Add more fields here
+        'appealFunded', 'revisedRequirements', 'neededFunding'  # Add more fields here
     ]]
 
     # Rename fields
@@ -157,18 +146,44 @@ def merge_data(
                                       'revisedRequirements': 'Appeal funds requested',
                                       'neededFunding': 'Appeal funds still needed'}, inplace=True)
 
-
-
     # Drop null values
     df_plans_progress = df_plans_progress.dropna()
+
+    ####################  NEEDS ####################
+    # Get the data from the API
+    needs_data = requests.get(url_needs).json()
+
+    # Build a dataframe
+    df_needs = pd.DataFrame(needs_data['data']).T
+
+    # Select relevant fields
+    df_needs = df_needs[[
+        'inNeedTotal', 'inNeedHealth', 'inNeedEducation',
+        'inNeedFoodSecurity', 'inNeedProtection', 'sourceURL',
+        'inNeedShelter-CCCM-NFI', 'inNeedWASH'
+    ]]
+
+    # Rename fields
+    df_needs.rename(columns={'inNeedTotal': 'Total people in need',
+                             'inNeedHealth': 'People in need of health support',
+                             'inNeedEducation': 'Children in need of education',
+                             'inNeedFoodSecurity': 'People who are food insecure',
+                             'inNeedProtection': 'People in need of protection',
+                             'inNeedShelter-CCCM-NFI': 'People in need of shelter',
+                             'inNeedWASH': 'People in need of water, sanitization & hygiene',
+                             'sourceURL': 'Source of needs data',
+                             }, inplace=True)
+
+    # Drop null values
+    # df_needs = df_needs.dropna()
 
 
 
     ####################  SAMPLE CLUSTERS ####################
 
     # Build a dataframe
-    #df_clusters = pd.read_json('sample_clusters.json').T
-    #df_clusters = df_clusters[['clusters']]
+    # df_clusters = pd.read_json('sample_clusters.json').T
+    # df_clusters = df_clusters[['clusters']]
 
 
     # Make a list of all dataframes
@@ -178,15 +193,16 @@ def merge_data(
         df_indicators_gni,
         df_plans_progress,
         df_population,
-        df_fragile_state
-     #   df_clusters
+        df_fragile_state,
+        df_needs
+        #   df_clusters
     ]
 
     df_final = pd.concat(all_dataframes, axis=1)
 
     # Add calculation for refugees as a ratio of total population
-    df_final['Refugees and IDPs as Percent of Population'] = df_final['Total population of concern']/df_final['Population']
-
+    df_final['Refugees and IDPs as Percent of Population'] = df_final['Total population of concern'] / df_final[
+        'Population']
 
     ################## STRUCTURE DICTIONARY ##################
 
@@ -197,10 +213,15 @@ def merge_data(
     df_as_dict = df_final.to_dict(orient='index')
 
     # Define field names for each strand
-    strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date']
+    strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
+                        'Source of needs data']
     strand_02_fields = ['Refugees and IDPs as Percent of Population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
+
+    needs_fields = ['Total people in need','People in need of health support','Children in need of education',
+                    'People who are food insecure','People in need of protection','People in need of shelter',
+                    'People in need of water, sanitization & hygiene']
 
     # For every object, get / group the values by strand
     data = {}
@@ -215,8 +236,12 @@ def merge_data(
 
         # Populate the dict with strand 1 data
         strand_01_dict = {}
+        strand_01_dict['Needs_Data'] = {}
         for names_01 in strand_01_fields:
             strand_01_dict[names_01] = (df_as_dict[x][names_01])
+            for name in needs_fields:
+                if df_as_dict[x][name] != '':
+                    strand_01_dict['Needs_Data'][name] = (df_as_dict[x][name])
         country_dict['Strand_01_Needs'] = strand_01_dict
 
         # Populate the dict with strand 2 data
@@ -244,19 +269,18 @@ def merge_data(
     return final_json
 
 
-
 def run():
     print 'Pulling and merging data'
     data = merge_data()
-    #print data.head()
+    # print data.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
 
     print 'Writing file'
     with open(official_data_path, 'w') as outfile:
-        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True)#.encode('utf-8')
-        #outfile.write(unicode(data))
-    #data.to_json(official_data_path, orient='index')
-    #json.dumps(data, indent=4, separators=(',', ': '))
+        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True)  # .encode('utf-8')
+        # outfile.write(unicode(data))
+        # data.to_json(official_data_path, orient='index')
+        # json.dumps(data, indent=4, separators=(',', ': '))
 
 
 if __name__ == "__main__":

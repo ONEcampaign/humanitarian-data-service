@@ -434,6 +434,24 @@ def get_funding_plan_clusters(orientation):
     return jsonify(data=result, params=params)
 
 
+@app.route('/needs/plans/<string:orientation>', methods=['GET'])
+@swag_from('api_configs/world/needs_plans.yml')
+def get_needs_plans(orientation):
+    params = None
+    success, result, metadata = api_utils.safely_load_data('2017_appeals_needs_consolidated.csv', 'HNO needs by country appeal', has_metadata=True)
+    if not success:
+        return result, 501
+    countryCode = request.args.get('countryCode', None)
+    if countryCode:
+        params = {"countryCode": countryCode}
+        countryCode = str(countryCode).strip().upper()
+        result = result[result.countryCode == countryCode]
+    if orientation == 'index':
+        result = result.set_index('countryCode')
+    result = result.to_dict(orient=orientation)
+    return jsonify(data=result, params=params)
+
+
 @app.route('/events/acled', methods=['GET'])
 @swag_from('api_configs/world/events_acled.yml')
 def get_events_acled():

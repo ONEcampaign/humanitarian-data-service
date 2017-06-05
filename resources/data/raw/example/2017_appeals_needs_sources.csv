@@ -1,0 +1,57 @@
+#{"source_key": "HNO", "source_url": "https://www.humanitarianresponse.info/", "source_date": "2017", "extract_date": "2017-06-01", "update_frequency": "Every year", "additional_metadata": {"Note on data": "List of sources that include a variety of 2017 UNOCHA publications including Humanitarian Needs Overviews, Response Plans, Flash Appeals, Needs and Priorites, and Humanitarian Requirements Documents."}}
+Appeal Name,Type,Appeal_Code,PDF_link,PDF_subnational,HDX_link,HDX_subnational,Other_Data_link,Other_Data_subnational
+Afghanistan 2017,Humanitarian needs overview,1,https://www.humanitarianresponse.info/system/files/documents/files/afg_2017_hno_english.pdf,Yes,N/a,N/a,N/a,N/a
+Afghanistan 2017,Humanitarian response plan,2,https://www.humanitarianresponse.info/system/files/documents/files/afg_2017_humanitarian_response_plan_english.pdf,Yes,N/a,N/a,N/a,N/a
+Burkina Faso 2017,Humanitarian needs overview,3,http://reliefweb.int/sites/reliefweb.int/files/resources/burkina_2017_hno_17fev.pdf,Yes,https://data.humdata.org/dataset/burkina-faso-humanitarian-needs-overview,Yes,N/a,N/a
+Burkina Faso 2017,Plan d'urgence et resilience,,N/a,N/a,N/a,N/a,https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_burkina.pdf,Yes
+Burundi 2017,Humanitarian needs overview,4,https://www.humanitarianresponse.info/system/files/documents/files/hno_burundi_2017_fr_small.pdf,Yes,N/a,N/a,N/a,N/a
+Burundi 2017,Humanitarian response plan,5,https://www.humanitarianresponse.info/system/files/documents/files/hrp_burundi_2017_fr_small.pdf,Yes,N/a,N/a,N/a,N/a
+Cameroon 2017,Humanitarian needs overview,6,https://drive.google.com/file/d/0B-omYVl2EUDiRjZsbHNWNkd6ZE0/view,Yes,https://data.humdata.org/dataset/humanitarian-needs-overview-cameroon-2017,Yes,N/a,N/a
+Cameroon 2017,Humanitarian response plan,7,https://www.humanitarianresponse.info/system/files/documents/files/2017_hrp_cmr_2.pdf,Yes,N/a,N/a,N/a,N/a
+Central African Republic 2017,Humanitarian needs overview,8,https://drive.google.com/file/d/0B-omYVl2EUDiUXVMSHBBX3h3QzA/view,Yes,https://data.humdata.org/dataset/republique-centre-africaine-humanitarian-needs-overview,Yes,N/a,N/a
+Central African Republic 2017,Humanitarian response plan,9,http://reliefweb.int/sites/reliefweb.int/files/resources/rca_ocha_2016_hrp.pdf,Yes,N/a,N/a,N/a,N/a
+Chad 2017,Humanitarian needs overview,10,http://reliefweb.int/sites/reliefweb.int/files/resources/tcd_str_hno2017_fr_20161216.pdf,Yes,https://data.humdata.org/dataset/chad-humanitarian-needs-overview-and-response-plan,Yes,N/a,N/a
+Chad 2017,Humanitarian response plan,11,https://www.humanitarianresponse.info/system/files/documents/files/tcd_str_hrp2017_fr_20161228_0.pdf,Yes,N/a,N/a,N/a,N/a
+DPR Korea Needs and Priorities 2017,Needs and Priorities,12,http://reliefweb.int/sites/reliefweb.int/files/resources/DPRK%20Needs%20and%20Priorities%202017.pdf,Yes,N/a,N/a,N/a,N/a
+Democratic Republic of the Congo 2017,Humanitarian needs overview,13,https://www.humanitarianresponse.info/system/files/documents/files/drc_hno_2017_1.pdf,Yes,N/a,N/a,N/a,N/a
+Democratic Republic of the Congo (2017-2019),Humanitarian response plan,14,https://docs.unocha.org/sites/dms/DRC/Documents/HAP/DRC_HRP_2017.pdf,Yes,N/a,N/a,N/a,N/a
+Democratic Republic of the Congo - Kasai ,Flash appeal,,https://www.humanitarianresponse.info/system/files/documents/files/drc_flash_appeal_kasai_26042017.pdf,Yes,N/a,N/a,N/a,N/a
+Djibouti 2017,Humanitarian response plan,15,http://reliefweb.int/sites/reliefweb.int/files/resources/HRP%20Djib%202017.pdf,Yes,N/a,N/a,N/a,N/a
+Ethiopia 2017,Humanitarian requirements document,16,N/a,N/a,N/a,N/a,http://reliefweb.int/sites/reliefweb.int/files/resources/2017_hrd_40final_.pdf,Yes
+Haiti 2017,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/haiti_hno_2017.pdf,Yes,N/a,N/a,N/a,N/a
+Haiti 2017,Humanitarian response plan,17,http://reliefweb.int/sites/reliefweb.int/files/resources/hrp_2017_20181.pdf,Yes,N/a,N/a,N/a,N/a
+Iraq 2017,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/irq_2017_hno.pdf,Yes,https://data.humdata.org/dataset/iraq-humanitarian-needs-overview,Yes,N/a,N/a
+Iraq 2017,Humanitarian response plan,18,https://www.humanitarianresponse.info/system/files/documents/files/2017_hrp_irq_final.pdf.pdf,Yes,N/a,N/a,N/a,N/a
+Kenya Flash Appeal 2017,Flash appeal,19,http://reliefweb.int/sites/reliefweb.int/files/resources/Kenyan_Flash_%20Appeal_15%20March%202017%20final.pdf,Yes,N/a,N/a,N/a,N/a
+Libya 2017,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/2017_libya_humanitarian_needs_overview_november_2016_1.pdf,Yes,N/a,N/a,N/a,N/a
+Libya 2017,Humanitarian response plan,20,https://www.humanitarianresponse.info/system/files/documents/files/2017_libya_hrp_final.pdf,Yes,N/a,N/a,N/a,N/a
+Madagascar Flash Appeal 2017,Flash appeal,21,http://reliefweb.int/sites/reliefweb.int/files/resources/2017_Flash_Appeal_MG_eng.002.002.pdf,Yes,N/a,N/a,N/a,N/a
+Madagascar Grand Sud,Humanitarian strategic response plan 2016-2017,,https://www.humanitarianresponse.info/system/files/documents/files/mcar_secheresse_prs_oct_2016-mai_2017_final_eng.pdf,Yes,N/a,N/a,N/a,N/a
+Mali 2017,Humanitarian needs overview,,https://drive.google.com/file/d/0B-omYVl2EUDiWWpSWGJpaHU1NGs/view,Yes,https://data.humdata.org/dataset/mali-humanitarian-needs-overview-2017,Yes,N/a,N/a
+Mali 2017,Humanitarian response plan,22,https://www.humanitarianresponse.info/system/files/documents/files/2017_mali_hrp_v4.pdf,Yes,N/a,N/a,N/a,N/a
+Mauritania 2017,Integrated humanitarian and development action plan ,23,N/a,N/a,N/a,N/a,https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_mauritania_0.pdf,Yes
+Mozambique Cyclone Dineo Flash Appeal 2017,Flash appeal,24,http://reliefweb.int/sites/reliefweb.int/files/resources/Mozambique%20Flash%20Appeal_FINAL.pdf,Yes,N/a,N/a,N/a,N/a
+Myanmar 2017,Humanitarian needs overview,,http://reliefweb.int/sites/reliefweb.int/files/resources/Ref_Doc_Humanitarian_Needs_Overview_HCT_2017.pdf,Yes,N/a,N/a,N/a,N/a
+Myanmar 2017,Humanitarian response plan,25,http://reliefweb.int/sites/reliefweb.int/files/resources/2017_myanmar_hrp_final.002.pdf,Yes,N/a,N/a,N/a,N/a
+Niger 2017,Humanitarian needs overview,,https://drive.google.com/file/d/0B-omYVl2EUDiMW0yWXNtMXF5TTQ/view,Yes,https://data.humdata.org/dataset/niger-humanitarian-needs-overview,Yes,N/a,N/a
+Niger 2017,Humanitarian response plan,26,https://www.humanitarianresponse.info/system/files/documents/files/ner_hrp_2017_07122016.pdf,Yes,N/a,N/a,N/a,N/a
+Nigeria 2017,Humanitarian needs overview,,https://drive.google.com/file/d/0B-omYVl2EUDiZEVJdXZyRl9oVG8/view,Yes,https://data.humdata.org/dataset/nigeria-humanitarian-needs-overview,Yes,N/a,N/a
+Nigeria 2017,Humanitarian response plan,27,https://www.humanitarianresponse.info/system/files/documents/files/ocha_nga_hrp_2017_19122016.pdf,Yes,N/a,N/a,N/a,N/a
+Nigeria Northeast 2017,Humanitarian overview,,N/a,N/a,N/a,N/a,http://reliefweb.int/sites/reliefweb.int/files/resources/Nigeria_SuperHRP_2017-Photo-Web.pdf,Yes
+Peru Flash Appeal 2017,Flash appeal,28,http://reliefweb.int/sites/reliefweb.int/files/resources/-PE-Flash_Appeal_ENG_1000_hrs_%28PUBLIC%29-20170410-CV-20519.pdf,Yes,N/a,N/a,N/a,N/a
+Republic of South Sudan 2017,Humanitarian needs overview,,http://reliefweb.int/sites/reliefweb.int/files/resources/South_Sudan_2017_Humanitarian_Needs_Overview.pdf,Yes,https://data.humdata.org/dataset/south-sudan-humanitarian-needs-overview-2017,Yes,N/a,N/a
+Republic of South Sudan 2017,Humanitarian response plan,29,http://reliefweb.int/sites/reliefweb.int/files/resources/South_Sudan_2017_Humanitarian_Response_Plan.pdf,Yes,N/a,N/a,N/a,N/a
+Senegal 2017,Humanitarian response plan (Plan de travaille humanitaire),30,https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_senegal_0.pdf,Yes,N/a,N/a,N/a,N/a
+Somalia 2017,Humanitarian needs overview,,http://reliefweb.int/sites/reliefweb.int/files/resources/161124_som_hno_2017.pdf,Yes,N/a,N/a,N/a,N/a
+Somalia 2017,Humanitarian response plan,31,http://reliefweb.int/sites/reliefweb.int/files/resources/2017_somalia_humanitarian_response_plan_final.pdf,Yes,N/a,N/a,N/a,N/a
+Sudan 2017,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/sudan_2017_humanitarian_needs_overview.pdf,Yes,N/a,N/a,N/a,N/a
+Sudan 2017,Humanitarian response plan,,http://reliefweb.int/sites/reliefweb.int/files/resources/Sudan_2017_Humanitarian_Response_Plan.pdf,Yes,N/a,N/a,N/a,N/a
+Syria Humanitarian Needs Overview 2017,Humanitarian needs overview,32,http://hno-syria.org/#home,Yes,https://data.humdata.org/dataset/syrian-arab-republic-humanitarian-needs-overview,Yes,https://data.humdata.org/dataset/cfd515f3-e45c-4c6b-a0f4-1a517f0b726f/resource/a2101ffc-4831-4b0d-bda6-86c9d183a568/download/2017_HNO_Data.xlsx,Yes
+Syria Humanitarian Response Plan 2017,Humanitarian response plan,,https://www.humanitarianresponse.info/system/files/documents/files/2017_hrp_syria_170320_ds.pdf,Yes,N/a,N/a,N/a,N/a
+Syria regional refugee and resilience plan (3RP) 2017,Regional strategic overview 2017-2018,33,http://www.3rpsyriacrisis.org/wp-content/uploads/2017/02/3RP-Regional-Strategic-Overview-2017-2018.pdf,Yes,N/a,N/a,N/a,N/a
+Ukraine ,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/ukraine_humanitarian_needs_overview_2017_eng.pdf,Yes,N/a,N/a,N/a,N/a
+Ukraine Humanitarian Response Plan 2017,Humanitarian response plan,34,https://www.humanitarianresponse.info/system/files/documents/files/humanitarian_response_plan_2017_eng.pdf,Yes,N/a,N/a,N/a,N/a
+Yemen 2017,Humanitarian needs overview,,http://reliefweb.int/sites/reliefweb.int/files/resources/YEMEN%202017%20HNO_Final.pdf,Yes,https://data.humdata.org/dataset/yemen-number-of-people-in-need,Yes,N/a,N/a
+Yemen 2017,Humanitarian response plan,35,http://reliefweb.int/sites/reliefweb.int/files/resources/2017_HRP_YEMEN.pdf,Yes,N/a,N/a,N/a,N/a
+Occupied Palestinian territory 2017,Humanitarian needs overview,,https://www.humanitarianresponse.info/system/files/documents/files/humanitarian_needs_overview.pdf,Yes,N/a,N/a,N/a,N/a
+occupied Palestinian territory 2017,Humanitarian response plan,36,https://www.humanitarianresponse.info/system/files/documents/files/humanitarian_response_plan.pdf,Yes,N/a,N/a,N/a,N/a
