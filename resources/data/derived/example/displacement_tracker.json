@@ -208,6 +208,22 @@
                 "Appeal funds requested": ""
             }
         },
+        "CCK": {
+            "Country": "Cocos (Keeling) Islands",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "PAK": {
             "Country": "Pakistan",
             "Fragile State Index Rank": "17th",
@@ -368,8 +384,24 @@
                 "Appeal funds requested": ""
             }
         },
+        "IOT": {
+            "Country": "British Indian Ocean Territory",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "PRI": {
-            "Country": "",
+            "Country": "Puerto Rico",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -385,7 +417,7 @@
             }
         },
         "MYT": {
-            "Country": "",
+            "Country": "Mayotte",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -401,7 +433,7 @@
             }
         },
         "PRK": {
-            "Country": "",
+            "Country": "Democratic People's Republic of Korea",
             "Fragile State Index Rank": "30th",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -417,7 +449,7 @@
             }
         },
         "TZA": {
-            "Country": "United Rep. of Tanzania",
+            "Country": "United Republic of Tanzania",
             "Fragile State Index Rank": "65th",
             "Strand_02_People": {
                 "Total population of concern": 402120,
@@ -497,7 +529,7 @@
             }
         },
         "HKG": {
-            "Country": "China, Hong Kong SAR",
+            "Country": "China, Hong Kong Special Administrative Region",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 2456,
@@ -705,7 +737,7 @@
             }
         },
         "GIB": {
-            "Country": "",
+            "Country": "Gibraltar",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -713,6 +745,22 @@
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
                 "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "ITA": {
+            "Country": "Italy",
+            "Fragile State Index Rank": "142nd",
+            "Strand_02_People": {
+                "Total population of concern": 216728,
+                "Refugees and IDPs as Percent of Population": 0.003624336595461472,
+                "Total Refugee and people in refugee-like situations": 131993,
+                "Fragile State Index Score": 45.2,
+                "GDP Per Capita": 37030.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -753,7 +801,7 @@
             }
         },
         "REU": {
-            "Country": "",
+            "Country": "R\u00e9union",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -801,7 +849,7 @@
             }
         },
         "VAT": {
-            "Country": "",
+            "Country": "Holy See",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -817,7 +865,7 @@
             }
         },
         "SYC": {
-            "Country": "",
+            "Country": "Seychelles",
             "Fragile State Index Rank": "125th",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -848,8 +896,24 @@
                 "Appeal funds requested": ""
             }
         },
+        "CXR": {
+            "Country": "Christmas Island",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "LAO": {
-            "Country": "Lao People's Dem. Rep.",
+            "Country": "Lao People's Democratic Republic",
             "Fragile State Index Rank": "59th",
             "Strand_02_People": {
                 "Total population of concern": 0,
@@ -880,15 +944,15 @@
                 "Appeal funds requested": 2067662020.0
             }
         },
-        "PHL": {
-            "Country": "Philippines",
-            "Fragile State Index Rank": "54th",
+        "BVT": {
+            "Country": "Bouvet Island",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 240170,
-                "Refugees and IDPs as Percent of Population": 0.0023138471124051264,
-                "Total Refugee and people in refugee-like situations": 356,
-                "Fragile State Index Score": 84.4,
-                "GDP Per Capita": 8940.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -912,15 +976,31 @@
                 "Appeal funds requested": ""
             }
         },
-        "KIR": {
-            "Country": "",
-            "Fragile State Index Rank": "",
+        "NIC": {
+            "Country": "Nicaragua",
+            "Fragile State Index Rank": "74th",
             "Strand_02_People": {
-                "Total population of concern": "",
-                "Refugees and IDPs as Percent of Population": "",
-                "Total Refugee and people in refugee-like situations": "",
-                "Fragile State Index Score": "",
-                "GDP Per Capita": 4230.0
+                "Total population of concern": 632,
+                "Refugees and IDPs as Percent of Population": 0.00010164373356732836,
+                "Total Refugee and people in refugee-like situations": 331,
+                "Fragile State Index Score": 77.4,
+                "GDP Per Capita": 5060.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "PHL": {
+            "Country": "Philippines",
+            "Fragile State Index Rank": "54th",
+            "Strand_02_People": {
+                "Total population of concern": 240170,
+                "Refugees and IDPs as Percent of Population": 0.0023138471124051264,
+                "Total Refugee and people in refugee-like situations": 356,
+                "Fragile State Index Score": 84.4,
+                "GDP Per Capita": 8940.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -945,7 +1025,7 @@
             }
         },
         "VIR": {
-            "Country": "",
+            "Country": "United States Virgin Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -961,7 +1041,7 @@
             }
         },
         "SYR": {
-            "Country": "Syrian Arab Rep.",
+            "Country": "Syrian Arab Republic",
             "Fragile State Index Rank": "5th",
             "Strand_02_People": {
                 "Total population of concern": 6768510,
@@ -977,7 +1057,7 @@
             }
         },
         "MAC": {
-            "Country": "China, Macao SAR",
+            "Country": "China, Macao Special Administrative Region",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 6,
@@ -1008,15 +1088,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "NIC": {
-            "Country": "Nicaragua",
-            "Fragile State Index Rank": "74th",
+        "KIR": {
+            "Country": "Kiribati",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 632,
-                "Refugees and IDPs as Percent of Population": 0.00010164373356732836,
-                "Total Refugee and people in refugee-like situations": 331,
-                "Fragile State Index Score": 77.4,
-                "GDP Per Capita": 5060.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": 4230.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -1057,7 +1137,7 @@
             }
         },
         "PYF": {
-            "Country": "",
+            "Country": "French Polynesia",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1073,7 +1153,7 @@
             }
         },
         "NIU": {
-            "Country": "",
+            "Country": "Niue",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1201,7 +1281,7 @@
             }
         },
         "GUM": {
-            "Country": "",
+            "Country": "Guam",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1249,7 +1329,7 @@
             }
         },
         "FLK": {
-            "Country": "",
+            "Country": "Falkland Islands (Malvinas)",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1265,7 +1345,7 @@
             }
         },
         "GBR": {
-            "Country": "United Kingdom",
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
             "Fragile State Index Rank": "160th",
             "Strand_02_People": {
                 "Total population of concern": 151681,
@@ -1281,7 +1361,7 @@
             }
         },
         "BES": {
-            "Country": "",
+            "Country": "Bonaire, Sint Eustatius and Saba",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1360,6 +1440,22 @@
                 "Appeal funds requested": ""
             }
         },
+        "PCN": {
+            "Country": "Pitcairn",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "MAR": {
             "Country": "Morocco",
             "Fragile State Index Rank": "84th",
@@ -1393,7 +1489,7 @@
             }
         },
         "MNP": {
-            "Country": "",
+            "Country": "Northern Mariana Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1408,15 +1504,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "IDB": {
-            "Country": "",
+        "UMI": {
+            "Country": "United States Minor Outlying Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
                 "Refugees and IDPs as Percent of Population": "",
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
-                "GDP Per Capita": 5652.825109122421
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -1505,7 +1601,23 @@
             }
         },
         "BMU": {
-            "Country": "",
+            "Country": "Bermuda",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "HMD": {
+            "Country": "Heard Island and McDonald Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1601,7 +1713,7 @@
             }
         },
         "MHL": {
-            "Country": "",
+            "Country": "Marshall Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1609,54 +1721,6 @@
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
                 "GDP Per Capita": 5430.0
-            },
-            "Strand_01_Needs": {
-                "Appeal funds still needed": "",
-                "Appeal funds committed to date": "",
-                "Appeal funds requested": ""
-            }
-        },
-        "MLI": {
-            "Country": "Mali",
-            "Fragile State Index Rank": "31st",
-            "Strand_02_People": {
-                "Total population of concern": 90762,
-                "Refugees and IDPs as Percent of Population": 0.004856188609438883,
-                "Total Refugee and people in refugee-like situations": 17923,
-                "Fragile State Index Score": 92.9,
-                "GDP Per Capita": 1970.0
-            },
-            "Strand_01_Needs": {
-                "Appeal funds still needed": 228897462.0,
-                "Appeal funds committed to date": 64200857,
-                "Appeal funds requested": 293098319.0
-            }
-        },
-        "BLZ": {
-            "Country": "Belize",
-            "Fragile State Index Rank": "115th",
-            "Strand_02_People": {
-                "Total population of concern": 3126,
-                "Refugees and IDPs as Percent of Population": 0.008343765264205888,
-                "Total Refugee and people in refugee-like situations": 165,
-                "Fragile State Index Score": 65.5,
-                "GDP Per Capita": 8020.0
-            },
-            "Strand_01_Needs": {
-                "Appeal funds still needed": "",
-                "Appeal funds committed to date": "",
-                "Appeal funds requested": ""
-            }
-        },
-        "SWE": {
-            "Country": "Sweden",
-            "Fragile State Index Rank": "174th",
-            "Strand_02_People": {
-                "Total population of concern": 348539,
-                "Refugees and IDPs as Percent of Population": 0.03513276987415308,
-                "Total Refugee and people in refugee-like situations": 186404,
-                "Fragile State Index Score": 22.1,
-                "GDP Per Capita": 48700.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -1680,6 +1744,22 @@
                 "Appeal funds requested": 550236457.0
             }
         },
+        "BLZ": {
+            "Country": "Belize",
+            "Fragile State Index Rank": "115th",
+            "Strand_02_People": {
+                "Total population of concern": 3126,
+                "Refugees and IDPs as Percent of Population": 0.008343765264205888,
+                "Total Refugee and people in refugee-like situations": 165,
+                "Fragile State Index Score": 65.5,
+                "GDP Per Capita": 8020.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "BDI": {
             "Country": "Burundi",
             "Fragile State Index Rank": "17th",
@@ -1694,6 +1774,54 @@
                 "Appeal funds still needed": 47596180.0,
                 "Appeal funds committed to date": 26103820,
                 "Appeal funds requested": 73700000.0
+            }
+        },
+        "SWE": {
+            "Country": "Sweden",
+            "Fragile State Index Rank": "174th",
+            "Strand_02_People": {
+                "Total population of concern": 348539,
+                "Refugees and IDPs as Percent of Population": 0.03513276987415308,
+                "Total Refugee and people in refugee-like situations": 186404,
+                "Fragile State Index Score": 22.1,
+                "GDP Per Capita": 48700.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "MAF": {
+            "Country": "Saint Martin (French Part)",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "NFK": {
+            "Country": "Norfolk Island",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "VGB": {
@@ -1728,6 +1856,22 @@
                 "Appeal funds requested": ""
             }
         },
+        "BLM": {
+            "Country": "Saint Barth\u00e9lemy",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
         "GRD": {
             "Country": "Grenada",
             "Fragile State Index Rank": "123rd",
@@ -1737,6 +1881,22 @@
                 "Total Refugee and people in refugee-like situations": 1,
                 "Fragile State Index Score": 61.5,
                 "GDP Per Capita": 13090.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "ALA": {
+            "Country": "\u00c5land Islands",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -1777,7 +1937,7 @@
             }
         },
         "GRL": {
-            "Country": "",
+            "Country": "Greenland",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1809,7 +1969,7 @@
             }
         },
         "AND": {
-            "Country": "",
+            "Country": "Andorra",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -1984,24 +2144,24 @@
                 "Appeal funds requested": ""
             }
         },
-        "LVA": {
-            "Country": "Latvia",
-            "Fragile State Index Rank": "141st",
+        "SSD": {
+            "Country": "South Sudan",
+            "Fragile State Index Rank": "1st",
             "Strand_02_People": {
-                "Total population of concern": 252591,
-                "Refugees and IDPs as Percent of Population": 0.12989588931200552,
-                "Total Refugee and people in refugee-like situations": 253,
-                "Fragile State Index Score": 46.4,
-                "GDP Per Capita": 24840.0
+                "Total population of concern": 2231226,
+                "Refugees and IDPs as Percent of Population": 0.17037214640288512,
+                "Total Refugee and people in refugee-like situations": 263752,
+                "Fragile State Index Score": 113.9,
+                "GDP Per Capita": 1630.0
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": "",
-                "Appeal funds committed to date": "",
-                "Appeal funds requested": ""
+                "Appeal funds still needed": 883959037.0,
+                "Appeal funds committed to date": 755735856,
+                "Appeal funds requested": 1639694893.0
             }
         },
         "BTN": {
-            "Country": "",
+            "Country": "Bhutan",
             "Fragile State Index Rank": "83rd",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2016,15 +2176,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "SSA": {
-            "Country": "",
+        "VCT": {
+            "Country": "Saint Vincent and the Grenadines",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": "",
-                "Refugees and IDPs as Percent of Population": "",
-                "Total Refugee and people in refugee-like situations": "",
+                "Total population of concern": 0,
+                "Refugees and IDPs as Percent of Population": 0.0,
+                "Total Refugee and people in refugee-like situations": 0,
                 "Fragile State Index Score": "",
-                "GDP Per Capita": 3567.0801395881394
+                "GDP Per Capita": 11090.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2065,7 +2225,7 @@
             }
         },
         "CZE": {
-            "Country": "Czech Rep.",
+            "Country": "Czechia",
             "Fragile State Index Rank": "152nd",
             "Strand_02_People": {
                 "Total population of concern": 6031,
@@ -2073,6 +2233,22 @@
                 "Total Refugee and people in refugee-like situations": 3947,
                 "Fragile State Index Score": 40.1,
                 "GDP Per Capita": 31550.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "ATF": {
+            "Country": "French Southern Territories",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2113,7 +2289,7 @@
             }
         },
         "MDA": {
-            "Country": "Rep. of Moldova",
+            "Country": "Republic of Moldova",
             "Fragile State Index Rank": "98th",
             "Strand_02_People": {
                 "Total population of concern": 5458,
@@ -2161,7 +2337,7 @@
             }
         },
         "DOM": {
-            "Country": "Dominican Rep.",
+            "Country": "Dominican Republic",
             "Fragile State Index Rank": "109th",
             "Strand_02_People": {
                 "Total population of concern": 1341,
@@ -2225,7 +2401,7 @@
             }
         },
         "SMR": {
-            "Country": "",
+            "Country": "San Marino",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2337,7 +2513,7 @@
             }
         },
         "COG": {
-            "Country": "Congo, Republic of",
+            "Country": "Congo",
             "Fragile State Index Rank": "29th",
             "Strand_02_People": {
                 "Total population of concern": 54882,
@@ -2369,7 +2545,7 @@
             }
         },
         "GLP": {
-            "Country": "",
+            "Country": "Guadeloupe",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2401,7 +2577,7 @@
             }
         },
         "COK": {
-            "Country": "",
+            "Country": "Cook Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2449,7 +2625,7 @@
             }
         },
         "GUF": {
-            "Country": "",
+            "Country": "French Guiana",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2544,15 +2720,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "STP": {
-            "Country": "Sao Tome and Principe",
-            "Fragile State Index Rank": "97th",
+        "GGY": {
+            "Country": "Guernsey",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 0,
-                "Refugees and IDPs as Percent of Population": 0.0,
-                "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": 72.1,
-                "GDP Per Capita": 3250.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2574,6 +2750,38 @@
                 "Appeal funds still needed": 13000261.0,
                 "Appeal funds committed to date": 7067288,
                 "Appeal funds requested": 20067549.0
+            }
+        },
+        "MLI": {
+            "Country": "Mali",
+            "Fragile State Index Rank": "31st",
+            "Strand_02_People": {
+                "Total population of concern": 90762,
+                "Refugees and IDPs as Percent of Population": 0.004856188609438883,
+                "Total Refugee and people in refugee-like situations": 17923,
+                "Fragile State Index Score": 92.9,
+                "GDP Per Capita": 1970.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": 228897462.0,
+                "Appeal funds committed to date": 64200857,
+                "Appeal funds requested": 293098319.0
+            }
+        },
+        "ATA": {
+            "Country": "Antarctica",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "ECU": {
@@ -2609,7 +2817,7 @@
             }
         },
         "SHN": {
-            "Country": "",
+            "Country": "Saint Helena",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2641,7 +2849,7 @@
             }
         },
         "ESH": {
-            "Country": "",
+            "Country": "Western Sahara",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2657,7 +2865,7 @@
             }
         },
         "MDV": {
-            "Country": "",
+            "Country": "Maldives",
             "Fragile State Index Rank": "86th",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2673,7 +2881,7 @@
             }
         },
         "ASM": {
-            "Country": "",
+            "Country": "American Samoa",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2689,7 +2897,7 @@
             }
         },
         "SPM": {
-            "Country": "",
+            "Country": "Saint Pierre and Miquelon",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2736,15 +2944,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "LTU": {
-            "Country": "Lithuania",
-            "Fragile State Index Rank": "148th",
+        "IDB": {
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 4663,
-                "Refugees and IDPs as Percent of Population": 0.0016473643936123384,
-                "Total Refugee and people in refugee-like situations": 1121,
-                "Fragile State Index Score": 41.7,
-                "GDP Per Capita": 27570.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": 5652.825109122421
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2801,7 +3009,23 @@
             }
         },
         "WLF": {
-            "Country": "",
+            "Country": "Wallis and Futuna Islands",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "JEY": {
+            "Country": "Jersey",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2817,7 +3041,7 @@
             }
         },
         "FRO": {
-            "Country": "",
+            "Country": "Faroe Islands",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -2928,15 +3152,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "ARE": {
-            "Country": "United Arab Emirates",
-            "Fragile State Index Rank": "147th",
+        "SJM": {
+            "Country": "Svalbard and Jan Mayen Islands",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 1265,
-                "Refugees and IDPs as Percent of Population": 0.00013460885062237704,
-                "Total Refugee and people in refugee-like situations": 773,
-                "Fragile State Index Score": 43.7,
-                "GDP Per Capita": 70020.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2960,7 +3184,7 @@
                 "Appeal funds requested": ""
             }
         },
-        "PSS": {
+        "TSA": {
             "Country": "",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
@@ -2968,7 +3192,7 @@
                 "Refugees and IDPs as Percent of Population": "",
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
-                "GDP Per Capita": 5696.373020036221
+                "GDP Per Capita": 5658.13079136485
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -2977,7 +3201,7 @@
             }
         },
         "IRN": {
-            "Country": "Iran (Islamic Rep. of)",
+            "Country": "Iran (Islamic Republic of)",
             "Fragile State Index Rank": "49th",
             "Strand_02_People": {
                 "Total population of concern": 978288,
@@ -3033,6 +3257,22 @@
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
                 "GDP Per Capita": 18846.5171905185
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "WSM": {
+            "Country": "Samoa",
+            "Fragile State Index Rank": "111th",
+            "Strand_02_People": {
+                "Total population of concern": 3,
+                "Refugees and IDPs as Percent of Population": 1.5326218562094176e-05,
+                "Total Refugee and people in refugee-like situations": 0,
+                "Fragile State Index Score": 67.1,
+                "GDP Per Capita": 5740.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3105,7 +3345,7 @@
             }
         },
         "TUV": {
-            "Country": "",
+            "Country": "Tuvalu",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -3328,22 +3568,6 @@
                 "Appeal funds requested": ""
             }
         },
-        "SSF": {
-            "Country": "",
-            "Fragile State Index Rank": "",
-            "Strand_02_People": {
-                "Total population of concern": "",
-                "Refugees and IDPs as Percent of Population": "",
-                "Total Refugee and people in refugee-like situations": "",
-                "Fragile State Index Score": "",
-                "GDP Per Capita": 3569.1425237646004
-            },
-            "Strand_01_Needs": {
-                "Appeal funds still needed": "",
-                "Appeal funds committed to date": "",
-                "Appeal funds requested": ""
-            }
-        },
         "QAT": {
             "Country": "Qatar",
             "Fragile State Index Rank": "146th",
@@ -3360,15 +3584,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "WSM": {
-            "Country": "Samoa",
-            "Fragile State Index Rank": "111th",
+        "LVA": {
+            "Country": "Latvia",
+            "Fragile State Index Rank": "141st",
             "Strand_02_People": {
-                "Total population of concern": 3,
-                "Refugees and IDPs as Percent of Population": 1.5326218562094176e-05,
-                "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": 67.1,
-                "GDP Per Capita": 5740.0
+                "Total population of concern": 252591,
+                "Refugees and IDPs as Percent of Population": 0.12989588931200552,
+                "Total Refugee and people in refugee-like situations": 253,
+                "Fragile State Index Score": 46.4,
+                "GDP Per Capita": 24840.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3473,7 +3697,7 @@
             }
         },
         "KOR": {
-            "Country": "Rep. of Korea",
+            "Country": "Republic of Korea",
             "Fragile State Index Rank": "154th",
             "Strand_02_People": {
                 "Total population of concern": 8024,
@@ -3505,7 +3729,7 @@
             }
         },
         "CAF": {
-            "Country": "Central African Rep.",
+            "Country": "Central African Republic",
             "Fragile State Index Rank": "3rd",
             "Strand_02_People": {
                 "Total population of concern": 470466,
@@ -3537,7 +3761,7 @@
             }
         },
         "NCL": {
-            "Country": "",
+            "Country": "New Caledonia",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -3561,6 +3785,22 @@
                 "Total Refugee and people in refugee-like situations": 7940,
                 "Fragile State Index Score": 62.6,
                 "GDP Per Capita": 31660.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "LTU": {
+            "Country": "Lithuania",
+            "Fragile State Index Rank": "148th",
+            "Strand_02_People": {
+                "Total population of concern": 4663,
+                "Refugees and IDPs as Percent of Population": 0.0016473643936123384,
+                "Total Refugee and people in refugee-like situations": 1121,
+                "Fragile State Index Score": 41.7,
+                "GDP Per Capita": 27570.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3593,6 +3833,22 @@
                 "Total Refugee and people in refugee-like situations": 0,
                 "Fragile State Index Score": 32.5,
                 "GDP Per Capita": 81360.0
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "SGS": {
+            "Country": "South Georgia and the South Sandwich Islands",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": ""
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3649,7 +3905,7 @@
             }
         },
         "SRB": {
-            "Country": "Serbia and Kosovo: S/RES/1244 (1999)",
+            "Country": "Serbia",
             "Fragile State Index Rank": "107th",
             "Strand_02_People": {
                 "Total population of concern": 254065,
@@ -3808,15 +4064,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "TSA": {
-            "Country": "",
-            "Fragile State Index Rank": "",
+        "ARE": {
+            "Country": "United Arab Emirates",
+            "Fragile State Index Rank": "147th",
             "Strand_02_People": {
-                "Total population of concern": "",
-                "Refugees and IDPs as Percent of Population": "",
-                "Total Refugee and people in refugee-like situations": "",
-                "Fragile State Index Score": "",
-                "GDP Per Capita": 5658.13079136485
+                "Total population of concern": 1265,
+                "Refugees and IDPs as Percent of Population": 0.00013460885062237704,
+                "Total Refugee and people in refugee-like situations": 773,
+                "Fragile State Index Score": 43.7,
+                "GDP Per Capita": 70020.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3905,7 +4161,7 @@
             }
         },
         "MTQ": {
-            "Country": "",
+            "Country": "Martinique",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -3921,7 +4177,7 @@
             }
         },
         "null": {
-            "Country": "Bonaire, Saint Eustatius and Saba",
+            "Country": "",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": 0,
@@ -3952,15 +4208,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "VCT": {
-            "Country": "Saint Vincent and the Grenadines",
-            "Fragile State Index Rank": "",
+        "STP": {
+            "Country": "Sao Tome and Principe",
+            "Fragile State Index Rank": "97th",
             "Strand_02_People": {
                 "Total population of concern": 0,
                 "Refugees and IDPs as Percent of Population": 0.0,
                 "Total Refugee and people in refugee-like situations": 0,
-                "Fragile State Index Score": "",
-                "GDP Per Capita": 11090.0
+                "Fragile State Index Score": 72.1,
+                "GDP Per Capita": 3250.0
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -3984,20 +4240,20 @@
                 "Appeal funds requested": ""
             }
         },
-        "SSD": {
-            "Country": "South Sudan",
-            "Fragile State Index Rank": "1st",
+        "PSS": {
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 2231226,
-                "Refugees and IDPs as Percent of Population": 0.17037214640288512,
-                "Total Refugee and people in refugee-like situations": 263752,
-                "Fragile State Index Score": 113.9,
-                "GDP Per Capita": 1630.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": 5696.373020036221
             },
             "Strand_01_Needs": {
-                "Appeal funds still needed": 883959037.0,
-                "Appeal funds committed to date": 755735856,
-                "Appeal funds requested": 1639694893.0
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
             }
         },
         "HPC": {
@@ -4049,7 +4305,7 @@
             }
         },
         "IMN": {
-            "Country": "",
+            "Country": "Isle of Man",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",
@@ -4144,15 +4400,15 @@
                 "Appeal funds requested": ""
             }
         },
-        "ITA": {
-            "Country": "Italy",
-            "Fragile State Index Rank": "142nd",
+        "SSF": {
+            "Country": "",
+            "Fragile State Index Rank": "",
             "Strand_02_People": {
-                "Total population of concern": 216728,
-                "Refugees and IDPs as Percent of Population": 0.003624336595461472,
-                "Total Refugee and people in refugee-like situations": 131993,
-                "Fragile State Index Score": 45.2,
-                "GDP Per Capita": 37030.0
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": 3569.1425237646004
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -4161,7 +4417,7 @@
             }
         },
         "COD": {
-            "Country": "Dem. Rep. of the Congo",
+            "Country": "Democratic Republic of the Congo",
             "Fragile State Index Rank": "7th",
             "Strand_02_People": {
                 "Total population of concern": 2163336,
@@ -4201,6 +4457,22 @@
                 "Total Refugee and people in refugee-like situations": "",
                 "Fragile State Index Score": "",
                 "GDP Per Capita": 56178.1737561654
+            },
+            "Strand_01_Needs": {
+                "Appeal funds still needed": "",
+                "Appeal funds committed to date": "",
+                "Appeal funds requested": ""
+            }
+        },
+        "SSA": {
+            "Country": "",
+            "Fragile State Index Rank": "",
+            "Strand_02_People": {
+                "Total population of concern": "",
+                "Refugees and IDPs as Percent of Population": "",
+                "Total Refugee and people in refugee-like situations": "",
+                "Fragile State Index Score": "",
+                "GDP Per Capita": 3567.0801395881394
             },
             "Strand_01_Needs": {
                 "Appeal funds still needed": "",
@@ -4385,7 +4657,7 @@
             }
         },
         "TKL": {
-            "Country": "",
+            "Country": "Tokelau",
             "Fragile State Index Rank": "",
             "Strand_02_People": {
                 "Total population of concern": "",

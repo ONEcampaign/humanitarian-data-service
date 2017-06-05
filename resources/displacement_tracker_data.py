@@ -29,14 +29,40 @@ URL_PLANS_PROGRESS = '/funding/plans/progress/index'
 URL_POPULATION = '/populations/totals/index'
 URL_FRAGILE_STATE = '/fragility/fragile-state-index/index'
 
+# Define path for raw country names data
+country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
+
 
 def merge_data(
+    country_names_path=country_names_path,
     url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
     url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
     url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
     url_population=(ROOT + URL_POPULATION),
     url_fragile_state=(ROOT + URL_FRAGILE_STATE)
     ):
+
+
+
+    ####################  COUNTRY NAMES ####################
+    # Get the data from .csv
+    df_country_names = pd.read_csv(country_names_path, encoding='utf-8')
+
+    # Select relevant fields
+    df_country_names = df_country_names[[
+        'Country or Area',
+        'ISO-alpha3 Code'
+    ]]
+
+    # Drop null values
+    df_country_names = df_country_names.dropna()
+
+    # Set country code to be the index
+    df_country_names = df_country_names.set_index('ISO-alpha3 Code')
+
+    # Rename fields
+    df_country_names.rename(columns={'Country or Area': 'Country'}, inplace=True)
+
 
     ####################  POPULATIONS ####################
     # Get the data from the API
@@ -86,7 +112,7 @@ def merge_data(
 
     # Select relevant fields
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum[[
-        'Country', 'Total population of concern', 'Total Refugee and people in refugee-like situations'
+        'Total population of concern', 'Total Refugee and people in refugee-like situations'
     ]]
 
     # Drop null values
@@ -147,6 +173,7 @@ def merge_data(
 
     # Make a list of all dataframes
     all_dataframes = [
+        df_country_names,
         df_populations_refugeelike_asylum,
         df_indicators_gni,
         df_plans_progress,
@@ -223,10 +250,11 @@ def run():
     data = merge_data()
     #print data.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
-    print 'Writing file'
 
+    print 'Writing file'
     with open(official_data_path, 'w') as outfile:
-        json.dump(data, outfile, indent=4, separators=(',', ': '))
+        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True)#.encode('utf-8')
+        #outfile.write(unicode(data))
     #data.to_json(official_data_path, orient='index')
     #json.dumps(data, indent=4, separators=(',', ': '))
 
