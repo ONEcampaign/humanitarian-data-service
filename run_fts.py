@@ -18,7 +18,7 @@ See API docs here: https://fts.unocha.org/sites/default/files/publicftsapidocume
 """
 
 
-def getPlans(year=2017):
+def getPlans(year=2017, country_mapping):
     # Get all plans from the FTS API
     data = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
 
@@ -27,9 +27,19 @@ def getPlans(year=2017):
     data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
     data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'] if x else None)
 
+    # Merge in country codes based on country Name
+    #data = data.merge(country_mapping, how='left', on=['name'])
+
     #Tidy the dataset
     data.drop(['origRequirements', 'startDate', 'endDate', 'years', 'categories', 'emergencies', 'locations'], axis=1, inplace=True)
     data = data.where((pd.notnull(data)), None).sort_values('name')
+
+    return data
+
+
+def getCountries():
+    # Get all plans from the FTS API
+    data = api_utils.get_fts_endpoint('/public/location')
 
     return data
 
@@ -174,9 +184,9 @@ def getClusterFundingAmounts(plans):
     return data
 
 
-def getCountryFundingAmounts(years):
+def getCountryFundingAmounts(year_list, country_mapping):
     """
-    For each country, pull the amount funded in each year.
+    For each country, pull the amount of funding received in each year.
     Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
 
     """
@@ -187,7 +197,7 @@ def getCountryFundingAmounts(years):
         url = None
         endpoint_str = '/public/fts/flow?year={}&groupby=Country'.format(year)
         url = 'https://api.hpc.tools/v1' + endpoint_str
-        result = requests.get(url, auth=(CLIENT_ID, PASSWORD))
+        result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
         result.raise_for_status()
         single = result.json()['data']['report3']['fundingTotals']['objects'][0]['singleFundingObjects']
         if single:
@@ -201,12 +211,17 @@ def getCountryFundingAmounts(years):
     data = pd.DataFrame([])
 
     #loop through each year and append the data for it to a combined data set
-    for year in years:
+    for year in year_list:
         funding = getActualFundingByCountryGroup(year)
         data = data.append(funding)
 
-    #data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
-    #data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
+    data = data.merge(country_mapping, how='left', on=['name','id'])
+    data.drop(['id', 'direction', 'type'], axis=1,inplace=True)
+
+    #Rename column headings
+    data.rename(columns={'name': 'Country',
+                             'iso3': 'countryCode'
+                             }, inplace=True)
     #data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
 
     return data
@@ -347,14 +362,19 @@ def run_transformations_by_dimension():
 
 def run():
 
+    print 'Get list of countries and ISO-3 codes'
+    countries = getCountries()
+    print countries.head()
+
     print 'Get list of plans'
-    plans = getPlans(year=2017)
+    plans = getPlans(year=2017, country_mapping = countries)
     print plans.head()
 
     #Filter plans to only include those that are not RRPs and where the funding requirement is > 0
     plans = plans[(plans.categoryName != 'Regional response plan') & (plans.revisedRequirements > 0)]
 
     plan_index = plans[['id', 'code', 'name', 'countryCode']]
+
 
     print 'Get required and committed funding from the FTS API'
     initial_result = getInitialRequiredAndCommittedFunding(plans)
@@ -373,6 +393,12 @@ def run():
     print cluster_funding.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_clusters.csv')
     cluster_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get funding by destination country for given years'
+    country_funding = getCountryFundingAmounts([2016,2017], countries)
+    print country_funding.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_dest_countries.csv')
+    country_funding.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Done!'
 

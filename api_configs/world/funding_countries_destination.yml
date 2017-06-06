@@ -1,0 +1,54 @@
+Get the humanitarian funding received by each country
+Call this endpoint to get the amount funded to each country in a given year
+---
+tags:
+  - World
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
+  - name: countryCode
+    in: query
+    type: string
+    required: false
+    description: The optional country code (ISO-3, case-insensitive, slugified, i.e. no special characters)
+responses:
+  501:
+    description: No destination country funding data was found
+  200:
+    description: The latest funding by country data
+    schema:
+      id: funding_cluster
+      properties:
+        data:
+          type: json
+          description: The amount funded by destination country and year
+          default: {
+            "organization_id": [
+                  2924
+                ],
+                "organization_name": [
+                  "Switzerland, Government of"
+                ],
+                "plan_code": [
+                  "HNGA17"
+                ],
+                "plan_id": [
+                  536
+                ],
+                "plan_name": [
+                  "Nigeria 2017"
+                ],
+                "totalFunding": [
+                  5817869
+                ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}
