@@ -435,9 +435,9 @@ def get_funding_plan_clusters(orientation):
 
 
 
-@app.route('/funding/countries/destination/<string:orientation>', methods=['GET'])
+@app.route('/funding/countries/destination/<string:orientation>/<int:year>', methods=['GET'])
 @swag_from('api_configs/world/funding_countries_destination.yml')
-def get_funding_countries_destination(orientation):
+def get_funding_countries_destination(orientation, year):
     params = None
     success, result, metadata = api_utils.safely_load_data('funding_dest_countries.csv', 'FTS funding by destination country and year', has_metadata=False)
     if not success:
@@ -447,16 +447,18 @@ def get_funding_countries_destination(orientation):
         params = {"countryCode": countryCode}
         countryCode = str(countryCode).strip().upper()
         result = result[result.countryCode == countryCode]
+
+    year = int(year)
+    result = result[result.year == year]
+
     if orientation == 'list':
         result = result.to_dict(orient='list')
     if orientation == 'index':
-        result = result.groupby('countryCode')[['Country','year','totalFunding']]
-        result = result.apply(lambda x: x.to_dict(orient='record'))
-        result = result.to_dict()
+        result = result.set_index('countryCode').to_dict(orient=orientation)
     return jsonify(data=result, params=params)
 
 
-@app.route('/needs/plans/<string:orientation>', methods=['GET'])
+@app.route('/needs/plans/<string:orientation>/', methods=['GET'])
 @swag_from('api_configs/world/needs_plans.yml')
 def get_needs_plans(orientation):
     params = None

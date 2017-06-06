@@ -12,11 +12,17 @@ parameters:
     enum:
       - index
       - list
+  - name: year
+    in: path
+    type: integer
+    required: true
+    description: The year of funding
   - name: countryCode
     in: query
     type: string
     required: false
     description: The optional country code (ISO-3, case-insensitive, slugified, i.e. no special characters)
+
 responses:
   501:
     description: No destination country funding data was found
@@ -29,24 +35,26 @@ responses:
           type: json
           description: The amount funded by destination country and year
           default: {
-            "organization_id": [
-                  2924
-                ],
-                "organization_name": [
-                  "Switzerland, Government of"
-                ],
-                "plan_code": [
-                  "HNGA17"
-                ],
-                "plan_id": [
-                  536
-                ],
-                "plan_name": [
-                  "Nigeria 2017"
-                ],
-                "totalFunding": [
-                  5817869
-                ]
+            "Country": [
+              "Mali",
+              "Mali",
+              "Mali"
+            ],
+            "countryCode": [
+              "MLI",
+              "MLI",
+              "MLI"
+            ],
+            "totalFunding": [
+              207978215,
+              205354473,
+              92619318
+            ],
+            "year": [
+              2015,
+              2016,
+              2017
+            ]
           }
         metadata:
           type: json

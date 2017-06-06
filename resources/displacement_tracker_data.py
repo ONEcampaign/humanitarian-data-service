@@ -18,6 +18,8 @@ ROOT = 'http://localhost:5000'
 # For live
 # ROOT = 'http://ec2-34-200-18-111.compute-1.amazonaws.com'
 
+# Set year for country-level funding data
+FUNDING_YEAR = 2016
 
 # Define all endpoints
 URL_POPULATIONS_REFUGEELIKE_ASYLUM = '/populations/refugeelike/asylum/index'
@@ -26,20 +28,24 @@ URL_PLANS_PROGRESS = '/funding/plans/progress/index'
 URL_POPULATION = '/populations/totals/index'
 URL_FRAGILE_STATE = '/fragility/fragile-state-index/index'
 URL_NEEDS = '/needs/plans/index'
+URL_FUNDING_DEST_COUNTRY = '/funding/countries/destination/index/{}'.format(FUNDING_YEAR)
 
 # Define path for raw country names data
 country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
 
 
 def merge_data(
+        funding_year = FUNDING_YEAR,
         country_names_path=country_names_path,
         url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
         url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
         url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
         url_population=(ROOT + URL_POPULATION),
         url_fragile_state=(ROOT + URL_FRAGILE_STATE),
-        url_needs=(ROOT + URL_NEEDS)
-):
+        url_needs=(ROOT + URL_NEEDS),
+        url_funding_dest_country=(ROOT + URL_FUNDING_DEST_COUNTRY)
+    ):
+
     ####################  COUNTRY NAMES ####################
     # Get the data from .csv
     df_country_names = pd.read_csv(country_names_path, encoding='utf-8')
@@ -149,6 +155,27 @@ def merge_data(
     # Drop null values
     df_plans_progress = df_plans_progress.dropna()
 
+
+    ######## FUNDING BY DESTINATION COUNTRY ############
+    #Get the data from the API
+    funding_dest_country_data = requests.get(url_funding_dest_country).json()
+
+    # Build a dataframe
+    df_funding_dest_country = pd.DataFrame(funding_dest_country_data['data']).T
+
+    # Select relevant fields
+    df_funding_dest_country = df_funding_dest_country[[
+        'totalFunding'
+    ]]
+
+    # Rename fields
+    df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian funding received in {}'.format(funding_year)},
+                                   inplace=True)
+
+    # Drop null values
+    df_funding_dest_country = df_funding_dest_country.dropna()
+
+
     ####################  NEEDS ####################
     # Get the data from the API
     needs_data = requests.get(url_needs).json()
@@ -160,7 +187,7 @@ def merge_data(
     df_needs = df_needs[[
         'inNeedTotal', 'inNeedHealth', 'inNeedEducation',
         'inNeedFoodSecurity', 'inNeedProtection', 'sourceURL',
-        'inNeedShelter-CCCM-NFI', 'inNeedWASH'
+        'inNeedShelter-CCCM-NFI', 'inNeedWASH', 'sourceType'
     ]]
 
     # Rename fields
@@ -172,6 +199,7 @@ def merge_data(
                              'inNeedShelter-CCCM-NFI': 'People in need of shelter',
                              'inNeedWASH': 'People in need of water, sanitization & hygiene',
                              'sourceURL': 'Source of needs data',
+                             'sourceType': 'Source type of needs data'
                              }, inplace=True)
 
     # Drop null values
@@ -194,7 +222,8 @@ def merge_data(
         df_plans_progress,
         df_population,
         df_fragile_state,
-        df_needs
+        df_needs,
+        df_funding_dest_country
         #   df_clusters
     ]
 
@@ -214,10 +243,11 @@ def merge_data(
 
     # Define field names for each strand
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
-                        'Source of needs data']
+                        'Source of needs data', 'Source type of needs data']
     strand_02_fields = ['Refugees and IDPs as Percent of Population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
+    strand_03_fields = ['Humanitarian funding received in 2016']
 
     needs_fields = ['Total people in need','People in need of health support','Children in need of education',
                     'People who are food insecure','People in need of protection','People in need of shelter',
@@ -250,6 +280,12 @@ def merge_data(
             strand_02_dict[names_02] = (df_as_dict[x][names_02])
         country_dict['Strand_02_People'] = strand_02_dict
 
+        # Populate the dict with strand 3 data
+        strand_03_dict = {}
+        for names_03 in strand_03_fields:
+            strand_03_dict[names_03] = (df_as_dict[x][names_03])
+        country_dict['Strand_03_Aid'] = strand_03_dict
+
         # Add the country dict to the data dict
         data[x] = country_dict
 
@@ -277,7 +313,7 @@ def run():
 
     print 'Writing file'
     with open(official_data_path, 'w') as outfile:
-        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True)  # .encode('utf-8')
+        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True, sort_keys=True)  # .encode('utf-8')
         # outfile.write(unicode(data))
         # data.to_json(official_data_path, orient='index')
         # json.dumps(data, indent=4, separators=(',', ': '))
