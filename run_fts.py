@@ -44,7 +44,7 @@ def getCountries():
     return data
 
 
-def updateCommittedAndPaidFunding(year=2017):
+def updateCommittedAndPaidFunding(year=constants.FTS_APPEAL_YEAR):
     data = pd.read_csv('resources/data/derived/example/funding_progress.csv', encoding='utf-8')
 
     # Get committed and paid funding from the FTS API
@@ -369,7 +369,7 @@ def run():
     print countries.head()
 
     print 'Get list of plans'
-    plans = getPlans(year=2017, country_mapping = countries)
+    plans = getPlans(year=constants.FTS_APPEAL_YEAR, country_mapping = countries)
     print plans.head()
 
     #Filter plans to only include those that are not RRPs and where the funding requirement is > 0
@@ -378,23 +378,23 @@ def run():
     plan_index = plans[['id', 'code', 'name', 'countryCode']]
 
 
-    # print 'Get required and committed funding from the FTS API'
-    # initial_result = getInitialRequiredAndCommittedFunding(plans)
-    # print initial_result.head()
-    # official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
-    # initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
-    #
-    # print 'Get donor funding amounts to each plan from the FTS API'
-    # donor_funding = getDonorFundingAmounts(plan_index)
-    # print donor_funding.head()
-    # official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
-    # donor_funding.to_csv(official_data_path, encoding='utf-8', index=False)
-    #
-    # print 'Get required and committed funding at the cluster level from the FTS API'
-    # cluster_funding = getClusterFundingAmounts(plan_index)
-    # print cluster_funding.head()
-    # official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_clusters.csv')
-    # cluster_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+    print 'Get required and committed funding from the FTS API'
+    initial_result = getInitialRequiredAndCommittedFunding(plans)
+    print initial_result.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
+    initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get donor funding amounts to each plan from the FTS API'
+    donor_funding = getDonorFundingAmounts(plan_index)
+    print donor_funding.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
+    donor_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get required and committed funding at the cluster level from the FTS API'
+    cluster_funding = getClusterFundingAmounts(plan_index)
+    print cluster_funding.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_clusters.csv')
+    cluster_funding.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Get funding by destination country for given years'
     country_funding = getCountryFundingAmounts(range(2015, 2018), countries)

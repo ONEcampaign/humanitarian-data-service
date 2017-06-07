@@ -85,6 +85,9 @@ FTS_API_BASE_URL = 'https://api.hpc.tools/v1'
 # FTS sub-directory (e.g. under data/raw/latest)
 FTS_DIR = 'fts'
 
+# FTS year of appeals to pull
+FTS_APPEAL_YEAR = 2017
+
 # FTS data download date file
 FTS_DOWNLOAD_DATE_FILE = 'download_date.txt'
 

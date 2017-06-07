@@ -175,7 +175,7 @@ def merge_data(
     ]]
 
     # Rename fields
-    df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian aid received in {}'.format(funding_year)},
+    df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian aid received'},
                                    inplace=True)
 
     # Drop null values
@@ -236,8 +236,8 @@ def merge_data(
     df_final = pd.concat(all_dataframes, axis=1)
 
     # Add calculation for refugees as a ratio of total population
-    df_final['Refugees and IDPs as Percent of Population'] = df_final['Total population of concern'] / df_final[
-        'Population']
+    df_final['Refugees and IDPs per 1000 population'] = (df_final['Total population of concern'] / df_final[
+        'Population'])*1000
 
     # Add field to specify whether country has current humanitarian appeal in FTS
     df_final['Country has current appeal'] = df_final['Appeal funds requested'].notnull()
@@ -254,10 +254,10 @@ def merge_data(
     # Define field names for each strand
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
                         'Appeal percent funded', 'Source of needs data', 'Source type of needs data']
-    strand_02_fields = ['Refugees and IDPs as Percent of Population', 'Fragile State Index Score',
+    strand_02_fields = ['Refugees and IDPs per 1000 population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
-    strand_03_fields = ['Humanitarian aid received in 2016']
+    strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded']
 
     needs_fields = ['Total people in need','People in need of health support','Children in need of education',
                     'People who are food insecure','People in need of protection','People in need of shelter',
