@@ -83,6 +83,7 @@ def merge_data(
     # Drop null values
     df_population = df_population.dropna()
 
+
     ####################  FRAGILE STATE ####################
     # Get the data from the API
     fragile_state_data = requests.get(url_fragile_state).json()
@@ -102,6 +103,7 @@ def merge_data(
     # Drop null values
     df_fragile_state = df_fragile_state.dropna()
 
+
     ####################  POPULATIONS_REFUGEELIKE_ASYLUM ####################
     # Get the data from the API
     populations_refugeelike_asylum_data = requests.get(url_populations_refugeelike_asylum).json()
@@ -116,6 +118,7 @@ def merge_data(
 
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
+
 
     ####################  INDICATORS GNI ####################
     # Get the data from the API
@@ -135,6 +138,7 @@ def merge_data(
     # Drop null values
     df_indicators_gni = df_indicators_gni.dropna()
 
+
     ####################  PLANS PROGRESS ####################
     # Get the data from the API
     plans_progress_data = requests.get(url_plans_progress).json()
@@ -151,6 +155,8 @@ def merge_data(
     df_plans_progress.rename(columns={'appealFunded': 'Appeal funds committed to date',
                                       'revisedRequirements': 'Appeal funds requested',
                                       'neededFunding': 'Appeal funds still needed'}, inplace=True)
+
+    df_plans_progress['Appeal percent funded'] = df_plans_progress['Appeal funds committed to date']/df_plans_progress['Appeal funds requested']
 
     # Drop null values
     df_plans_progress = df_plans_progress.dropna()
@@ -169,7 +175,7 @@ def merge_data(
     ]]
 
     # Rename fields
-    df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian funding received in {}'.format(funding_year)},
+    df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian aid received in {}'.format(funding_year)},
                                    inplace=True)
 
     # Drop null values
@@ -233,6 +239,10 @@ def merge_data(
     df_final['Refugees and IDPs as Percent of Population'] = df_final['Total population of concern'] / df_final[
         'Population']
 
+    # Add field to specify whether country has current humanitarian appeal in FTS
+    df_final['Country has current appeal'] = df_final['Appeal funds requested'].notnull()
+
+
     ################## STRUCTURE DICTIONARY ##################
 
     # Clean up NaN values
@@ -243,11 +253,11 @@ def merge_data(
 
     # Define field names for each strand
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
-                        'Source of needs data', 'Source type of needs data']
+                        'Appeal percent funded', 'Source of needs data', 'Source type of needs data']
     strand_02_fields = ['Refugees and IDPs as Percent of Population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
-    strand_03_fields = ['Humanitarian funding received in 2016']
+    strand_03_fields = ['Humanitarian aid received in 2016']
 
     needs_fields = ['Total people in need','People in need of health support','Children in need of education',
                     'People who are food insecure','People in need of protection','People in need of shelter',
@@ -263,15 +273,17 @@ def merge_data(
         # Populate the dict with those value that don't require nesting
         country_dict['Country'] = df_as_dict[x]['Country']
         country_dict['Fragile State Index Rank'] = df_as_dict[x]['Fragile State Index Rank']
+        country_dict['Country has current appeal'] = df_as_dict[x]['Country has current appeal']
 
-        # Populate the dict with strand 1 data
+        # Populate the dict with strand 1 data if the country has a current appeal
         strand_01_dict = {}
-        strand_01_dict['Needs_Data'] = {}
-        for names_01 in strand_01_fields:
-            strand_01_dict[names_01] = (df_as_dict[x][names_01])
-            for name in needs_fields:
-                if df_as_dict[x][name] != '':
-                    strand_01_dict['Needs_Data'][name] = (df_as_dict[x][name])
+        if df_as_dict[x]['Country has current appeal']:
+            strand_01_dict['Needs_Data'] = {}
+            for names_01 in strand_01_fields:
+                strand_01_dict[names_01] = (df_as_dict[x][names_01])
+                for name in needs_fields:
+                    if df_as_dict[x][name] != '':
+                        strand_01_dict['Needs_Data'][name] = (df_as_dict[x][name])
         country_dict['Strand_01_Needs'] = strand_01_dict
 
         # Populate the dict with strand 2 data
