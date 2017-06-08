@@ -30,6 +30,8 @@ URL_FRAGILE_STATE = '/fragility/fragile-state-index/index'
 URL_NEEDS = '/needs/plans/index'
 URL_FUNDING_DEST_COUNTRY = '/funding/countries/destination/index/{}'.format(FUNDING_YEAR)
 
+
+
 # Define path for raw country names data
 country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
 
@@ -116,6 +118,10 @@ def merge_data(
         'Total population of concern', 'Total Refugee and people in refugee-like situations'
     ]]
 
+    # Add field to rank total total population of concern
+    df_populations_refugeelike_asylum['Rank of total population of concern'] = df_populations_refugeelike_asylum[
+        'Total population of concern'].rank(ascending=False, method='min').astype(int)
+
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
 
@@ -177,6 +183,10 @@ def merge_data(
     # Rename fields
     df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian aid received'},
                                    inplace=True)
+
+    # Add field to rank total total population of concern
+    df_funding_dest_country['Rank of humanitarian aid received'] = df_funding_dest_country[
+        'Humanitarian aid received'].rank(ascending=False, method='min').astype(int)
 
     # Drop null values
     df_funding_dest_country = df_funding_dest_country.dropna()
@@ -257,7 +267,8 @@ def merge_data(
     strand_02_fields = ['Refugees and IDPs per 1000 population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
-    strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded']
+    strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded',
+                        'Rank of total population of concern', 'Rank of humanitarian aid received']
 
     needs_fields = ['Total people in need','People in need of health support','Children in need of education',
                     'People who are food insecure','People in need of protection','People in need of shelter',

@@ -15,7 +15,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 170.0
             }
         },
         "AFG": {
@@ -48,7 +50,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 550236457.0,
                 "Appeal percent funded": 0.25946300210347567,
-                "Humanitarian aid received": 532927796
+                "Humanitarian aid received": 532927796,
+                "Rank of humanitarian aid received": 13.0,
+                "Rank of total population of concern": 12.0
             }
         },
         "AGO": {
@@ -66,7 +70,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 13150015
+                "Humanitarian aid received": 13150015,
+                "Rank of humanitarian aid received": 66.0,
+                "Rank of total population of concern": 72.0
             }
         },
         "AIA": {
@@ -84,7 +90,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 178.0
             }
         },
         "ALA": {
@@ -102,7 +110,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ALB": {
@@ -120,7 +130,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 60693
+                "Humanitarian aid received": 60693,
+                "Rank of humanitarian aid received": 129.0,
+                "Rank of total population of concern": 105.0
             }
         },
         "AND": {
@@ -138,7 +150,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ARB": {
@@ -156,7 +170,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ARE": {
@@ -174,7 +190,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 700000
+                "Humanitarian aid received": 700000,
+                "Rank of humanitarian aid received": 112.0,
+                "Rank of total population of concern": 138.0
             }
         },
         "ARG": {
@@ -192,7 +210,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 117.0
             }
         },
         "ARM": {
@@ -210,7 +230,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2993636
+                "Humanitarian aid received": 2993636,
+                "Rank of humanitarian aid received": 85.0,
+                "Rank of total population of concern": 91.0
             }
         },
         "ASM": {
@@ -228,7 +250,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ATA": {
@@ -246,7 +270,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ATF": {
@@ -264,7 +290,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ATG": {
@@ -282,7 +310,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 165.0
             }
         },
         "AUS": {
@@ -300,7 +330,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 68.0
             }
         },
         "AUT": {
@@ -318,7 +350,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 49.0
             }
         },
         "AZE": {
@@ -336,7 +370,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 587130
+                "Humanitarian aid received": 587130,
+                "Rank of humanitarian aid received": 115.0,
+                "Rank of total population of concern": 23.0
             }
         },
         "BDI": {
@@ -370,7 +406,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 73700000.0,
                 "Appeal percent funded": 0.35419023066485755,
-                "Humanitarian aid received": 80989260
+                "Humanitarian aid received": 80989260,
+                "Rank of humanitarian aid received": 32.0,
+                "Rank of total population of concern": 57.0
             }
         },
         "BEL": {
@@ -388,7 +426,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 765027
+                "Humanitarian aid received": 765027,
+                "Rank of humanitarian aid received": 109.0,
+                "Rank of total population of concern": 67.0
             }
         },
         "BEN": {
@@ -406,7 +446,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1142705
+                "Humanitarian aid received": 1142705,
+                "Rank of humanitarian aid received": 104.0,
+                "Rank of total population of concern": 143.0
             }
         },
         "BES": {
@@ -424,7 +466,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "BFA": {
@@ -453,7 +497,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 61089000.0,
                 "Appeal percent funded": 0.26381559691597506,
-                "Humanitarian aid received": 72759031
+                "Humanitarian aid received": 72759031,
+                "Rank of humanitarian aid received": 34.0,
+                "Rank of total population of concern": 77.0
             }
         },
         "BGD": {
@@ -471,7 +517,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 38306397
+                "Humanitarian aid received": 38306397,
+                "Rank of humanitarian aid received": 43.0,
+                "Rank of total population of concern": 44.0
             }
         },
         "BGR": {
@@ -489,7 +537,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 28351
+                "Humanitarian aid received": 28351,
+                "Rank of humanitarian aid received": 134.0,
+                "Rank of total population of concern": 76.0
             }
         },
         "BHR": {
@@ -507,7 +557,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 151.0
             }
         },
         "BHS": {
@@ -525,7 +577,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 657114
+                "Humanitarian aid received": 657114,
+                "Rank of humanitarian aid received": 114.0,
+                "Rank of total population of concern": 156.0
             }
         },
         "BIH": {
@@ -543,7 +597,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2362534
+                "Humanitarian aid received": 2362534,
+                "Rank of humanitarian aid received": 92.0,
+                "Rank of total population of concern": 50.0
             }
         },
         "BLM": {
@@ -561,7 +617,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "BLR": {
@@ -579,7 +637,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 110.0
             }
         },
         "BLZ": {
@@ -597,7 +657,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 80000
+                "Humanitarian aid received": 80000,
+                "Rank of humanitarian aid received": 128.0,
+                "Rank of total population of concern": 124.0
             }
         },
         "BMU": {
@@ -615,7 +677,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "BOL": {
@@ -633,7 +697,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 6548812
+                "Humanitarian aid received": 6548812,
+                "Rank of humanitarian aid received": 75.0,
+                "Rank of total population of concern": 142.0
             }
         },
         "BRA": {
@@ -651,7 +717,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1322130
+                "Humanitarian aid received": 1322130,
+                "Rank of humanitarian aid received": 103.0,
+                "Rank of total population of concern": 75.0
             }
         },
         "BRB": {
@@ -669,7 +737,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "BRN": {
@@ -687,7 +757,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 88.0
             }
         },
         "BTN": {
@@ -705,7 +777,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 332963
+                "Humanitarian aid received": 332963,
+                "Rank of humanitarian aid received": 121.0,
+                "Rank of total population of concern": ""
             }
         },
         "BVT": {
@@ -723,7 +797,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "BWA": {
@@ -741,7 +817,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 126.0
             }
         },
         "CAF": {
@@ -775,7 +853,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 399500000.0,
                 "Appeal percent funded": 0.2566011714643304,
-                "Humanitarian aid received": 273179880
+                "Humanitarian aid received": 273179880,
+                "Rank of humanitarian aid received": 19.0,
+                "Rank of total population of concern": 30.0
             }
         },
         "CAN": {
@@ -793,7 +873,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 50000
+                "Humanitarian aid received": 50000,
+                "Rank of humanitarian aid received": 130.0,
+                "Rank of total population of concern": 51.0
             }
         },
         "CCK": {
@@ -811,7 +893,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "CEB": {
@@ -829,7 +913,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "CHE": {
@@ -847,7 +933,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 438944
+                "Humanitarian aid received": 438944,
+                "Rank of humanitarian aid received": 117.0,
+                "Rank of total population of concern": 56.0
             }
         },
         "CHL": {
@@ -865,7 +953,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 122.0
             }
         },
         "CHN": {
@@ -883,7 +973,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 800000
+                "Humanitarian aid received": 800000,
+                "Rank of humanitarian aid received": 108.0,
+                "Rank of total population of concern": 37.0
             }
         },
         "CIV": {
@@ -901,7 +993,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 17192580
+                "Humanitarian aid received": 17192580,
+                "Rank of humanitarian aid received": 62.0,
+                "Rank of total population of concern": 18.0
             }
         },
         "CMR": {
@@ -935,7 +1029,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 309643212.0,
                 "Appeal percent funded": 0.22309286082460608,
-                "Humanitarian aid received": 189281030
+                "Humanitarian aid received": 189281030,
+                "Rank of humanitarian aid received": 27.0,
+                "Rank of total population of concern": 27.0
             }
         },
         "COD": {
@@ -969,7 +1065,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 812614297.0,
                 "Appeal percent funded": 0.19641656021712844,
-                "Humanitarian aid received": 479738507
+                "Humanitarian aid received": 479738507,
+                "Rank of humanitarian aid received": 14.0,
+                "Rank of total population of concern": 10.0
             }
         },
         "COG": {
@@ -987,7 +1085,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 25528839
+                "Humanitarian aid received": 25528839,
+                "Rank of humanitarian aid received": 52.0,
+                "Rank of total population of concern": 70.0
             }
         },
         "COK": {
@@ -1005,7 +1105,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "COL": {
@@ -1023,7 +1125,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 58037958
+                "Humanitarian aid received": 58037958,
+                "Rank of humanitarian aid received": 38.0,
+                "Rank of total population of concern": 1.0
             }
         },
         "COM": {
@@ -1041,7 +1145,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 107227
+                "Humanitarian aid received": 107227,
+                "Rank of humanitarian aid received": 126.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "CPV": {
@@ -1059,7 +1165,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 5334
+                "Humanitarian aid received": 5334,
+                "Rank of humanitarian aid received": 135.0,
+                "Rank of total population of concern": 157.0
             }
         },
         "CRI": {
@@ -1077,7 +1185,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1802152
+                "Humanitarian aid received": 1802152,
+                "Rank of humanitarian aid received": 96.0,
+                "Rank of total population of concern": 101.0
             }
         },
         "CSS": {
@@ -1095,7 +1205,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "CUB": {
@@ -1113,7 +1225,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 7509121
+                "Humanitarian aid received": 7509121,
+                "Rank of humanitarian aid received": 74.0,
+                "Rank of total population of concern": 150.0
             }
         },
         "CUW": {
@@ -1131,7 +1245,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 158.0
             }
         },
         "CXR": {
@@ -1149,7 +1265,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "CYM": {
@@ -1167,7 +1285,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 159.0
             }
         },
         "CYP": {
@@ -1185,7 +1305,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 93.0
             }
         },
         "CZE": {
@@ -1203,7 +1325,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 114.0
             }
         },
         "DEU": {
@@ -1221,7 +1345,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 17.0
             }
         },
         "DJI": {
@@ -1253,7 +1379,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 42977698.0,
                 "Appeal percent funded": 0.14850022911883276,
-                "Humanitarian aid received": 30892445
+                "Humanitarian aid received": 30892445,
+                "Rank of humanitarian aid received": 45.0,
+                "Rank of total population of concern": 89.0
             }
         },
         "DMA": {
@@ -1271,7 +1399,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 155701
+                "Humanitarian aid received": 155701,
+                "Rank of humanitarian aid received": 124.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "DNK": {
@@ -1289,7 +1419,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 10000000
+                "Humanitarian aid received": 10000000,
+                "Rank of humanitarian aid received": 69.0,
+                "Rank of total population of concern": 71.0
             }
         },
         "DOM": {
@@ -1307,7 +1439,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2521591
+                "Humanitarian aid received": 2521591,
+                "Rank of humanitarian aid received": 90.0,
+                "Rank of total population of concern": 137.0
             }
         },
         "DZA": {
@@ -1325,7 +1459,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 26682970
+                "Humanitarian aid received": 26682970,
+                "Rank of humanitarian aid received": 48.0,
+                "Rank of total population of concern": 58.0
             }
         },
         "EAP": {
@@ -1343,7 +1479,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "EAR": {
@@ -1361,7 +1499,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "EAS": {
@@ -1379,7 +1519,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ECA": {
@@ -1397,7 +1539,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ECS": {
@@ -1415,7 +1559,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ECU": {
@@ -1433,7 +1579,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 50542488
+                "Humanitarian aid received": 50542488,
+                "Rank of humanitarian aid received": 39.0,
+                "Rank of total population of concern": 54.0
             }
         },
         "EGY": {
@@ -1451,7 +1599,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 68298593
+                "Humanitarian aid received": 68298593,
+                "Rank of humanitarian aid received": 35.0,
+                "Rank of total population of concern": 39.0
             }
         },
         "EMU": {
@@ -1469,7 +1619,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ERI": {
@@ -1487,7 +1639,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 8835723
+                "Humanitarian aid received": 8835723,
+                "Rank of humanitarian aid received": 71.0,
+                "Rank of total population of concern": 130.0
             }
         },
         "ESH": {
@@ -1505,7 +1659,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 4761029
+                "Humanitarian aid received": 4761029,
+                "Rank of humanitarian aid received": 80.0,
+                "Rank of total population of concern": ""
             }
         },
         "ESP": {
@@ -1523,7 +1679,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 80.0
             }
         },
         "EST": {
@@ -1541,7 +1699,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 63.0
             }
         },
         "ETH": {
@@ -1575,7 +1735,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 948634696.0,
                 "Appeal percent funded": 0.2533179031014484,
-                "Humanitarian aid received": 1323668747
+                "Humanitarian aid received": 1323668747,
+                "Rank of humanitarian aid received": 6.0,
+                "Rank of total population of concern": 20.0
             }
         },
         "EUU": {
@@ -1593,7 +1755,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "FCS": {
@@ -1611,7 +1775,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "FIN": {
@@ -1629,7 +1795,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 78.0
             }
         },
         "FJI": {
@@ -1647,7 +1815,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 43684677
+                "Humanitarian aid received": 43684677,
+                "Rank of humanitarian aid received": 41.0,
+                "Rank of total population of concern": 166.0
             }
         },
         "FLK": {
@@ -1665,7 +1835,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "FRA": {
@@ -1683,7 +1855,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 33.0
             }
         },
         "FRO": {
@@ -1701,7 +1875,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "FSM": {
@@ -1719,7 +1895,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 26207039
+                "Humanitarian aid received": 26207039,
+                "Rank of humanitarian aid received": 51.0,
+                "Rank of total population of concern": 173.0
             }
         },
         "GAB": {
@@ -1737,7 +1915,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 125.0
             }
         },
         "GBR": {
@@ -1755,7 +1935,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 53.0
             }
         },
         "GEO": {
@@ -1773,7 +1955,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1513274
+                "Humanitarian aid received": 1513274,
+                "Rank of humanitarian aid received": 100.0,
+                "Rank of total population of concern": 38.0
             }
         },
         "GGY": {
@@ -1791,7 +1975,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GHA": {
@@ -1809,7 +1995,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 697992
+                "Humanitarian aid received": 697992,
+                "Rank of humanitarian aid received": 113.0,
+                "Rank of total population of concern": 81.0
             }
         },
         "GIB": {
@@ -1827,7 +2015,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GIN": {
@@ -1845,7 +2035,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 14982638
+                "Humanitarian aid received": 14982638,
+                "Rank of humanitarian aid received": 64.0,
+                "Rank of total population of concern": 104.0
             }
         },
         "GLP": {
@@ -1863,7 +2055,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GMB": {
@@ -1881,7 +2075,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2609392
+                "Humanitarian aid received": 2609392,
+                "Rank of humanitarian aid received": 88.0,
+                "Rank of total population of concern": 111.0
             }
         },
         "GNB": {
@@ -1899,7 +2095,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1426907
+                "Humanitarian aid received": 1426907,
+                "Rank of humanitarian aid received": 101.0,
+                "Rank of total population of concern": 106.0
             }
         },
         "GNQ": {
@@ -1917,7 +2115,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "GRC": {
@@ -1935,7 +2135,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 434115718
+                "Humanitarian aid received": 434115718,
+                "Rank of humanitarian aid received": 16.0,
+                "Rank of total population of concern": 60.0
             }
         },
         "GRD": {
@@ -1953,7 +2155,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 178.0
             }
         },
         "GRL": {
@@ -1971,7 +2175,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GTM": {
@@ -1989,7 +2195,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 19862247
+                "Humanitarian aid received": 19862247,
+                "Rank of humanitarian aid received": 58.0,
+                "Rank of total population of concern": 132.0
             }
         },
         "GUF": {
@@ -2007,7 +2215,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GUM": {
@@ -2025,7 +2235,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "GUY": {
@@ -2043,7 +2255,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 167.0
             }
         },
         "HIC": {
@@ -2061,7 +2275,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "HKG": {
@@ -2079,7 +2295,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 129.0
             }
         },
         "HMD": {
@@ -2097,7 +2315,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "HND": {
@@ -2115,7 +2335,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 7847700
+                "Humanitarian aid received": 7847700,
+                "Rank of humanitarian aid received": 73.0,
+                "Rank of total population of concern": 47.0
             }
         },
         "HPC": {
@@ -2133,7 +2355,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "HRV": {
@@ -2151,7 +2375,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1075614
+                "Humanitarian aid received": 1075614,
+                "Rank of humanitarian aid received": 105.0,
+                "Rank of total population of concern": 95.0
             }
         },
         "HTI": {
@@ -2185,7 +2411,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 291459691.0,
                 "Appeal percent funded": 0.17990715566908358,
-                "Humanitarian aid received": 227105688
+                "Humanitarian aid received": 227105688,
+                "Rank of humanitarian aid received": 22.0,
+                "Rank of total population of concern": 131.0
             }
         },
         "HUN": {
@@ -2203,7 +2431,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 96.0
             }
         },
         "IBD": {
@@ -2221,7 +2451,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IBT": {
@@ -2239,7 +2471,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IDA": {
@@ -2257,7 +2491,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IDB": {
@@ -2275,7 +2511,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IDN": {
@@ -2293,7 +2531,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 19847507
+                "Humanitarian aid received": 19847507,
+                "Rank of humanitarian aid received": 59.0,
+                "Rank of total population of concern": 97.0
             }
         },
         "IDX": {
@@ -2311,7 +2551,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IMN": {
@@ -2329,7 +2571,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IND": {
@@ -2347,7 +2591,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 20054770
+                "Humanitarian aid received": 20054770,
+                "Rank of humanitarian aid received": 57.0,
+                "Rank of total population of concern": 46.0
             }
         },
         "IOT": {
@@ -2365,7 +2611,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "IRL": {
@@ -2383,7 +2631,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 100.0
             }
         },
         "IRN": {
@@ -2401,7 +2651,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 26307955
+                "Humanitarian aid received": 26307955,
+                "Rank of humanitarian aid received": 50.0,
+                "Rank of total population of concern": 19.0
             }
         },
         "IRQ": {
@@ -2435,7 +2687,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 984647064.0,
                 "Appeal percent funded": 0.3469208668660591,
-                "Humanitarian aid received": 1908931827
+                "Humanitarian aid received": 1908931827,
+                "Rank of humanitarian aid received": 3.0,
+                "Rank of total population of concern": 3.0
             }
         },
         "ISL": {
@@ -2453,7 +2707,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 148.0
             }
         },
         "ISR": {
@@ -2471,7 +2727,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 822368
+                "Humanitarian aid received": 822368,
+                "Rank of humanitarian aid received": 107.0,
+                "Rank of total population of concern": 73.0
             }
         },
         "ITA": {
@@ -2489,7 +2747,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 34014
+                "Humanitarian aid received": 34014,
+                "Rank of humanitarian aid received": 133.0,
+                "Rank of total population of concern": 45.0
             }
         },
         "JAM": {
@@ -2507,7 +2767,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 108155
+                "Humanitarian aid received": 108155,
+                "Rank of humanitarian aid received": 125.0,
+                "Rank of total population of concern": 163.0
             }
         },
         "JEY": {
@@ -2525,7 +2787,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "JOR": {
@@ -2543,7 +2807,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 900038167
+                "Humanitarian aid received": 900038167,
+                "Rank of humanitarian aid received": 8.0,
+                "Rank of total population of concern": 22.0
             }
         },
         "JPN": {
@@ -2561,7 +2827,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 90.0
             }
         },
         "KAZ": {
@@ -2579,7 +2847,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 4294504
+                "Humanitarian aid received": 4294504,
+                "Rank of humanitarian aid received": 81.0,
+                "Rank of total population of concern": 103.0
             }
         },
         "KEN": {
@@ -2612,7 +2882,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 165767183.0,
                 "Appeal percent funded": 0.15589889103683446,
-                "Humanitarian aid received": 209677010
+                "Humanitarian aid received": 209677010,
+                "Rank of humanitarian aid received": 23.0,
+                "Rank of total population of concern": 25.0
             }
         },
         "KGZ": {
@@ -2630,7 +2902,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1967870
+                "Humanitarian aid received": 1967870,
+                "Rank of humanitarian aid received": 94.0,
+                "Rank of total population of concern": 107.0
             }
         },
         "KHM": {
@@ -2648,7 +2922,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 11601730
+                "Humanitarian aid received": 11601730,
+                "Rank of humanitarian aid received": 67.0,
+                "Rank of total population of concern": 152.0
             }
         },
         "KIR": {
@@ -2666,7 +2942,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "KNA": {
@@ -2684,7 +2962,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "KOR": {
@@ -2702,7 +2982,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 379529
+                "Humanitarian aid received": 379529,
+                "Rank of humanitarian aid received": 118.0,
+                "Rank of total population of concern": 109.0
             }
         },
         "KWT": {
@@ -2720,7 +3002,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 59.0
             }
         },
         "LAC": {
@@ -2738,7 +3022,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LAO": {
@@ -2756,7 +3042,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2157051
+                "Humanitarian aid received": 2157051,
+                "Rank of humanitarian aid received": 93.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "LBN": {
@@ -2774,7 +3062,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1284743440
+                "Humanitarian aid received": 1284743440,
+                "Rank of humanitarian aid received": 7.0,
+                "Rank of total population of concern": 16.0
             }
         },
         "LBR": {
@@ -2792,7 +3082,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 18409803
+                "Humanitarian aid received": 18409803,
+                "Rank of humanitarian aid received": 61.0,
+                "Rank of total population of concern": 85.0
             }
         },
         "LBY": {
@@ -2826,7 +3118,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 151013476.0,
                 "Appeal percent funded": 0.16853742907023742,
-                "Humanitarian aid received": 101643831
+                "Humanitarian aid received": 101643831,
+                "Rank of humanitarian aid received": 31.0,
+                "Rank of total population of concern": 29.0
             }
         },
         "LCA": {
@@ -2844,7 +3138,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 175.0
             }
         },
         "LCN": {
@@ -2862,7 +3158,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LDC": {
@@ -2880,7 +3178,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LIC": {
@@ -2898,7 +3198,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LIE": {
@@ -2916,7 +3218,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 153.0
             }
         },
         "LKA": {
@@ -2934,7 +3238,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 13761766
+                "Humanitarian aid received": 13761766,
+                "Rank of humanitarian aid received": 65.0,
+                "Rank of total population of concern": 74.0
             }
         },
         "LMC": {
@@ -2952,7 +3258,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LMY": {
@@ -2970,7 +3278,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LSO": {
@@ -2988,7 +3298,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 27942430
+                "Humanitarian aid received": 27942430,
+                "Rank of humanitarian aid received": 47.0,
+                "Rank of total population of concern": 161.0
             }
         },
         "LTE": {
@@ -3006,7 +3318,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "LTU": {
@@ -3024,7 +3338,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 120.0
             }
         },
         "LUX": {
@@ -3042,7 +3358,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 121.0
             }
         },
         "LVA": {
@@ -3060,7 +3378,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 41.0
             }
         },
         "MAC": {
@@ -3078,7 +3398,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 170.0
             }
         },
         "MAF": {
@@ -3096,7 +3418,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "MAR": {
@@ -3114,7 +3438,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1725731
+                "Humanitarian aid received": 1725731,
+                "Rank of humanitarian aid received": 98.0,
+                "Rank of total population of concern": 113.0
             }
         },
         "MCO": {
@@ -3132,7 +3458,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 162.0
             }
         },
         "MDA": {
@@ -3150,7 +3478,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 116.0
             }
         },
         "MDG": {
@@ -3182,7 +3512,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 20067549.0,
                 "Appeal percent funded": 0.3641381416335398,
-                "Humanitarian aid received": 62936935
+                "Humanitarian aid received": 62936935,
+                "Rank of humanitarian aid received": 36.0,
+                "Rank of total population of concern": 160.0
             }
         },
         "MDV": {
@@ -3200,7 +3532,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 88333
+                "Humanitarian aid received": 88333,
+                "Rank of humanitarian aid received": 127.0,
+                "Rank of total population of concern": ""
             }
         },
         "MEA": {
@@ -3218,7 +3552,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "MEX": {
@@ -3236,7 +3572,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 115.0
             }
         },
         "MHL": {
@@ -3254,7 +3592,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2846987
+                "Humanitarian aid received": 2846987,
+                "Rank of humanitarian aid received": 86.0,
+                "Rank of total population of concern": ""
             }
         },
         "MIC": {
@@ -3272,7 +3612,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "MKD": {
@@ -3290,7 +3632,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 40719108
+                "Humanitarian aid received": 40719108,
+                "Rank of humanitarian aid received": 42.0,
+                "Rank of total population of concern": 136.0
             }
         },
         "MLI": {
@@ -3324,7 +3668,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 293098319.0,
                 "Appeal percent funded": 0.23106579127122187,
-                "Humanitarian aid received": 205354473
+                "Humanitarian aid received": 205354473,
+                "Rank of humanitarian aid received": 24.0,
+                "Rank of total population of concern": 61.0
             }
         },
         "MLT": {
@@ -3342,7 +3688,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 254582
+                "Humanitarian aid received": 254582,
+                "Rank of humanitarian aid received": 122.0,
+                "Rank of total population of concern": 108.0
             }
         },
         "MMR": {
@@ -3376,7 +3724,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 150300000.0,
                 "Appeal percent funded": 0.34674798403193613,
-                "Humanitarian aid received": 191806388
+                "Humanitarian aid received": 191806388,
+                "Rank of humanitarian aid received": 26.0,
+                "Rank of total population of concern": 13.0
             }
         },
         "MNE": {
@@ -3394,7 +3744,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 94.0
             }
         },
         "MNG": {
@@ -3412,7 +3764,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 8087671
+                "Humanitarian aid received": 8087671,
+                "Rank of humanitarian aid received": 72.0,
+                "Rank of total population of concern": 164.0
             }
         },
         "MNP": {
@@ -3430,7 +3784,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "MOZ": {
@@ -3461,7 +3817,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 10246400.0,
                 "Appeal percent funded": 0.2395220760462211,
-                "Humanitarian aid received": 75299913
+                "Humanitarian aid received": 75299913,
+                "Rank of humanitarian aid received": 33.0,
+                "Rank of total population of concern": 83.0
             }
         },
         "MRT": {
@@ -3493,7 +3851,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 74500000.0,
                 "Appeal percent funded": 0.2546773020134228,
-                "Humanitarian aid received": 38066861
+                "Humanitarian aid received": 38066861,
+                "Rank of humanitarian aid received": 44.0,
+                "Rank of total population of concern": 66.0
             }
         },
         "MSR": {
@@ -3511,7 +3871,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "MTQ": {
@@ -3529,7 +3891,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "MUS": {
@@ -3547,7 +3911,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "MWI": {
@@ -3565,7 +3931,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 158658957
+                "Humanitarian aid received": 158658957,
+                "Rank of humanitarian aid received": 28.0,
+                "Rank of total population of concern": 82.0
             }
         },
         "MYS": {
@@ -3583,7 +3951,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 575110
+                "Humanitarian aid received": 575110,
+                "Rank of humanitarian aid received": 116.0,
+                "Rank of total population of concern": 43.0
             }
         },
         "MYT": {
@@ -3601,7 +3971,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "NAC": {
@@ -3619,7 +3991,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "NAM": {
@@ -3637,7 +4011,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1000000
+                "Humanitarian aid received": 1000000,
+                "Rank of humanitarian aid received": 106.0,
+                "Rank of total population of concern": 118.0
             }
         },
         "NCL": {
@@ -3655,7 +4031,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "NER": {
@@ -3689,7 +4067,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 271346996.0,
                 "Appeal percent funded": 0.5682923794004339,
-                "Humanitarian aid received": 198062523
+                "Humanitarian aid received": 198062523,
+                "Rank of humanitarian aid received": 25.0,
+                "Rank of total population of concern": 35.0
             }
         },
         "NFK": {
@@ -3707,7 +4087,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "NGA": {
@@ -3741,7 +4123,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 1054431494.0,
                 "Appeal percent funded": 0.2794560430684556,
-                "Humanitarian aid received": 463596645
+                "Humanitarian aid received": 463596645,
+                "Rank of humanitarian aid received": 15.0,
+                "Rank of total population of concern": 8.0
             }
         },
         "NIC": {
@@ -3759,7 +4143,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2674123
+                "Humanitarian aid received": 2674123,
+                "Rank of humanitarian aid received": 87.0,
+                "Rank of total population of concern": 145.0
             }
         },
         "NIU": {
@@ -3777,7 +4163,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "NLD": {
@@ -3795,7 +4183,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 726075
+                "Humanitarian aid received": 726075,
+                "Rank of humanitarian aid received": 110.0,
+                "Rank of total population of concern": 55.0
             }
         },
         "NOR": {
@@ -3813,7 +4203,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 64.0
             }
         },
         "NPL": {
@@ -3831,7 +4223,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 20229337
+                "Humanitarian aid received": 20229337,
+                "Rank of humanitarian aid received": 56.0,
+                "Rank of total population of concern": 79.0
             }
         },
         "NRU": {
@@ -3849,7 +4243,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 140.0
             }
         },
         "NZL": {
@@ -3867,7 +4263,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 134.0
             }
         },
         "OED": {
@@ -3885,7 +4283,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "OMN": {
@@ -3903,7 +4303,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 147.0
             }
         },
         "OSS": {
@@ -3921,7 +4323,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PAK": {
@@ -3939,7 +4343,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 324598079
+                "Humanitarian aid received": 324598079,
+                "Rank of humanitarian aid received": 17.0,
+                "Rank of total population of concern": 7.0
             }
         },
         "PAN": {
@@ -3957,7 +4363,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 3584314
+                "Humanitarian aid received": 3584314,
+                "Rank of humanitarian aid received": 83.0,
+                "Rank of total population of concern": 87.0
             }
         },
         "PCN": {
@@ -3975,7 +4383,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PER": {
@@ -4009,7 +4419,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 39472408.0,
                 "Appeal percent funded": 0.1470520622912086,
-                "Humanitarian aid received": 1631924
+                "Humanitarian aid received": 1631924,
+                "Rank of humanitarian aid received": 99.0,
+                "Rank of total population of concern": 128.0
             }
         },
         "PHL": {
@@ -4027,7 +4439,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 22689116
+                "Humanitarian aid received": 22689116,
+                "Rank of humanitarian aid received": 53.0,
+                "Rank of total population of concern": 42.0
             }
         },
         "PLW": {
@@ -4045,7 +4459,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 363379
+                "Humanitarian aid received": 363379,
+                "Rank of humanitarian aid received": 120.0,
+                "Rank of total population of concern": 178.0
             }
         },
         "PNG": {
@@ -4063,7 +4479,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 17090961
+                "Humanitarian aid received": 17090961,
+                "Rank of humanitarian aid received": 63.0,
+                "Rank of total population of concern": 102.0
             }
         },
         "POL": {
@@ -4081,7 +4499,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 84.0
             }
         },
         "PRE": {
@@ -4099,7 +4519,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PRI": {
@@ -4117,7 +4539,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PRK": {
@@ -4148,7 +4572,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 113502775.0,
                 "Appeal percent funded": 0.18754712384785305,
-                "Humanitarian aid received": 43778254
+                "Humanitarian aid received": 43778254,
+                "Rank of humanitarian aid received": 40.0,
+                "Rank of total population of concern": ""
             }
         },
         "PRT": {
@@ -4166,7 +4592,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 50000
+                "Humanitarian aid received": 50000,
+                "Rank of humanitarian aid received": 130.0,
+                "Rank of total population of concern": 133.0
             }
         },
         "PRY": {
@@ -4184,7 +4612,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 3142484
+                "Humanitarian aid received": 3142484,
+                "Rank of humanitarian aid received": 84.0,
+                "Rank of total population of concern": 154.0
             }
         },
         "PSE": {
@@ -4202,7 +4632,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 671048996
+                "Humanitarian aid received": 671048996,
+                "Rank of humanitarian aid received": 10.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "PSS": {
@@ -4220,7 +4652,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PST": {
@@ -4238,7 +4672,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "PYF": {
@@ -4256,7 +4692,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "QAT": {
@@ -4274,7 +4712,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 135.0
             }
         },
         "REU": {
@@ -4292,7 +4732,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "ROU": {
@@ -4310,7 +4752,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 123.0
             }
         },
         "RUS": {
@@ -4328,7 +4772,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 31.0
             }
         },
         "RWA": {
@@ -4346,7 +4792,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 61860475
+                "Humanitarian aid received": 61860475,
+                "Rank of humanitarian aid received": 37.0,
+                "Rank of total population of concern": 52.0
             }
         },
         "SAS": {
@@ -4364,7 +4812,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SAU": {
@@ -4382,7 +4832,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 65.0
             }
         },
         "SDN": {
@@ -4416,7 +4868,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 803966226.0,
                 "Appeal percent funded": 0.11110174048530243,
-                "Humanitarian aid received": 642282231
+                "Humanitarian aid received": 642282231,
+                "Rank of humanitarian aid received": 12.0,
+                "Rank of total population of concern": 4.0
             }
         },
         "SEN": {
@@ -4445,7 +4899,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 15808722.0,
                 "Appeal percent funded": 0.10650215747990255,
-                "Humanitarian aid received": 11167778
+                "Humanitarian aid received": 11167778,
+                "Rank of humanitarian aid received": 68.0,
+                "Rank of total population of concern": 92.0
             }
         },
         "SGP": {
@@ -4463,7 +4919,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 178.0
             }
         },
         "SGS": {
@@ -4481,7 +4939,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SHN": {
@@ -4499,7 +4959,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SJM": {
@@ -4517,7 +4979,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SLB": {
@@ -4535,7 +4999,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1739366
+                "Humanitarian aid received": 1739366,
+                "Rank of humanitarian aid received": 97.0,
+                "Rank of total population of concern": 175.0
             }
         },
         "SLE": {
@@ -4553,7 +5019,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 26315011
+                "Humanitarian aid received": 26315011,
+                "Rank of humanitarian aid received": 49.0,
+                "Rank of total population of concern": 141.0
             }
         },
         "SLV": {
@@ -4571,7 +5039,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 4945256
+                "Humanitarian aid received": 4945256,
+                "Rank of humanitarian aid received": 79.0,
+                "Rank of total population of concern": 119.0
             }
         },
         "SMR": {
@@ -4589,7 +5059,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SOM": {
@@ -4623,7 +5095,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 1508830247.0,
                 "Appeal percent funded": 0.24054823908895298,
-                "Humanitarian aid received": 674529655
+                "Humanitarian aid received": 674529655,
+                "Rank of humanitarian aid received": 9.0,
+                "Rank of total population of concern": 15.0
             }
         },
         "SPM": {
@@ -4641,7 +5115,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SRB": {
@@ -4659,7 +5135,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 28574046
+                "Humanitarian aid received": 28574046,
+                "Rank of humanitarian aid received": 46.0,
+                "Rank of total population of concern": 40.0
             }
         },
         "SSA": {
@@ -4677,7 +5155,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SSD": {
@@ -4711,7 +5191,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 1639694893.0,
                 "Appeal percent funded": 0.4592792318954914,
-                "Humanitarian aid received": 1403993067
+                "Humanitarian aid received": 1403993067,
+                "Rank of humanitarian aid received": 5.0,
+                "Rank of total population of concern": 9.0
             }
         },
         "SSF": {
@@ -4729,7 +5211,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SST": {
@@ -4747,7 +5231,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "STP": {
@@ -4765,7 +5251,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "SUR": {
@@ -4783,7 +5271,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 168.0
             }
         },
         "SVK": {
@@ -4801,7 +5291,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 127.0
             }
         },
         "SVN": {
@@ -4819,7 +5311,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1861034
+                "Humanitarian aid received": 1861034,
+                "Rank of humanitarian aid received": 95.0,
+                "Rank of total population of concern": 146.0
             }
         },
         "SWE": {
@@ -4837,7 +5331,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 34.0
             }
         },
         "SWZ": {
@@ -4855,7 +5351,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 20772118
+                "Humanitarian aid received": 20772118,
+                "Rank of humanitarian aid received": 55.0,
+                "Rank of total population of concern": 139.0
             }
         },
         "SXM": {
@@ -4873,7 +5371,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 169.0
             }
         },
         "SYC": {
@@ -4891,7 +5391,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "SYR": {
@@ -4917,7 +5419,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 3407792269.0,
                 "Appeal percent funded": 0.13195160048061017,
-                "Humanitarian aid received": 2581324623
+                "Humanitarian aid received": 2581324623,
+                "Rank of humanitarian aid received": 1.0,
+                "Rank of total population of concern": 2.0
             }
         },
         "TCA": {
@@ -4935,7 +5439,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 173.0
             }
         },
         "TCD": {
@@ -4969,7 +5475,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 588608263.0,
                 "Appeal percent funded": 0.13269944869938055,
-                "Humanitarian aid received": 312293657
+                "Humanitarian aid received": 312293657,
+                "Rank of humanitarian aid received": 18.0,
+                "Rank of total population of concern": 28.0
             }
         },
         "TEA": {
@@ -4987,7 +5495,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TEC": {
@@ -5005,7 +5515,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TGO": {
@@ -5023,7 +5535,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 368528
+                "Humanitarian aid received": 368528,
+                "Rank of humanitarian aid received": 119.0,
+                "Rank of total population of concern": 98.0
             }
         },
         "THA": {
@@ -5041,7 +5555,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 21204503
+                "Humanitarian aid received": 21204503,
+                "Rank of humanitarian aid received": 54.0,
+                "Rank of total population of concern": 26.0
             }
         },
         "TJK": {
@@ -5059,7 +5575,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 18682680
+                "Humanitarian aid received": 18682680,
+                "Rank of humanitarian aid received": 60.0,
+                "Rank of total population of concern": 86.0
             }
         },
         "TKL": {
@@ -5077,7 +5595,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TKM": {
@@ -5095,7 +5615,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 112.0
             }
         },
         "TLA": {
@@ -5113,7 +5635,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TLS": {
@@ -5131,7 +5655,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 5197991
+                "Humanitarian aid received": 5197991,
+                "Rank of humanitarian aid received": 78.0,
+                "Rank of total population of concern": 170.0
             }
         },
         "TON": {
@@ -5149,7 +5675,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 725573
+                "Humanitarian aid received": 725573,
+                "Rank of humanitarian aid received": 111.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "TSA": {
@@ -5167,7 +5695,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TSS": {
@@ -5185,7 +5715,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TTO": {
@@ -5203,7 +5735,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 155.0
             }
         },
         "TUN": {
@@ -5221,7 +5755,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2608249
+                "Humanitarian aid received": 2608249,
+                "Rank of humanitarian aid received": 89.0,
+                "Rank of total population of concern": 144.0
             }
         },
         "TUR": {
@@ -5239,7 +5775,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 669532011
+                "Humanitarian aid received": 669532011,
+                "Rank of humanitarian aid received": 11.0,
+                "Rank of total population of concern": 6.0
             }
         },
         "TUV": {
@@ -5257,7 +5795,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "TWN": {
@@ -5275,7 +5815,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1400000
+                "Humanitarian aid received": 1400000,
+                "Rank of humanitarian aid received": 102.0,
+                "Rank of total population of concern": ""
             }
         },
         "TZA": {
@@ -5293,7 +5835,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 137020956
+                "Humanitarian aid received": 137020956,
+                "Rank of humanitarian aid received": 30.0,
+                "Rank of total population of concern": 32.0
             }
         },
         "UGA": {
@@ -5311,7 +5855,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 149339830
+                "Humanitarian aid received": 149339830,
+                "Rank of humanitarian aid received": 29.0,
+                "Rank of total population of concern": 21.0
             }
         },
         "UKR": {
@@ -5345,7 +5891,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 214058212.0,
                 "Appeal percent funded": 0.1473837499866625,
-                "Humanitarian aid received": 246603679
+                "Humanitarian aid received": 246603679,
+                "Rank of humanitarian aid received": 20.0,
+                "Rank of total population of concern": 11.0
             }
         },
         "UMC": {
@@ -5363,7 +5911,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "UMI": {
@@ -5381,7 +5931,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "URY": {
@@ -5399,7 +5951,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 50000
+                "Humanitarian aid received": 50000,
+                "Rank of humanitarian aid received": 130.0,
+                "Rank of total population of concern": 149.0
             }
         },
         "USA": {
@@ -5417,7 +5971,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 24.0
             }
         },
         "UZB": {
@@ -5435,7 +5991,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 169875
+                "Humanitarian aid received": 169875,
+                "Rank of humanitarian aid received": 123.0,
+                "Rank of total population of concern": 62.0
             }
         },
         "VAT": {
@@ -5453,7 +6011,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "VCT": {
@@ -5471,7 +6031,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "VEN": {
@@ -5489,7 +6051,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 2461802
+                "Humanitarian aid received": 2461802,
+                "Rank of humanitarian aid received": 91.0,
+                "Rank of total population of concern": 48.0
             }
         },
         "VGB": {
@@ -5507,7 +6071,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 182.0
             }
         },
         "VIR": {
@@ -5525,7 +6091,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "VNM": {
@@ -5543,7 +6111,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 9676433
+                "Humanitarian aid received": 9676433,
+                "Rank of humanitarian aid received": 70.0,
+                "Rank of total population of concern": 99.0
             }
         },
         "VUT": {
@@ -5561,7 +6131,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 3621309
+                "Humanitarian aid received": 3621309,
+                "Rank of humanitarian aid received": 82.0,
+                "Rank of total population of concern": 182.0
             }
         },
         "WLD": {
@@ -5579,7 +6151,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "WLF": {
@@ -5597,7 +6171,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "WSM": {
@@ -5615,7 +6191,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": 175.0
             }
         },
         "XKX": {
@@ -5633,7 +6211,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": ""
+                "Humanitarian aid received": "",
+                "Rank of humanitarian aid received": "",
+                "Rank of total population of concern": ""
             }
         },
         "YEM": {
@@ -5667,7 +6247,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 2067662020.0,
                 "Appeal percent funded": 0.2398830414266641,
-                "Humanitarian aid received": 1781277106
+                "Humanitarian aid received": 1781277106,
+                "Rank of humanitarian aid received": 4.0,
+                "Rank of total population of concern": 5.0
             }
         },
         "ZAF": {
@@ -5685,7 +6267,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 5382412
+                "Humanitarian aid received": 5382412,
+                "Rank of humanitarian aid received": 77.0,
+                "Rank of total population of concern": 14.0
             }
         },
         "ZMB": {
@@ -5703,7 +6287,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 6129947
+                "Humanitarian aid received": 6129947,
+                "Rank of humanitarian aid received": 76.0,
+                "Rank of total population of concern": 69.0
             }
         },
         "ZWE": {
@@ -5721,7 +6307,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 231355870
+                "Humanitarian aid received": 231355870,
+                "Rank of humanitarian aid received": 21.0,
+                "Rank of total population of concern": 36.0
             }
         },
         "null": {
@@ -5755,7 +6343,9 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": 546626643.0,
                 "Appeal percent funded": 0.29037927995763646,
-                "Humanitarian aid received": 2058440911
+                "Humanitarian aid received": 2058440911,
+                "Rank of humanitarian aid received": 2.0,
+                "Rank of total population of concern": 182.0
             }
         }
     },
