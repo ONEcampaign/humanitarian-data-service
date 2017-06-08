@@ -35,10 +35,14 @@ URL_FUNDING_DEST_COUNTRY = '/funding/countries/destination/index/{}'.format(FUND
 # Define path for raw country names data
 country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
 
+# Define path for relatable geography populations data
+relatable_population_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, '2017_relatable_population_rankings.csv')
+
 
 def merge_data(
         funding_year = FUNDING_YEAR,
         country_names_path=country_names_path,
+        relatable_population_path=relatable_population_path,
         url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
         url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
         url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
@@ -84,6 +88,8 @@ def merge_data(
 
     # Drop null values
     df_population = df_population.dropna()
+
+
 
 
     ####################  FRAGILE STATE ####################
@@ -218,9 +224,37 @@ def merge_data(
                              'sourceType': 'Source type of needs data'
                              }, inplace=True)
 
-    # Drop null values
-    # df_needs = df_needs.dropna()
 
+    ######## FIND PLACES WITH SIMILAR POPULATIONS TO PEOPLE IN NEED ########
+
+    # Get the relateable populations data from .csv
+    df_relatable_populations = pd.read_csv(relatable_population_path)
+
+    def find_nearest_place_population(reference_value):
+
+        if reference_value:
+            nearest_row = df_relatable_populations.iloc[(df_relatable_populations['Population']- reference_value).abs().argsort()[0]]
+            nearest_population = nearest_row['Population']
+        else:
+            nearest_population = 0.00
+
+        return nearest_population
+
+    def find_nearest_place(reference_value):
+
+        if reference_value:
+            nearest_row = df_relatable_populations.iloc[(df_relatable_populations['Population']- reference_value).abs().argsort()[0]]
+            nearest_place = nearest_row['City, State, Country']
+        else:
+            nearest_place = ''
+
+        return nearest_place
+
+    df_needs['Place with similar population as people in need'] = df_needs['Total people in need'].apply(
+        find_nearest_place)
+
+    df_needs['Population of place with similar population'] = df_needs['Total people in need'].apply(
+        find_nearest_place_population)
 
 
     ####################  SAMPLE CLUSTERS ####################
@@ -229,6 +263,8 @@ def merge_data(
     # df_clusters = pd.read_json('sample_clusters.json').T
     # df_clusters = df_clusters[['clusters']]
 
+
+    ################# COMBINE ALL DATA ##############
 
     # Make a list of all dataframes
     all_dataframes = [
@@ -263,14 +299,15 @@ def merge_data(
 
     # Define field names for each strand
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
-                        'Appeal percent funded', 'Source of needs data', 'Source type of needs data']
+                        'Appeal percent funded', 'Source of needs data', 'Source type of needs data',
+                        'Total people in need', 'Place with similar population as people in need']
     strand_02_fields = ['Refugees and IDPs per 1000 population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
                         'GDP Per Capita']
     strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded',
                         'Rank of total population of concern', 'Rank of humanitarian aid received']
 
-    needs_fields = ['Total people in need','People in need of health support','Children in need of education',
+    needs_fields = ['People in need of health support','Children in need of education',
                     'People who are food insecure','People in need of protection','People in need of shelter',
                     'People in need of water, sanitization & hygiene']
 

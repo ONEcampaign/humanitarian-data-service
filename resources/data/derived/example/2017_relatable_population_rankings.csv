@@ -1,0 +1,184 @@
+pop_id,"City, State, Country",Population
+1,"California, United States",39140000
+2,"Texas, United States",27470000
+3,"Karachi, Sindh, Pakistan",24300000
+4,"Shanghai, China",24150000
+5,"Beijing, China",21700000
+6,Romania,21300000
+7,"Florida, United States",20270000
+8,"New York, United States",19800000
+9,Netherlands,16800000
+10,"Lagos, Nigeria",16060000
+11,"Tianjin, China",15470000
+12,"Illinois, United States",12860000
+13,"Pennsylvania, United States",12800000
+14,"Ohio, United States",11610000
+15,Greece,11500000
+16,Belgium,10800000
+17,Portugal,10700000
+18,Czech Republic,10600000
+19,"Georgia, United States",10210000
+20,"North Carolina, United States",10040000
+21,"Michigan, United States",9923000
+22,Hungary,9920000
+23,Sweden,9600000
+24,Belarus,9470000
+25,"New Jersey, United States",8958000
+26,"London, Greater London, United Kingdom",8674000
+27,"New York City, New York, United States",8550000
+28,Austria,8450000
+29,"Virginia, United States",8383000
+30,Switzerland,7790000
+31,Bulgaria,7300000
+32,"Washington, United States",7170000
+33,Serbia,7160000
+34,"Arizona, United States",6828000
+35,"Massachusetts, United States",6794000
+36,"Indiana, United States",6620000
+37,"Tennessee, United States",6600000
+38,"Missouri, United States",6084000
+39,"Maryland, United States",6006000
+40,"Wisconsin, United States",5771000
+41,Denmark,5630000
+42,Slovakia,5500000
+43,"Minnesota, United States",5490000
+44,"Colorado, United States",5457000
+45,Finland,5430000
+46,Norway,5020000
+47,"South Carolina, United States",4896000
+48,"Alabama, United States",4859000
+49,Ireland,4680000
+50,"Louisiana, United States",4671000
+51,"Kentucky, United States",4425000
+52,Croatia,4370000
+53,"Oregon, United States",4029000
+54,"Los Angeles, California, United States",3972000
+55,"Oklahoma, United States",3911000
+56,Bosnia and Herzegovina,3730000
+57,"Connecticut, United States",3591000
+58,"Berlin, Germany",3520000
+59,Moldova,3470000
+60,Lithuania,3260000
+61,Albania,3250000
+62,"Madrid, Spain",3142000
+63,"Iowa, United States",3124000
+64,"Utah, United States",2996000
+65,"Mississippi, United States",2992000
+66,"Arkansas, United States",2978000
+67,"Kansas, United States",2912000
+68,"Nevada, United States",2891000
+69,"Rome, Lazio, Italy",2870000
+70,"Chicago, Illinois, United States",2721000
+71,"Houston, Texas, United States",2296000
+72,"Paris, Ile-de-France, France",2230000
+73,Latvia,2220000
+74,"Bucharest, Romania",2106000
+75,"New Mexico, United States",2085000
+76,Macedonia,2070000
+77,Slovenia,2050000
+78,"Nebraska, United States",1896000
+79,"Vienna, Austria",1868000
+80,Kosovo,1860000
+81,"West Virginia, United States",1844000
+82,"Budapest, Hungary",1759000
+83,"Warsaw, Mazowieckie, Poland",1749000
+84,"Idaho, United States",1655000
+85,"Philadelphia, Pennsylvania, United States",1567000
+86,"Phoenix, Arizona, United States",1563000
+87,"Hawaii, United States",1432000
+88,Estonia,1340000
+89,"New Hampshire, United States",1331000
+90,"Maine, United States",1329000
+91,"Dublin, Ireland",1280000
+92,"Prague, Czech Republic",1267000
+93,"Sofia, Sofia grad, Bulgaria",1260000
+94,"Brussels, Belgium",1114000
+95,"Rhode Island, United States",1056000
+96,"Montana, United States",1033000
+97,"Delaware, United States",945934
+98,"Stockholm, Sweden",932917
+99,"Austin, Texas, United States",931830
+100,"South Dakota, United States",858469
+101,"Indianapolis, Indiana, United States",858325
+102,"Columbus, Ohio, United States",850106
+103,"Amsterdam, Noord-Holland, Netherlands",844667
+104,"Zagreb, Grad Zagreb, Croatia",792875
+105,"North Dakota, United States",756927
+106,"Alaska, United States",738432
+107,"Riga, Latvia",696593
+108,"Denver, Colorado, United States",682545
+109,"Washington, District of Columbia, United States",672228
+110,"District of Columbia, United States",672228
+111,"Nashville, Tennessee, United States",668347
+112,"Boston, Massachusetts, United States",667137
+113,"Athens, Attiki, Greece",664046
+114,Montenegro,633506
+115,"Oklahoma City, Oklahoma, United States",631346
+116,"Vermont, United States",626042
+117,"Copenhagen, Denmark",601448
+118,"Wyoming, United States",586107
+119,"Helsinki, Uusimaa, Finland",564521
+120,"Lisbon, Lisboa, Portugal",545245
+121,"Vilnius, Vilniaus, Lithuania",542664
+122,Luxembourg,536427
+123,"Sacramento, California, United States",490712
+124,"Atlanta, Georgia, United States",463878
+125,"Raleigh, North Carolina, United States",451066
+126,"Tallinn, Harju, Estonia",444085
+127,"Bratislava, Bratislavsky, Slovakia",425459
+128,Malta,421844
+129,"Honolulu, Hawaii, United States",352769
+130,Iceland,335631
+131,"Saint Paul, Minnesota, United States",300851
+132,"Ljubljana, Osrednjeslovenska, Slovenia",287218
+133,"Lincoln, Nebraska, United States",277348
+134,"Madison, Wisconsin, United States",248951
+135,"Baton Rouge, Louisiana, United States",228590
+136,"Richmond, Virginia, United States",220289
+137,"Boise, Idaho, United States",218281
+138,"Des Moines, Iowa, United States",210330
+139,"Montgomery, Alabama, United States",200602
+140,"Little Rock, Arkansas, United States",197992
+141,"Salt Lake City, Utah, United States",192672
+142,"Tallahassee, Florida, United States",189907
+143,"Providence, Rhode Island, United States",179207
+144,"Jackson, Mississippi, United States",170674
+145,"Salem, Oregon, United States",164549
+146,"Columbia, South Carolina, United States",133803
+147,"Topeka, Kansas, United States",127265
+148,"Hartford, Connecticut, United States",124006
+149,"Springfield, Illinois, United States",116565
+150,"Lansing, Michigan, United States",115056
+151,"Albany, New York, United States",98469
+152,Jersey,95732
+153,Isle of Man,86159
+154,Andorra,85458
+155,"Trenton, New Jersey, United States",84225
+156,"Santa Fe, New Mexico, United States",84099
+157,"Luxemburg, Luxembourg",77325
+158,"Bismarck, North Dakota, United States",71167
+159,Guernsey,65605
+160,"Cheyenne, Wyoming, United States",63335
+161,"Nicosia, Cyprus",55014
+162,"Carson City, Nevada, United States",54521
+163,"Olympia, Washington, United States",50302
+164,"Charleston, West Virginia, United States",49736
+165,Faroe Islands,49709
+166,"Harrisburg, Pennsylvania, United States",49081
+167,"Jefferson City, Missouri, United States",43169
+168,"Concord, New Hampshire, United States",42620
+169,"Annapolis, Maryland, United States",39474
+170,"Dover, Delaware, United States",37522
+171,Liechtenstein,37313
+172,"Juneau, Alaska, United States",32756
+173,San Marino,32742
+174,"Helena, Montana, United States",30581
+175,Monaco,30508
+176,Gibraltar,29111
+177,"Frankfort, Kentucky, United States",27830
+178,"Augusta, Maine, United States",18471
+179,"Pierre, South Dakota, United States",14002
+180,"Montpelier, Vermont, United States",7592
+181,"Valletta, Malta",6444
+182,Svalbard,2637
+183,Vatican City,839

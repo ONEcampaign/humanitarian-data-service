@@ -34,11 +34,12 @@
                     "People in need of protection": 3700000.0,
                     "People in need of shelter": 2100000.0,
                     "People in need of water, sanitization & hygiene": 2300000.0,
-                    "People who are food insecure": 3200000.0,
-                    "Total people in need": 9300000.0
+                    "People who are food insecure": 3200000.0
                 },
+                "Place with similar population as people in need": "Belarus",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/afg_2017_hno_english.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 9300000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 107.3,
@@ -390,11 +391,12 @@
                     "People in need of protection": 1800000.0,
                     "People in need of shelter": 351000.0,
                     "People in need of water, sanitization & hygiene": 2700000.0,
-                    "People who are food insecure": 2200000.0,
-                    "Total people in need": 3000000.0
+                    "People who are food insecure": 2200000.0
                 },
+                "Place with similar population as people in need": "Utah, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hno_burundi_2017_fr_small.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 3000000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 98.9,
@@ -481,11 +483,12 @@
                 "Appeal funds still needed": 44972769.0,
                 "Appeal percent funded": 0.26381559691597506,
                 "Needs_Data": {
-                    "People who are food insecure": 153000.0,
-                    "Total people in need": 861000.0
+                    "People who are food insecure": 153000.0
                 },
+                "Place with similar population as people in need": "South Dakota, United States",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/burkina_2017_hno_17fev.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 861000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 88.0,
@@ -837,11 +840,12 @@
                     "People in need of protection": 2000000.0,
                     "People in need of shelter": 800000.0,
                     "People in need of water, sanitization & hygiene": 2200000.0,
-                    "People who are food insecure": 2000000.0,
-                    "Total people in need": 2200000.0
+                    "People who are food insecure": 2000000.0
                 },
+                "Place with similar population as people in need": "Latvia",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiUXVMSHBBX3h3QzA/view",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 2200000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 112.6,
@@ -1013,11 +1017,12 @@
                     "People in need of protection": 1000000.0,
                     "People in need of shelter": 656000.0,
                     "People in need of water, sanitization & hygiene": 813000.0,
-                    "People who are food insecure": 2800000.0,
-                    "Total people in need": 2900000.0
+                    "People who are food insecure": 2800000.0
                 },
+                "Place with similar population as people in need": "Nevada, United States",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiRjZsbHNWNkd6ZE0/view",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 2900000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 95.6,
@@ -1049,11 +1054,12 @@
                     "People in need of protection": 7300000.0,
                     "People in need of shelter": 2100000.0,
                     "People in need of water, sanitization & hygiene": 6900000.0,
-                    "People who are food insecure": 4400000.0,
-                    "Total people in need": 6900000.0
+                    "People who are food insecure": 4400000.0
                 },
+                "Place with similar population as people in need": "Arizona, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/drc_hno_2017_1.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 6900000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 110.0,
@@ -1363,11 +1369,12 @@
                     "People in need of health support": 289338.0,
                     "People in need of protection": 70250.0,
                     "People in need of water, sanitization & hygiene": 174828.0,
-                    "People who are food insecure": 196910.0,
-                    "Total people in need": 289338.0
+                    "People who are food insecure": 196910.0
                 },
+                "Place with similar population as people in need": "Ljubljana, Osrednjeslovenska, Slovenia",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/HRP%20Djib%202017.pdf",
-                "Source type of needs data": "Humanitarian Response Plan"
+                "Source type of needs data": "Humanitarian Response Plan",
+                "Total people in need": 289338.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 88.9,
@@ -1719,11 +1726,12 @@
                     "People in need of protection": 590000.0,
                     "People in need of shelter": 600000.0,
                     "People in need of water, sanitization & hygiene": 9100000.0,
-                    "People who are food insecure": 5600000.0,
-                    "Total people in need": 9200000.0
+                    "People who are food insecure": 5600000.0
                 },
+                "Place with similar population as people in need": "New Jersey, United States",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/2017_hrd_40final_.pdf",
-                "Source type of needs data": "Humanitarian Requirements Document"
+                "Source type of needs data": "Humanitarian Requirements Document",
+                "Total people in need": 9200000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 101.1,
@@ -2395,11 +2403,12 @@
                     "People in need of protection": 854000.0,
                     "People in need of shelter": 800000.0,
                     "People in need of water, sanitization & hygiene": 1400000.0,
-                    "People who are food insecure": 1500000.0,
-                    "Total people in need": 2700000.0
+                    "People who are food insecure": 1500000.0
                 },
+                "Place with similar population as people in need": "Chicago, Illinois, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/haiti_hno_2017.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 2700000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 105.3,
@@ -2671,11 +2680,12 @@
                     "People in need of protection": 8700000.0,
                     "People in need of shelter": 3900000.0,
                     "People in need of water, sanitization & hygiene": 6300000.0,
-                    "People who are food insecure": 3200000.0,
-                    "Total people in need": 11000000.0
+                    "People who are food insecure": 3200000.0
                 },
+                "Place with similar population as people in need": "Belgium",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/irq_2017_hno.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 11000000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 105.4,
@@ -2866,11 +2876,12 @@
                     "People in need of health support": 2900000.0,
                     "People in need of protection": 175655.0,
                     "People in need of water, sanitization & hygiene": 3000000.0,
-                    "People who are food insecure": 2600000.0,
-                    "Total people in need": 2600000.0
+                    "People who are food insecure": 2600000.0
                 },
+                "Place with similar population as people in need": "Chicago, Illinois, United States",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Kenyan_Flash_%20Appeal_15%20March%202017%20final.pdf",
-                "Source type of needs data": "Flash Appeal"
+                "Source type of needs data": "Flash Appeal",
+                "Total people in need": 2600000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 96.4,
@@ -3102,11 +3113,12 @@
                     "People in need of protection": 1300000.0,
                     "People in need of shelter": 600000.0,
                     "People in need of water, sanitization & hygiene": 500000.0,
-                    "People who are food insecure": 400000.0,
-                    "Total people in need": 1300000.0
+                    "People who are food insecure": 400000.0
                 },
+                "Place with similar population as people in need": "Dublin, Ireland",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/2017_libya_humanitarian_needs_overview_november_2016_1.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 1300000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 96.3,
@@ -3496,11 +3508,12 @@
                     "Children in need of education": 100000.0,
                     "People in need of health support": 250000.0,
                     "People in need of shelter": 55000.0,
-                    "People in need of water, sanitization & hygiene": 168000.0,
-                    "Total people in need": 433985.0
+                    "People in need of water, sanitization & hygiene": 168000.0
                 },
+                "Place with similar population as people in need": "Bratislava, Bratislavsky, Slovakia",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/2017_Flash_Appeal_MG_eng.002.002.pdf",
-                "Source type of needs data": "Flash Appeal"
+                "Source type of needs data": "Flash Appeal",
+                "Total people in need": 433985.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 84.0,
@@ -3652,11 +3665,12 @@
                     "People in need of protection": 590000.0,
                     "People in need of shelter": 320000.0,
                     "People in need of water, sanitization & hygiene": 1200000.0,
-                    "People who are food insecure": 3530000.0,
-                    "Total people in need": 3700000.0
+                    "People who are food insecure": 3530000.0
                 },
+                "Place with similar population as people in need": "Bosnia and Herzegovina",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiWWpSWGJpaHU1NGs/view",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 3700000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 92.9,
@@ -3708,11 +3722,12 @@
                     "People in need of protection": 244000.0,
                     "People in need of shelter": 217500.0,
                     "People in need of water, sanitization & hygiene": 356000.0,
-                    "People who are food insecure": 383500.0,
-                    "Total people in need": 525448.0
+                    "People who are food insecure": 383500.0
                 },
+                "Place with similar population as people in need": "Luxembourg",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Ref_Doc_Humanitarian_Needs_Overview_HCT_2017.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 525448.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 95.7,
@@ -3801,11 +3816,12 @@
                 "Needs_Data": {
                     "Children in need of education": 160000.0,
                     "People in need of health support": 150000.0,
-                    "People who are food insecure": 89000.0,
-                    "Total people in need": 550691.0
+                    "People who are food insecure": 89000.0
                 },
+                "Place with similar population as people in need": "Lisbon, Lisboa, Portugal",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Mozambique%20Flash%20Appeal_FINAL.pdf",
-                "Source type of needs data": "Flash Appeal"
+                "Source type of needs data": "Flash Appeal",
+                "Total people in need": 550691.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 89.0,
@@ -3835,11 +3851,12 @@
                     "People in need of health support": 203000.0,
                     "People in need of protection": 371000.0,
                     "People in need of water, sanitization & hygiene": 615000.0,
-                    "People who are food insecure": 493000.0,
-                    "Total people in need": 539000.0
+                    "People who are food insecure": 493000.0
                 },
+                "Place with similar population as people in need": "Luxembourg",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_mauritania_0.pdf",
-                "Source type of needs data": "Integrated Humanitarian and Development Action Plan "
+                "Source type of needs data": "Integrated Humanitarian and Development Action Plan ",
+                "Total people in need": 539000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 93.7,
@@ -4051,11 +4068,12 @@
                     "People in need of protection": 200000.0,
                     "People in need of shelter": 400000.0,
                     "People in need of water, sanitization & hygiene": 1200000.0,
-                    "People who are food insecure": 1300000.0,
-                    "Total people in need": 1927593.0
+                    "People who are food insecure": 1300000.0
                 },
+                "Place with similar population as people in need": "Nebraska, United States",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiMW0yWXNtMXF5TTQ/view",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 1927593.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 97.4,
@@ -4107,11 +4125,12 @@
                     "People in need of protection": 6700000.0,
                     "People in need of shelter": 2400000.0,
                     "People in need of water, sanitization & hygiene": 3800000.0,
-                    "People who are food insecure": 5800000.0,
-                    "Total people in need": 14000000.0
+                    "People who are food insecure": 5800000.0
                 },
+                "Place with similar population as people in need": "Illinois, United States",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiZEVJdXZyRl9oVG8/view",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 14000000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 101.6,
@@ -4403,11 +4422,12 @@
                     "People in need of protection": 517683.0,
                     "People in need of shelter": 1250000.0,
                     "People in need of water, sanitization & hygiene": 567000.0,
-                    "People who are food insecure": 445000.0,
-                    "Total people in need": 1100000.0
+                    "People who are food insecure": 445000.0
                 },
+                "Place with similar population as people in need": "Brussels, Belgium",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/-PE-Flash_Appeal_ENG_1000_hrs_%28PUBLIC%29-20170410-CV-20519.pdf",
-                "Source type of needs data": "Flash Appeal"
+                "Source type of needs data": "Flash Appeal",
+                "Total people in need": 1100000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 70.3,
@@ -4556,11 +4576,12 @@
                 "Needs_Data": {
                     "People in need of health support": 15400000.0,
                     "People in need of water, sanitization & hygiene": 3500000.0,
-                    "People who are food insecure": 18000000.0,
-                    "Total people in need": 18000000.0
+                    "People who are food insecure": 18000000.0
                 },
+                "Place with similar population as people in need": "Netherlands",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/DPRK%20Needs%20and%20Priorities%202017.pdf",
-                "Source type of needs data": "Needs and Priorities"
+                "Source type of needs data": "Needs and Priorities",
+                "Total people in need": 18000000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 93.3,
@@ -4852,11 +4873,12 @@
                     "People in need of protection": 3200000.0,
                     "People in need of shelter": 1500000.0,
                     "People in need of water, sanitization & hygiene": 3500000.0,
-                    "People who are food insecure": 3600000.0,
-                    "Total people in need": 4800000.0
+                    "People who are food insecure": 3600000.0
                 },
+                "Place with similar population as people in need": "Alabama, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/en/operations/sudan/document/sudan-2017-humanitarian-needs-overview-0",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 4800000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 110.6,
@@ -4883,11 +4905,12 @@
                 "Appeal funds still needed": 14125059.0,
                 "Appeal percent funded": 0.10650215747990255,
                 "Needs_Data": {
-                    "People who are food insecure": 881365.0,
-                    "Total people in need": 881000.0
+                    "People who are food insecure": 881365.0
                 },
+                "Place with similar population as people in need": "South Dakota, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_senegal_0.pdf",
-                "Source type of needs data": "Humanitarian Response Plan"
+                "Source type of needs data": "Humanitarian Response Plan",
+                "Total people in need": 881000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 82.3,
@@ -5079,11 +5102,12 @@
                     "People in need of protection": 1100000.0,
                     "People in need of shelter": 1165000.0,
                     "People in need of water, sanitization & hygiene": 3300000.0,
-                    "People who are food insecure": 5000000.0,
-                    "Total people in need": 5000000.0
+                    "People who are food insecure": 5000000.0
                 },
+                "Place with similar population as people in need": "Norway",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/161124_som_hno_2017.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 5000000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 113.4,
@@ -5175,11 +5199,12 @@
                     "People in need of protection": 7300000.0,
                     "People in need of shelter": 1900000.0,
                     "People in need of water, sanitization & hygiene": 5100000.0,
-                    "People who are food insecure": 5200000.0,
-                    "Total people in need": 7500000.0
+                    "People who are food insecure": 5200000.0
                 },
+                "Place with similar population as people in need": "Bulgaria",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/South_Sudan_2017_Humanitarian_Needs_Overview.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 7500000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 113.9,
@@ -5406,8 +5431,10 @@
                 "Appeal funds still needed": 2958128625.0,
                 "Appeal percent funded": 0.13195160048061017,
                 "Needs_Data": {},
+                "Place with similar population as people in need": "",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/2017_hrp_syria_170320_ds.pdf",
-                "Source type of needs data": "Humanitarian Response Plan"
+                "Source type of needs data": "Humanitarian Response Plan",
+                "Total people in need": ""
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 110.6,
@@ -5459,11 +5486,12 @@
                     "People in need of protection": 700000.0,
                     "People in need of shelter": 920418.0,
                     "People in need of water, sanitization & hygiene": 1900000.0,
-                    "People who are food insecure": 4300000.0,
-                    "Total people in need": 4700000.0
+                    "People who are food insecure": 4300000.0
                 },
+                "Place with similar population as people in need": "Ireland",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/tcd_str_hno2017_fr_20161216.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 4700000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 109.4,
@@ -5875,11 +5903,12 @@
                     "People in need of protection": 2900000.0,
                     "People in need of shelter": 600000.0,
                     "People in need of water, sanitization & hygiene": 3700000.0,
-                    "People who are food insecure": 1100000.0,
-                    "Total people in need": 3800000.0
+                    "People who are food insecure": 1100000.0
                 },
+                "Place with similar population as people in need": "Bosnia and Herzegovina",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/ukraine_humanitarian_needs_overview_2017_eng.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 3800000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 74.0,
@@ -6231,11 +6260,12 @@
                     "People in need of protection": 11268000.0,
                     "People in need of shelter": 4500000.0,
                     "People in need of water, sanitization & hygiene": 14500000.0,
-                    "People who are food insecure": 14120000.0,
-                    "Total people in need": 18800000.0
+                    "People who are food insecure": 14120000.0
                 },
+                "Place with similar population as people in need": "New York, United States",
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/YEMEN%202017%20HNO_Final.pdf",
-                "Source type of needs data": "Humanitarian Needs Overview"
+                "Source type of needs data": "Humanitarian Needs Overview",
+                "Total people in need": 18800000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 111.1,
@@ -6327,11 +6357,12 @@
                     "People in need of protection": 6100000.0,
                     "People in need of shelter": 5200000.0,
                     "People in need of water, sanitization & hygiene": 3900000.0,
-                    "People who are food insecure": 5200000.0,
-                    "Total people in need": 8500000.0
+                    "People who are food insecure": 5200000.0
                 },
+                "Place with similar population as people in need": "Austria",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/15052017_ocha_nga_ne_sitrep_no_11_01_15_may_2017.pdf",
-                "Source type of needs data": "Humanitarian Overview"
+                "Source type of needs data": "Humanitarian Overview",
+                "Total people in need": 8500000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": "",
