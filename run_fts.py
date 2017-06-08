@@ -8,6 +8,7 @@ from pandas.io.json import json_normalize
 
 from resources import constants
 from utils import data_utils, api_utils
+import time
 
 """
 This script currently updates the committed and paid funding for appeals, and replaces the old `funding_progress.csv` file.
@@ -22,10 +23,17 @@ def getPlans(year, country_mapping):
     # Get all plans from the FTS API
     data = api_utils.get_fts_endpoint('/public/plan/year/{}'.format(year))
 
+    def extract_adminLevel0(dict):
+        iso3 = None
+        for x in dict:
+            if x['adminLevel'] == 0:
+                iso3 = x['iso3']
+        return iso3
+
     # Extract names from objects
     data['categoryName'] = data.categories.apply(lambda x: x[0]['name'])
     data['emergencies'] = data.emergencies.apply(lambda x: x[0]['name'] if x else None)
-    data['countryCode'] = data.locations.apply(lambda x: x[0]['iso3'] if x else None)
+    data['countryCode'] = data.locations.apply(extract_adminLevel0)
 
     # Merge in country codes based on country Name
     #data = data.merge(country_mapping, how='left', on=['name'])
@@ -409,6 +417,8 @@ def run_transformations_by_dimension():
 
 def run():
 
+    t0 = time.time()
+
     print 'Get list of countries and ISO-3 codes'
     countries = getCountries()
     print countries.head()
@@ -433,7 +443,7 @@ def run():
     print 'Get donor funding amounts to each plan from the FTS API'
     donor_funding_plan = getDonorPlanFundingAmounts(plan_index)
     print donor_funding_plan.head()
-    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors_appeal.csv')
     donor_funding_plan.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Get required and committed funding at the cluster level from the FTS API'
@@ -455,6 +465,7 @@ def run():
     donor_funding_country.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Done!'
+    print 'Total time taken in minutes: {}'.format((time.time() - t0)/60)
 
 
 

@@ -396,10 +396,10 @@ def get_funding_progress(orientation):
 
 
 @app.route('/funding/plans/donors', methods=['GET'])
-@swag_from('api_configs/world/funding_donors.yml')
+@swag_from('api_configs/world/funding_donors_appeal.yml')
 def get_funding_plan_donors():
     params = None
-    success, result, metadata = api_utils.safely_load_data('funding_donors.csv', 'FTS funding donors to each appeal', has_metadata=False)
+    success, result, metadata = api_utils.safely_load_data('funding_donors_appeal.csv', 'FTS funding donors to each appeal', has_metadata=False)
     if not success:
         return result, 501
     planID = request.args.get('planID', None)
@@ -455,6 +455,29 @@ def get_funding_countries_destination(orientation, year):
         result = result.to_dict(orient='list')
     if orientation == 'index':
         result = result.set_index('countryCode').to_dict(orient=orientation)
+    return jsonify(data=result, params=params)
+
+
+@app.route('/funding/countries/donors/<string:orientation>', methods=['GET'])
+@swag_from('api_configs/world/funding_donors_country.yml')
+def get_funding_countries_donors(orientation):
+    params = None
+    success, result, metadata = api_utils.safely_load_data('funding_donors_country.csv', 'FTS funding donors to each country', has_metadata=False)
+    if not success:
+        return result, 501
+    countryCode = request.args.get('countryCode', None)
+    if countryCode:
+        params = {"countryCode": countryCode}
+        countryCode = str(countryCode).strip().upper()
+        result = result[result.countryCode == countryCode]
+
+    if orientation == 'list':
+        result = result.to_dict(orient='list')
+    if orientation == 'index':
+        #result = result.set_index('countryCode').to_dict(orient=orientation)
+        result = result.groupby(['countryCode'])[['organization_name','totalFunding']]
+        result = result.apply(lambda x: x.to_dict(orient='record'))
+        result = result.to_dict()
     return jsonify(data=result, params=params)
 
 

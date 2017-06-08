@@ -84,7 +84,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3049.0,World Food Programme,689470,532,HTCD17,Chad 2017,TCD
 2976.0,"China, Government of",4000000,532,HTCD17,Chad 2017,TCD
 5319.0,"Spain, Government of",123799,532,HTCD17,Chad 2017,TCD
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,29818360,532,HTCD17,Chad 2017,TCD
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,32806620,532,HTCD17,Chad 2017,TCD
 4314.0,"France, Government of",754638,532,HTCD17,Chad 2017,TCD
 4762.0,Central Emergency Response Fund,3561841,532,HTCD17,Chad 2017,TCD
 ,Not specified,305001,532,HTCD17,Chad 2017,TCD
@@ -316,7 +316,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 2924.0,"Switzerland, Government of",7803966,536,HNGA17,Nigeria 2017,NGA
 2917.0,"United Kingdom, Government of",4959466,536,HNGA17,Nigeria 2017,NGA
 2921.0,"Sweden, Government of",22309489,536,HNGA17,Nigeria 2017,NGA
-2933.0,"United States of America, Government of",100220489,536,HNGA17,Nigeria 2017,NGA
+2933.0,"United States of America, Government of",102266758,536,HNGA17,Nigeria 2017,NGA
 2652.0,"Malta, Government of",32017,536,HNGA17,Nigeria 2017,NGA
 4537.0,"Japan, Government of",7539000,536,HNGA17,Nigeria 2017,NGA
 4306.0,"Germany, Government of",23636542,536,HNGA17,Nigeria 2017,NGA
@@ -583,27 +583,27 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4314.0,"France, Government of",907150,542,HYEM17,Yemen 2017,YEM
 2929.0,"Korea, Republic of, Government of",1500000,542,HYEM17,Yemen 2017,YEM
 2966.0,European Commission,3700000,542,HYEM17,Yemen 2017,YEM
-2933.0,"United States of America, Government of",60000001,529,HPSE17,occupied Palestinian territory 2017,
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,15785222,529,HPSE17,occupied Palestinian territory 2017,
-4306.0,"Germany, Government of",29528316,529,HPSE17,occupied Palestinian territory 2017,
-4537.0,"Japan, Government of",9044801,529,HPSE17,occupied Palestinian territory 2017,
-3049.0,World Food Programme,1709417,529,HPSE17,occupied Palestinian territory 2017,
-3006.0,"Russian Federation, Government of",2000000,529,HPSE17,occupied Palestinian territory 2017,
-2924.0,"Switzerland, Government of",4277617,529,HPSE17,occupied Palestinian territory 2017,
-2928.0,"Canada, Government of",11421874,529,HPSE17,occupied Palestinian territory 2017,
-5319.0,"Spain, Government of",315521,529,HPSE17,occupied Palestinian territory 2017,
-4829.0,"Slovenia, Government of",53362,529,HPSE17,occupied Palestinian territory 2017,
-2927.0,"Belgium, Government of",278707,529,HPSE17,occupied Palestinian territory 2017,
-4337.0,UNICEF National Committee/France,266809,529,HPSE17,occupied Palestinian territory 2017,
-2921.0,"Sweden, Government of",6792072,529,HPSE17,occupied Palestinian territory 2017,
-4838.0,"Brazil, Government of",200000,529,HPSE17,occupied Palestinian territory 2017,
-2930.0,"Norway, Government of",1250851,529,HPSE17,occupied Palestinian territory 2017,
-3003.0,"Estonia, Government of",266809,529,HPSE17,occupied Palestinian territory 2017,
-5295.0,"Finland, Government of",4802561,529,HPSE17,occupied Palestinian territory 2017,
-,Not specified,2118569,529,HPSE17,occupied Palestinian territory 2017,
-4314.0,"France, Government of",1387407,529,HPSE17,occupied Palestinian territory 2017,
-3776.0,"Denmark, Government of",1915832,529,HPSE17,occupied Palestinian territory 2017,
-3008.0,"Netherlands, Government of",96148,529,HPSE17,occupied Palestinian territory 2017,
-3009.0,"Ireland, Government of",217155,529,HPSE17,occupied Palestinian territory 2017,
-2998.0,"Saudi Arabia (Kingdom of), Government of",1000000,529,HPSE17,occupied Palestinian territory 2017,
-2917.0,"United Kingdom, Government of",4000000,529,HPSE17,occupied Palestinian territory 2017,
+2933.0,"United States of America, Government of",60000001,529,HPSE17,occupied Palestinian territory 2017,PSE
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,15785222,529,HPSE17,occupied Palestinian territory 2017,PSE
+4306.0,"Germany, Government of",29528316,529,HPSE17,occupied Palestinian territory 2017,PSE
+4537.0,"Japan, Government of",9044801,529,HPSE17,occupied Palestinian territory 2017,PSE
+3049.0,World Food Programme,1709417,529,HPSE17,occupied Palestinian territory 2017,PSE
+3006.0,"Russian Federation, Government of",2000000,529,HPSE17,occupied Palestinian territory 2017,PSE
+2924.0,"Switzerland, Government of",4277617,529,HPSE17,occupied Palestinian territory 2017,PSE
+2928.0,"Canada, Government of",11421874,529,HPSE17,occupied Palestinian territory 2017,PSE
+5319.0,"Spain, Government of",315521,529,HPSE17,occupied Palestinian territory 2017,PSE
+4829.0,"Slovenia, Government of",53362,529,HPSE17,occupied Palestinian territory 2017,PSE
+2927.0,"Belgium, Government of",278707,529,HPSE17,occupied Palestinian territory 2017,PSE
+4337.0,UNICEF National Committee/France,266809,529,HPSE17,occupied Palestinian territory 2017,PSE
+2921.0,"Sweden, Government of",6792072,529,HPSE17,occupied Palestinian territory 2017,PSE
+4838.0,"Brazil, Government of",200000,529,HPSE17,occupied Palestinian territory 2017,PSE
+2930.0,"Norway, Government of",1250851,529,HPSE17,occupied Palestinian territory 2017,PSE
+3003.0,"Estonia, Government of",266809,529,HPSE17,occupied Palestinian territory 2017,PSE
+5295.0,"Finland, Government of",4802561,529,HPSE17,occupied Palestinian territory 2017,PSE
+,Not specified,2118569,529,HPSE17,occupied Palestinian territory 2017,PSE
+4314.0,"France, Government of",1387407,529,HPSE17,occupied Palestinian territory 2017,PSE
+3776.0,"Denmark, Government of",1915832,529,HPSE17,occupied Palestinian territory 2017,PSE
+3008.0,"Netherlands, Government of",96148,529,HPSE17,occupied Palestinian territory 2017,PSE
+3009.0,"Ireland, Government of",217155,529,HPSE17,occupied Palestinian territory 2017,PSE
+2998.0,"Saudi Arabia (Kingdom of), Government of",1000000,529,HPSE17,occupied Palestinian territory 2017,PSE
+2917.0,"United Kingdom, Government of",4000000,529,HPSE17,occupied Palestinian territory 2017,PSE

@@ -1,5 +1,5 @@
-Get funding progress data by country 
-Call this endpoint to get the funding progress data by country and year 
+Get funding progress data by appeal
+Call this endpoint to get the funding progress data by appeal
 ---
 tags:
   - World
@@ -27,7 +27,7 @@ responses:
       properties:
         data:
           type: json
-          description: The funding progress data by country and year
+          description: The funding progress data by appeal
           default: {
             "appealFunded": [
               361595856

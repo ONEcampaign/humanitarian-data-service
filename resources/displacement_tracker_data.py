@@ -3,6 +3,7 @@ import pandas as pd
 import os.path
 from resources import constants
 import json
+from pandas.io.json import json_normalize
 
 """
 This script aggregates data from multiple endpoints and returns a single .json file containing all data
@@ -29,6 +30,7 @@ URL_POPULATION = '/populations/totals/index'
 URL_FRAGILE_STATE = '/fragility/fragile-state-index/index'
 URL_NEEDS = '/needs/plans/index'
 URL_FUNDING_DEST_COUNTRY = '/funding/countries/destination/index/{}'.format(FUNDING_YEAR)
+URL_FUNDING_DEST_DONORS = '/funding/countries/donors/index'
 
 
 
@@ -49,7 +51,8 @@ def merge_data(
         url_population=(ROOT + URL_POPULATION),
         url_fragile_state=(ROOT + URL_FRAGILE_STATE),
         url_needs=(ROOT + URL_NEEDS),
-        url_funding_dest_country=(ROOT + URL_FUNDING_DEST_COUNTRY)
+        url_funding_dest_country=(ROOT + URL_FUNDING_DEST_COUNTRY),
+        url_funding_dest_donors=(ROOT + URL_FUNDING_DEST_DONORS)
     ):
 
     ####################  COUNTRY NAMES ####################
@@ -198,6 +201,17 @@ def merge_data(
     df_funding_dest_country = df_funding_dest_country.dropna()
 
 
+    ################## TOP 5 DONORS TO EACH DESTINATION COUNTRY ###################
+    #Get the data from the API
+    funding_dest_donors_data = requests.get(url_funding_dest_donors).json()
+
+    # Build a dataframe
+    df_funding_dest_donors = json_normalize(funding_dest_donors_data['data']).T
+    #df_funding_dest_donors = pd.DataFrame(funding_dest_donors_data['data']).T
+
+    df_funding_dest_donors.columns = (['Top 5 Donors'])
+
+
     ####################  NEEDS ####################
     # Get the data from the API
     needs_data = requests.get(url_needs).json()
@@ -275,7 +289,8 @@ def merge_data(
         df_population,
         df_fragile_state,
         df_needs,
-        df_funding_dest_country
+        df_funding_dest_country,
+        df_funding_dest_donors
         #   df_clusters
     ]
 
@@ -329,9 +344,9 @@ def merge_data(
             strand_01_dict['Needs_Data'] = {}
             for names_01 in strand_01_fields:
                 strand_01_dict[names_01] = (df_as_dict[x][names_01])
-                for name in needs_fields:
-                    if df_as_dict[x][name] != '':
-                        strand_01_dict['Needs_Data'][name] = (df_as_dict[x][name])
+            for name in needs_fields:
+                if df_as_dict[x][name] != '':
+                    strand_01_dict['Needs_Data'][name] = (df_as_dict[x][name])
         country_dict['Strand_01_Needs'] = strand_01_dict
 
         # Populate the dict with strand 2 data
@@ -342,8 +357,11 @@ def merge_data(
 
         # Populate the dict with strand 3 data
         strand_03_dict = {}
+        strand_03_dict['Top 5 donors of humanitarian aid'] = []
         for names_03 in strand_03_fields:
             strand_03_dict[names_03] = (df_as_dict[x][names_03])
+        if df_as_dict[x]['Top 5 Donors']:
+            strand_03_dict['Top 5 donors of humanitarian aid'] = df_as_dict[x]['Top 5 Donors']
         country_dict['Strand_03_Aid'] = strand_03_dict
 
         # Add the country dict to the data dict

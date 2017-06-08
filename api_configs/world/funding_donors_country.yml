@@ -1,0 +1,54 @@
+Get the donors to each country for a year
+Call this endpoint to get the donors and funding amounts to each country for a year
+---
+tags:
+  - World
+parameters:
+  - name: orientation
+    in: path
+    type: string
+    required: true
+    description: The orientation format for the response ("index" to group by country code, "list" to group by column)
+    enum:
+      - index
+      - list
+  - name: countryCode
+    in: query
+    type: string
+    required: false
+    description: The optional country code (ISO-3)
+responses:
+  501:
+    description: No funding progress data was found 
+  200:
+    description: The top donors to each country
+    schema:
+      id: funding_donor
+      properties:
+        data:
+          type: json
+          description: The funding progress data by country and year
+          default: {
+            "organization_id": [
+                  2924
+                ],
+                "organization_name": [
+                  "Switzerland, Government of"
+                ],
+                "plan_code": [
+                  "HNGA17"
+                ],
+                "plan_id": [
+                  536
+                ],
+                "plan_name": [
+                  "Nigeria 2017"
+                ],
+                "totalFunding": [
+                  5817869
+                ]
+          }
+        metadata:
+          type: json
+          description: Any metadata about this data 
+          default: {}
