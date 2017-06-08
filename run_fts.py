@@ -77,7 +77,7 @@ def getInitialRequiredAndCommittedFunding(data):
     return data
 
 
-def getDonorFundingAmounts(plans):
+def getDonorPlanFundingAmounts(plans):
     """
     For each plan, pull the amount funded by each donor.
     Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
@@ -113,6 +113,51 @@ def getDonorFundingAmounts(plans):
     data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
     data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
     data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
+
+    return data
+
+
+def getTopDonorCountryFundingAmounts(countries, year, top=False, top_n=5):
+    """
+    For each plan, pull the amount funded by each donor.
+    Since the path to the right data in the json is very long, I couldn't sort out how to keep the path in a variable.
+
+    """
+    # TODO: add metadata! With update date.
+    def getDonorByCountry(country, year, top, top_n):
+        endpoint_str = '/public/fts/flow?locationid={}&year={}&groupBy=organization'.format(country, year)
+        url = 'https://api.hpc.tools/v1' + endpoint_str
+        result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
+        result.raise_for_status()
+        if result.json()['data']['report1']['fundingTotals']['total'] == 0:
+            single = None
+            print ('No funding data for country {} in {}'.format(country, year))
+        else:
+            single = result.json()['data']['report1']['fundingTotals']['objects'][0]['singleFundingObjects']
+
+        if single:
+            single = json_normalize(single)
+            single['year'] = year
+            single['dest_country_id'] = country
+            single = single.sort_values('totalFunding', ascending=False)
+            if top == True:
+                single = single.head(top_n)
+        return single
+
+    country_ids = countries['id']
+
+    data = pd.DataFrame([])
+
+    #loop through each plan and append the donor data for it to a combined data set
+    for country_id in country_ids:
+        print 'Getting funding for country: {}'.format(country_id)
+        funding = getDonorByCountry(country_id, year, top, top_n)
+        print 'Done. Appending...'
+        data = data.append(funding)
+
+    data = data.merge(countries, how='left', left_on='dest_country_id', right_on='id')
+    data.drop(['id_x', 'direction', 'type', 'dest_country_id', 'id_y'], axis=1,inplace=True)
+    data.columns = (['organization_name', 'totalFunding', 'year', 'countryCode', 'Country'])
 
     return data
 
@@ -368,6 +413,7 @@ def run():
     countries = getCountries()
     print countries.head()
 
+
     print 'Get list of plans'
     plans = getPlans(year=constants.FTS_APPEAL_YEAR, country_mapping = countries)
     print plans.head()
@@ -385,10 +431,10 @@ def run():
     initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Get donor funding amounts to each plan from the FTS API'
-    donor_funding = getDonorFundingAmounts(plan_index)
-    print donor_funding.head()
+    donor_funding_plan = getDonorPlanFundingAmounts(plan_index)
+    print donor_funding_plan.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors.csv')
-    donor_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+    donor_funding_plan.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Get required and committed funding at the cluster level from the FTS API'
     cluster_funding = getClusterFundingAmounts(plan_index)
@@ -401,6 +447,12 @@ def run():
     print country_funding.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_dest_countries.csv')
     country_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+
+    print 'Get top donors by destination country for given years'
+    donor_funding_country = getTopDonorCountryFundingAmounts(countries, 2016, top=True, top_n=5)
+    print donor_funding_country.head()
+    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors_country.csv')
+    donor_funding_country.to_csv(official_data_path, encoding='utf-8', index=False)
 
     print 'Done!'
 
