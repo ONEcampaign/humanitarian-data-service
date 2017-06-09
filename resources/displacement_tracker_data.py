@@ -318,9 +318,13 @@ def merge_data(
 
     df_final = pd.concat(all_dataframes, axis=1)
 
-    # Add calculation for refugees as a ratio of total population
-    df_final['Refugees and IDPs per 1000 population'] = (df_final['Total population of concern'] / df_final[
+    # Add calculation for displaced people as a ratio of total population
+    df_final['Population of concern per 1000 population'] = (df_final['Total population of concern'] / df_final[
         'Population'])*1000
+
+    # Add calculation for displaced people per million GDP
+    df_final['Population of concern per million GDP'] = ((df_final['Total population of concern'] * 1000000) / (df_final[
+        'GDP Per Capita'] * df_final['Population']))
 
     # Add field to specify whether country has current humanitarian appeal in FTS
     df_final['Country has current appeal'] = df_final['Appeal funds requested'].notnull()
@@ -338,9 +342,9 @@ def merge_data(
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
                         'Appeal percent funded', 'Source of needs data', 'Source type of needs data',
                         'Total people in need', 'Place with similar population as people in need']
-    strand_02_fields = ['Refugees and IDPs per 1000 population', 'Fragile State Index Score',
+    strand_02_fields = ['Population of concern per 1000 population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
-                        'GDP Per Capita']
+                        'GDP Per Capita', 'Population of concern per million GDP']
     strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded',
                         'Rank of total population of concern', 'Rank of humanitarian aid received']
 
