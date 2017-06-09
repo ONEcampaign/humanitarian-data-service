@@ -3,6 +3,7 @@
         "ABW": {
             "Country": "Aruba",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -24,6 +25,12 @@
         "AFG": {
             "Country": "Afghanistan",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "New York Times",
+                "storyTagLine": "An Afghan chid challenging Trump's travel ban",
+                "storyTitle": "The Story After the Story for a 16 Year-Old Refugee with Dashed Hopes",
+                "storyURL": "https://www.nytimes.com/2017/03/10/insider/the-story-after-the-story-for-a-16-year-old-refugee-with-dashed-hopes.html?_r=0"
+            },
             "Fragile State Index Rank": "9th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 142766003,
@@ -82,6 +89,7 @@
         "AGO": {
             "Country": "Angola",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "32nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -124,6 +132,7 @@
         "AIA": {
             "Country": "Anguilla",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -145,6 +154,7 @@
         "ALA": {
             "Country": "\u00c5land Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -166,6 +176,7 @@
         "ALB": {
             "Country": "Albania",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "124th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -196,6 +207,7 @@
         "AND": {
             "Country": "Andorra",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -217,6 +229,7 @@
         "ARB": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -238,6 +251,7 @@
         "ARE": {
             "Country": "United Arab Emirates",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "147th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -264,6 +278,7 @@
         "ARG": {
             "Country": "Argentina",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "140th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -285,6 +300,7 @@
         "ARM": {
             "Country": "Armenia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "102nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -315,6 +331,7 @@
         "ASM": {
             "Country": "American Samoa",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -336,6 +353,7 @@
         "ATA": {
             "Country": "Antarctica",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -357,6 +375,7 @@
         "ATF": {
             "Country": "French Southern Territories",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -378,6 +397,7 @@
         "ATG": {
             "Country": "Antigua and Barbuda",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "131st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -399,6 +419,7 @@
         "AUS": {
             "Country": "Australia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "172nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -420,6 +441,7 @@
         "AUT": {
             "Country": "Austria",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "166th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -441,6 +463,7 @@
         "AZE": {
             "Country": "Azerbaijan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "81st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -467,6 +490,12 @@
         "BDI": {
             "Country": "Burundi",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Burundian refugee opens a small restaurant in the DRC and finds her way to self reliance",
+                "storyTitle": "Diner gives Burundian refugee a taste of self reliance",
+                "storyURL": "http://www.unhcr.org/news/stories/2017/4/58e49ddb4/diner-gives-burundian-refugee-taste-self-reliance.html"
+            },
             "Fragile State Index Rank": "17th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 26103820,
@@ -526,6 +555,7 @@
         "BEL": {
             "Country": "Belgium",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "163rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -552,6 +582,7 @@
         "BEN": {
             "Country": "Benin",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "73rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -590,6 +621,7 @@
         "BES": {
             "Country": "Bonaire, Sint Eustatius and Saba",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -611,6 +643,12 @@
         "BFA": {
             "Country": "Burkina Faso",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "A Malian singer and songwriter visits Malian refugees in a refugee camp in Burkina Faso",
+                "storyTitle": "Rokia Traore visits Malian refugees",
+                "storyURL": "http://stories.unhcr.org/rokia-traore-visits-malian-refugees-p6439.html"
+            },
             "Fragile State Index Rank": "44th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 16116231,
@@ -665,6 +703,7 @@
         "BGD": {
             "Country": "Bangladesh",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "39th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -707,6 +746,7 @@
         "BGR": {
             "Country": "Bulgaria",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "132nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -733,6 +773,7 @@
         "BHR": {
             "Country": "Bahrain",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "118th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -754,6 +795,7 @@
         "BHS": {
             "Country": "Bahamas",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "134th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -796,6 +838,7 @@
         "BIH": {
             "Country": "Bosnia and Herzegovina",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "93rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -826,6 +869,7 @@
         "BLM": {
             "Country": "Saint Barth\u00e9lemy",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -847,6 +891,7 @@
         "BLR": {
             "Country": "Belarus",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "95th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -868,6 +913,7 @@
         "BLZ": {
             "Country": "Belize",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "115th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -898,6 +944,7 @@
         "BMU": {
             "Country": "Bermuda",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -919,6 +966,7 @@
         "BOL": {
             "Country": "Bolivia (Plurinational State of)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "77th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -961,6 +1009,7 @@
         "BRA": {
             "Country": "Brazil",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "110th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -995,6 +1044,7 @@
         "BRB": {
             "Country": "Barbados",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "139th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1016,6 +1066,7 @@
         "BRN": {
             "Country": "Brunei Darussalam",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "122nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1037,6 +1088,7 @@
         "BTN": {
             "Country": "Bhutan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "83rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1063,6 +1115,7 @@
         "BVT": {
             "Country": "Bouvet Island",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1084,6 +1137,7 @@
         "BWA": {
             "Country": "Botswana",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "120th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1105,6 +1159,7 @@
         "CAF": {
             "Country": "Central African Republic",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "3rd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 111235934,
@@ -1164,6 +1219,7 @@
         "CAN": {
             "Country": "Canada",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "169th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1190,6 +1246,7 @@
         "CCK": {
             "Country": "Cocos (Keeling) Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1211,6 +1268,7 @@
         "CEB": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1232,6 +1290,7 @@
         "CHE": {
             "Country": "Switzerland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "176th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1258,6 +1317,7 @@
         "CHL": {
             "Country": "Chile",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "150th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1279,6 +1339,7 @@
         "CHN": {
             "Country": "China",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "85th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1305,6 +1366,7 @@
         "CIV": {
             "Country": "C\u00f4te d'Ivoire",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "21st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1347,6 +1409,12 @@
         "CMR": {
             "Country": "Cameroon",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "UN Women",
+                "storyTagLine": "The challenges and empowerment of refugee women in a refugee camp in Cameroon",
+                "storyTitle": "Photo essay: stories of hope from a Cameroon refugee camp",
+                "storyURL": "http://www.unwomen.org/pt/digital-library/multimedia/2016/5/photo-refugee-camps-in-cameroon"
+            },
             "Fragile State Index Rank": "26th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 72558046,
@@ -1406,6 +1474,7 @@
         "COD": {
             "Country": "Democratic Republic of the Congo",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "7th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 159627375,
@@ -1465,6 +1534,7 @@
         "COG": {
             "Country": "Congo",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "29th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1507,6 +1577,7 @@
         "COK": {
             "Country": "Cook Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1528,6 +1599,7 @@
         "COL": {
             "Country": "Colombia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "69th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1570,6 +1642,7 @@
         "COM": {
             "Country": "Comoros",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "52nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1600,6 +1673,7 @@
         "CPV": {
             "Country": "Cabo Verde",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "106th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1626,6 +1700,7 @@
         "CRI": {
             "Country": "Costa Rica",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "145th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1656,6 +1731,7 @@
         "CSS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1677,6 +1753,7 @@
         "CUB": {
             "Country": "Cuba",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "119th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1719,6 +1796,7 @@
         "CUW": {
             "Country": "Cura\u00e7ao",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1740,6 +1818,7 @@
         "CXR": {
             "Country": "Christmas Island",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1761,6 +1840,7 @@
         "CYM": {
             "Country": "Cayman Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1782,6 +1862,7 @@
         "CYP": {
             "Country": "Cyprus",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "121st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1803,6 +1884,7 @@
         "CZE": {
             "Country": "Czechia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "152nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1824,6 +1906,7 @@
         "DEU": {
             "Country": "Germany",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "165th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1845,6 +1928,7 @@
         "DJI": {
             "Country": "Djibouti",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "41st",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 6382198,
@@ -1902,6 +1986,7 @@
         "DMA": {
             "Country": "Dominica",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1932,6 +2017,7 @@
         "DNK": {
             "Country": "Denmark",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "175th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1958,6 +2044,7 @@
         "DOM": {
             "Country": "Dominican Republic",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "109th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -1992,6 +2079,7 @@
         "DZA": {
             "Country": "Algeria",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "77th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2034,6 +2122,7 @@
         "EAP": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2055,6 +2144,7 @@
         "EAR": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2076,6 +2166,7 @@
         "EAS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2097,6 +2188,7 @@
         "ECA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2118,6 +2210,7 @@
         "ECS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2139,6 +2232,7 @@
         "ECU": {
             "Country": "Ecuador",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "75th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2181,6 +2275,7 @@
         "EGY": {
             "Country": "Egypt",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "36th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2223,6 +2318,7 @@
         "EMU": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2244,6 +2340,7 @@
         "ERI": {
             "Country": "Eritrea",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "19th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2286,6 +2383,7 @@
         "ESH": {
             "Country": "Western Sahara",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2316,6 +2414,7 @@
         "ESP": {
             "Country": "Spain",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "155th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2337,6 +2436,7 @@
         "EST": {
             "Country": "Estonia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "143rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2358,6 +2458,7 @@
         "ETH": {
             "Country": "Ethiopia",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "15th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 240299274,
@@ -2417,6 +2518,7 @@
         "EUU": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2438,6 +2540,7 @@
         "FCS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2459,6 +2562,7 @@
         "FIN": {
             "Country": "Finland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "178th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2480,6 +2584,7 @@
         "FJI": {
             "Country": "Fiji",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "76th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2522,6 +2627,7 @@
         "FLK": {
             "Country": "Falkland Islands (Malvinas)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2543,6 +2649,7 @@
         "FRA": {
             "Country": "France",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "159th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2564,6 +2671,7 @@
         "FRO": {
             "Country": "Faroe Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2585,6 +2693,7 @@
         "FSM": {
             "Country": "Micronesia (Federated States of)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "80th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2611,6 +2720,7 @@
         "GAB": {
             "Country": "Gabon",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "91st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2632,6 +2742,7 @@
         "GBR": {
             "Country": "United Kingdom of Great Britain and Northern Ireland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "160th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2653,6 +2764,7 @@
         "GEO": {
             "Country": "Georgia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "79th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2691,6 +2803,7 @@
         "GGY": {
             "Country": "Guernsey",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2712,6 +2825,7 @@
         "GHA": {
             "Country": "Ghana",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "108th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2750,6 +2864,7 @@
         "GIB": {
             "Country": "Gibraltar",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2771,6 +2886,7 @@
         "GIN": {
             "Country": "Guinea",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "12th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2813,6 +2929,7 @@
         "GLP": {
             "Country": "Guadeloupe",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2834,6 +2951,7 @@
         "GMB": {
             "Country": "Gambia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "37th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2876,6 +2994,7 @@
         "GNB": {
             "Country": "Guinea-Bissau",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "16th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2906,6 +3025,7 @@
         "GNQ": {
             "Country": "Equatorial Guinea",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "51st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2927,6 +3047,7 @@
         "GRC": {
             "Country": "Greece",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "127th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2969,6 +3090,7 @@
         "GRD": {
             "Country": "Grenada",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "123rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2990,6 +3112,7 @@
         "GRL": {
             "Country": "Greenland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3011,6 +3134,7 @@
         "GTM": {
             "Country": "Guatemala",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "57th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3053,6 +3177,7 @@
         "GUF": {
             "Country": "French Guiana",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3074,6 +3199,7 @@
         "GUM": {
             "Country": "Guam",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3095,6 +3221,7 @@
         "GUY": {
             "Country": "Guyana",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "100th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3116,6 +3243,7 @@
         "HIC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3137,6 +3265,7 @@
         "HKG": {
             "Country": "China, Hong Kong Special Administrative Region",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3158,6 +3287,7 @@
         "HMD": {
             "Country": "Heard Island and McDonald Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3179,6 +3309,7 @@
         "HND": {
             "Country": "Honduras",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "68th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3221,6 +3352,7 @@
         "HPC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3242,6 +3374,7 @@
         "HRV": {
             "Country": "Croatia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "138th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3280,6 +3413,7 @@
         "HTI": {
             "Country": "Haiti",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "11th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 55963108,
@@ -3339,6 +3473,7 @@
         "HUN": {
             "Country": "Hungary",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "135th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3360,6 +3495,7 @@
         "IBD": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3381,6 +3517,7 @@
         "IBT": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3402,6 +3539,7 @@
         "IDA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3423,6 +3561,7 @@
         "IDB": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3444,6 +3583,7 @@
         "IDN": {
             "Country": "Indonesia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "94th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3486,6 +3626,7 @@
         "IDX": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3507,6 +3648,7 @@
         "IMN": {
             "Country": "Isle of Man",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3528,6 +3670,7 @@
         "IND": {
             "Country": "India",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "72nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3570,6 +3713,7 @@
         "IOT": {
             "Country": "British Indian Ocean Territory",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3591,6 +3735,7 @@
         "IRL": {
             "Country": "Ireland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "172nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3612,6 +3757,7 @@
         "IRN": {
             "Country": "Iran (Islamic Republic of)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "49th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3654,6 +3800,7 @@
         "IRQ": {
             "Country": "Iraq",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "10th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 349992128,
@@ -3713,6 +3860,7 @@
         "ISL": {
             "Country": "Iceland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "171st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3734,6 +3882,7 @@
         "ISR": {
             "Country": "Israel",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "69th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3760,6 +3909,12 @@
         "ITA": {
             "Country": "Italy",
             "Country has current appeal": false,
+            "Displacement_story": {
+                "storySource": "4StelleHotel",
+                "storyTagLine": "Experience a day in the life of migrants in Italy",
+                "storyTitle": "4stelleHotel",
+                "storyURL": "http://www.4stellehotel.it"
+            },
             "Fragile State Index Rank": "142nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3786,6 +3941,7 @@
         "JAM": {
             "Country": "Jamaica",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "117th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3816,6 +3972,7 @@
         "JEY": {
             "Country": "Jersey",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3837,6 +3994,7 @@
         "JOR": {
             "Country": "Jordan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "71st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3879,6 +4037,7 @@
         "JPN": {
             "Country": "Japan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "156th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3900,6 +4059,7 @@
         "KAZ": {
             "Country": "Kazakhstan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "113th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -3934,6 +4094,7 @@
         "KEN": {
             "Country": "Kenya",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "22nd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 24668573,
@@ -3992,6 +4153,7 @@
         "KGZ": {
             "Country": "Kyrgyzstan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "65th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4034,6 +4196,7 @@
         "KHM": {
             "Country": "Cambodia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "50th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4076,6 +4239,7 @@
         "KIR": {
             "Country": "Kiribati",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4097,6 +4261,7 @@
         "KNA": {
             "Country": "Saint Kitts and Nevis",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4118,6 +4283,7 @@
         "KOR": {
             "Country": "Republic of Korea",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "154th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4144,6 +4310,7 @@
         "KWT": {
             "Country": "Kuwait",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "126th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4165,6 +4332,7 @@
         "LAC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4186,6 +4354,7 @@
         "LAO": {
             "Country": "Lao People's Democratic Republic",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "59th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4220,6 +4389,7 @@
         "LBN": {
             "Country": "Lebanon",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "43rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4262,6 +4432,7 @@
         "LBR": {
             "Country": "Liberia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "27th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4304,6 +4475,7 @@
         "LBY": {
             "Country": "Libya",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "23rd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 25451423,
@@ -4363,6 +4535,7 @@
         "LCA": {
             "Country": "Saint Lucia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4384,6 +4557,7 @@
         "LCN": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4405,6 +4579,7 @@
         "LDC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4426,6 +4601,7 @@
         "LIC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4447,6 +4623,7 @@
         "LIE": {
             "Country": "Liechtenstein",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4468,6 +4645,7 @@
         "LKA": {
             "Country": "Sri Lanka",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "47th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4510,6 +4688,7 @@
         "LMC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4531,6 +4710,7 @@
         "LMY": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4552,6 +4732,7 @@
         "LSO": {
             "Country": "Lesotho",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "62nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4594,6 +4775,7 @@
         "LTE": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4615,6 +4797,7 @@
         "LTU": {
             "Country": "Lithuania",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "148th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4636,6 +4819,7 @@
         "LUX": {
             "Country": "Luxembourg",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "168th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4657,6 +4841,7 @@
         "LVA": {
             "Country": "Latvia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "141st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4678,6 +4863,7 @@
         "MAC": {
             "Country": "China, Macao Special Administrative Region",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4699,6 +4885,7 @@
         "MAF": {
             "Country": "Saint Martin (French Part)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4720,6 +4907,7 @@
         "MAR": {
             "Country": "Morocco",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "84th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4750,6 +4938,7 @@
         "MCO": {
             "Country": "Monaco",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4771,6 +4960,7 @@
         "MDA": {
             "Country": "Republic of Moldova",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "98th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4792,6 +4982,7 @@
         "MDG": {
             "Country": "Madagascar",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "55th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 7307360,
@@ -4849,6 +5040,7 @@
         "MDV": {
             "Country": "Maldives",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "86th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4875,6 +5067,7 @@
         "MEA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4896,6 +5089,7 @@
         "MEX": {
             "Country": "Mexico",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "88th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4917,6 +5111,7 @@
         "MHL": {
             "Country": "Marshall Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4951,6 +5146,7 @@
         "MIC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4972,6 +5168,7 @@
         "MKD": {
             "Country": "The former Yugoslav Republic of Macedonia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "112th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5014,6 +5211,7 @@
         "MLI": {
             "Country": "Mali",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "31st",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 67724995,
@@ -5073,6 +5271,7 @@
         "MLT": {
             "Country": "Malta",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "153rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5099,6 +5298,7 @@
         "MMR": {
             "Country": "Myanmar",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "35th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 54353358,
@@ -5158,6 +5358,7 @@
         "MNE": {
             "Country": "Montenegro",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "130th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5179,6 +5380,7 @@
         "MNG": {
             "Country": "Mongolia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "128th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5221,6 +5423,7 @@
         "MNP": {
             "Country": "Northern Mariana Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5242,6 +5445,7 @@
         "MOZ": {
             "Country": "Mozambique",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "40th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 2454239,
@@ -5298,6 +5502,7 @@
         "MRT": {
             "Country": "Mauritania",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "28th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 18973459,
@@ -5355,6 +5560,7 @@
         "MSR": {
             "Country": "Montserrat",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5376,6 +5582,7 @@
         "MTQ": {
             "Country": "Martinique",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5397,6 +5604,7 @@
         "MUS": {
             "Country": "Mauritius",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "148th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5418,6 +5626,7 @@
         "MWI": {
             "Country": "Malawi",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "44th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5460,6 +5669,7 @@
         "MYS": {
             "Country": "Malaysia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "116th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5486,6 +5696,7 @@
         "MYT": {
             "Country": "Mayotte",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5507,6 +5718,7 @@
         "NAC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5528,6 +5740,7 @@
         "NAM": {
             "Country": "Namibia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "103rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5554,6 +5767,7 @@
         "NCL": {
             "Country": "New Caledonia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5575,6 +5789,7 @@
         "NER": {
             "Country": "Niger",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "20th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 154191887,
@@ -5634,6 +5849,7 @@
         "NFK": {
             "Country": "Norfolk Island",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5655,6 +5871,7 @@
         "NGA": {
             "Country": "Nigeria",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "13th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 296713522,
@@ -5714,6 +5931,7 @@
         "NIC": {
             "Country": "Nicaragua",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "74th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5756,6 +5974,7 @@
         "NIU": {
             "Country": "Niue",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5777,6 +5996,7 @@
         "NLD": {
             "Country": "Netherlands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "167th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5798,6 +6018,7 @@
         "NOR": {
             "Country": "Norway",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "177th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5819,6 +6040,7 @@
         "NPL": {
             "Country": "Nepal",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "33rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5861,6 +6083,7 @@
         "NRU": {
             "Country": "Nauru",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5882,6 +6105,7 @@
         "NZL": {
             "Country": "New Zealand",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "170th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5903,6 +6127,7 @@
         "OED": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5924,6 +6149,7 @@
         "OMN": {
             "Country": "Oman",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "133rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5945,6 +6171,7 @@
         "OSS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -5966,6 +6193,7 @@
         "PAK": {
             "Country": "Pakistan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "17th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6008,6 +6236,7 @@
         "PAN": {
             "Country": "Panama",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "137th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6050,6 +6279,7 @@
         "PCN": {
             "Country": "Pitcairn",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6071,6 +6301,7 @@
         "PER": {
             "Country": "Peru",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "104th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 6208317,
@@ -6118,6 +6349,7 @@
         "PHL": {
             "Country": "Philippines",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "54th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6160,6 +6392,7 @@
         "PLW": {
             "Country": "Palau",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6190,6 +6423,7 @@
         "PNG": {
             "Country": "Papua New Guinea",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "48th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6232,6 +6466,7 @@
         "POL": {
             "Country": "Poland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "151st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6253,6 +6488,7 @@
         "PRE": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6274,6 +6510,7 @@
         "PRI": {
             "Country": "Puerto Rico",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6295,6 +6532,7 @@
         "PRK": {
             "Country": "Democratic People's Republic of Korea",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "30th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 21287119,
@@ -6351,6 +6589,7 @@
         "PRT": {
             "Country": "Portugal",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "164th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6377,6 +6616,7 @@
         "PRY": {
             "Country": "Paraguay",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "99th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6419,6 +6659,7 @@
         "PSE": {
             "Country": "State of Palestine",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 158729051,
@@ -6471,6 +6712,7 @@
         "PSS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6492,6 +6734,7 @@
         "PST": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6513,6 +6756,7 @@
         "PYF": {
             "Country": "French Polynesia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6534,6 +6778,7 @@
         "QAT": {
             "Country": "Qatar",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "146th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6555,6 +6800,7 @@
         "REU": {
             "Country": "R\u00e9union",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6576,6 +6822,7 @@
         "ROU": {
             "Country": "Romania",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "136th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6597,6 +6844,7 @@
         "RUS": {
             "Country": "Russian Federation",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "67th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6618,6 +6866,7 @@
         "RWA": {
             "Country": "Rwanda",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "34th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6660,6 +6909,7 @@
         "SAS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6681,6 +6931,7 @@
         "SAU": {
             "Country": "Saudi Arabia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "101st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6702,6 +6953,7 @@
         "SDN": {
             "Country": "Sudan",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "5th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 103977688,
@@ -6761,6 +7013,7 @@
         "SEN": {
             "Country": "Senegal",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "60th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 1683663,
@@ -6815,6 +7068,7 @@
         "SGP": {
             "Country": "Singapore",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "161st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6836,6 +7090,7 @@
         "SGS": {
             "Country": "South Georgia and the South Sandwich Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6857,6 +7112,7 @@
         "SHN": {
             "Country": "Saint Helena",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6878,6 +7134,7 @@
         "SJM": {
             "Country": "Svalbard and Jan Mayen Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6899,6 +7156,7 @@
         "SLB": {
             "Country": "Solomon Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "52nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6937,6 +7195,7 @@
         "SLE": {
             "Country": "Sierra Leone",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "38th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -6979,6 +7238,7 @@
         "SLV": {
             "Country": "El Salvador",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "92nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7021,6 +7281,7 @@
         "SMR": {
             "Country": "San Marino",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7042,6 +7303,7 @@
         "SOM": {
             "Country": "Somalia",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "2nd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 362946459,
@@ -7101,6 +7363,7 @@
         "SPM": {
             "Country": "Saint Pierre and Miquelon",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7122,6 +7385,7 @@
         "SRB": {
             "Country": "Serbia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "107th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7164,6 +7428,7 @@
         "SSA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7185,6 +7450,7 @@
         "SSD": {
             "Country": "South Sudan",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "1st",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 751641434,
@@ -7244,6 +7510,7 @@
         "SSF": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7265,6 +7532,7 @@
         "SST": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7286,6 +7554,7 @@
         "STP": {
             "Country": "Sao Tome and Principe",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "97th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7307,6 +7576,7 @@
         "SUR": {
             "Country": "Suriname",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "113th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7328,6 +7598,7 @@
         "SVK": {
             "Country": "Slovakia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "144th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7349,6 +7620,7 @@
         "SVN": {
             "Country": "Slovenia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "162nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7391,6 +7663,7 @@
         "SWE": {
             "Country": "Sweden",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "174th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7412,6 +7685,7 @@
         "SWZ": {
             "Country": "Swaziland",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "42nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7454,6 +7728,7 @@
         "SXM": {
             "Country": "Sint Maarten (Dutch part)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7475,6 +7750,7 @@
         "SYC": {
             "Country": "Seychelles",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "125th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7496,6 +7772,12 @@
         "SYR": {
             "Country": "Syrian Arab Republic",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "UNHCR/Google",
+                "storyTagLine": "Understanding how the ongoing war has changed the lives of Syrians",
+                "storyTitle": "Searching for Syria",
+                "storyURL": "https://searchingforsyria.org/en"
+            },
             "Fragile State Index Rank": "5th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 449663644,
@@ -7548,6 +7830,7 @@
         "TCA": {
             "Country": "Turks and Caicos Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7569,6 +7852,12 @@
         "TCD": {
             "Country": "Chad",
             "Country has current appeal": true,
+            "Displacement_story": {
+                "storySource": "UNICEF",
+                "storyTagLine": "After fleeing Nigeria, orphaned child finds a new family in his former neighbour's",
+                "storyTitle": "Finding a new camp in a refugee camp in Chad",
+                "storyURL": "https://blogs.unicef.org/blog/finding-a-new-family-in-a-refugee-camp-in-chad/"
+            },
             "Fragile State Index Rank": "8th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 81096252,
@@ -7628,6 +7917,7 @@
         "TEA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7649,6 +7939,7 @@
         "TEC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7670,6 +7961,7 @@
         "TGO": {
             "Country": "Togo",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "56th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7700,6 +7992,7 @@
         "THA": {
             "Country": "Thailand",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "82nd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7742,6 +8035,7 @@
         "TJK": {
             "Country": "Tajikistan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "61st",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7784,6 +8078,7 @@
         "TKL": {
             "Country": "Tokelau",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7805,6 +8100,7 @@
         "TKM": {
             "Country": "Turkmenistan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "86th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7826,6 +8122,7 @@
         "TLA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7847,6 +8144,7 @@
         "TLS": {
             "Country": "Timor-Leste",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "35th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7889,6 +8187,7 @@
         "TON": {
             "Country": "Tonga",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7919,6 +8218,7 @@
         "TSA": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7940,6 +8240,7 @@
         "TSS": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7961,6 +8262,7 @@
         "TTO": {
             "Country": "Trinidad and Tobago",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "128th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -7982,6 +8284,7 @@
         "TUN": {
             "Country": "Tunisia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "89th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8020,6 +8323,7 @@
         "TUR": {
             "Country": "Turkey",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "64th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8062,6 +8366,7 @@
         "TUV": {
             "Country": "Tuvalu",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8083,6 +8388,7 @@
         "TWN": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8113,6 +8419,7 @@
         "TZA": {
             "Country": "United Republic of Tanzania",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "65th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8155,6 +8462,7 @@
         "UGA": {
             "Country": "Uganda",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "24th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8197,6 +8505,7 @@
         "UKR": {
             "Country": "Ukraine",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "90th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 31630669,
@@ -8256,6 +8565,7 @@
         "UMC": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8277,6 +8587,7 @@
         "UMI": {
             "Country": "United States Minor Outlying Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8298,6 +8609,7 @@
         "URY": {
             "Country": "Uruguay",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "157th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8324,6 +8636,7 @@
         "USA": {
             "Country": "United States of America",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "158th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8345,6 +8658,7 @@
         "UZB": {
             "Country": "Uzbekistan",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "63rd",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8371,6 +8685,7 @@
         "VAT": {
             "Country": "Holy See",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8392,6 +8707,7 @@
         "VCT": {
             "Country": "Saint Vincent and the Grenadines",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8413,6 +8729,7 @@
         "VEN": {
             "Country": "Venezuela (Bolivarian Republic of)",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "58th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8447,6 +8764,7 @@
         "VGB": {
             "Country": "British Virgin Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8468,6 +8786,7 @@
         "VIR": {
             "Country": "United States Virgin Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8489,6 +8808,7 @@
         "VNM": {
             "Country": "Viet Nam",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "105th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8531,6 +8851,7 @@
         "VUT": {
             "Country": "Vanuatu",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8573,6 +8894,7 @@
         "WLD": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8594,6 +8916,7 @@
         "WLF": {
             "Country": "Wallis and Futuna Islands",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8615,6 +8938,7 @@
         "WSM": {
             "Country": "Samoa",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "111th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8636,6 +8960,7 @@
         "XKX": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8657,6 +8982,7 @@
         "YEM": {
             "Country": "Yemen",
             "Country has current appeal": true,
+            "Displacement_story": {},
             "Fragile State Index Rank": "4th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 529711207,
@@ -8716,6 +9042,7 @@
         "ZAF": {
             "Country": "South Africa",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "96th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8750,6 +9077,7 @@
         "ZMB": {
             "Country": "Zambia",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "46th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8792,6 +9120,7 @@
         "ZWE": {
             "Country": "Zimbabwe",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "13th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -8834,6 +9163,7 @@
         "null": {
             "Country": "",
             "Country has current appeal": false,
+            "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {},
             "Strand_02_People": {

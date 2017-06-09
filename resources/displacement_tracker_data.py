@@ -40,11 +40,14 @@ country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodo
 # Define path for relatable geography populations data
 relatable_population_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, '2017_relatable_population_rankings.csv')
 
+# Define path for stories of displacement
+displacement_stories_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'stories_of_displacement_links.csv')
 
 def merge_data(
         funding_year = FUNDING_YEAR,
         country_names_path=country_names_path,
         relatable_population_path=relatable_population_path,
+        displacement_stories_path=displacement_stories_path,
         url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
         url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
         url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
@@ -73,6 +76,24 @@ def merge_data(
 
     # Rename fields
     df_country_names.rename(columns={'Country or Area': 'Country'}, inplace=True)
+
+
+    ####################  DISPLACEMENT STORIES ####################
+    # Get the data from .csv
+    df_displacement_stories = pd.read_csv(displacement_stories_path, encoding='utf-8')
+
+    # Set country code to be the index
+    df_displacement_stories = df_displacement_stories.set_index('countryCode')
+
+    # Select relevant fields
+    df_displacement_stories = df_displacement_stories[[
+        'storyTitle', 'storySource',
+        'storyTagLine', 'storyURL'
+    ]]
+
+    # Drop null values
+    df_displacement_stories = df_displacement_stories.dropna()
+
 
     ####################  POPULATIONS ####################
     # Get the data from the API
@@ -290,7 +311,8 @@ def merge_data(
         df_fragile_state,
         df_needs,
         df_funding_dest_country,
-        df_funding_dest_donors
+        df_funding_dest_donors,
+        df_displacement_stories
         #   df_clusters
     ]
 
@@ -326,6 +348,8 @@ def merge_data(
                     'People who are food insecure','People in need of protection','People in need of shelter',
                     'People in need of water, sanitization & hygiene']
 
+    story_fields = ['storyTitle', 'storySource', 'storyTagLine', 'storyURL']
+
     # For every object, get / group the values by strand
     data = {}
     for x in df_as_dict.keys():
@@ -337,6 +361,13 @@ def merge_data(
         country_dict['Country'] = df_as_dict[x]['Country']
         country_dict['Fragile State Index Rank'] = df_as_dict[x]['Fragile State Index Rank']
         country_dict['Country has current appeal'] = df_as_dict[x]['Country has current appeal']
+
+        # Populate the dict with story fields
+        story_fields_dict = {}
+        if df_as_dict[x]['storyURL']:
+            for field in story_fields:
+                story_fields_dict[field] = (df_as_dict[x][field])
+        country_dict['Displacement_story'] = story_fields_dict
 
         # Populate the dict with strand 1 data if the country has a current appeal
         strand_01_dict = {}
