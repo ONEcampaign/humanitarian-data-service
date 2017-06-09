@@ -24,6 +24,7 @@ FUNDING_YEAR = 2016
 
 # Define all endpoints
 URL_POPULATIONS_REFUGEELIKE_ASYLUM = '/populations/refugeelike/asylum/index'
+URL_POPULATIONS_REFUGEELIKE_ORIGIN = '/populations/refugeelike/origin/index'
 URL_INDICATORS_GNI = '/indicators/gni/index'
 URL_PLANS_PROGRESS = '/funding/plans/progress/index'
 URL_POPULATION = '/populations/totals/index'
@@ -49,6 +50,7 @@ def merge_data(
         relatable_population_path=relatable_population_path,
         displacement_stories_path=displacement_stories_path,
         url_populations_refugeelike_asylum=(ROOT + URL_POPULATIONS_REFUGEELIKE_ASYLUM),
+        url_populations_refugeelike_origin=(ROOT + URL_POPULATIONS_REFUGEELIKE_ORIGIN),
         url_indicators_gni=(ROOT + URL_INDICATORS_GNI),
         url_plans_progress=(ROOT + URL_PLANS_PROGRESS),
         url_population=(ROOT + URL_POPULATION),
@@ -145,8 +147,15 @@ def merge_data(
 
     # Select relevant fields
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum[[
-        'Total population of concern', 'Total Refugee and people in refugee-like situations'
+        'Total population of concern', 'Total Refugee and people in refugee-like situations',
+        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations'
     ]]
+
+    # Rename fields
+    df_populations_refugeelike_asylum.rename(columns={
+        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations': 'IDPs protected/assisted by UNHCR'
+    }, inplace=True)
+
 
     # Add field to rank total total population of concern
     df_populations_refugeelike_asylum['Rank of total population of concern'] = df_populations_refugeelike_asylum[
@@ -154,6 +163,27 @@ def merge_data(
 
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
+
+
+    ####################  POPULATIONS_REFUGEELIKE_ORIGIN ####################
+    # Get the data from the API
+    populations_refugeelike_origin_data = requests.get(url_populations_refugeelike_origin).json()
+
+    # Build a dataframe
+    df_populations_refugeelike_origin = pd.DataFrame(populations_refugeelike_origin_data['data']).T
+
+    # Select relevant fields
+    df_populations_refugeelike_origin = df_populations_refugeelike_origin[[
+        'Total Refugee and people in refugee-like situations'
+    ]]
+
+    # Rename fields
+    df_populations_refugeelike_origin.rename(columns={
+        'Total Refugee and people in refugee-like situations': 'Total refugees who have fled from country'
+    }, inplace=True)
+
+    # Drop null values
+    df_populations_refugeelike_origin = df_populations_refugeelike_origin.dropna()
 
 
     ####################  INDICATORS GNI ####################
@@ -240,6 +270,9 @@ def merge_data(
     # Build a dataframe
     df_needs = pd.DataFrame(needs_data['data']).T
 
+    # Exclude rows where country code is missing
+    df_needs = df_needs.drop('null')
+
     # Select relevant fields
     df_needs = df_needs[[
         'inNeedTotal', 'inNeedHealth', 'inNeedEducation',
@@ -312,7 +345,8 @@ def merge_data(
         df_needs,
         df_funding_dest_country,
         df_funding_dest_donors,
-        df_displacement_stories
+        df_displacement_stories,
+        df_populations_refugeelike_origin
         #   df_clusters
     ]
 
@@ -344,7 +378,9 @@ def merge_data(
                         'Total people in need', 'Place with similar population as people in need']
     strand_02_fields = ['Population of concern per 1000 population', 'Fragile State Index Score',
                         'Total population of concern', 'Total Refugee and people in refugee-like situations',
-                        'GDP Per Capita', 'Population of concern per million GDP']
+                        'IDPs protected/assisted by UNHCR',
+                        'GDP Per Capita', 'Population of concern per million GDP',
+                        'Total refugees who have fled from country']
     strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded',
                         'Rank of total population of concern', 'Rank of humanitarian aid received']
 
@@ -401,6 +437,31 @@ def merge_data(
 
         # Add the country dict to the data dict
         data[x] = country_dict
+
+
+    # Add World totals
+    # Create an empty dict
+    world_dict = {}
+
+    # Populate the dict with aggregated strand 1 data
+    strand_01_dict = {}
+    strand_01_dict['Needs_Data'] = {}
+    strand_01_dict['Total people in need'] = df_needs['Total people in need'].sum()
+    strand_01_dict['Count of current crises with people in need'] = df_needs['Total people in need'].count()
+    strand_01_dict['Place with similar population as people in need'] = find_nearest_place(
+        df_needs['Total people in need'].sum()
+    )
+    strand_01_dict['Population of place with similar population'] = find_nearest_place_population(
+        df_needs['Total people in need'].sum()
+    )
+    for name in needs_fields:
+        strand_01_dict['Needs_Data'][name] = df_needs[name].sum()
+    world_dict['Strand_01_Needs'] = strand_01_dict
+
+    # Add the world dict to the data dict
+    data['WORLD'] = world_dict
+
+
 
     # Create the metadata dict
     metadata = {
