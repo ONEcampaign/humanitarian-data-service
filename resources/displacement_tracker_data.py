@@ -44,6 +44,10 @@ relatable_population_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, '2
 # Define path for stories of displacement
 displacement_stories_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'stories_of_displacement_links.csv')
 
+# Create a blank dictionary to store metadata for each field
+metadata_dict = {}
+
+
 def merge_data(
         funding_year = FUNDING_YEAR,
         country_names_path=country_names_path,
@@ -96,12 +100,22 @@ def merge_data(
     # Drop null values
     df_displacement_stories = df_displacement_stories.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_displacement_stories.columns:
+        metadata_dict[column] = {}
+
 
     ####################  POPULATIONS ####################
     # Get the data from the API
     population_data = requests.get(url_population).json()
 
-    # Build a dataframe
+    # Extract metadata
+    if 'metadata' in population_data:
+        population_metadata = population_data['metadata']
+    else:
+        population_metadata = {}
+
+    # Build dataframe
     df_population = pd.DataFrame(population_data['data']).T
 
     # Select relevant fields
@@ -115,12 +129,20 @@ def merge_data(
     # Drop null values
     df_population = df_population.dropna()
 
-
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_population.columns:
+        metadata_dict[column] = population_metadata
 
 
     ####################  FRAGILE STATE ####################
     # Get the data from the API
     fragile_state_data = requests.get(url_fragile_state).json()
+
+    # Extract metadata
+    if 'metadata' in fragile_state_data:
+        fragile_state_metadata = fragile_state_data['metadata']
+    else:
+        fragile_state_metadata = {}
 
     # Build a dataframe
     df_fragile_state = pd.DataFrame(fragile_state_data['data']).T
@@ -137,10 +159,20 @@ def merge_data(
     # Drop null values
     df_fragile_state = df_fragile_state.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_fragile_state.columns:
+        metadata_dict[column] = fragile_state_metadata
+
 
     ####################  POPULATIONS_REFUGEELIKE_ASYLUM ####################
     # Get the data from the API
     populations_refugeelike_asylum_data = requests.get(url_populations_refugeelike_asylum).json()
+
+    # Extract metadata
+    if 'metadata' in populations_refugeelike_asylum_data:
+        populations_refugeelike_asylum_metadata = populations_refugeelike_asylum_data['metadata']
+    else:
+        populations_refugeelike_asylum_metadata = {}
 
     # Build a dataframe
     df_populations_refugeelike_asylum = pd.DataFrame(populations_refugeelike_asylum_data['data']).T
@@ -164,10 +196,20 @@ def merge_data(
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_populations_refugeelike_asylum.columns:
+        metadata_dict[column] = populations_refugeelike_asylum_metadata
+
 
     ####################  POPULATIONS_REFUGEELIKE_ORIGIN ####################
     # Get the data from the API
     populations_refugeelike_origin_data = requests.get(url_populations_refugeelike_origin).json()
+
+    # Extract metadata
+    if 'metadata' in populations_refugeelike_origin_data:
+        populations_refugeelike_origin_metadata = populations_refugeelike_origin_data['metadata']
+    else:
+        populations_refugeelike_origin_metadata = {}
 
     # Build a dataframe
     df_populations_refugeelike_origin = pd.DataFrame(populations_refugeelike_origin_data['data']).T
@@ -185,10 +227,20 @@ def merge_data(
     # Drop null values
     df_populations_refugeelike_origin = df_populations_refugeelike_origin.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_populations_refugeelike_origin.columns:
+        metadata_dict[column] = populations_refugeelike_origin_metadata
+
 
     ####################  INDICATORS GNI ####################
     # Get the data from the API
     indicators_gni_data = requests.get(url_indicators_gni).json()
+
+    # Extract metadata
+    if 'metadata' in indicators_gni_data:
+        indicators_gni_metadata = indicators_gni_data['metadata']
+    else:
+        indicators_gni_metadata = {}
 
     # Build a dataframe
     df_indicators_gni = pd.DataFrame(indicators_gni_data['data']).T
@@ -204,17 +256,27 @@ def merge_data(
     # Drop null values
     df_indicators_gni = df_indicators_gni.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_indicators_gni.columns:
+        metadata_dict[column] = indicators_gni_metadata
+
 
     ####################  PLANS PROGRESS ####################
     # Get the data from the API
     plans_progress_data = requests.get(url_plans_progress).json()
+
+    # Extract metadata
+    if 'metadata' in plans_progress_data:
+        plans_progress_metadata = plans_progress_data['metadata']
+    else:
+        plans_progress_metadata = {}
 
     # Build a dataframe
     df_plans_progress = pd.DataFrame(plans_progress_data['data']).T
 
     # Select relevant fields
     df_plans_progress = df_plans_progress[[
-        'appealFunded', 'revisedRequirements', 'neededFunding'  # Add more fields here
+        'appealFunded', 'revisedRequirements', 'neededFunding'
     ]]
 
     # Rename fields
@@ -227,10 +289,20 @@ def merge_data(
     # Drop null values
     df_plans_progress = df_plans_progress.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_plans_progress.columns:
+        metadata_dict[column] = plans_progress_metadata
+
 
     ######## FUNDING BY DESTINATION COUNTRY ############
     #Get the data from the API
     funding_dest_country_data = requests.get(url_funding_dest_country).json()
+
+    # Extract metadata
+    if 'metadata' in funding_dest_country_data:
+        funding_dest_country_metadata = funding_dest_country_data['metadata']
+    else:
+        funding_dest_country_metadata = {}
 
     # Build a dataframe
     df_funding_dest_country = pd.DataFrame(funding_dest_country_data['data']).T
@@ -251,10 +323,20 @@ def merge_data(
     # Drop null values
     df_funding_dest_country = df_funding_dest_country.dropna()
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_funding_dest_country.columns:
+        metadata_dict[column] = funding_dest_country_metadata
+
 
     ################## TOP 5 DONORS TO EACH DESTINATION COUNTRY ###################
     #Get the data from the API
     funding_dest_donors_data = requests.get(url_funding_dest_donors).json()
+
+    # Extract metadata
+    if 'metadata' in funding_dest_donors_data:
+        funding_dest_donors_metadata = funding_dest_donors_data['metadata']
+    else:
+        funding_dest_donors_metadata = {}
 
     # Build a dataframe
     df_funding_dest_donors = json_normalize(funding_dest_donors_data['data']).T
@@ -262,10 +344,20 @@ def merge_data(
 
     df_funding_dest_donors.columns = (['Top 5 Donors'])
 
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_funding_dest_donors.columns:
+        metadata_dict[column] = funding_dest_donors_metadata
+
 
     ####################  NEEDS ####################
     # Get the data from the API
     needs_data = requests.get(url_needs).json()
+
+    # Extract metadata
+    if 'metadata' in needs_data:
+        needs_metadata = needs_data['metadata']
+    else:
+        needs_metadata = {}
 
     # Build a dataframe
     df_needs = pd.DataFrame(needs_data['data']).T
@@ -291,6 +383,10 @@ def merge_data(
                              'sourceURL': 'Source of needs data',
                              'sourceType': 'Source type of needs data'
                              }, inplace=True)
+
+    # Add metadata for each field to overall metadata dictionary
+    for column in df_needs.columns:
+        metadata_dict[column] = needs_metadata
 
 
     ######## FIND PLACES WITH SIMILAR POPULATIONS TO PEOPLE IN NEED ########
@@ -320,10 +416,13 @@ def merge_data(
 
     df_needs['Place with similar population as people in need'] = df_needs['Total people in need'].apply(
         find_nearest_place)
+    # Add metadata
+    metadata_dict['Place with similar population as people in need'] = {}
 
     df_needs['Population of place with similar population'] = df_needs['Total people in need'].apply(
         find_nearest_place_population)
-
+    # Add metadata
+    metadata_dict['Population of place with similar population'] = {}
 
     ####################  SAMPLE CLUSTERS ####################
 
@@ -355,13 +454,22 @@ def merge_data(
     # Add calculation for displaced people as a ratio of total population
     df_final['Population of concern per 1000 population'] = (df_final['Total population of concern'] / df_final[
         'Population'])*1000
+    # And metadata
+    metadata_dict['Population of concern per 1000 population'] = {}
+    metadata_dict['Population of concern per 1000 population']['Calculation'] = '(Total population of concern / Population) * 1000'
 
     # Add calculation for displaced people per million GDP
     df_final['Population of concern per million GDP'] = ((df_final['Total population of concern'] * 1000000) / (df_final[
         'GDP Per Capita'] * df_final['Population']))
+    # And metadata
+    metadata_dict['Population of concern per million GDP'] = {}
+    metadata_dict['Population of concern per million GDP']['Calculation'] = '(Total population of concern] * 1000000) / (GDP Per Capita * Population)'
 
     # Add field to specify whether country has current humanitarian appeal in FTS
     df_final['Country has current appeal'] = df_final['Appeal funds requested'].notnull()
+    # And metadata
+    metadata_dict['Country has current appeal'] = {}
+    metadata_dict['Country has current appeal']['Calculation'] = 'Is Appeal funds requested not null'
 
 
     ################## STRUCTURE DICTIONARY ##################
@@ -464,11 +572,42 @@ def merge_data(
 
 
     # Create the metadata dict
-    metadata = {
-        "State fragility index": "some metadata here",
-        "Total amount of money funded to date": "some metadata here",
-        "Total amount of money needed": "some metadata here"
-    }
+    metadata = {}
+
+    # Populate the dict with those value that don't require nesting
+    #metadata['Country'] = metadata_dict['Country']
+    metadata['Fragile State Index Rank'] = metadata_dict['Fragile State Index Rank']
+    metadata['Country has current appeal'] = metadata_dict['Country has current appeal']
+
+    # Populate the dict with story fields
+    story_fields_dict = {}
+    if metadata_dict['storyURL']:
+        for field in story_fields:
+            story_fields_dict[field] = (metadata_dict[field])
+    metadata['Displacement_story'] = story_fields_dict
+
+    # Populate the dict with strand 1 data if the country has a current appeal
+    strand_01_dict = {}
+    strand_01_dict['Needs_Data'] = {}
+    for names_01 in strand_01_fields:
+        strand_01_dict[names_01] = (metadata_dict[names_01])
+    metadata['Strand_01_Needs'] = strand_01_dict
+
+    # Populate the dict with strand 2 data
+    strand_02_dict = {}
+    for names_02 in strand_02_fields:
+        strand_02_dict[names_02] = (metadata_dict[names_02])
+    metadata['Strand_02_People'] = strand_02_dict
+
+    # Populate the dict with strand 3 data
+    strand_03_dict = {}
+    strand_03_dict['Top 5 donors of humanitarian aid'] = []
+    for names_03 in strand_03_fields:
+        strand_03_dict[names_03] = (metadata_dict[names_03])
+    if metadata_dict['Top 5 Donors']:
+        strand_03_dict['Top 5 donors of humanitarian aid'] = metadata_dict['Top 5 Donors']
+    metadata['Strand_03_Aid'] = strand_03_dict
+
 
     # At the higher level, structure the json with 'data' and 'metadata'
     final_json = {
