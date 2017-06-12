@@ -1,3 +1,4 @@
+#{"source_data": "2017-06-12", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-12", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
@@ -205,7 +206,7 @@ Start Fund,700631,2016,IND,India
 "Australia, Government of",1032753,2016,IDN,Indonesia
 Start Fund,714191,2016,IDN,Indonesia
 "Sweden, Government of",244888,2016,IDN,Indonesia
-European Commission's Humanitarian Aid and Civil Protection Department,15989205,2016,IRN,"Iran, Islamic Republic of"
+European Commission's Humanitarian Aid and Civil Protection Department,14921969,2016,IRN,"Iran, Islamic Republic of"
 "Germany, Government of",5665082,2016,IRN,"Iran, Islamic Republic of"
 "Denmark, Government of",1590892,2016,IRN,"Iran, Islamic Republic of"
 "Norway, Government of",1512034,2016,IRN,"Iran, Islamic Republic of"
@@ -471,7 +472,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,17388793,
 Private (individuals & organizations),7826916,2016,UGA,Uganda
 "Germany, Government of",104980246,2016,UKR,Ukraine
 "United States of America, Government of",54606442,2016,UKR,Ukraine
-European Commission's Humanitarian Aid and Civil Protection Department,31186619,2016,UKR,Ukraine
+European Commission's Humanitarian Aid and Civil Protection Department,31186514,2016,UKR,Ukraine
 World Food Programme,9299076,2016,UKR,Ukraine
 "Japan, Government of",7110363,2016,UKR,Ukraine
 "United States of America, Government of",700000,2016,ARE,United Arab Emirates

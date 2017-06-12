@@ -9,6 +9,7 @@ from pandas.io.json import json_normalize
 from resources import constants
 from utils import data_utils, api_utils
 import time
+import json
 
 """
 This script currently updates the committed and paid funding for appeals, and replaces the old `funding_progress.csv` file.
@@ -415,9 +416,26 @@ def run_transformations_by_dimension():
     print 'Done!'
 
 
+def prepend_metadata(metadata, filepath):
+    with open(filepath, 'r') as original:
+        data = original.read()
+    with open(filepath, 'w') as modified:
+        modified.write('#')
+        json.dump(metadata, modified)
+        modified.write('\n' + data)
+
+
 def run():
 
     t0 = time.time()
+
+    # Hardcode FTS metadata
+    metadata = {}
+    metadata['extract_date'] = date.today().isoformat()
+    metadata['source_data'] = date.today().isoformat()
+    metadata['source_key'] = 'FTS'
+    metadata['source_url'] = 'https://fts.unocha.org'
+    metadata['update_frequency'] = 'Hourly'
 
     print 'Get list of countries and ISO-3 codes'
     countries = getCountries()
@@ -439,30 +457,35 @@ def run():
     print initial_result.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_progress.csv')
     initial_result.to_csv(official_data_path, encoding='utf-8', index=False)
+    prepend_metadata(metadata, official_data_path)
 
     print 'Get donor funding amounts to each plan from the FTS API'
     donor_funding_plan = getDonorPlanFundingAmounts(plan_index)
     print donor_funding_plan.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors_appeal.csv')
     donor_funding_plan.to_csv(official_data_path, encoding='utf-8', index=False)
+    prepend_metadata(metadata, official_data_path)
 
     print 'Get required and committed funding at the cluster level from the FTS API'
     cluster_funding = getClusterFundingAmounts(plan_index)
     print cluster_funding.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_clusters.csv')
     cluster_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+    prepend_metadata(metadata, official_data_path)
 
     print 'Get funding by destination country for given years'
     country_funding = getCountryFundingAmounts(range(2015, 2018), countries)
     print country_funding.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_dest_countries.csv')
     country_funding.to_csv(official_data_path, encoding='utf-8', index=False)
+    prepend_metadata(metadata, official_data_path)
 
     print 'Get top donors by destination country for given years'
     donor_funding_country = getTopDonorCountryFundingAmounts(countries, 2016, top=True, top_n=5)
     print donor_funding_country.head()
     official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'funding_donors_country.csv')
     donor_funding_country.to_csv(official_data_path, encoding='utf-8', index=False)
+    prepend_metadata(metadata, official_data_path)
 
     print 'Done!'
     print 'Total time taken in minutes: {}'.format((time.time() - t0)/60)
