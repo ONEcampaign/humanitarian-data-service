@@ -1618,7 +1618,12 @@
         "COD": {
             "Country": "Democratic Republic of the Congo",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "The 2013 winner of UNHCR's Nansen Refugee Award helps traumatised girls and women recover and thrive",
+                "storyTitle": "Sister Angelique Namaika's story, Democratic Republic of Congo",
+                "storyURL": "http://stories.unhcr.org/sister-anglique-namaika-p143.html"
+            },
             "Fragile State Index Rank": "7th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 160167931,
@@ -2092,7 +2097,12 @@
         "DEU": {
             "Country": "Germany",
             "Country has current appeal": false,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "New York Times",
+                "storyTagLine": "Exploring integration challenges and success stories in the city of Weimar",
+                "storyTitle": "Welcome to Weimar",
+                "storyURL": "https://www.nytimes.com/interactive/2017/04/28/world/europe/weimar-germany-syrian-refugees.html?utm_source=POLITICO.EU&utm_campaign=98138432c0-EMAIL_CAMPAIGN_2017_05_01&utm_medium=email&utm_term=0_10959edeb5-98138432c0-190049249&_r=0"
+            },
             "Fragile State Index Rank": "165th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2568,7 +2578,12 @@
         "ERI": {
             "Country": "Eritrea",
             "Country has current appeal": false,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "ONE",
+                "storyTagLine": "Art teacher encourages Eritrean refugees to use painting to tell their stories",
+                "storyTitle": "These refugees in Ethiopia are painting their stories",
+                "storyURL": "https://www.one.org/us/2016/08/10/these-refugees-in-ethiopia-are-painting-their-stories/"
+            },
             "Fragile State Index Rank": "19th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -2698,7 +2713,12 @@
         "ETH": {
             "Country": "Ethiopia",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Young Somali refugee advocates for girls' education",
+                "storyTitle": "Nasttho's story, Ethiopia",
+                "storyURL": "http://stories.unhcr.org/nastthos-story-ethiopia-p970.html"
+            },
             "Fragile State Index Rank": "15th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 240299274,
@@ -3752,7 +3772,12 @@
         "HTI": {
             "Country": "Haiti",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "Hidden Lives",
+                "storyTagLine": "The stories of Haitians displaced by the 2010 heartquake",
+                "storyTitle": "Hidden lives, the untold story of urban refugees",
+                "storyURL": "http://www.hidden-lives.org.uk/countries/Haiti/index.asp"
+            },
             "Fragile State Index Rank": "11th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 55963108,
@@ -4499,7 +4524,12 @@
         "KEN": {
             "Country": "Kenya",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "Youtube",
+                "storyTagLine": "A documentary collecting the life-stories of 2,000 men and women from 60 countries, realised by filmmaker Yann-Arthus Bertrand; here a collection of stories from Dadaab",
+                "storyTitle": "Human",
+                "storyURL": "https://www.youtube.com/watch?v=VSlmFDqncxc"
+            },
             "Fragile State Index Rank": "22nd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 30895543,
@@ -5742,7 +5772,7 @@
                     "People in need of water, sanitization & hygiene": 1200000.0,
                     "People who are food insecure": 3530000.0
                 },
-                "Place with similar population as people in need": "Bosnia and Herzegovina",
+                "Place with similar population as people in need": "Connecticut, United States",
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiWWpSWGJpaHU1NGs/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 3700000.0
@@ -6356,7 +6386,12 @@
         "NER": {
             "Country": "Niger",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNOCHA",
+                "storyTagLine": "Families in Niger helping out displaced Nigerians",
+                "storyTitle": "What we share",
+                "storyURL": "https://unocha.raisely.com/whatweshare"
+            },
             "Fragile State Index Rank": "20th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 155207790,
@@ -8011,7 +8046,12 @@
         "SOM": {
             "Country": "Somalia",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "VICE",
+                "storyTagLine": "Young Somali refugee re-enacts some of his gaffes since his arrival in the UK while on stage",
+                "storyTitle": "All the gaffes that I have made since arriving in the UK",
+                "storyURL": "https://www.vice.com/en_uk/article/newneighbours-all-the-gaffes-ive-made-since-arriving-in-the-uk"
+            },
             "Fragile State Index Rank": "2nd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 362946459,
@@ -8621,7 +8661,7 @@
             "Displacement_story": {
                 "storySource": "UNICEF",
                 "storyTagLine": "After fleeing Nigeria, orphaned child finds a new family in his former neighbour's",
-                "storyTitle": "Finding a new camp in a refugee camp in Chad",
+                "storyTitle": "Finding a new family in a refugee camp in Chad",
                 "storyURL": "https://blogs.unicef.org/blog/finding-a-new-family-in-a-refugee-camp-in-chad/"
             },
             "Fragile State Index Rank": "8th",
@@ -9310,7 +9350,12 @@
         "UGA": {
             "Country": "Uganda",
             "Country has current appeal": false,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Fish farming project in Uganda bringing together refugees and locals",
+                "storyTitle": "Fish farm nets benefit for Congolese refugees and Ugandan hosts",
+                "storyURL": "http://www.unhcr.org/news/stories/2017/6/593958e64/fish-farm-nets-benefits-congolese-refugees-ugandan-hosts.html"
+            },
             "Fragile State Index Rank": "24th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -9371,7 +9416,7 @@
                     "People in need of water, sanitization & hygiene": 3700000.0,
                     "People who are food insecure": 1100000.0
                 },
-                "Place with similar population as people in need": "Bosnia and Herzegovina",
+                "Place with similar population as people in need": "Oklahoma, United States",
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/ukraine_humanitarian_needs_overview_2017_eng.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 3800000.0
