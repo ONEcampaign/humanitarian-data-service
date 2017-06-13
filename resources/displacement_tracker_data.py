@@ -180,18 +180,23 @@ def merge_data(
     # Select relevant fields
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum[[
         'Total population of concern', 'Total Refugee and people in refugee-like situations',
-        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations'
+        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations','Asylum-seekers'
     ]]
 
     # Rename fields
     df_populations_refugeelike_asylum.rename(columns={
-        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations': 'IDPs protected/assisted by UNHCR'
+        'IDPs protected/assisted by UNHCR, incl. people in IDP-like situations': 'IDPs protected/assisted by UNHCR',
+        'Asylum-seekers': 'Asylum-seekers (asylum)'
     }, inplace=True)
 
 
     # Add field to rank total total population of concern
     df_populations_refugeelike_asylum['Rank of total population of concern'] = df_populations_refugeelike_asylum[
         'Total population of concern'].rank(ascending=False, method='min').astype(int)
+
+    # Add field to add refugees and asylum-seekers
+    df_populations_refugeelike_asylum['Total refugees and asylum-seekers (asylum)'] = df_populations_refugeelike_asylum[
+        'Total Refugee and people in refugee-like situations'] + df_populations_refugeelike_asylum['Asylum-seekers (asylum)']
 
     # Drop null values
     df_populations_refugeelike_asylum = df_populations_refugeelike_asylum.dropna()
@@ -216,13 +221,19 @@ def merge_data(
 
     # Select relevant fields
     df_populations_refugeelike_origin = df_populations_refugeelike_origin[[
-        'Total Refugee and people in refugee-like situations'
+        'Total Refugee and people in refugee-like situations', 'Asylum-seekers'
     ]]
 
     # Rename fields
     df_populations_refugeelike_origin.rename(columns={
-        'Total Refugee and people in refugee-like situations': 'Total refugees who have fled from country'
+        'Total Refugee and people in refugee-like situations': 'Total refugees who have fled from country',
+        'Asylum-seekers': 'Asylum-seekers (origin)'
     }, inplace=True)
+
+
+    # Add field to add refugees and asylum-seekers
+    df_populations_refugeelike_origin['Total refugees and asylum-seekers (origin)'] = df_populations_refugeelike_origin[
+        'Total refugees who have fled from country'] + df_populations_refugeelike_origin['Asylum-seekers (origin)']
 
     # Drop null values
     df_populations_refugeelike_origin = df_populations_refugeelike_origin.dropna()
@@ -485,10 +496,11 @@ def merge_data(
                         'Appeal percent funded', 'Source of needs data', 'Source type of needs data',
                         'Total people in need', 'Place with similar population as people in need']
     strand_02_fields = ['Population of concern per 1000 population', 'Fragile State Index Score',
-                        'Total population of concern', 'Total Refugee and people in refugee-like situations',
+                        'Total population of concern',
                         'IDPs protected/assisted by UNHCR',
-                        'GDP Per Capita', 'Population of concern per million GDP',
-                        'Total refugees who have fled from country']
+                        'GDP Per Capita',
+                        'Total refugees and asylum-seekers (asylum)',
+                        'Total refugees and asylum-seekers (origin)']
     strand_03_fields = ['Humanitarian aid received', 'Appeal funds requested', 'Appeal percent funded',
                         'Rank of total population of concern', 'Rank of humanitarian aid received']
 
