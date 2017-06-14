@@ -4,6 +4,7 @@ import os.path
 from resources import constants
 import json
 from pandas.io.json import json_normalize
+from utils.data_utils import get_ordinal_number
 
 """
 This script aggregates data from multiple endpoints and returns a single .json file containing all data
@@ -481,6 +482,35 @@ def merge_data(
     # And metadata
     metadata_dict['Country has current appeal'] = {}
     metadata_dict['Country has current appeal']['Calculation'] = 'Is Appeal funds requested not null'
+
+
+    # Make the ranked variables ordinal
+
+    def get_ordinal_number(value):
+        try:
+            value = int(value)
+        except ValueError:
+            return value
+
+        if value % 100 // 10 != 1:
+            if value % 10 == 1:
+                ordval = u"%d%s" % (value, "st")
+            elif value % 10 == 2:
+                ordval = u"%d%s" % (value, "nd")
+            elif value % 10 == 3:
+                ordval = u"%d%s" % (value, "rd")
+            else:
+                ordval = u"%d%s" % (value, "th")
+        else:
+            ordval = u"%d%s" % (value, "th")
+
+        return ordval
+
+    df_final['Rank of total population of concern'] = df_final['Rank of total population of concern'].apply(
+        get_ordinal_number)
+
+    df_final['Rank of humanitarian aid received'] = df_final['Rank of humanitarian aid received'].apply(
+        get_ordinal_number)
 
 
     ################## STRUCTURE DICTIONARY ##################
