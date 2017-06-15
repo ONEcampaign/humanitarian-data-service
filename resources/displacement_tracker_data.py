@@ -75,6 +75,9 @@ def merge_data(
         'ISO-alpha3 Code'
     ]]
 
+    # Add Taiwan
+    df_country_names.loc[-1] = ["Taiwan", "TWN"]
+
     # Drop null values
     df_country_names = df_country_names.dropna()
 
@@ -405,6 +408,12 @@ def merge_data(
 
     # Get the relateable populations data from .csv
     df_relatable_populations = pd.read_csv(relatable_population_path)
+    df_relatable_populations = df_relatable_populations[[
+        'City, State, Country', 'Population - World Bank (2015)','Population - UNFPA (2016)'
+    ]]
+    df_relatable_populations['Population'] = df_relatable_populations[[
+        'Population - World Bank (2015)','Population - UNFPA (2016)'
+    ]].max(axis=1)
 
     def find_nearest_place_population(reference_value):
 

@@ -1,10 +1,10 @@
-#{"source_data": "2017-06-12", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-12", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-15", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-15", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
 "Germany, Government of",49804454,2016,AFG,Afghanistan
-European Commission's Humanitarian Aid and Civil Protection Department,49724237,2016,AFG,Afghanistan
 "Japan, Government of",47169783,2016,AFG,Afghanistan
+European Commission's Humanitarian Aid and Civil Protection Department,45402392,2016,AFG,Afghanistan
 "Sweden, Government of",48077,2016,ALB,Albania
 "Saudi Arabia (Kingdom of), Government of",12616,2016,ALB,Albania
 European Commission's Humanitarian Aid and Civil Protection Department,10140010,2016,DZA,Algeria
@@ -97,7 +97,7 @@ United Nations Population Fund,83100,2016,COG,Congo
 "United States of America, Government of",171018636,2016,COD,"Congo, The Democratic Republic of the"
 European Commission's Humanitarian Aid and Civil Protection Department,58847270,2016,COD,"Congo, The Democratic Republic of the"
 "United Kingdom, Government of",39232641,2016,COD,"Congo, The Democratic Republic of the"
-"Germany, Government of",37662901,2016,COD,"Congo, The Democratic Republic of the"
+"Germany, Government of",37702087,2016,COD,"Congo, The Democratic Republic of the"
 "Sweden, Government of",30309605,2016,COD,"Congo, The Democratic Republic of the"
 "United States of America, Government of",1100000,2016,CRI,Costa Rica
 European Commission's Humanitarian Aid and Civil Protection Department,702152,2016,CRI,Costa Rica
@@ -169,7 +169,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,316633,20
 Not specified,267026,2016,GHA,Ghana
 "Saudi Arabia (Kingdom of), Government of",88333,2016,GHA,Ghana
 United Nations Population Fund,26000,2016,GHA,Ghana
-European Commission's Humanitarian Aid and Civil Protection Department,198420514,2016,GRC,Greece
+European Commission's Humanitarian Aid and Civil Protection Department,215545916,2016,GRC,Greece
 European Commission,131326625,2016,GRC,Greece
 Private (individuals & organizations),50320589,2016,GRC,Greece
 "United Kingdom, Government of",23163645,2016,GRC,Greece
@@ -206,12 +206,12 @@ Start Fund,700631,2016,IND,India
 "Australia, Government of",1032753,2016,IDN,Indonesia
 Start Fund,714191,2016,IDN,Indonesia
 "Sweden, Government of",244888,2016,IDN,Indonesia
-European Commission's Humanitarian Aid and Civil Protection Department,14921969,2016,IRN,"Iran, Islamic Republic of"
+European Commission's Humanitarian Aid and Civil Protection Department,15207786,2016,IRN,"Iran, Islamic Republic of"
 "Germany, Government of",5665082,2016,IRN,"Iran, Islamic Republic of"
 "Denmark, Government of",1590892,2016,IRN,"Iran, Islamic Republic of"
 "Norway, Government of",1512034,2016,IRN,"Iran, Islamic Republic of"
 "Sweden, Government of",939408,2016,IRN,"Iran, Islamic Republic of"
-"Germany, Government of",545178127,2016,IRQ,Iraq
+"Germany, Government of",545622078,2016,IRQ,Iraq
 "United States of America, Government of",538402186,2016,IRQ,Iraq
 European Commission's Humanitarian Aid and Civil Protection Department,156146451,2016,IRQ,Iraq
 "United Kingdom, Government of",122927534,2016,IRQ,Iraq
@@ -265,8 +265,8 @@ United Nations Development Programme,755336,2016,LBR,Liberia
 "Germany, Government of",14332319,2016,LBY,Libya
 Central Emergency Response Fund,11439024,2016,LBY,Libya
 European Commission's Humanitarian Aid and Civil Protection Department,10927141,2016,LBY,Libya
+"United States of America, Government of",10050311,2016,LBY,Libya
 "Qatar, Government of",9683819,2016,LBY,Libya
-"Italy, Government of",7940439,2016,LBY,Libya
 European Commission,17250019,2016,MKD,"Macedonia, The Former Yugoslav Republic of"
 Private (individuals & organizations),9409401,2016,MKD,"Macedonia, The Former Yugoslav Republic of"
 "Japan, Government of",3669444,2016,MKD,"Macedonia, The Former Yugoslav Republic of"
@@ -416,7 +416,7 @@ Central Emergency Response Fund,4320087,2016,LKA,Sri Lanka
 "Germany, Government of",1108221,2016,LKA,Sri Lanka
 "United States of America, Government of",311597746,2016,SDN,Sudan
 "United Kingdom, Government of",81424763,2016,SDN,Sudan
-European Commission's Humanitarian Aid and Civil Protection Department,62675782,2016,SDN,Sudan
+European Commission's Humanitarian Aid and Civil Protection Department,62699936,2016,SDN,Sudan
 Not specified,33801669,2016,SDN,Sudan
 "Germany, Government of",30019028,2016,SDN,Sudan
 "United States of America, Government of",9577150,2016,SWZ,Swaziland
@@ -496,7 +496,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,2219755,2
 "United Arab Emirates, Government of",469924030,2016,YEM,Yemen
 "United States of America, Government of",343266216,2016,YEM,Yemen
 "Saudi Arabia (Kingdom of), Government of",293245990,2016,YEM,Yemen
-"United Kingdom, Government of",177901539,2016,YEM,Yemen
+"United Kingdom, Government of",183134986,2016,YEM,Yemen
 World Food Programme,67378926,2016,YEM,Yemen
 "United States of America, Government of",3400000,2016,ZMB,Zambia
 "Saudi Arabia (Kingdom of), Government of",1450000,2016,ZMB,Zambia

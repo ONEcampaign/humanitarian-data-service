@@ -1,184 +1,89 @@
-"City, State, Country",Population
-"California, United States",39140000
-"Texas, United States",27470000
-"Karachi, Sindh, Pakistan",24300000
-"Shanghai, China",24150000
-"Beijing, China",21700000
-Romania,21300000
-"Florida, United States",20270000
-"New York, United States",19800000
-Netherlands,16800000
-"Lagos, Nigeria",16060000
-"Tianjin, China",15470000
-"Illinois, United States",12860000
-"Pennsylvania, United States",12800000
-"Ohio, United States",11610000
-Greece,11500000
-Belgium,10800000
-Portugal,10700000
-Czech Republic,10600000
-"Georgia, United States",10210000
-"North Carolina, United States",10040000
-"Michigan, United States",9923000
-Hungary,9920000
-Sweden,9600000
-Belarus,9470000
-"New Jersey, United States",8958000
-"London, Greater London, United Kingdom",8674000
-"New York City, New York, United States",8550000
-Austria,8450000
-"Virginia, United States",8383000
-Switzerland,7790000
-Bulgaria,7300000
-"Washington, United States",7170000
-Serbia,7160000
-"Arizona, United States",6828000
-"Massachusetts, United States",6794000
-"Indiana, United States",6620000
-"Tennessee, United States",6600000
-"Missouri, United States",6084000
-"Maryland, United States",6006000
-"Wisconsin, United States",5771000
-Denmark,5630000
-Slovakia,5500000
-"Minnesota, United States",5490000
-"Colorado, United States",5457000
-Finland,5430000
-Norway,5020000
-"South Carolina, United States",4896000
-"Alabama, United States",4859000
-Ireland,4680000
-"Louisiana, United States",4671000
-"Kentucky, United States",4425000
-Croatia,4370000
-"Oregon, United States",4029000
-"Los Angeles, California, United States",3972000
-"Oklahoma, United States",3911000
-"Connecticut, United States",3591000
-"Berlin, Germany",3520000
-Moldova,3470000
-Lithuania,3260000
-Albania,3250000
-"Madrid, Spain",3142000
-"Iowa, United States",3124000
-"Utah, United States",2996000
-"Mississippi, United States",2992000
-"Arkansas, United States",2978000
-"Kansas, United States",2912000
-"Nevada, United States",2891000
-"Rome, Lazio, Italy",2870000
-"Chicago, Illinois, United States",2721000
-"Houston, Texas, United States",2296000
-"Paris, Ile-de-France, France",2230000
-Latvia,2220000
-"Bucharest, Romania",2106000
-"New Mexico, United States",2085000
-Macedonia,2070000
-Slovenia,2050000
-"Nebraska, United States",1896000
-"Vienna, Austria",1868000
-Kosovo,1860000
-"West Virginia, United States",1844000
-"Budapest, Hungary",1759000
-"Warsaw, Mazowieckie, Poland",1749000
-"Idaho, United States",1655000
-"Philadelphia, Pennsylvania, United States",1567000
-"Phoenix, Arizona, United States",1563000
-"Hawaii, United States",1432000
-Estonia,1340000
-"New Hampshire, United States",1331000
-"Maine, United States",1329000
-"Dublin, Ireland",1280000
-"Prague, Czech Republic",1267000
-"Sofia, Sofia grad, Bulgaria",1260000
-"Brussels, Belgium",1114000
-"Rhode Island, United States",1056000
-"Montana, United States",1033000
-"Delaware, United States",945934
-"Stockholm, Sweden",932917
-"Austin, Texas, United States",931830
-"South Dakota, United States",858469
-"Indianapolis, Indiana, United States",858325
-"Columbus, Ohio, United States",850106
-"Amsterdam, Noord-Holland, Netherlands",844667
-"Zagreb, Grad Zagreb, Croatia",792875
-"North Dakota, United States",756927
-"Alaska, United States",738432
-"Riga, Latvia",696593
-"Denver, Colorado, United States",682545
-"Washington, District of Columbia, United States",672228
-"District of Columbia, United States",672228
-"Nashville, Tennessee, United States",668347
-"Boston, Massachusetts, United States",667137
-"Athens, Attiki, Greece",664046
-Montenegro,633506
-"Oklahoma City, Oklahoma, United States",631346
-"Vermont, United States",626042
-"Copenhagen, Denmark",601448
-"Wyoming, United States",586107
-"Helsinki, Uusimaa, Finland",564521
-"Lisbon, Lisboa, Portugal",545245
-"Vilnius, Vilniaus, Lithuania",542664
-Luxembourg,536427
-"Sacramento, California, United States",490712
-"Atlanta, Georgia, United States",463878
-"Raleigh, North Carolina, United States",451066
-"Tallinn, Harju, Estonia",444085
-"Bratislava, Bratislavsky, Slovakia",425459
-Malta,421844
-"Honolulu, Hawaii, United States",352769
-Iceland,335631
-"Saint Paul, Minnesota, United States",300851
-"Ljubljana, Osrednjeslovenska, Slovenia",287218
-"Lincoln, Nebraska, United States",277348
-"Madison, Wisconsin, United States",248951
-"Baton Rouge, Louisiana, United States",228590
-"Richmond, Virginia, United States",220289
-"Boise, Idaho, United States",218281
-"Des Moines, Iowa, United States",210330
-"Montgomery, Alabama, United States",200602
-"Little Rock, Arkansas, United States",197992
-"Salt Lake City, Utah, United States",192672
-"Tallahassee, Florida, United States",189907
-"Providence, Rhode Island, United States",179207
-"Jackson, Mississippi, United States",170674
-"Salem, Oregon, United States",164549
-"Columbia, South Carolina, United States",133803
-"Topeka, Kansas, United States",127265
-"Hartford, Connecticut, United States",124006
-"Springfield, Illinois, United States",116565
-"Lansing, Michigan, United States",115056
-"Albany, New York, United States",98469
-Jersey,95732
-Isle of Man,86159
-Andorra,85458
-"Trenton, New Jersey, United States",84225
-"Santa Fe, New Mexico, United States",84099
-"Luxemburg, Luxembourg",77325
-"Bismarck, North Dakota, United States",71167
-Guernsey,65605
-"Cheyenne, Wyoming, United States",63335
-"Nicosia, Cyprus",55014
-"Carson City, Nevada, United States",54521
-"Olympia, Washington, United States",50302
-"Charleston, West Virginia, United States",49736
-Faroe Islands,49709
-"Harrisburg, Pennsylvania, United States",49081
-"Jefferson City, Missouri, United States",43169
-"Concord, New Hampshire, United States",42620
-"Annapolis, Maryland, United States",39474
-"Dover, Delaware, United States",37522
-Liechtenstein,37313
-"Juneau, Alaska, United States",32756
-San Marino,32742
-"Helena, Montana, United States",30581
-Monaco,30508
-Gibraltar,29111
-"Frankfort, Kentucky, United States",27830
-"Augusta, Maine, United States",18471
-"Pierre, South Dakota, United States",14002
-"Montpelier, Vermont, United States",7592
-"Valletta, Malta",6444
-Svalbard,2637
-Vatican City,839
-Russia,143400000
+"City, State, Country",Population,Population - Worldpopdata PBR (2016),Population - World Bank (2015),Population - UNFPA (2016)
+"Karachi, Pakistan",24300000,,,17121000
+"Shanghai, China",24150000,,,24484000
+"Beijing, China",21700000,,,21240000
+Romania,21300000,19800000,19815310,
+Netherlands,16800000,17000000,16939920,
+"Lagos, Nigeria",16060000,,,13661000
+Greece,11500000,10800000,10820880,
+Belgium,10800000,11300000,11249420,
+Portugal,10700000,10300000,10358080,
+Czech Republic,10600000,10600000,10546060,
+Hungary,9920000,9800000,9843030,
+Sweden,9600000,9900000,9799190,
+Belarus,9470000,9500000,9489620,
+"London, United Kingdom",8674000,,,10434000
+"New York City, United States",8550000,,,18604000
+Austria,8450000,8800000,8638370,
+Switzerland,7790000,8400000,8281430,
+Bulgaria,7300000,7100000,7177990,
+Serbia,7160000,7100000,7095380,
+Denmark,5630000,5700000,5683480,
+Slovakia,5500000,5400000,5423800,
+Finland,5430000,5500000,5479530,
+Norway,5020000,5200000,5190240,
+Ireland,4680000,4700000,4643740,
+Croatia,4370000,4200000,4203600,
+"Los Angeles, United States",3972000,,,12317000
+"Berlin, Germany",3520000,,,
+Moldova,3470000,3600000,3554110,
+Lithuania,3260000,2900000,2904910,
+Albania,3250000,2900000,2889170,
+"Madrid, Spain",3142000,,,6264000
+"Rome, Italy",2870000,,,3738000
+"Chicago, United States",2721000,,,8755000
+"Paris, France",2230000,,,10925000
+Latvia,2220000,2000000,1977530,
+Macedonia,2070000,2100000,2078450,
+Slovenia,2050000,2100000,2063530,
+"Vienna, Austria",1868000,,,1763000
+Kosovo,1860000,1800000,1801800,
+"Budapest, Hungary",1759000,,,1712000
+"Warsaw, Poland",1749000,,,1727000
+Estonia,1340000,1300000,1314610,
+"Dublin, Ireland",1280000,,,1185000
+"Prague, Czech Republic",1267000,,,1324000
+"Brussels, Belgium",1114000,,,2061000
+"Stockholm, Sweden",932917,,,1507000
+"Amsterdam, Netherlands",844667,,,1099000
+"Athens, Attiki, Greece",664046,,,3046000
+Montenegro,633506,600000,622160,
+"Copenhagen, Denmark",601448,,,1281000
+"Helsinki, Finland",564521,,,1190000
+"Lisbon, Portugal",545245,,,2902000
+Luxembourg,536427,600000,569600,
+Malta,421844,400000,431870,
+Iceland,335631,300000,330810,
+Isle of Man,86159,N/a,87780,
+Andorra,85458,80000,70470,
+"Luxemburg, Luxembourg",77325,,,
+Guernsey,65605,N/a,,
+"Nicosia, Cyprus",55014,,,
+Faroe Islands,49709,,48200,
+Liechtenstein,37313,40000,37530,
+San Marino,32742,30000,31780,
+Monaco,30508,40000,37730,
+Gibraltar,29111,,32220,
+"Valletta, Malta",6444,,,
+Svalbard,2637,,,
+Vatican City,839,,,
+Russia,143400000,144300000,144096870,
+"Tokyo, Japan",,,,38140000
+"Delhi, India",,,,26454000
+"Bangkok, Thailand",,,,9444000
+"Mexico City, Mexico",,,,21157000
+"Istanbul, Turkey",,,,14365000
+"Moscow, Russia",,,,12260000
+"Rio de Janeiro, Brazil",,,,12981000
+"Cairo, Egypt",,,,19128000
+"Dubai, United Arab Emirates",,,,2504000
+Indonesia,,259400000,257563820,
+Australia,,24100000,23789750,
+Canada,,36200000,35848610,
+Thailand,,65300000,67959360,
+Myanmar,,52400000,53897150,
+Saudi Arabia,,31700000,31540370,
+United Arab Emirates,,9300000,9156960,
+Portugal,,10300000,10358080,
+Israel,,8200000,8380100,
+Cuba,,11200000,11389560,
