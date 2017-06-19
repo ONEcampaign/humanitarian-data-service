@@ -527,6 +527,9 @@ def merge_data(
     # Clean up NaN values
     df_final = df_final.fillna('')
 
+    #Write .csv
+    #df_final.to_csv('AllData.csv', index_label='CountryCode', encoding='utf-8')
+
     # Transform dataframe to dictionary
     df_as_dict = df_final.to_dict(orient='index')
 

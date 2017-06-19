@@ -118,10 +118,10 @@ DTM_FILE_NAMES = {
 
 # UNHCR file mapping
 UNHCR_FILE_NAMES = {
-  'raw_asylum_country': 'unhcr_midyeartrends_table1_1_2016.csv',
-  'asylum_country': 'unhcr_midyeartrends_population_by_asylum_country_2016.csv',
-  'raw_origin_country': 'unhcr_midyeartrends_table1_2_2016.csv',
-  'origin_country': 'unhcr_midyeartrends_population_by_origin_country_2016.csv'
+  'raw_asylum_country': 'unhcr_fullyeartrends_table1_1_2016.csv',
+  'asylum_country': 'unhcr_fullyeartrends_population_by_asylum_country_2016.csv',
+  'raw_origin_country': 'unhcr_fullyeartrends_table1_2_2016.csv',
+  'origin_country': 'unhcr_fullyeartrends_population_by_origin_country_2016.csv'
 }
 
 # UN Department of Economic and Social Affairs file mapping
