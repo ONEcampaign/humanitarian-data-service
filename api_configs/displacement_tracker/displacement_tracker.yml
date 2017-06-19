@@ -1,9 +1,9 @@
-Get a JSON file containing all data used in the displacement tracker project
+Get a JSON file containing all data used in the MOVEMENT project
 ---
 tags:
-  - Displacement Tracker
+  - MOVEMENT
 responses:
   501:
     description: No data was found
   200:
-    description: The latest data for the displacement tracker
+    description: The latest data for MOVEMENT

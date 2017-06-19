@@ -5605,7 +5605,12 @@
         "MLI": {
             "Country": "Mali",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "Huffington Post",
+                "storyTagLine": "Three years after the French intervention in northern Mali, thousands of refugees in neighboring Burkina Faso are still afraid to go home. Mali\u2019s conflict may be over, but its border areas remain deeply unstable, with jihadist militant groups still believed to be operating.",
+                "storyTitle": "3 Years After French Intervention In Mali, Refugees Still Afraid To Go Home",
+                "storyURL": "http://www.huffingtonpost.com/entry/malian-refugees-in-burkina-faso_us_5717df6fe4b0c9244a7ab822"
+            },
             "Fragile State Index Rank": "31st",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 68867026,
@@ -5696,7 +5701,12 @@
         "MMR": {
             "Country": "Myanmar",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UPI",
+                "storyTagLine": "Hasina Begum is still reeling from the stomach-churning scenes that she witnessed before she fled her home.",
+                "storyTitle": "Rohingya refugee from Myanmar: 'They cut the bodies into four pieces'",
+                "storyURL": "http://www.upi.com/Top_News/Voices/2017/02/09/Rohingya-refugee-from-Myanmar-They-cut-the-bodies-into-four-pieces/5221486585428/"
+            },
             "Fragile State Index Rank": "35th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 57769858,
@@ -5910,7 +5920,12 @@
         "MRT": {
             "Country": "Mauritania",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "European Commission",
+                "storyTagLine": "The world is grappling with a growing number of people forced to flee their homes to escape conflict and violence. Today, more than 65 million people are displaced worldwide. Some have been living away from their homes for longer than five years. In response to this escalating global crisis, the European Commission supports humanitarian projects to assist displaced populations worldwide.",
+                "storyTitle": "From violence in Mali to a safe haven in Mauritania",
+                "storyURL": "http://ec.europa.eu/echo/blog/violence-mali-safe-haven-mauritania_en"
+            },
             "Fragile State Index Rank": "28th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 19289001,
@@ -8001,10 +8016,10 @@
             "Country": "South Sudan",
             "Country has current appeal": true,
             "Displacement_story": {
-                "storySource": "UNHCR",
-                "storyTagLine": "A South Sudanese family displaced multiple times",
-                "storyTitle": "Awad's story, South Sudan",
-                "storyURL": "http://kora.unhcr.org/fleeing-boko-haram-nigerian-mid-wife-helps-pregnant-girls-niger/"
+                "storySource": "NPR",
+                "storyTagLine": "As the fighting in South Sudan has intensified, so has the flow of refugees to Uganda. ",
+                "storyTitle": "14-Year-Old Who Fled South Sudan: 'They're Killing Women, Children'",
+                "storyURL": "http://www.npr.org/sections/goatsandsoda/2017/03/10/519662481/14-year-old-who-fled-south-sudan-theyre-killing-women-children"
             },
             "Fragile State Index Rank": "1st",
             "Strand_01_Needs": {
