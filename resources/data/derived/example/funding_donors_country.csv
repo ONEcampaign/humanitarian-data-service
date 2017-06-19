@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-15", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-15", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-19", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-19", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
@@ -462,9 +462,9 @@ Not specified,89030,2016,TUN,Tunisia
 "Denmark, Government of",40036,2016,TUN,Tunisia
 World Food Programme,155422765,2016,TUR,Turkey
 "United States of America, Government of",114604782,2016,TUR,Turkey
-European Commission - EU Facility for Refugees in Turkey,89558212,2016,TUR,Turkey
 European Commission,83812133,2016,TUR,Turkey
 European Commission's Humanitarian Aid and Civil Protection Department,63408592,2016,TUR,Turkey
+"Germany, Government of",55617256,2016,TUR,Turkey
 "United States of America, Government of",59158919,2016,UGA,Uganda
 Central Emergency Response Fund,28297524,2016,UGA,Uganda
 European Commission's Humanitarian Aid and Civil Protection Department,17388793,2016,UGA,Uganda

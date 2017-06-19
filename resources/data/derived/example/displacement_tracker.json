@@ -1237,7 +1237,12 @@
         "CAF": {
             "Country": "Central African Republic",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "Oxfam",
+                "storyTagLine": "A refugee woman's story between past and present hardhsips",
+                "storyTitle": "Jeanne Barat, the story of a Central African Refugee in Chad ",
+                "storyURL": "https://www.oxfam.org/en/file/jeanne-berat-story-central-african-republic-refugee-chad-english"
+            },
             "Fragile State Index Rank": "3rd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 120019225,
@@ -1578,10 +1583,10 @@
             },
             "Fragile State Index Rank": "7th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 171628597,
+                "Appeal funds committed to date": 172925395,
                 "Appeal funds requested": 812614297,
-                "Appeal funds still needed": 640985700,
-                "Appeal percent funded": 0.21120548534971198,
+                "Appeal funds still needed": 639688902,
+                "Appeal percent funded": 0.2128013199354281,
                 "Needs_Data": {
                     "Children in need of education": 3000000.0,
                     "People in need of health support": 6400000.0,
@@ -1606,7 +1611,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 812614297,
-                "Appeal percent funded": 0.21120548534971198,
+                "Appeal percent funded": 0.2128013199354281,
                 "Humanitarian aid received": 479777693,
                 "Rank of humanitarian aid received": "14th",
                 "Rank of total population of concern": "10th",
@@ -3267,7 +3272,12 @@
         "GRC": {
             "Country": "Greece",
             "Country has current appeal": false,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "92-year old Greek woman opening her home to refugees transiting in Idomeni",
+                "storyTitle": "The refugees' grandmother in Idomeni",
+                "storyURL": "https://www.youtube.com/watch?v=Hb_Hdjy4CVw"
+            },
             "Fragile State Index Rank": "127th",
             "Strand_01_Needs": {},
             "Strand_02_People": {
@@ -4077,13 +4087,18 @@
         "IRQ": {
             "Country": "Iraq",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Displaced young Iraqi loses his foot after stepping over a landmine",
+                "storyTitle": "An old conflict causes new wounds in Iraq",
+                "storyURL": "http://www.unhcr.org/news/stories/2015/8/56ec1ea0f/old-conflict-causes-new-wounds-iraq.html"
+            },
             "Fragile State Index Rank": "10th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 411494434,
+                "Appeal funds committed to date": 414070022,
                 "Appeal funds requested": 984647064,
-                "Appeal funds still needed": 573152630,
-                "Appeal percent funded": 0.4179105885192585,
+                "Appeal funds still needed": 570577042,
+                "Appeal percent funded": 0.4205263359217207,
                 "Needs_Data": {
                     "Children in need of education": 3700000.0,
                     "People in need of health support": 9700000.0,
@@ -4108,7 +4123,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 984647064,
-                "Appeal percent funded": 0.4179105885192585,
+                "Appeal percent funded": 0.4205263359217207,
                 "Humanitarian aid received": 1909929506,
                 "Rank of humanitarian aid received": "3rd",
                 "Rank of total population of concern": "3rd",
@@ -4397,10 +4412,10 @@
             },
             "Fragile State Index Rank": "22nd",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 30895543,
+                "Appeal funds committed to date": 31455453,
                 "Appeal funds requested": 165767183,
-                "Appeal funds still needed": 134871640,
-                "Appeal percent funded": 0.1863791278880573,
+                "Appeal funds still needed": 134311730,
+                "Appeal percent funded": 0.18975681694488347,
                 "Needs_Data": {
                     "Children in need of education": 1200000.0,
                     "People in need of health support": 2900000.0,
@@ -4424,7 +4439,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 165767183,
-                "Appeal percent funded": 0.1863791278880573,
+                "Appeal percent funded": 0.18975681694488347,
                 "Humanitarian aid received": 209677010,
                 "Rank of humanitarian aid received": "23rd",
                 "Rank of total population of concern": "25th",
@@ -4797,7 +4812,12 @@
         "LBY": {
             "Country": "Libya",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "Thomson Reuters Foundations News",
+                "storyTagLine": "Award-winner photojournalist Narciso Contreras presents his work documenting Libyan slave market",
+                "storyTitle": "Photographing Libya's slaves",
+                "storyURL": "http://news.trust.org/slideshow/?id=9bf9a664-542b-4fb1-bd8c-a6a7b107c300"
+            },
             "Fragile State Index Rank": "23rd",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 29986697,
@@ -6205,10 +6225,10 @@
             },
             "Fragile State Index Rank": "20th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 145178507,
+                "Appeal funds committed to date": 145165980,
                 "Appeal funds requested": 271346996,
-                "Appeal funds still needed": 126168489,
-                "Appeal percent funded": 0.5350289818576064,
+                "Appeal funds still needed": 126181016,
+                "Appeal percent funded": 0.534982815877571,
                 "Needs_Data": {
                     "Children in need of education": 200000.0,
                     "People in need of health support": 800000.0,
@@ -6233,7 +6253,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 271346996,
-                "Appeal percent funded": 0.5350289818576064,
+                "Appeal percent funded": 0.534982815877571,
                 "Humanitarian aid received": 198062523,
                 "Rank of humanitarian aid received": "25th",
                 "Rank of total population of concern": "35th",
@@ -6288,13 +6308,18 @@
         "NGA": {
             "Country": "Nigeria",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR ",
+                "storyTagLine": "Nigerian mid-wife becomes role model in refugee camp in Niger",
+                "storyTitle": "After fleeing Boko Haram, a Nigerian mid-wife helps pregnant girls in Niger",
+                "storyURL": "http://kora.unhcr.org/fleeing-boko-haram-nigerian-mid-wife-helps-pregnant-girls-niger/"
+            },
             "Fragile State Index Rank": "13th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 301218828,
+                "Appeal funds committed to date": 301798202,
                 "Appeal funds requested": 1054431494,
-                "Appeal funds still needed": 753212666,
-                "Appeal percent funded": 0.28566941495395054,
+                "Appeal funds still needed": 752633292,
+                "Appeal percent funded": 0.2862188807118464,
                 "Needs_Data": {
                     "Children in need of education": 2966802.0,
                     "People in need of health support": 12400000.0,
@@ -6319,7 +6344,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1054431494,
-                "Appeal percent funded": 0.28566941495395054,
+                "Appeal percent funded": 0.2862188807118464,
                 "Humanitarian aid received": 470504560,
                 "Rank of humanitarian aid received": "15th",
                 "Rank of total population of concern": "8th",
@@ -7443,10 +7468,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "5th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 140454689,
+                "Appeal funds committed to date": 144662618,
                 "Appeal funds requested": 803966226,
-                "Appeal funds still needed": 663511537,
-                "Appeal percent funded": 0.1747022256131441,
+                "Appeal funds still needed": 659303608,
+                "Appeal percent funded": 0.1799361880159379,
                 "Needs_Data": {
                     "Children in need of education": 1700000.0,
                     "People in need of health support": 4300000.0,
@@ -7471,9 +7496,9 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 803966226,
-                "Appeal percent funded": 0.1747022256131441,
+                "Appeal percent funded": 0.1799361880159379,
                 "Humanitarian aid received": 642306385,
-                "Rank of humanitarian aid received": "12th",
+                "Rank of humanitarian aid received": "11th",
                 "Rank of total population of concern": "4th",
                 "Top 5 donors of humanitarian aid": [
                     {
@@ -7502,7 +7527,12 @@
         "SEN": {
             "Country": "Senegal",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Displaced Gambian family returns home grateful to the Senegalese who opened their homes to them",
+                "storyTitle": "As Gambia crisis passes, displaced return from Senegal",
+                "storyURL": "http://kora.unhcr.org/gambia-crisis-passes-displaced-return-senegal/"
+            },
             "Fragile State Index Rank": "60th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 1683663,
@@ -7818,10 +7848,10 @@
             },
             "Fragile State Index Rank": "2nd",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 356033658,
+                "Appeal funds committed to date": 365685461,
                 "Appeal funds requested": 1508830247,
-                "Appeal funds still needed": 1152796589,
-                "Appeal percent funded": 0.23596667597822885,
+                "Appeal funds still needed": 1143144786,
+                "Appeal percent funded": 0.24236355396976608,
                 "Needs_Data": {
                     "Children in need of education": 3000000.0,
                     "People in need of health support": 3300000.0,
@@ -7846,7 +7876,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1508830247,
-                "Appeal percent funded": 0.23596667597822885,
+                "Appeal percent funded": 0.24236355396976608,
                 "Humanitarian aid received": 674529655,
                 "Rank of humanitarian aid received": "9th",
                 "Rank of total population of concern": "15th",
@@ -7970,13 +8000,18 @@
         "SSD": {
             "Country": "South Sudan",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "A South Sudanese family displaced multiple times",
+                "storyTitle": "Awad's story, South Sudan",
+                "storyURL": "http://kora.unhcr.org/fleeing-boko-haram-nigerian-mid-wife-helps-pregnant-girls-niger/"
+            },
             "Fragile State Index Rank": "1st",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 761758751,
+                "Appeal funds committed to date": 771300788,
                 "Appeal funds requested": 1639694893,
-                "Appeal funds still needed": 877936142,
-                "Appeal percent funded": 0.46457347293817547,
+                "Appeal funds still needed": 868394105,
+                "Appeal percent funded": 0.47039287082782905,
                 "Needs_Data": {
                     "Children in need of education": 1300000.0,
                     "People in need of health support": 5400000.0,
@@ -8001,7 +8036,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1639694893,
-                "Appeal percent funded": 0.46457347293817547,
+                "Appeal percent funded": 0.47039287082782905,
                 "Humanitarian aid received": 1403993067,
                 "Rank of humanitarian aid received": "5th",
                 "Rank of total population of concern": "9th",
@@ -8945,8 +8980,8 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 670123083,
-                "Rank of humanitarian aid received": "11th",
+                "Humanitarian aid received": 632462412,
+                "Rank of humanitarian aid received": "12th",
                 "Rank of total population of concern": "6th",
                 "Top 5 donors of humanitarian aid": [
                     {
@@ -8958,16 +8993,16 @@
                         "totalFunding": 114604782
                     },
                     {
-                        "organization_name": "European Commission - EU Facility for Refugees in Turkey",
-                        "totalFunding": 89558212
-                    },
-                    {
                         "organization_name": "European Commission",
                         "totalFunding": 83812133
                     },
                     {
                         "organization_name": "European Commission's Humanitarian Aid and Civil Protection Department",
                         "totalFunding": 63408592
+                    },
+                    {
+                        "organization_name": "Germany, Government of",
+                        "totalFunding": 55617256
                     }
                 ]
             }
@@ -9127,7 +9162,12 @@
         "UKR": {
             "Country": "Ukraine",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Retired and elderly people in non-government-controlled areas have lost their main source of income as a result of registration requirements",
+                "storyTitle": "Thousands in Eastern Ukraine lose access to pensions",
+                "storyURL": "http://www.unhcr.org/news/stories/2017/6/59396b6d5/thousands-eastern-ukraine-lose-access-pensions.html"
+            },
             "Fragile State Index Rank": "90th",
             "Strand_01_Needs": {
                 "Appeal funds committed to date": 32974454,
@@ -9702,13 +9742,18 @@
         "YEM": {
             "Country": "Yemen",
             "Country has current appeal": true,
-            "Displacement_story": {},
+            "Displacement_story": {
+                "storySource": "UNHCR",
+                "storyTagLine": "Somali refugee girl in Yemen is determined to stay in school, despite the war",
+                "storyTitle": "Braving bombs and bullets to stay in school in Yemen",
+                "storyURL": "http://www.unhcr.org/news/stories/2017/5/59085a314/braving-bombs-bullets-stay-school-yemen.html"
+            },
             "Fragile State Index Rank": "4th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 599142194,
+                "Appeal funds committed to date": 598927915,
                 "Appeal funds requested": 2067662020,
-                "Appeal funds still needed": 1468519826,
-                "Appeal percent funded": 0.28976795443580283,
+                "Appeal funds still needed": 1468734105,
+                "Appeal percent funded": 0.28966432096092765,
                 "Needs_Data": {
                     "Children in need of education": 2300000.0,
                     "People in need of health support": 14800000.0,
@@ -9733,7 +9778,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 2067662020,
-                "Appeal percent funded": 0.28976795443580283,
+                "Appeal percent funded": 0.28966432096092765,
                 "Humanitarian aid received": 1786510553,
                 "Rank of humanitarian aid received": "4th",
                 "Rank of total population of concern": "5th",
@@ -9894,10 +9939,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 124128733,
+                "Appeal funds committed to date": 147473960,
                 "Appeal funds requested": 690935692,
-                "Appeal funds still needed": 566806959,
-                "Appeal percent funded": 0.17965309136179347,
+                "Appeal funds still needed": 543461732,
+                "Appeal percent funded": 0.21344093481857643,
                 "Needs_Data": {},
                 "Place with similar population as people in need": "",
                 "Source of needs data": "",
@@ -9915,8 +9960,8 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 690935692,
-                "Appeal percent funded": 0.17965309136179347,
-                "Humanitarian aid received": 2040268167,
+                "Appeal percent funded": 0.21344093481857643,
+                "Humanitarian aid received": 2040755424,
                 "Rank of humanitarian aid received": "2nd",
                 "Rank of total population of concern": "182nd",
                 "Top 5 donors of humanitarian aid": []
@@ -9942,32 +9987,32 @@
         },
         "Strand_01_Needs": {
             "Appeal funds committed to date": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal funds requested": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal funds still needed": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal percent funded": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
@@ -10104,32 +10149,32 @@
         },
         "Strand_03_Aid": {
             "Appeal funds requested": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal percent funded": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Humanitarian aid received": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Rank of humanitarian aid received": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
@@ -10153,8 +10198,8 @@
                 "update_frequency": "Every six months"
             },
             "Top 5 donors of humanitarian aid": {
-                "extract_date": "2017-06-15",
-                "source_data": "2017-06-15",
+                "extract_date": "2017-06-19",
+                "source_data": "2017-06-19",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
