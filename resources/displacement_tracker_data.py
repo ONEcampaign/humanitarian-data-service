@@ -15,10 +15,10 @@ contained within the Humanitarian Data Service API.
 """
 
 # For development
-ROOT = 'http://localhost:5000'
+#ROOT = 'http://localhost:5000'
 
 # For live
-# ROOT = 'http://ec2-34-200-18-111.compute-1.amazonaws.com'
+ROOT = 'http://ec2-34-200-18-111.compute-1.amazonaws.com'
 
 # Set year for country-level funding data
 FUNDING_YEAR = 2016
@@ -408,12 +408,11 @@ def merge_data(
 
     # Get the relateable populations data from .csv
     df_relatable_populations = pd.read_csv(relatable_population_path)
-    df_relatable_populations = df_relatable_populations[[
-        'City, State, Country', 'Population - World Bank (2015)','Population - UNFPA (2016)'
-    ]]
     df_relatable_populations['Population'] = df_relatable_populations[[
         'Population - World Bank (2015)','Population - UNFPA (2016)'
     ]].max(axis=1)
+
+    df_relatable_populations = df_relatable_populations[['City, State, Country','Population']].dropna()
 
     def find_nearest_place_population(reference_value):
 
@@ -536,7 +535,8 @@ def merge_data(
     # Define field names for each strand
     strand_01_fields = ['Appeal funds still needed', 'Appeal funds requested', 'Appeal funds committed to date',
                         'Appeal percent funded', 'Source of needs data', 'Source type of needs data',
-                        'Total people in need', 'Place with similar population as people in need']
+                        'Total people in need', 'Place with similar population as people in need',
+                        'Population of place with similar population']
     strand_02_fields = ['Population of concern per 1000 population', 'Fragile State Index Score',
                         'Total population of concern',
                         'IDPs protected/assisted by UNHCR',

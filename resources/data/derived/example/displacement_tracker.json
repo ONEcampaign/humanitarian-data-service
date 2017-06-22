@@ -46,7 +46,8 @@
                     "People in need of water, sanitization & hygiene": 2300000.0,
                     "People who are food insecure": 3200000.0
                 },
-                "Place with similar population as people in need": "Dubai, United Arab Emirates",
+                "Place with similar population as people in need": "United Arab Emirates",
+                "Population of place with similar population": 9156960.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/afg_2017_hno_english.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 9300000.0
@@ -546,7 +547,8 @@
                     "People in need of water, sanitization & hygiene": 2700000.0,
                     "People who are food insecure": 2200000.0
                 },
-                "Place with similar population as people in need": "Amsterdam, Netherlands",
+                "Place with similar population as people in need": "Athens, Greece",
+                "Population of place with similar population": 3046000.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hno_burundi_2017_fr_small.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 3000000.0
@@ -702,7 +704,8 @@
                 "Needs_Data": {
                     "People who are food insecure": 153000.0
                 },
-                "Place with similar population as people in need": "Stockholm, Sweden",
+                "Place with similar population as people in need": "Amsterdam, Netherlands",
+                "Population of place with similar population": 1099000.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/burkina_2017_hno_17fev.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 861000.0
@@ -1257,7 +1260,8 @@
                     "People in need of water, sanitization & hygiene": 2200000.0,
                     "People who are food insecure": 2000000.0
                 },
-                "Place with similar population as people in need": "Latvia",
+                "Place with similar population as people in need": "Macedonia",
+                "Population of place with similar population": 2078450.0,
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiUXVMSHBBX3h3QzA/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 2200000.0
@@ -1528,7 +1532,8 @@
                     "People in need of water, sanitization & hygiene": 813000.0,
                     "People who are food insecure": 2800000.0
                 },
-                "Place with similar population as people in need": "Helsinki, Finland",
+                "Place with similar population as people in need": "Lisbon, Portugal",
+                "Population of place with similar population": 2902000.0,
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiRjZsbHNWNkd6ZE0/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 2900000.0
@@ -1596,6 +1601,7 @@
                     "People who are food insecure": 4400000.0
                 },
                 "Place with similar population as people in need": "Serbia",
+                "Population of place with similar population": 7095380.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/drc_hno_2017_1.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 6900000.0
@@ -2082,7 +2088,8 @@
                     "People in need of water, sanitization & hygiene": 174828.0,
                     "People who are food insecure": 196910.0
                 },
-                "Place with similar population as people in need": "Malta",
+                "Place with similar population as people in need": "Iceland",
+                "Population of place with similar population": 330810.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/HRP%20Djib%202017.pdf",
                 "Source type of needs data": "Humanitarian Response Plan",
                 "Total people in need": 289338.0
@@ -2658,7 +2665,8 @@
                     "People in need of water, sanitization & hygiene": 9100000.0,
                     "People who are food insecure": 5600000.0
                 },
-                "Place with similar population as people in need": "Dubai, United Arab Emirates",
+                "Place with similar population as people in need": "United Arab Emirates",
+                "Population of place with similar population": 9156960.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/2017_hrd_40final_.pdf",
                 "Source type of needs data": "Humanitarian Requirements Document",
                 "Total people in need": 9200000.0
@@ -3689,7 +3697,8 @@
                     "People in need of water, sanitization & hygiene": 1400000.0,
                     "People who are food insecure": 1500000.0
                 },
-                "Place with similar population as people in need": "Lithuania",
+                "Place with similar population as people in need": "Albania",
+                "Population of place with similar population": 2889170.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/haiti_hno_2017.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 2700000.0
@@ -4107,7 +4116,8 @@
                     "People in need of water, sanitization & hygiene": 6300000.0,
                     "People who are food insecure": 3200000.0
                 },
-                "Place with similar population as people in need": "Chicago, United States",
+                "Place with similar population as people in need": "Paris, France",
+                "Population of place with similar population": 10925000.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/irq_2017_hno.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 11000000.0
@@ -4423,7 +4433,8 @@
                     "People in need of water, sanitization & hygiene": 3000000.0,
                     "People who are food insecure": 2600000.0
                 },
-                "Place with similar population as people in need": "Delhi, India",
+                "Place with similar population as people in need": "Dubai, United Arab Emirates",
+                "Population of place with similar population": 2504000.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Kenyan_Flash_%20Appeal_15%20March%202017%20final.pdf",
                 "Source type of needs data": "Flash Appeal",
                 "Total people in need": 2600000.0
@@ -4832,7 +4843,8 @@
                     "People in need of water, sanitization & hygiene": 500000.0,
                     "People who are food insecure": 400000.0
                 },
-                "Place with similar population as people in need": "Warsaw, Poland",
+                "Place with similar population as people in need": "Estonia",
+                "Population of place with similar population": 1314610.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/2017_libya_humanitarian_needs_overview_november_2016_1.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 1300000.0
@@ -5375,7 +5387,8 @@
                     "People in need of shelter": 55000.0,
                     "People in need of water, sanitization & hygiene": 168000.0
                 },
-                "Place with similar population as people in need": "Luxembourg",
+                "Place with similar population as people in need": "Malta",
+                "Population of place with similar population": 431870.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/2017_Flash_Appeal_MG_eng.002.002.pdf",
                 "Source type of needs data": "Flash Appeal",
                 "Total people in need": 433985.0
@@ -5625,7 +5638,8 @@
                     "People in need of water, sanitization & hygiene": 1200000.0,
                     "People who are food insecure": 3530000.0
                 },
-                "Place with similar population as people in need": "Madrid, Spain",
+                "Place with similar population as people in need": "Rome, Italy",
+                "Population of place with similar population": 3738000.0,
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiWWpSWGJpaHU1NGs/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 3700000.0
@@ -5721,7 +5735,8 @@
                     "People in need of water, sanitization & hygiene": 356000.0,
                     "People who are food insecure": 383500.0
                 },
-                "Place with similar population as people in need": "Lisbon, Portugal",
+                "Place with similar population as people in need": "Luxembourg",
+                "Population of place with similar population": 569600.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Ref_Doc_Humanitarian_Needs_Overview_HCT_2017.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 525448.0
@@ -5873,7 +5888,8 @@
                     "People in need of health support": 150000.0,
                     "People who are food insecure": 89000.0
                 },
-                "Place with similar population as people in need": "Lisbon, Portugal",
+                "Place with similar population as people in need": "Luxembourg",
+                "Population of place with similar population": 569600.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/Mozambique%20Flash%20Appeal_FINAL.pdf",
                 "Source type of needs data": "Flash Appeal",
                 "Total people in need": 550691.0
@@ -5938,7 +5954,8 @@
                     "People in need of water, sanitization & hygiene": 615000.0,
                     "People who are food insecure": 493000.0
                 },
-                "Place with similar population as people in need": "Lisbon, Portugal",
+                "Place with similar population as people in need": "Luxembourg",
+                "Population of place with similar population": 569600.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_mauritania_0.pdf",
                 "Source type of needs data": "Integrated Humanitarian and Development Action Plan ",
                 "Total people in need": 539000.0
@@ -6252,7 +6269,8 @@
                     "People in need of water, sanitization & hygiene": 1200000.0,
                     "People who are food insecure": 1300000.0
                 },
-                "Place with similar population as people in need": "Paris, France",
+                "Place with similar population as people in need": "Latvia",
+                "Population of place with similar population": 1977530.0,
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiMW0yWXNtMXF5TTQ/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 1927593.0
@@ -6343,7 +6361,8 @@
                     "People in need of water, sanitization & hygiene": 3800000.0,
                     "People who are food insecure": 5800000.0
                 },
-                "Place with similar population as people in need": "Lagos, Nigeria",
+                "Place with similar population as people in need": "Istanbul, Turkey",
+                "Population of place with similar population": 14365000.0,
                 "Source of needs data": "https://drive.google.com/file/d/0B-omYVl2EUDiZEVJdXZyRl9oVG8/view",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 14000000.0
@@ -6801,7 +6820,8 @@
                     "People in need of water, sanitization & hygiene": 567000.0,
                     "People who are food insecure": 445000.0
                 },
-                "Place with similar population as people in need": "Stockholm, Sweden",
+                "Place with similar population as people in need": "Amsterdam, Netherlands",
+                "Population of place with similar population": 1099000.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/-PE-Flash_Appeal_ENG_1000_hrs_%28PUBLIC%29-20170410-CV-20519.pdf",
                 "Source type of needs data": "Flash Appeal",
                 "Total people in need": 1100000.0
@@ -7044,6 +7064,7 @@
                     "People who are food insecure": 18000000.0
                 },
                 "Place with similar population as people in need": "New York City, United States",
+                "Population of place with similar population": 18604000.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/DPRK%20Needs%20and%20Priorities%202017.pdf",
                 "Source type of needs data": "Needs and Priorities",
                 "Total people in need": 18000000.0
@@ -7173,6 +7194,7 @@
                 "Appeal percent funded": 0.2921669681585572,
                 "Needs_Data": {},
                 "Place with similar population as people in need": "",
+                "Population of place with similar population": "",
                 "Source of needs data": "",
                 "Source type of needs data": "",
                 "Total people in need": ""
@@ -7496,6 +7518,7 @@
                     "People who are food insecure": 3600000.0
                 },
                 "Place with similar population as people in need": "Ireland",
+                "Population of place with similar population": 4643740.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/en/operations/sudan/document/sudan-2017-humanitarian-needs-overview-0",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 4800000.0
@@ -7557,7 +7580,8 @@
                 "Needs_Data": {
                     "People who are food insecure": 881365.0
                 },
-                "Place with similar population as people in need": "Stockholm, Sweden",
+                "Place with similar population as people in need": "Amsterdam, Netherlands",
+                "Population of place with similar population": 1099000.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/hwp_2017_senegal_0.pdf",
                 "Source type of needs data": "Humanitarian Response Plan",
                 "Total people in need": 881000.0
@@ -7876,6 +7900,7 @@
                     "People who are food insecure": 5000000.0
                 },
                 "Place with similar population as people in need": "Norway",
+                "Population of place with similar population": 5190240.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/161124_som_hno_2017.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 5000000.0
@@ -8036,6 +8061,7 @@
                     "People who are food insecure": 5200000.0
                 },
                 "Place with similar population as people in need": "Bulgaria",
+                "Population of place with similar population": 7177990.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/South_Sudan_2017_Humanitarian_Needs_Overview.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 7500000.0
@@ -8384,7 +8410,8 @@
                     "People in need of water, sanitization & hygiene": 14900000.0,
                     "People who are food insecure": 9000000.0
                 },
-                "Place with similar population as people in need": "Lagos, Nigeria",
+                "Place with similar population as people in need": "Rio de Janeiro, Brazil",
+                "Population of place with similar population": 12981000.0,
                 "Source of needs data": "http://hno-syria.org/#home",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 13500000.0
@@ -8476,6 +8503,7 @@
                     "People who are food insecure": 4300000.0
                 },
                 "Place with similar population as people in need": "Ireland",
+                "Population of place with similar population": 4643740.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/tcd_str_hno2017_fr_20161216.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 4700000.0
@@ -9197,7 +9225,8 @@
                     "People in need of water, sanitization & hygiene": 3700000.0,
                     "People who are food insecure": 1100000.0
                 },
-                "Place with similar population as people in need": "Madrid, Spain",
+                "Place with similar population as people in need": "Rome, Italy",
+                "Population of place with similar population": 3738000.0,
                 "Source of needs data": "https://www.humanitarianresponse.info/system/files/documents/files/ukraine_humanitarian_needs_overview_2017_eng.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 3800000.0
@@ -9653,8 +9682,8 @@
                     "People in need of water, sanitization & hygiene": 93693828.0,
                     "People who are food insecure": 101491775.0
                 },
-                "Place with similar population as people in need": "Liechtenstein",
-                "Population of place with similar population": 37530.0,
+                "Place with similar population as people in need": "Russia",
+                "Population of place with similar population": 144096870.0,
                 "Total people in need": 152008055.0
             }
         },
@@ -9778,6 +9807,7 @@
                     "People who are food insecure": 14120000.0
                 },
                 "Place with similar population as people in need": "New York City, United States",
+                "Population of place with similar population": 18604000.0,
                 "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/YEMEN%202017%20HNO_Final.pdf",
                 "Source type of needs data": "Humanitarian Needs Overview",
                 "Total people in need": 18800000.0
@@ -9960,6 +9990,7 @@
                 "Appeal percent funded": 0.21344093481857643,
                 "Needs_Data": {},
                 "Place with similar population as people in need": "",
+                "Population of place with similar population": "",
                 "Source of needs data": "",
                 "Source type of needs data": "",
                 "Total people in need": ""
@@ -10035,6 +10066,7 @@
             },
             "Needs_Data": {},
             "Place with similar population as people in need": {},
+            "Population of place with similar population": {},
             "Source of needs data": {
                 "additional_metadata": {
                     "Note on data": "Extracted from a variety of 2017 UNOCHA publications including Humanitarian Needs Overviews, Response Plans, Flash Appeals, Needs and Priorites, and Humanitarian Requirements Documents."

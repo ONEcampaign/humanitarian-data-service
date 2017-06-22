@@ -96,3 +96,6 @@ ENV/
 
 # PyCharm
 .idea/
+resources/.RData
+
+resources/.Rhistory
