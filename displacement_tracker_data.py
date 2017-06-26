@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import os.path
-import constants
+import resources.constants
 import json
 from pandas.io.json import json_normalize
 from utils.data_utils import get_ordinal_number
@@ -37,13 +37,13 @@ URL_FUNDING_DEST_DONORS = '/funding/countries/donors/index'
 
 
 # Define path for raw country names data
-country_names_path = os.path.join(constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
+country_names_path = os.path.join(resources.constants.EXAMPLE_RAW_DATA_PATH, 'UNSD Methodology.csv')
 
 # Define path for relatable geography populations data
-relatable_population_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, '2017_relatable_population_rankings.csv')
+relatable_population_path = os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, '2017_relatable_population_rankings.csv')
 
 # Define path for stories of displacement
-displacement_stories_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'stories_of_displacement_links.csv')
+displacement_stories_path = os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'stories_of_displacement_links.csv')
 
 # Create a blank dictionary to store metadata for each field
 metadata_dict = {}
@@ -676,7 +676,7 @@ def run():
     print 'Pulling and merging data'
     data = merge_data()
     # print data.head()
-    official_data_path = os.path.join(constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
+    official_data_path = os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
 
     print 'Writing file'
     with open(official_data_path, 'w') as outfile:
