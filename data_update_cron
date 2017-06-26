@@ -1,2 +1,2 @@
 # Run data download script once a week (every Monday 2:30am) to pull the latest data
-16 12 * * * sudo python ~/humanitarian-data-service/update.py
+10 13 * * * sudo python ~/humanitarian-data-service/update.py
