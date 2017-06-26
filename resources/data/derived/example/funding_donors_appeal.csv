@@ -1,31 +1,32 @@
-#{"source_data": "2017-06-19", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-19", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
 organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,countryCode
-4543.0,Private (individuals & organizations),4892090,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2924.0,"Switzerland, Government of",363919,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,64296975,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-7098.0,DIOTIMA Centre of research on Women's Issues,50173,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4306.0,"Germany, Government of",5395928,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2966.0,European Commission,1415643,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-3017.0,UNICEF National Committee/Italy,2060332,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4758.0,Terre des Hommes International,3409702,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-5319.0,"Spain, Government of",1811562,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-5298.0,Danish Refugee Council,7399428,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2933.0,"United States of America, Government of",27400000,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-3778.0,UNICEF National Committee/Germany,1110469,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-5315.0,UNICEF National Committee/United Kingdom,38074,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4486.0,UNICEF National Committee/Hellenic,67439,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-3001.0,International Rescue Committee,18751155,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2917.0,"United Kingdom, Government of",140000,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-8650.0,European Commission - EU Facility for Refugees in Turkey,1437242,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4546.0,"Austria, Government of",48000,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4293.0,United Nations Population Fund,132175,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2919.0,UNICEF National Committee/Netherlands,261506,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-8772.0,United Nations Voluntary Fund for Victims of Torture,49000,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-2920.0,Arbeiter-Samariter-Bund Deutschland e.V,6114910,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4384.0,"Luxembourg, Government of",221451,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4539.0,UNICEF National Committee/Spain,110420,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-3008.0,"Netherlands, Government of",21367,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
-4058.0,US Fund for UNICEF,475000,551,R17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4543.0,Private (individuals & organizations),4892090,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2924.0,"Switzerland, Government of",363919,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+7098.0,DIOTIMA Centre of research on Women's Issues,50173,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4306.0,"Germany, Government of",5395928,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2966.0,European Commission,1415643,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+3017.0,UNICEF National Committee/Italy,2060332,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4758.0,Terre des Hommes International,3409702,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+5319.0,"Spain, Government of",1811562,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+5298.0,Danish Refugee Council,7399428,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,65175163,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2933.0,"United States of America, Government of",27400000,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+3778.0,UNICEF National Committee/Germany,1110469,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+5315.0,UNICEF National Committee/United Kingdom,38074,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4486.0,UNICEF National Committee/Hellenic,67439,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+3001.0,International Rescue Committee,18751155,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2917.0,"United Kingdom, Government of",140000,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+8650.0,European Commission - EU Facility for Refugees in Turkey,1437242,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4546.0,"Austria, Government of",48000,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4293.0,United Nations Population Fund,132175,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2919.0,UNICEF National Committee/Netherlands,261506,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+8772.0,United Nations Voluntary Fund for Victims of Torture,49000,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+2920.0,Arbeiter-Samariter-Bund Deutschland e.V,6114910,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4384.0,"Luxembourg, Government of",221451,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4539.0,UNICEF National Committee/Spain,110420,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+3008.0,"Netherlands, Government of",21367,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+4058.0,US Fund for UNICEF,475000,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
+,Not specified,64562150,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
 4543.0,Private (individuals & organizations),28283,544,HAFG17,Afghanistan 2017,AFG
 2976.0,"China, Government of",1000000,544,HAFG17,Afghanistan 2017,AFG
 2933.0,"United States of America, Government of",9869307,544,HAFG17,Afghanistan 2017,AFG
@@ -48,13 +49,13 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4314.0,"France, Government of",250000,544,HAFG17,Afghanistan 2017,AFG
 4537.0,"Japan, Government of",1486000,548,HBFA17,Burkina Faso 2017,BFA
 4543.0,Private (individuals & organizations),154446,548,HBFA17,Burkina Faso 2017,BFA
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,11274757,548,HBFA17,Burkina Faso 2017,BFA
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,14403249,548,HBFA17,Burkina Faso 2017,BFA
 2928.0,"Canada, Government of",371747,548,HBFA17,Burkina Faso 2017,BFA
 2933.0,"United States of America, Government of",4561,548,HBFA17,Burkina Faso 2017,BFA
 4306.0,"Germany, Government of",2824720,548,HBFA17,Burkina Faso 2017,BFA
 4762.0,Central Emergency Response Fund,3500011,541,HBDI17,Burundi 2017,BDI
 2921.0,"Sweden, Government of",111769,541,HBDI17,Burundi 2017,BDI
-4306.0,"Germany, Government of",5059304,541,HBDI17,Burundi 2017,BDI
+4306.0,"Germany, Government of",6683044,541,HBDI17,Burundi 2017,BDI
 2924.0,"Switzerland, Government of",57204,541,HBDI17,Burundi 2017,BDI
 2928.0,"Canada, Government of",579331,541,HBDI17,Burundi 2017,BDI
 3049.0,World Food Programme,856000,541,HBDI17,Burundi 2017,BDI
@@ -68,24 +69,26 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 2966.0,European Commission,159,541,HBDI17,Burundi 2017,BDI
 ,Not specified,6946,541,HBDI17,Burundi 2017,BDI
 4314.0,"France, Government of",434311,541,HBDI17,Burundi 2017,BDI
-2921.0,"Sweden, Government of",3192216,537,HCMR17,Cameroon 2017,CMR
+2930.0,"Norway, Government of",1669734,537,HCMR17,Cameroon 2017,CMR
 4537.0,"Japan, Government of",4040000,537,HCMR17,Cameroon 2017,CMR
 2928.0,"Canada, Government of",3822156,537,HCMR17,Cameroon 2017,CMR
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,13114120,537,HCMR17,Cameroon 2017,CMR
-2933.0,"United States of America, Government of",20964864,537,HCMR17,Cameroon 2017,CMR
-3049.0,World Food Programme,2500000,537,HCMR17,Cameroon 2017,CMR
-4762.0,Central Emergency Response Fund,10005413,537,HCMR17,Cameroon 2017,CMR
-4306.0,"Germany, Government of",2034903,537,HCMR17,Cameroon 2017,CMR
-,Not specified,350890,537,HCMR17,Cameroon 2017,CMR
-2917.0,"United Kingdom, Government of",4831943,537,HCMR17,Cameroon 2017,CMR
-2930.0,"Norway, Government of",1669734,537,HCMR17,Cameroon 2017,CMR
-2924.0,"Switzerland, Government of",731708,537,HCMR17,Cameroon 2017,CMR
-4543.0,Private (individuals & organizations),2088179,537,HCMR17,Cameroon 2017,CMR
 4314.0,"France, Government of",1805539,537,HCMR17,Cameroon 2017,CMR
-2929.0,"Korea, Republic of, Government of",2000000,537,HCMR17,Cameroon 2017,CMR
-4845.0,"Iceland, Government of",150000,537,HCMR17,Cameroon 2017,CMR
+2921.0,"Sweden, Government of",3192216,537,HCMR17,Cameroon 2017,CMR
+2933.0,"United States of America, Government of",20964864,537,HCMR17,Cameroon 2017,CMR
+2924.0,"Switzerland, Government of",731708,537,HCMR17,Cameroon 2017,CMR
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,13114120,537,HCMR17,Cameroon 2017,CMR
+3049.0,World Food Programme,2500000,537,HCMR17,Cameroon 2017,CMR
+,Not specified,350890,537,HCMR17,Cameroon 2017,CMR
+4762.0,Central Emergency Response Fund,10005413,537,HCMR17,Cameroon 2017,CMR
+2917.0,"United Kingdom, Government of",4831943,537,HCMR17,Cameroon 2017,CMR
+4543.0,Private (individuals & organizations),2088179,537,HCMR17,Cameroon 2017,CMR
+4306.0,"Germany, Government of",2034903,537,HCMR17,Cameroon 2017,CMR
 1356.0,Dutch Postcode Lottery,1335069,537,HCMR17,Cameroon 2017,CMR
+4845.0,"Iceland, Government of",150000,537,HCMR17,Cameroon 2017,CMR
 1355.0,UN Programme on HIV/AIDS,53500,537,HCMR17,Cameroon 2017,CMR
+2929.0,"Korea, Republic of, Government of",2000000,537,HCMR17,Cameroon 2017,CMR
+4398.0,World Health Organization,535000,537,HCMR17,Cameroon 2017,CMR
+2927.0,"Belgium, Government of",300000,537,HCMR17,Cameroon 2017,CMR
 2917.0,"United Kingdom, Government of",12828254,549,HCAF17,Central African Republic 2017,CAF
 2921.0,"Sweden, Government of",5887225,549,HCAF17,Central African Republic 2017,CAF
 5295.0,"Finland, Government of",617615,549,HCAF17,Central African Republic 2017,CAF
@@ -94,7 +97,6 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4537.0,"Japan, Government of",7312000,549,HCAF17,Central African Republic 2017,CAF
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,14124722,549,HCAF17,Central African Republic 2017,CAF
 2933.0,"United States of America, Government of",14099724,549,HCAF17,Central African Republic 2017,CAF
-4384.0,"Luxembourg, Government of",541221,549,HCAF17,Central African Republic 2017,CAF
 ,Not specified,1263709,549,HCAF17,Central African Republic 2017,CAF
 3049.0,World Food Programme,22251984,549,HCAF17,Central African Republic 2017,CAF
 4314.0,"France, Government of",3413224,549,HCAF17,Central African Republic 2017,CAF
@@ -102,6 +104,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3009.0,"Ireland, Government of",3525219,549,HCAF17,Central African Republic 2017,CAF
 2924.0,"Switzerland, Government of",1833895,549,HCAF17,Central African Republic 2017,CAF
 4306.0,"Germany, Government of",12494924,549,HCAF17,Central African Republic 2017,CAF
+4384.0,"Luxembourg, Government of",541221,549,HCAF17,Central African Republic 2017,CAF
 8.0,United Nations Office for Project Services,680000,549,HCAF17,Central African Republic 2017,CAF
 4539.0,UNICEF National Committee/Spain,63551,549,HCAF17,Central African Republic 2017,CAF
 2919.0,UNICEF National Committee/Netherlands,526248,549,HCAF17,Central African Republic 2017,CAF
@@ -110,6 +113,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3008.0,"Netherlands, Government of",800427,549,HCAF17,Central African Republic 2017,CAF
 2443.0,"Andorra, Government of",15907,549,HCAF17,Central African Republic 2017,CAF
 3776.0,"Denmark, Government of",1141227,549,HCAF17,Central African Republic 2017,CAF
+2927.0,"Belgium, Government of",808903,549,HCAF17,Central African Republic 2017,CAF
 4543.0,Private (individuals & organizations),2154337,532,HTCD17,Chad 2017,TCD
 2928.0,"Canada, Government of",7206618,532,HTCD17,Chad 2017,TCD
 2921.0,"Sweden, Government of",2970003,532,HTCD17,Chad 2017,TCD
@@ -137,18 +141,19 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3006.0,"Russian Federation, Government of",3000000,592,OPRK17,DPR Korea Needs and Priorities 2017,PRK
 2928.0,"Canada, Government of",7563332,587,HCOD17,Democratic Republic of the Congo 2017,COD
 2933.0,"United States of America, Government of",87702093,587,HCOD17,Democratic Republic of the Congo 2017,COD
-4306.0,"Germany, Government of",5266123,587,HCOD17,Democratic Republic of the Congo 2017,COD
+4306.0,"Germany, Government of",6385944,587,HCOD17,Democratic Republic of the Congo 2017,COD
 2930.0,"Norway, Government of",702837,587,HCOD17,Democratic Republic of the Congo 2017,COD
 4762.0,Central Emergency Response Fund,9611948,587,HCOD17,Democratic Republic of the Congo 2017,COD
 4537.0,"Japan, Government of",8025000,587,HCOD17,Democratic Republic of the Congo 2017,COD
 ,Not specified,6637247,587,HCOD17,Democratic Republic of the Congo 2017,COD
 2924.0,"Switzerland, Government of",1427770,587,HCOD17,Democratic Republic of the Congo 2017,COD
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,17625941,587,HCOD17,Democratic Republic of the Congo 2017,COD
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,18241842,587,HCOD17,Democratic Republic of the Congo 2017,COD
 3049.0,World Food Programme,7859844,587,HCOD17,Democratic Republic of the Congo 2017,COD
-2927.0,"Belgium, Government of",607118,587,HCOD17,Democratic Republic of the Congo 2017,COD
-2921.0,"Sweden, Government of",11886774,587,HCOD17,Democratic Republic of the Congo 2017,COD
-4384.0,"Luxembourg, Government of",232775,587,HCOD17,Democratic Republic of the Congo 2017,COD
+2927.0,"Belgium, Government of",1421450,587,HCOD17,Democratic Republic of the Congo 2017,COD
+2921.0,"Sweden, Government of",13577868,587,HCOD17,Democratic Republic of the Congo 2017,COD
+4384.0,"Luxembourg, Government of",497886,587,HCOD17,Democratic Republic of the Congo 2017,COD
 4639.0,The Church of Jesus Christ of Latter-Day Saints,299575,587,HCOD17,Democratic Republic of the Congo 2017,COD
+4398.0,World Health Organization,2140000,587,HCOD17,Democratic Republic of the Congo 2017,COD
 4543.0,Private (individuals & organizations),465190,587,HCOD17,Democratic Republic of the Congo 2017,COD
 2917.0,"United Kingdom, Government of",1875000,587,HCOD17,Democratic Republic of the Congo 2017,COD
 3009.0,"Ireland, Government of",3401406,587,HCOD17,Democratic Republic of the Congo 2017,COD
@@ -176,7 +181,6 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3774.0,"Italy, Government of",1996175,588,HETH17,Ethiopia 2017,ETH
 2924.0,"Switzerland, Government of",5176403,588,HETH17,Ethiopia 2017,ETH
 3776.0,"Denmark, Government of",1428464,588,HETH17,Ethiopia 2017,ETH
-4384.0,"Luxembourg, Government of",265393,588,HETH17,Ethiopia 2017,ETH
 1573.0,"Ethiopia, Government of",395662,588,HETH17,Ethiopia 2017,ETH
 ,Not specified,379400,588,HETH17,Ethiopia 2017,ETH
 3049.0,World Food Programme,6955000,588,HETH17,Ethiopia 2017,ETH
@@ -184,6 +188,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4543.0,Private (individuals & organizations),1253306,588,HETH17,Ethiopia 2017,ETH
 2930.0,"Norway, Government of",336139,588,HETH17,Ethiopia 2017,ETH
 2917.0,"United Kingdom, Government of",12242268,588,HETH17,Ethiopia 2017,ETH
+4384.0,"Luxembourg, Government of",265393,588,HETH17,Ethiopia 2017,ETH
 3778.0,UNICEF National Committee/Germany,85379,588,HETH17,Ethiopia 2017,ETH
 2927.0,"Belgium, Government of",152845,588,HETH17,Ethiopia 2017,ETH
 2932.0,"Czech Republic, Government of",256102,588,HETH17,Ethiopia 2017,ETH
@@ -211,12 +216,12 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4306.0,"Germany, Government of",267380,543,HHTI17,Haiti 2017,HTI
 4835.0,"Argentina, Government of",1244591,543,HHTI17,Haiti 2017,HTI
 2921.0,"Sweden, Government of",111769,543,HHTI17,Haiti 2017,HTI
-4537.0,"Japan, Government of",2586585,543,HHTI17,Haiti 2017,HTI
 5352.0,UNICEF National Committee/Canada,33366,543,HHTI17,Haiti 2017,HTI
 2924.0,"Switzerland, Government of",2015624,543,HHTI17,Haiti 2017,HTI
 4337.0,UNICEF National Committee/France,106045,543,HHTI17,Haiti 2017,HTI
 3043.0,UNICEF National Committee/Korea (Republic of),51362,543,HHTI17,Haiti 2017,HTI
 8516.0,ACF - Spain,928221,543,HHTI17,Haiti 2017,HTI
+4537.0,"Japan, Government of",2586585,543,HHTI17,Haiti 2017,HTI
 2928.0,"Canada, Government of",39899949,550,HIRQ17,Iraq 2017,IRQ
 4537.0,"Japan, Government of",52500125,550,HIRQ17,Iraq 2017,IRQ
 2924.0,"Switzerland, Government of",3369950,550,HIRQ17,Iraq 2017,IRQ
@@ -357,12 +362,12 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3776.0,"Denmark, Government of",284398,530,HNER17,Niger 2017,NER
 3049.0,World Food Programme,2247000,530,HNER17,Niger 2017,NER
 2924.0,"Switzerland, Government of",7803966,536,HNGA17,Nigeria 2017,NGA
-2917.0,"United Kingdom, Government of",4959466,536,HNGA17,Nigeria 2017,NGA
+2917.0,"United Kingdom, Government of",53928538,536,HNGA17,Nigeria 2017,NGA
 2921.0,"Sweden, Government of",22309489,536,HNGA17,Nigeria 2017,NGA
 2933.0,"United States of America, Government of",102266758,536,HNGA17,Nigeria 2017,NGA
 2652.0,"Malta, Government of",32017,536,HNGA17,Nigeria 2017,NGA
 4537.0,"Japan, Government of",7539000,536,HNGA17,Nigeria 2017,NGA
-4306.0,"Germany, Government of",26530677,536,HNGA17,Nigeria 2017,NGA
+4306.0,"Germany, Government of",42817322,536,HNGA17,Nigeria 2017,NGA
 3139.0,OPEC Fund for International Development,400000,536,HNGA17,Nigeria 2017,NGA
 2930.0,"Norway, Government of",10754899,536,HNGA17,Nigeria 2017,NGA
 2928.0,"Canada, Government of",16753425,536,HNGA17,Nigeria 2017,NGA
@@ -375,7 +380,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,41889047,536,HNGA17,Nigeria 2017,NGA
 4314.0,"France, Government of",727337,536,HNGA17,Nigeria 2017,NGA
 3774.0,"Italy, Government of",3257329,536,HNGA17,Nigeria 2017,NGA
-2783.0,"Azerbaijan, Government of",12500,536,HNGA17,Nigeria 2017,NGA
+2783.0,"Azerbaijan, Government of",25000,536,HNGA17,Nigeria 2017,NGA
 3272.0,"Lithuania, Government of",10741,536,HNGA17,Nigeria 2017,NGA
 5315.0,UNICEF National Committee/United Kingdom,12438,536,HNGA17,Nigeria 2017,NGA
 2919.0,UNICEF National Committee/Netherlands,1223072,536,HNGA17,Nigeria 2017,NGA
@@ -386,7 +391,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 5352.0,UNICEF National Committee/Canada,91559,536,HNGA17,Nigeria 2017,NGA
 2929.0,"Korea, Republic of, Government of",2000000,536,HNGA17,Nigeria 2017,NGA
 3778.0,UNICEF National Committee/Germany,1772856,536,HNGA17,Nigeria 2017,NGA
-2927.0,"Belgium, Government of",500000,536,HNGA17,Nigeria 2017,NGA
+2927.0,"Belgium, Government of",1585776,536,HNGA17,Nigeria 2017,NGA
 ,Not specified,9134,536,HNGA17,Nigeria 2017,NGA
 4293.0,United Nations Population Fund,147847,536,HNGA17,Nigeria 2017,NGA
 4858.0,"Monaco, Government of",325733,536,HNGA17,Nigeria 2017,NGA
@@ -399,25 +404,25 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4293.0,United Nations Population Fund,300000,593,FPER17,Peru Flash Appeal 2017,PER
 2928.0,"Canada, Government of",403818,593,FPER17,Peru Flash Appeal 2017,PER
 4306.0,"Germany, Government of",325733,593,FPER17,Peru Flash Appeal 2017,PER
-2921.0,"Sweden, Government of",11102440,538,HSSD17,Republic of South Sudan 2017,SSD
-4391.0,"Australia, Government of",11367478,538,HSSD17,Republic of South Sudan 2017,SSD
-2930.0,"Norway, Government of",11903540,538,HSSD17,Republic of South Sudan 2017,SSD
+2921.0,"Sweden, Government of",14795974,538,HSSD17,Republic of South Sudan 2017,SSD
+4391.0,"Australia, Government of",12644114,538,HSSD17,Republic of South Sudan 2017,SSD
+2930.0,"Norway, Government of",11879875,538,HSSD17,Republic of South Sudan 2017,SSD
 3776.0,"Denmark, Government of",22889978,538,HSSD17,Republic of South Sudan 2017,SSD
 2924.0,"Switzerland, Government of",12034432,538,HSSD17,Republic of South Sudan 2017,SSD
-4543.0,Private (individuals & organizations),6931919,538,HSSD17,Republic of South Sudan 2017,SSD
+4543.0,Private (individuals & organizations),6944159,538,HSSD17,Republic of South Sudan 2017,SSD
 5295.0,"Finland, Government of",2698382,538,HSSD17,Republic of South Sudan 2017,SSD
-2928.0,"Canada, Government of",28131852,538,HSSD17,Republic of South Sudan 2017,SSD
+2928.0,"Canada, Government of",28928740,538,HSSD17,Republic of South Sudan 2017,SSD
 3778.0,UNICEF National Committee/Germany,1880039,538,HSSD17,Republic of South Sudan 2017,SSD
-4537.0,"Japan, Government of",17165200,538,HSSD17,Republic of South Sudan 2017,SSD
+4537.0,"Japan, Government of",17195200,538,HSSD17,Republic of South Sudan 2017,SSD
 3009.0,"Ireland, Government of",4515096,538,HSSD17,Republic of South Sudan 2017,SSD
 4306.0,"Germany, Government of",25886041,538,HSSD17,Republic of South Sudan 2017,SSD
 3049.0,World Food Programme,258088675,538,HSSD17,Republic of South Sudan 2017,SSD
-2933.0,"United States of America, Government of",137377582,538,HSSD17,Republic of South Sudan 2017,SSD
+2933.0,"United States of America, Government of",141607912,538,HSSD17,Republic of South Sudan 2017,SSD
 ,Not specified,92396333,538,HSSD17,Republic of South Sudan 2017,SSD
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,69827504,538,HSSD17,Republic of South Sudan 2017,SSD
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,69989867,538,HSSD17,Republic of South Sudan 2017,SSD
 4762.0,Central Emergency Response Fund,15524589,538,HSSD17,Republic of South Sudan 2017,SSD
 5369.0,"New Zealand, Government of",1719635,538,HSSD17,Republic of South Sudan 2017,SSD
-2917.0,"United Kingdom, Government of",67982188,538,HSSD17,Republic of South Sudan 2017,SSD
+2917.0,"United Kingdom, Government of",69811864,538,HSSD17,Republic of South Sudan 2017,SSD
 4831.0,Arab Gulf Programme for United Nations Development Organizations,25000,538,HSSD17,Republic of South Sudan 2017,SSD
 3272.0,"Lithuania, Government of",10741,538,HSSD17,Republic of South Sudan 2017,SSD
 5352.0,UNICEF National Committee/Canada,47451,538,HSSD17,Republic of South Sudan 2017,SSD
@@ -440,6 +445,8 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4539.0,UNICEF National Committee/Spain,425761,538,HSSD17,Republic of South Sudan 2017,SSD
 13.0,UNICEF National Committee/New Zealand,335832,538,HSSD17,Republic of South Sudan 2017,SSD
 4326.0,Bill and Melinda Gates Foundation,827500,538,HSSD17,Republic of South Sudan 2017,SSD
+2929.0,"Korea, Republic of, Government of",200000,538,HSSD17,Republic of South Sudan 2017,SSD
+2915.0,United Nations Children's Fund,90000,538,HSSD17,Republic of South Sudan 2017,SSD
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,1193001,546,HSEN17,Senegal 2017,SEN
 2930.0,"Norway, Government of",214966,546,HSEN17,Senegal 2017,SEN
 ,Not specified,113522,546,HSEN17,Senegal 2017,SEN
@@ -464,7 +471,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4537.0,"Japan, Government of",20154001,528,HSOM17,Somalia 2017,SOM
 3778.0,UNICEF National Committee/Germany,1868324,528,HSOM17,Somalia 2017,SOM
 8524.0,European Commission EuropeAid Development and Cooperation,6261329,528,HSOM17,Somalia 2017,SOM
-2927.0,"Belgium, Government of",106655,528,HSOM17,Somalia 2017,SOM
+2927.0,"Belgium, Government of",1192431,528,HSOM17,Somalia 2017,SOM
 87.0,"Qatar, Government of",818900,528,HSOM17,Somalia 2017,SOM
 8539.0,ACT Alliance / Norwegian Church Aid,908637,528,HSOM17,Somalia 2017,SOM
 4831.0,Arab Gulf Programme for United Nations Development Organizations,25000,528,HSOM17,Somalia 2017,SOM
@@ -495,11 +502,11 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,30917918,584,HSDN17,Sudan 2017,SDN
 4537.0,"Japan, Government of",5445000,584,HSDN17,Sudan 2017,SDN
 4293.0,United Nations Population Fund,318000,584,HSDN17,Sudan 2017,SDN
-3776.0,"Denmark, Government of",4617915,584,HSDN17,Sudan 2017,SDN
+3776.0,"Denmark, Government of",4573249,584,HSDN17,Sudan 2017,SDN
 2928.0,"Canada, Government of",6174260,584,HSDN17,Sudan 2017,SDN
-2921.0,"Sweden, Government of",10432085,584,HSDN17,Sudan 2017,SDN
-4306.0,"Germany, Government of",22307678,584,HSDN17,Sudan 2017,SDN
+2921.0,"Sweden, Government of",9898432,584,HSDN17,Sudan 2017,SDN
 2924.0,"Switzerland, Government of",4726452,584,HSDN17,Sudan 2017,SDN
+4306.0,"Germany, Government of",22308804,584,HSDN17,Sudan 2017,SDN
 4543.0,Private (individuals & organizations),2447752,584,HSDN17,Sudan 2017,SDN
 1899.0,UNDP Administered Trust Fund,579811,584,HSDN17,Sudan 2017,SDN
 ,Not specified,3106277,584,HSDN17,Sudan 2017,SDN
@@ -522,7 +529,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 2976.0,"China, Government of",500000,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4321.0,UNICEF National Committee/Sweden,1011374,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 13.0,UNICEF National Committee/New Zealand,157060,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
-4306.0,"Germany, Government of",70036580,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
+4306.0,"Germany, Government of",291761104,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4539.0,UNICEF National Committee/Spain,355293,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 3017.0,UNICEF National Committee/Italy,67725,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 3779.0,UNICEF National Committee/Japan,1910417,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
@@ -581,7 +588,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4543.0,Private (individuals & organizations),500605,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
 3049.0,World Food Programme,3195549,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
 4314.0,"France, Government of",396175,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,1886673,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,4686225,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
 3774.0,"Italy, Government of",793651,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
 ,Not specified,720368,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
 2921.0,"Sweden, Government of",1771814,531,HUKR17,Ukraine Humanitarian Response Plan 2017,UKR
@@ -590,8 +597,8 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4543.0,Private (individuals & organizations),2498497,542,HYEM17,Yemen 2017,YEM
 2733.0,"Sri Lanka, Government of",1250,542,HYEM17,Yemen 2017,YEM
 3008.0,"Netherlands, Government of",11866789,542,HYEM17,Yemen 2017,YEM
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,51513554,542,HYEM17,Yemen 2017,YEM
-4306.0,"Germany, Government of",27035636,542,HYEM17,Yemen 2017,YEM
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,63809187,542,HYEM17,Yemen 2017,YEM
+4306.0,"Germany, Government of",27081342,542,HYEM17,Yemen 2017,YEM
 4537.0,"Japan, Government of",33123076,542,HYEM17,Yemen 2017,YEM
 2921.0,"Sweden, Government of",25467253,542,HYEM17,Yemen 2017,YEM
 ,Not specified,479494,542,HYEM17,Yemen 2017,YEM
@@ -603,7 +610,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3776.0,"Denmark, Government of",1443835,542,HYEM17,Yemen 2017,YEM
 5295.0,"Finland, Government of",1600854,542,HYEM17,Yemen 2017,YEM
 2917.0,"United Kingdom, Government of",84731934,542,HYEM17,Yemen 2017,YEM
-3774.0,"Italy, Government of",2687362,542,HYEM17,Yemen 2017,YEM
+3774.0,"Italy, Government of",2721121,542,HYEM17,Yemen 2017,YEM
 2976.0,"China, Government of",5000000,542,HYEM17,Yemen 2017,YEM
 4546.0,"Austria, Government of",1073111,542,HYEM17,Yemen 2017,YEM
 3272.0,"Lithuania, Government of",21231,542,HYEM17,Yemen 2017,YEM
@@ -618,27 +625,27 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3003.0,"Estonia, Government of",32573,542,HYEM17,Yemen 2017,YEM
 4391.0,"Australia, Government of",2232143,542,HYEM17,Yemen 2017,YEM
 4384.0,"Luxembourg, Government of",1119821,542,HYEM17,Yemen 2017,YEM
-2922.0,"Cyprus, Government of",11200,542,HYEM17,Yemen 2017,YEM
+2922.0,"Cyprus, Government of",11198,542,HYEM17,Yemen 2017,YEM
+2783.0,"Azerbaijan, Government of",75000,542,HYEM17,Yemen 2017,YEM
+2929.0,"Korea, Republic of, Government of",2500000,542,HYEM17,Yemen 2017,YEM
 5352.0,UNICEF National Committee/Canada,10290,542,HYEM17,Yemen 2017,YEM
 3049.0,World Food Programme,29425000,542,HYEM17,Yemen 2017,YEM
 87.0,"Qatar, Government of",1254699,542,HYEM17,Yemen 2017,YEM
-2927.0,"Belgium, Government of",278707,542,HYEM17,Yemen 2017,YEM
-2932.0,"Czech Republic, Government of",198177,542,HYEM17,Yemen 2017,YEM
+2927.0,"Belgium, Government of",2450260,542,HYEM17,Yemen 2017,YEM
 7814.0,Yemen Humanitarian Fund,4688294,542,HYEM17,Yemen 2017,YEM
 3006.0,"Russian Federation, Government of",1000000,542,HYEM17,Yemen 2017,YEM
 4611.0,IKEA Foundation,533618,542,HYEM17,Yemen 2017,YEM
 4831.0,Arab Gulf Programme for United Nations Development Organizations,25000,542,HYEM17,Yemen 2017,YEM
-2783.0,"Azerbaijan, Government of",62500,542,HYEM17,Yemen 2017,YEM
 2443.0,"Andorra, Government of",15924,542,HYEM17,Yemen 2017,YEM
 2934.0,UNICEF National Committee/Belgium,639978,542,HYEM17,Yemen 2017,YEM
 4539.0,UNICEF National Committee/Spain,213447,542,HYEM17,Yemen 2017,YEM
 4829.0,"Slovenia, Government of",32573,542,HYEM17,Yemen 2017,YEM
 4314.0,"France, Government of",1378594,542,HYEM17,Yemen 2017,YEM
-2929.0,"Korea, Republic of, Government of",2000000,542,HYEM17,Yemen 2017,YEM
 2966.0,European Commission,3700000,542,HYEM17,Yemen 2017,YEM
 5281.0,"Bulgaria, Government of",54289,542,HYEM17,Yemen 2017,YEM
+2932.0,"Czech Republic, Government of",203080,542,HYEM17,Yemen 2017,YEM
 2933.0,"United States of America, Government of",60000001,529,HPSE17,occupied Palestinian territory 2017,PSE
-8523.0,European Commission's Humanitarian Aid and Civil Protection Department,15785222,529,HPSE17,occupied Palestinian territory 2017,PSE
+8523.0,European Commission's Humanitarian Aid and Civil Protection Department,16289141,529,HPSE17,occupied Palestinian territory 2017,PSE
 4306.0,"Germany, Government of",29528316,529,HPSE17,occupied Palestinian territory 2017,PSE
 4537.0,"Japan, Government of",9044801,529,HPSE17,occupied Palestinian territory 2017,PSE
 3049.0,World Food Programme,1709417,529,HPSE17,occupied Palestinian territory 2017,PSE

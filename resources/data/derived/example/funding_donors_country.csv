@@ -1,10 +1,10 @@
-#{"source_data": "2017-06-19", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-19", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
 "Germany, Government of",49804454,2016,AFG,Afghanistan
 "Japan, Government of",47169783,2016,AFG,Afghanistan
-European Commission's Humanitarian Aid and Civil Protection Department,45402392,2016,AFG,Afghanistan
+European Commission's Humanitarian Aid and Civil Protection Department,42496691,2016,AFG,Afghanistan
 "Sweden, Government of",48077,2016,ALB,Albania
 "Saudi Arabia (Kingdom of), Government of",12616,2016,ALB,Albania
 European Commission's Humanitarian Aid and Civil Protection Department,10140010,2016,DZA,Algeria
@@ -74,7 +74,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,17157995,
 "United States of America, Government of",66954026,2016,CAF,Central African Republic
 "United Kingdom, Government of",30536581,2016,CAF,Central African Republic
 European Commission's Humanitarian Aid and Civil Protection Department,25104725,2016,CAF,Central African Republic
-"Germany, Government of",21980518,2016,CAF,Central African Republic
+"Germany, Government of",23113021,2016,CAF,Central African Republic
 "Sweden, Government of",14563965,2016,CAF,Central African Republic
 "United States of America, Government of",121046157,2016,TCD,Chad
 European Commission's Humanitarian Aid and Civil Protection Department,47695551,2016,TCD,Chad
@@ -339,7 +339,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,49970409,
 Central Emergency Response Fund,24183770,2016,NGA,Nigeria
 "United States of America, Government of",105965900,2016,PAK,Pakistan
 "United Kingdom, Government of",36329344,2016,PAK,Pakistan
-European Commission's Humanitarian Aid and Civil Protection Department,29065539,2016,PAK,Pakistan
+European Commission's Humanitarian Aid and Civil Protection Department,28512442,2016,PAK,Pakistan
 "Germany, Government of",18969926,2016,PAK,Pakistan
 Not specified,13709357,2016,PAK,Pakistan
 "United States of America, Government of",250000,2016,PLW,Palau

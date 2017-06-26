@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import os.path
-from resources import constants
+import constants
 import json
 from pandas.io.json import json_normalize
 from utils.data_utils import get_ordinal_number
