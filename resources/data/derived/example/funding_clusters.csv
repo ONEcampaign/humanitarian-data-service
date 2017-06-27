@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
 cluster,revisedRequirements,totalFunding,plan_id,plan_code,plan_name,countryCode,percentFunded
 Multi-sector,690935692.0,212914298.0,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,,0.308153566917
 Multi Sector Cash,95680670.0,3147125.0,544,HAFG17,Afghanistan 2017,AFG,0.0328919623995

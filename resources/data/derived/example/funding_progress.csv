@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
 code,id,name,revisedRequirements,categoryName,countryCode,appealFunded,percentFunded,neededFunding
 OEUR17,551,2017 Europe Situation - Regional Refugee and Migrant Response,690935692,Other,,212914298,0.308153566917,478021394
 HAFG17,544,Afghanistan 2017,550236457,Humanitarian response plan,AFG,149625038,0.271928615592,400611419

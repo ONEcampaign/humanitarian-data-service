@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan

@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
 Country,totalFunding,year,countryCode
 Afghanistan,412529953,2015,AFG
 Afghanistan,525700250,2016,AFG

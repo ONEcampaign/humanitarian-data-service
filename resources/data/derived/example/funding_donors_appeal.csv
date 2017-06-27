@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-26", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-26", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
 organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,countryCode
 4543.0,Private (individuals & organizations),4892090,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
 2924.0,"Switzerland, Government of",363919,551,OEUR17,2017 Europe Situation - Regional Refugee and Migrant Response,
