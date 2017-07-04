@@ -1,4 +1,4 @@
-#{"source_data": "2017-06-27", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-06-27", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-07-04", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-07-04", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
@@ -13,7 +13,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,10140010,
 "United States of America, Government of",2750000,2016,DZA,Algeria
 "Germany, Government of",2266290,2016,DZA,Algeria
 Central Emergency Response Fund,7989386,2016,AGO,Angola
-European Commission's Humanitarian Aid and Civil Protection Department,3470716,2016,AGO,Angola
+European Commission's Humanitarian Aid and Civil Protection Department,3031645,2016,AGO,Angola
 "Canada, Government of",747384,2016,AGO,Angola
 "Switzerland, Government of",422330,2016,AGO,Angola
 "Sweden, Government of",326517,2016,AGO,Angola
@@ -140,7 +140,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,4272040,2
 Private (individuals & organizations),329301,2016,SLV,El Salvador
 Not specified,100000,2016,SLV,El Salvador
 "Switzerland, Government of",94682,2016,SLV,El Salvador
-"Japan, Government of",76140,2016,SLV,El Salvador
+"Italy, Government of",82940,2016,SLV,El Salvador
 "Germany, Government of",2653928,2016,ERI,Eritrea
 Central Emergency Response Fund,2002599,2016,ERI,Eritrea
 "Ireland, Government of",1114827,2016,ERI,Eritrea
@@ -186,7 +186,7 @@ United Nations Development Programme,1000000,2016,GIN,Guinea
 "Sweden, Government of",700000,2016,GIN,Guinea
 "Japan, Government of",1279654,2016,GNB,Guinea-Bissau
 Not specified,147253,2016,GNB,Guinea-Bissau
-"United States of America, Government of",93360584,2016,HTI,Haiti
+"United States of America, Government of",93510375,2016,HTI,Haiti
 "Canada, Government of",22286236,2016,HTI,Haiti
 European Commission's Humanitarian Aid and Civil Protection Department,18492404,2016,HTI,Haiti
 "Germany, Government of",14190644,2016,HTI,Haiti
@@ -493,7 +493,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,2219755,2
 "Canada, Government of",159485,2016,VNM,Viet Nam
 "Germany, Government of",4292096,2016,ESH,Western Sahara
 "Sweden, Government of",468933,2016,ESH,Western Sahara
-"United Arab Emirates, Government of",469924030,2016,YEM,Yemen
+"United Arab Emirates, Government of",474953221,2016,YEM,Yemen
 "United States of America, Government of",343266216,2016,YEM,Yemen
 "Saudi Arabia (Kingdom of), Government of",293245990,2016,YEM,Yemen
 "United Kingdom, Government of",183134986,2016,YEM,Yemen
