@@ -162,6 +162,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4337.0,UNICEF National Committee/France,325733,587,HCOD17,Democratic Republic of the Congo 2017,COD
 4314.0,"France, Government of",972534,587,HCOD17,Democratic Republic of the Congo 2017,COD
 5319.0,"Spain, Government of",217155,587,HCOD17,Democratic Republic of the Congo 2017,COD
+5295.0,"Finland, Government of",341297,587,HCOD17,Democratic Republic of the Congo 2017,COD
 2928.0,"Canada, Government of",520446,539,HDJI17,Djibouti 2017,DJI
 2933.0,"United States of America, Government of",3550114,539,HDJI17,Djibouti 2017,DJI
 3049.0,World Food Programme,1537675,539,HDJI17,Djibouti 2017,DJI
@@ -231,9 +232,9 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 2927.0,"Belgium, Government of",3623189,550,HIRQ17,Iraq 2017,IRQ
 2917.0,"United Kingdom, Government of",15319688,550,HIRQ17,Iraq 2017,IRQ
 2921.0,"Sweden, Government of",11696554,550,HIRQ17,Iraq 2017,IRQ
-4306.0,"Germany, Government of",82648064,550,HIRQ17,Iraq 2017,IRQ
+4306.0,"Germany, Government of",86258036,550,HIRQ17,Iraq 2017,IRQ
 5295.0,"Finland, Government of",3144183,550,HIRQ17,Iraq 2017,IRQ
-4546.0,"Austria, Government of",6603369,550,HIRQ17,Iraq 2017,IRQ
+4546.0,"Austria, Government of",7499226,550,HIRQ17,Iraq 2017,IRQ
 2930.0,"Norway, Government of",1467561,550,HIRQ17,Iraq 2017,IRQ
 2933.0,"United States of America, Government of",90163713,550,HIRQ17,Iraq 2017,IRQ
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,58831614,550,HIRQ17,Iraq 2017,IRQ
@@ -417,12 +418,12 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 2924.0,"Switzerland, Government of",12034432,538,HSSD17,Republic of South Sudan 2017,SSD
 4543.0,Private (individuals & organizations),6944159,538,HSSD17,Republic of South Sudan 2017,SSD
 5295.0,"Finland, Government of",2698382,538,HSSD17,Republic of South Sudan 2017,SSD
-2928.0,"Canada, Government of",28928740,538,HSSD17,Republic of South Sudan 2017,SSD
+2928.0,"Canada, Government of",29212047,538,HSSD17,Republic of South Sudan 2017,SSD
 3778.0,UNICEF National Committee/Germany,1880039,538,HSSD17,Republic of South Sudan 2017,SSD
 4537.0,"Japan, Government of",18110255,538,HSSD17,Republic of South Sudan 2017,SSD
 3009.0,"Ireland, Government of",4515096,538,HSSD17,Republic of South Sudan 2017,SSD
 4306.0,"Germany, Government of",25886041,538,HSSD17,Republic of South Sudan 2017,SSD
-3049.0,World Food Programme,258088675,538,HSSD17,Republic of South Sudan 2017,SSD
+3049.0,World Food Programme,258183151,538,HSSD17,Republic of South Sudan 2017,SSD
 2933.0,"United States of America, Government of",141607912,538,HSSD17,Republic of South Sudan 2017,SSD
 ,Not specified,92396333,538,HSSD17,Republic of South Sudan 2017,SSD
 8523.0,European Commission's Humanitarian Aid and Civil Protection Department,71109688,538,HSSD17,Republic of South Sudan 2017,SSD
@@ -438,7 +439,10 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 5315.0,UNICEF National Committee/United Kingdom,272738,538,HSSD17,Republic of South Sudan 2017,SSD
 3774.0,"Italy, Government of",2239642,538,HSSD17,Republic of South Sudan 2017,SSD
 4384.0,"Luxembourg, Government of",632234,538,HSSD17,Republic of South Sudan 2017,SSD
-2966.0,European Commission,180467,538,HSSD17,Republic of South Sudan 2017,SSD
+2966.0,European Commission,534070,538,HSSD17,Republic of South Sudan 2017,SSD
+2918.0,ACT Alliance / Christian Aid,468000,538,HSSD17,Republic of South Sudan 2017,SSD
+8572.0,ACT Alliance / DanChurchAid,581882,538,HSSD17,Republic of South Sudan 2017,SSD
+8595.0,ACT Alliance / Interchurch Organisation for Development Co-operation,150000,538,HSSD17,Republic of South Sudan 2017,SSD
 2927.0,"Belgium, Government of",778707,538,HSSD17,Republic of South Sudan 2017,SSD
 2932.0,"Czech Republic, Government of",1958,538,HSSD17,Republic of South Sudan 2017,SSD
 2976.0,"China, Government of",5000000,538,HSSD17,Republic of South Sudan 2017,SSD
@@ -491,7 +495,7 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 3139.0,OPEC Fund for International Development,300000,528,HSOM17,Somalia 2017,SOM
 4337.0,UNICEF National Committee/France,132556,528,HSOM17,Somalia 2017,SOM
 ,Not specified,967099,528,HSOM17,Somalia 2017,SOM
-3774.0,"Italy, Government of",2851844,528,HSOM17,Somalia 2017,SOM
+3774.0,"Italy, Government of",3971665,528,HSOM17,Somalia 2017,SOM
 3272.0,"Lithuania, Government of",10858,528,HSOM17,Somalia 2017,SOM
 4820.0,World Bank,15000000,528,HSOM17,Somalia 2017,SOM
 3008.0,"Netherlands, Government of",4268943,528,HSOM17,Somalia 2017,SOM
@@ -569,9 +573,9 @@ organization_id,organization_name,totalFunding,plan_id,plan_code,plan_name,count
 4058.0,US Fund for UNICEF,3936269,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4340.0,UNICEF National Committee/Norway,375921,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4939.0,UNICEF National Committee/Iceland,107896,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
-8125.0,Turkey Humanitarian Fund,2062847,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 2915.0,United Nations Children's Fund,968617,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 5281.0,"Bulgaria, Government of",55991,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
+8125.0,Turkey Humanitarian Fund,4064910,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4845.0,"Iceland, Government of",440000,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 4849.0,"Kuwait, Government of",6000000,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
 86.0,"Poland, Government of",1197433,526,HSYR17,Syria Humanitarian Response Plan 2017,SYR
