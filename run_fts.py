@@ -72,9 +72,9 @@ def getInitialRequiredAndCommittedFunding(data):
 
     # Get committed and paid funding from the FTS API
     def pull_committed_funding_for_plan(plan_id):
-        plan_funds = api_utils.get_fts_endpoint('/public/fts/flow?planId={}'.format(plan_id), 'flows')
-        funded = plan_funds[(plan_funds.boundary == 'incoming') & (plan_funds.status != 'pledge')]
-        return funded['amountUSD'].sum()
+        plan_funds = api_utils.get_fts_endpoint('/public/fts/flow?planId={}'.format(plan_id), 'incoming')
+        funded = plan_funds['fundingTotal']
+        return funded
 
     data['appealFunded'] = data['id'].apply(pull_committed_funding_for_plan)
     
