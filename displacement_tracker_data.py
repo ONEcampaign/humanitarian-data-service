@@ -308,6 +308,9 @@ def merge_data(
     for column in df_plans_progress.columns:
         metadata_dict[column] = plans_progress_metadata
 
+    # Add an FTS data as-of date so it can be included in the .csv data dump
+    df_plans_progress['FTS funding data as-of date'] = plans_progress_data['metadata']['source_data']
+
 
     ######## FUNDING BY DESTINATION COUNTRY ############
     #Get the data from the API
@@ -526,9 +529,6 @@ def merge_data(
     # Clean up NaN values
     df_final = df_final.fillna('')
 
-    #Write .csv
-    #df_final.to_csv('AllData.csv', index_label='CountryCode', encoding='utf-8')
-
     # Transform dataframe to dictionary
     df_as_dict = df_final.to_dict(orient='index')
 
@@ -669,21 +669,23 @@ def merge_data(
         'metadata': metadata
     }
 
-    return final_json
+    return final_json, metadata, df_final
 
 
 def run():
     print 'Pulling and merging data'
-    data = merge_data()
-    # print data.head()
-    official_data_path = os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json')
+    final_json, metadata, final_csv = merge_data()
 
-    print 'Writing file'
-    with open(official_data_path, 'w') as outfile:
-        json.dump(data, outfile, indent=4, separators=(',', ': '), ensure_ascii=True, sort_keys=True)  # .encode('utf-8')
-        # outfile.write(unicode(data))
-        # data.to_json(official_data_path, orient='index')
-        # json.dumps(data, indent=4, separators=(',', ': '))
+    print 'Writing Combined JSON file'
+    with open(os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.json'), 'w') as outfile:
+        json.dump(final_json, outfile, indent=4, separators=(',', ': '), ensure_ascii=True, sort_keys=True)
+
+    print 'Writing Combined JSON metadata file'
+    with open(os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker_metadata.json'), 'w') as outfile:
+        json.dump(metadata, outfile, indent=4, separators=(',', ': '), ensure_ascii=True, sort_keys=True)
+
+    print 'Writing Combined CSV file'
+    final_csv.to_csv(os.path.join(resources.constants.EXAMPLE_DERIVED_DATA_PATH, 'displacement_tracker.csv'), index_label='CountryCode', encoding='utf-8')
 
 
 if __name__ == "__main__":

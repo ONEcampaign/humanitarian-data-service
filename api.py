@@ -2,14 +2,13 @@
 import sys
 import ast
 import pandas as pd
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response
 from flasgger import Swagger
 from flasgger.utils import swag_from
 from string import capwords
 
 from resources import constants
 from utils import api_utils, data_utils
-import json
 
 
 SWAGGER_CONFIG = {
@@ -538,11 +537,33 @@ def get_metadata_all(orientation):
 
 @app.route('/displacement_tracker/', methods=['GET'])
 @swag_from('api_configs/displacement_tracker/displacement_tracker.yml')
-def get_tracker_data():
+def get_tracker_json_data():
     success, result = api_utils.safely_load_json_data('displacement_tracker.json','Displacement Tracker Data')
     if not success:
         return result, 501
     return jsonify(result)
+
+@app.route('/displacement_tracker/metadata', methods=['GET'])
+@swag_from('api_configs/displacement_tracker/displacement_tracker_metadata.yml')
+def get_tracker_json_metadata():
+    success, result = api_utils.safely_load_json_data('displacement_tracker_metadata.json','Displacement Tracker Metadata')
+    if not success:
+        return result, 501
+    return jsonify(result)
+
+@app.route('/displacement_tracker/csv', methods=['GET'])
+@swag_from('api_configs/displacement_tracker/displacement_tracker_csv.yml')
+def get_tracker_csv_data():
+    success, result, metadata = api_utils.safely_load_data('displacement_tracker.csv', 'Displacement Tracker Data', has_metadata=False)
+    if not success:
+        return result, 501
+    resp = make_response(result.to_csv(encoding='utf-8', index=False))
+    resp.headers["Content-Disposition"] = "attachment; filename=displacement_tracker.csv"
+    resp.headers["Content-Type"] = "text/csv"
+    return resp
+    #result_dict = result.to_dict(orient='records')
+    #return flask_csv.send_csv(result_dict, 'displacement_tracker.csv', list(result.columns))
+
 
 def main():
     env_type = 'local'

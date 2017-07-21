@@ -1,0 +1,9 @@
+Get a JSON file containing only the metadata for data used in the MOVEMENT project
+---
+tags:
+  - MOVEMENT
+responses:
+  501:
+    description: No data was found
+  200:
+    description: The latest data for MOVEMENT
