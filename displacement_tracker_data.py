@@ -330,6 +330,9 @@ def merge_data(
         'totalFunding'
     ]]
 
+    # Keep only records where totalFunding > 0
+    df_funding_dest_country = df_funding_dest_country[df_funding_dest_country['totalFunding'] > 0]
+
     # Rename fields
     df_funding_dest_country.rename(columns={'totalFunding': 'Humanitarian aid received'},
                                    inplace=True)
