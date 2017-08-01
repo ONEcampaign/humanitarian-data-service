@@ -1,0 +1,240 @@
+{
+    "Country has current appeal": {
+        "Calculation": "Is Appeal funds requested not null"
+    },
+    "Displacement_story": {},
+    "Fragile State Index Rank": {
+        "additional_metadata": {
+            "Contact Email": "nhaken@fundforpeace.org",
+            "Contact Name": "Nate Haken"
+        },
+        "extract_date": "2017-05-25",
+        "source_date": "2017-05-15",
+        "source_key": "FSI",
+        "source_org": "FFP: Fund For Peace",
+        "source_url": "http://fundforpeace.org/fsi/data/",
+        "update_frequency": "Every year"
+    },
+    "Strand_01_Needs": {
+        "Appeal funds committed to date": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Appeal funds requested": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Appeal funds still needed": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Appeal percent funded": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Needs_Data": {},
+        "Place with similar population as people in need": {},
+        "Population of place with similar population": {},
+        "Source of needs data": {
+            "additional_metadata": {
+                "Note on data": "Extracted from a variety of 2017 UNOCHA publications including Humanitarian Needs Overviews, Response Plans, Flash Appeals, Needs and Priorites, and Humanitarian Requirements Documents."
+            },
+            "extract_date": "2017-06-01",
+            "source_date": "2017",
+            "source_key": "HNO",
+            "source_org": "UNOCHA: Humanitarian Needs Overview",
+            "source_url": "https://www.humanitarianresponse.info/",
+            "update_frequency": "Every year"
+        },
+        "Source type of needs data": {
+            "additional_metadata": {
+                "Note on data": "Extracted from a variety of 2017 UNOCHA publications including Humanitarian Needs Overviews, Response Plans, Flash Appeals, Needs and Priorites, and Humanitarian Requirements Documents."
+            },
+            "extract_date": "2017-06-01",
+            "source_date": "2017",
+            "source_key": "HNO",
+            "source_org": "UNOCHA: Humanitarian Needs Overview",
+            "source_url": "https://www.humanitarianresponse.info/",
+            "update_frequency": "Every year"
+        },
+        "Total people in need": {
+            "additional_metadata": {
+                "Note on data": "Extracted from a variety of 2017 UNOCHA publications including Humanitarian Needs Overviews, Response Plans, Flash Appeals, Needs and Priorites, and Humanitarian Requirements Documents."
+            },
+            "extract_date": "2017-06-01",
+            "source_date": "2017",
+            "source_key": "HNO",
+            "source_org": "UNOCHA: Humanitarian Needs Overview",
+            "source_url": "https://www.humanitarianresponse.info/",
+            "update_frequency": "Every year"
+        }
+    },
+    "Strand_02_People": {
+        "Fragile State Index Score": {
+            "additional_metadata": {
+                "Contact Email": "nhaken@fundforpeace.org",
+                "Contact Name": "Nate Haken"
+            },
+            "extract_date": "2017-05-25",
+            "source_date": "2017-05-15",
+            "source_key": "FSI",
+            "source_org": "FFP: Fund For Peace",
+            "source_url": "http://fundforpeace.org/fsi/data/",
+            "update_frequency": "Every year"
+        },
+        "GDP Per Capita": {
+            "extract_date": "2017-04-04",
+            "source_date": "2017-03-23",
+            "source_key": "WB",
+            "source_org": "World Bank: World Development Indicators",
+            "source_url": "http://data.worldbank.org/indicator/NY.GNP.PCAP.PP.CD",
+            "update_frequency": "Every year"
+        },
+        "IDPs protected/assisted by UNHCR": {
+            "additional_metadata": {
+                "Raw Annex Tables URL": "http://www.unhcr.org/globaltrends/2016-GlobalTrends-annex-tables.zip"
+            },
+            "contact": [
+                {
+                    "email": "pitoiset@unhcr.org",
+                    "name": "Laurent Pitoiset"
+                }
+            ],
+            "extract_date": "2017-06-19",
+            "source_date": "2017-06-19",
+            "source_key": "HCR",
+            "source_org": "UNHCR: The UN Refugee Agency",
+            "source_url": "http://www.unhcr.org/globaltrends2016/",
+            "update_frequency": "Every six months"
+        },
+        "Population of concern per 1000 population": {
+            "Calculation": "(Total population of concern / Population) * 1000"
+        },
+        "Total population of concern": {
+            "additional_metadata": {
+                "Raw Annex Tables URL": "http://www.unhcr.org/globaltrends/2016-GlobalTrends-annex-tables.zip"
+            },
+            "contact": [
+                {
+                    "email": "pitoiset@unhcr.org",
+                    "name": "Laurent Pitoiset"
+                }
+            ],
+            "extract_date": "2017-06-19",
+            "source_date": "2017-06-19",
+            "source_key": "HCR",
+            "source_org": "UNHCR: The UN Refugee Agency",
+            "source_url": "http://www.unhcr.org/globaltrends2016/",
+            "update_frequency": "Every six months"
+        },
+        "Total refugees and asylum-seekers (asylum)": {
+            "additional_metadata": {
+                "Raw Annex Tables URL": "http://www.unhcr.org/globaltrends/2016-GlobalTrends-annex-tables.zip"
+            },
+            "contact": [
+                {
+                    "email": "pitoiset@unhcr.org",
+                    "name": "Laurent Pitoiset"
+                }
+            ],
+            "extract_date": "2017-06-19",
+            "source_date": "2017-06-19",
+            "source_key": "HCR",
+            "source_org": "UNHCR: The UN Refugee Agency",
+            "source_url": "http://www.unhcr.org/globaltrends2016/",
+            "update_frequency": "Every six months"
+        },
+        "Total refugees and asylum-seekers (origin)": {
+            "additional_metadata": {
+                "Raw Annex Tables URL": "http://www.unhcr.org/globaltrends/2016-GlobalTrends-annex-tables.zip"
+            },
+            "contact": [
+                {
+                    "email": "pitoiset@unhcr.org",
+                    "name": "Laurent Pitoiset"
+                }
+            ],
+            "extract_date": "2017-06-19",
+            "source_date": "2017-06-19",
+            "source_key": "HCR",
+            "source_org": "UNHCR: The UN Refugee Agency",
+            "source_url": "http://www.unhcr.org/globaltrends2016/",
+            "update_frequency": "Every six months"
+        }
+    },
+    "Strand_03_Aid": {
+        "Appeal funds requested": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Appeal percent funded": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Humanitarian aid received": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Rank of humanitarian aid received": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        },
+        "Rank of total population of concern": {
+            "additional_metadata": {
+                "Raw Annex Tables URL": "http://www.unhcr.org/globaltrends/2016-GlobalTrends-annex-tables.zip"
+            },
+            "contact": [
+                {
+                    "email": "pitoiset@unhcr.org",
+                    "name": "Laurent Pitoiset"
+                }
+            ],
+            "extract_date": "2017-06-19",
+            "source_date": "2017-06-19",
+            "source_key": "HCR",
+            "source_org": "UNHCR: The UN Refugee Agency",
+            "source_url": "http://www.unhcr.org/globaltrends2016/",
+            "update_frequency": "Every six months"
+        },
+        "Top 5 donors of humanitarian aid": {
+            "extract_date": "2017-08-01",
+            "source_data": "2017-08-01",
+            "source_key": "FTS",
+            "source_org": "UNOCHA: Financial Tracking Service",
+            "source_url": "https://fts.unocha.org",
+            "update_frequency": "Hourly"
+        }
+    }
+}
