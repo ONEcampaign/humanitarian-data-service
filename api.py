@@ -557,12 +557,11 @@ def get_tracker_csv_data():
     success, result, metadata = api_utils.safely_load_data('displacement_tracker.csv', 'Displacement Tracker Data', has_metadata=False)
     if not success:
         return result, 501
+    result = result[result['CountryCode'] != 'null']
     resp = make_response(result.to_csv(encoding='utf-8', index=False))
     resp.headers["Content-Disposition"] = "attachment; filename=displacement_tracker.csv"
     resp.headers["Content-Type"] = "text/csv"
     return resp
-    #result_dict = result.to_dict(orient='records')
-    #return flask_csv.send_csv(result_dict, 'displacement_tracker.csv', list(result.columns))
 
 
 def main():
