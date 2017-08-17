@@ -120,7 +120,7 @@ def getDonorPlanFundingAmounts(plans):
         data = data.append(funding)
 
     data = data.merge(plans, how='left', left_on='plan_id', right_on='id')
-    data.drop(['id_y', 'direction', 'type'], axis=1,inplace=True)
+    data.drop(['behavior','id_y', 'direction', 'type'], axis=1,inplace=True)
     data.columns = (['organization_id', 'organization_name', 'totalFunding', 'plan_id', 'plan_code', 'plan_name','countryCode'])
 
     return data
@@ -165,7 +165,7 @@ def getTopDonorCountryFundingAmounts(countries, year, top=False, top_n=5):
         data = data.append(funding)
 
     data = data.merge(countries, how='left', left_on='dest_country_id', right_on='id')
-    data.drop(['id_x', 'direction', 'type', 'dest_country_id', 'id_y'], axis=1,inplace=True)
+    data.drop(['behavior','id_x', 'direction', 'type', 'dest_country_id', 'id_y'], axis=1,inplace=True)
     data.columns = (['organization_name', 'totalFunding', 'year', 'countryCode', 'Country'])
 
     return data
