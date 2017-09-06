@@ -1,519 +1,522 @@
-#{"source_data": "2017-08-01", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-08-01", "source_url": "https://fts.unocha.org"}
-Country,totalFunding,year,countryCode
-Afghanistan,412529953,2015,AFG
-Afghanistan,528542976,2016,AFG
-Afghanistan,255695355,2017,AFG
-Albania,405335,2015,ALB
-Albania,60693,2016,ALB
-Albania,144690,2017,ALB
-Algeria,37909341,2015,DZA
-Algeria,26682970,2016,DZA
-Algeria,13991922,2017,DZA
-Andorra,0,2015,AND
-Andorra,0,2016,AND
-Andorra,0,2017,AND
-Angola,1280547,2015,AGO
-Angola,12710944,2016,AGO
-Angola,12292107,2017,AGO
-Antigua and Barbuda,0,2015,ATG
-Antigua and Barbuda,0,2016,ATG
-Antigua and Barbuda,1231263,2017,ATG
-Argentina,820880,2015,ARG
-Argentina,0,2016,ARG
-Argentina,644468,2017,ARG
-Armenia,1486223,2015,ARM
-Armenia,2993636,2016,ARM
-Armenia,886445,2017,ARM
-Australia,0,2015,AUS
-Australia,0,2016,AUS
-Australia,0,2017,AUS
-Austria,3699998,2015,AUT
-Austria,0,2016,AUT
-Austria,0,2017,AUT
-Azerbaijan,1098045,2015,AZE
-Azerbaijan,587130,2016,AZE
-Azerbaijan,1129433,2017,AZE
-Bahamas,50250,2015,BHS
-Bahamas,657114,2016,BHS
-Bahamas,15500,2017,BHS
-Bahrain,0,2015,BHR
-Bangladesh,40520300,2015,BGD
-Bangladesh,38306397,2016,BGD
-Bangladesh,25234282,2017,BGD
-Barbados,1374860,2015,BRB
-Barbados,0,2016,BRB
-Belarus,355502,2015,BLR
-Belarus,0,2016,BLR
-Belarus,335946,2017,BLR
-Belgium,0,2015,BEL
-Belgium,765027,2016,BEL
-Belgium,651466,2017,BEL
-Belize,80000,2016,BLZ
-Benin,2100806,2015,BEN
-Benin,1142705,2016,BEN
-Benin,140963,2017,BEN
-Bhutan,621449,2015,BTN
-Bhutan,332963,2016,BTN
-Bhutan,559910,2017,BTN
-"Bolivia, Plurinational State of",7570134,2015,BOL
-"Bolivia, Plurinational State of",6548812,2016,BOL
-"Bolivia, Plurinational State of",3023013,2017,BOL
-Bosnia and Herzegovina,2103494,2015,BIH
-Bosnia and Herzegovina,2362534,2016,BIH
-Bosnia and Herzegovina,1622047,2017,BIH
-Botswana,0,2016,BWA
-Botswana,0,2017,BWA
-Brazil,-2350620,2015,BRA
-Brazil,1322130,2016,BRA
-Brazil,0,2017,BRA
-Bulgaria,0,2015,BGR
-Bulgaria,28351,2016,BGR
-Bulgaria,0,2017,BGR
-Burkina Faso,47217325,2015,BFA
-Burkina Faso,72759031,2016,BFA
-Burkina Faso,37565392,2017,BFA
-Burundi,16700464,2015,BDI
-Burundi,80989260,2016,BDI
-Burundi,41982285,2017,BDI
-Cambodia,1309752,2015,KHM
-Cambodia,11601730,2016,KHM
-Cambodia,2257477,2017,KHM
-Cameroon,168677889,2015,CMR
-Cameroon,189281030,2016,CMR
-Cameroon,110210832,2017,CMR
-Canada,-1966955,2015,CAN
-Canada,50000,2016,CAN
-Canada,50000,2017,CAN
-Cape Verde,92091,2015,CPV
-Cape Verde,5334,2016,CPV
-Cape Verde,1000000,2017,CPV
-Central African Republic,392982697,2015,CAF
-Central African Republic,273452120,2016,CAF
-Central African Republic,154288150,2017,CAF
-Chad,297072803,2015,TCD
-Chad,314218912,2016,TCD
-Chad,167676221,2017,TCD
-Chile,2125623,2015,CHL
-Chile,0,2016,CHL
-Chile,5336841,2017,CHL
-China,2720626,2015,CHN
-China,800000,2016,CHN
-China,0,2017,CHN
-Colombia,48731164,2015,COL
-Colombia,58037958,2016,COL
-Colombia,30462504,2017,COL
-Comoros,693428,2015,COM
-Comoros,107227,2016,COM
-Congo,943755,2015,COG
-Congo,25528839,2016,COG
-Congo,4666870,2017,COG
-"Congo, The Democratic Republic of the",513794522,2015,COD
-"Congo, The Democratic Republic of the",479303581,2016,COD
-"Congo, The Democratic Republic of the",239361862,2017,COD
-Costa Rica,1802152,2016,CRI
-Costa Rica,10612245,2017,CRI
-Croatia,203163,2015,HRV
-Croatia,1075614,2016,HRV
-Cuba,3271825,2015,CUB
-Cuba,7509121,2016,CUB
-Cyprus,0,2015,CYP
-Cyprus,0,2016,CYP
-Cyprus,0,2017,CYP
-Czech Republic,0,2015,CZE
-Czech Republic,0,2016,CZE
-Czech Republic,0,2017,CZE
-Côte d'Ivoire,7618297,2015,CIV
-Côte d'Ivoire,17192580,2016,CIV
-Côte d'Ivoire,387160,2017,CIV
-Denmark,0,2015,DNK
-Denmark,10000000,2016,DNK
-Denmark,0,2017,DNK
-Djibouti,30273736,2015,DJI
-Djibouti,30892445,2016,DJI
-Djibouti,11522969,2017,DJI
-Dominica,1070825,2015,DMA
-Dominica,155701,2016,DMA
-Dominican Republic,4057341,2015,DOM
-Dominican Republic,2521591,2016,DOM
-Dominican Republic,901379,2017,DOM
-Ecuador,6870645,2015,ECU
-Ecuador,50542488,2016,ECU
-Ecuador,76636,2017,ECU
-Egypt,66388523,2015,EGY
-Egypt,68298593,2016,EGY
-Egypt,37655798,2017,EGY
-El Salvador,3275384,2015,SLV
-El Salvador,4955103,2016,SLV
-El Salvador,132554,2017,SLV
-Eritrea,6387706,2015,ERI
-Eritrea,8835723,2016,ERI
-Eritrea,1490629,2017,ERI
-Estonia,0,2015,EST
-Estonia,0,2016,EST
-Estonia,0,2017,EST
-Ethiopia,514667149,2015,ETH
-Ethiopia,1323668747,2016,ETH
-Ethiopia,442877412,2017,ETH
-Faroe Islands,0,2017,FRO
-Fiji,802985,2015,FJI
-Fiji,43741715,2016,FJI
-Fiji,844012,2017,FJI
-Finland,0,2015,FIN
-Finland,0,2016,FIN
-Finland,0,2017,FIN
-France,0,2015,FRA
-France,0,2016,FRA
-France,0,2017,FRA
-French Polynesia,0,2016,PYF
-Gambia,1859157,2015,GMB
-Gambia,2609392,2016,GMB
-Georgia,395758,2015,GEO
-Georgia,1513274,2016,GEO
-Germany,0,2015,DEU
-Germany,0,2016,DEU
-Germany,2754123,2017,DEU
-Ghana,8960979,2015,GHA
-Ghana,697992,2016,GHA
-Ghana,274383,2017,GHA
-Greece,2651180,2015,GRC
-Greece,451440633,2016,GRC
-Greece,307312203,2017,GRC
-Guatemala,11398855,2015,GTM
-Guatemala,19862247,2016,GTM
-Guatemala,3843373,2017,GTM
-Guinea,44644221,2015,GIN
-Guinea,14982638,2016,GIN
-Guinea,3375165,2017,GIN
-Guinea-Bissau,1426907,2016,GNB
-Guinea-Bissau,1220954,2017,GNB
-Guyana,0,2015,GUY
-Guyana,0,2016,GUY
-Haiti,60900844,2015,HTI
-Haiti,231845834,2016,HTI
-Haiti,91301613,2017,HTI
-Holy See (Vatican City State),0,2015,VAT
-Holy See (Vatican City State),0,2016,VAT
-Honduras,7505527,2015,HND
-Honduras,7847700,2016,HND
-Honduras,2736548,2017,HND
-Hungary,132045,2015,HUN
-Hungary,0,2016,HUN
-Iceland,0,2015,ISL
-Iceland,0,2016,ISL
-Iceland,0,2017,ISL
-India,6092674,2015,IND
-India,20054770,2016,IND
-India,825606,2017,IND
-Indonesia,17670972,2015,IDN
-Indonesia,19847507,2016,IDN
-Indonesia,6488527,2017,IDN
-"Iran, Islamic Republic of",7769012,2015,IRN
-"Iran, Islamic Republic of",25526536,2016,IRN
-"Iran, Islamic Republic of",27598220,2017,IRN
-Iraq,1133526129,2015,IRQ
-Iraq,1913285211,2016,IRQ
-Iraq,672464766,2017,IRQ
-Ireland,0,2015,IRL
-Ireland,0,2016,IRL
-Ireland,357933,2017,IRL
-Israel,1962000,2015,ISR
-Israel,822368,2016,ISR
-Italy,2233882,2015,ITA
-Italy,34014,2016,ITA
-Italy,0,2017,ITA
-Jamaica,108155,2016,JAM
-Japan,0,2015,JPN
-Japan,0,2016,JPN
-Japan,0,2017,JPN
-Jordan,932264723,2015,JOR
-Jordan,901390458,2016,JOR
-Jordan,497453240,2017,JOR
-Kazakhstan,0,2015,KAZ
-Kazakhstan,4294504,2016,KAZ
-Kazakhstan,707944,2017,KAZ
-Kenya,207369374,2015,KEN
-Kenya,209677010,2016,KEN
-Kenya,184850027,2017,KEN
-Kiribati,250000,2015,KIR
-"Korea, Democratic People's Republic of",35694849,2015,PRK
-"Korea, Democratic People's Republic of",43778254,2016,PRK
-"Korea, Democratic People's Republic of",29867591,2017,PRK
-"Korea, Republic of",454207,2015,KOR
-"Korea, Republic of",379529,2016,KOR
-"Korea, Republic of",362730,2017,KOR
-Kuwait,0,2015,KWT
-Kuwait,-9809726,2016,KWT
-Kuwait,-7194047,2017,KWT
-Kyrgyzstan,2401772,2015,KGZ
-Kyrgyzstan,1967870,2016,KGZ
-Lao People's Democratic Republic,289768,2015,LAO
-Lao People's Democratic Republic,2157051,2016,LAO
-Lao People's Democratic Republic,181509,2017,LAO
-Latvia,0,2015,LVA
-Latvia,0,2016,LVA
-Lebanon,1280335542,2015,LBN
-Lebanon,1285763631,2016,LBN
-Lebanon,755005236,2017,LBN
-Lesotho,212089,2015,LSO
-Lesotho,27942430,2016,LSO
-Lesotho,1390155,2017,LSO
-Liberia,250651929,2015,LBR
-Liberia,18409803,2016,LBR
-Liberia,4371687,2017,LBR
-Libya,19956529,2015,LBY
-Libya,104960278,2016,LBY
-Libya,67944439,2017,LBY
-Liechtenstein,0,2015,LIE
-Liechtenstein,0,2016,LIE
-Liechtenstein,0,2017,LIE
-Lithuania,0,2015,LTU
-Lithuania,0,2016,LTU
-Lithuania,0,2017,LTU
-Luxembourg,0,2015,LUX
-Luxembourg,0,2016,LUX
-Luxembourg,0,2017,LUX
-"Macedonia, The Former Yugoslav Republic of",15715194,2015,MKD
-"Macedonia, The Former Yugoslav Republic of",40719108,2016,MKD
-"Macedonia, The Former Yugoslav Republic of",1098830,2017,MKD
-Madagascar,20498153,2015,MDG
-Madagascar,62936935,2016,MDG
-Madagascar,39665397,2017,MDG
-Malawi,63407982,2015,MWI
-Malawi,158670634,2016,MWI
-Malawi,12847996,2017,MWI
-Malaysia,2012652,2015,MYS
-Malaysia,575110,2016,MYS
-Malaysia,111433,2017,MYS
-Maldives,88333,2016,MDV
-Mali,207978215,2015,MLI
-Mali,205354473,2016,MLI
-Mali,95812998,2017,MLI
-Malta,0,2015,MLT
-Malta,254582,2016,MLT
-Malta,0,2017,MLT
-Marshall Islands,87146,2015,MHL
-Marshall Islands,2846987,2016,MHL
-Mauritania,60048989,2015,MRT
-Mauritania,37509447,2016,MRT
-Mauritania,30511285,2017,MRT
-Mauritius,0,2015,MUS
-Mexico,0,2015,MEX
-Mexico,0,2016,MEX
-Mexico,496524,2017,MEX
-"Micronesia, Federated States of",13906399,2015,FSM
-"Micronesia, Federated States of",26207039,2016,FSM
-"Micronesia, Federated States of",780540,2017,FSM
-"Moldova, Republic of",4381,2015,MDA
-Monaco,0,2015,MCO
-Monaco,0,2016,MCO
-Monaco,0,2017,MCO
-Mongolia,578207,2015,MNG
-Mongolia,8087671,2016,MNG
-Mongolia,2426673,2017,MNG
-Montenegro,44000,2015,MNE
-Montenegro,0,2016,MNE
-Morocco,2983600,2015,MAR
-Morocco,1725731,2016,MAR
-Morocco,2541553,2017,MAR
-Mozambique,11956010,2015,MOZ
-Mozambique,75299913,2016,MOZ
-Mozambique,25392982,2017,MOZ
-Myanmar,196771888,2015,MMR
-Myanmar,191806388,2016,MMR
-Myanmar,84011557,2017,MMR
-Namibia,1000000,2016,NAM
-Namibia,250000,2017,NAM
-Nauru,0,2016,NRU
-Nepal,544143261,2015,NPL
-Nepal,20229337,2016,NPL
-Nepal,5887042,2017,NPL
-Netherlands,0,2015,NLD
-Netherlands,726075,2016,NLD
-Netherlands,0,2017,NLD
-New Zealand,25642,2015,NZL
-New Zealand,0,2016,NZL
-New Zealand,-11745,2017,NZL
-Nicaragua,2440112,2015,NIC
-Nicaragua,2674123,2016,NIC
-Niger,280930924,2015,NER
-Niger,197603317,2016,NER
-Niger,219337575,2017,NER
-Nigeria,158563431,2015,NGA
-Nigeria,468236986,2016,NGA
-Nigeria,632851138,2017,NGA
-Norway,0,2015,NOR
-Norway,0,2016,NOR
-Norway,0,2017,NOR
-Not specified,2307090019,2015,
-Not specified,2022849581,2016,
-Not specified,-204756195,2017,
-Oman,6677,2015,OMN
-Pakistan,324681481,2015,PAK
-Pakistan,324044982,2016,PAK
-Pakistan,117251754,2017,PAK
-Palau,80000,2015,PLW
-Palau,363379,2016,PLW
-Palau,200000,2017,PLW
-Panama,625182,2015,PAN
-Panama,3584314,2016,PAN
-Panama,196615,2017,PAN
-Papua New Guinea,5878413,2015,PNG
-Papua New Guinea,17090961,2016,PNG
-Papua New Guinea,1500000,2017,PNG
-Paraguay,50000,2015,PRY
-Paraguay,3142484,2016,PRY
-Paraguay,477200,2017,PRY
-Peru,4907634,2015,PER
-Peru,1631924,2016,PER
-Peru,14418359,2017,PER
-Philippines,30066230,2015,PHL
-Philippines,22689116,2016,PHL
-Philippines,9828516,2017,PHL
-Poland,0,2015,POL
-Poland,0,2016,POL
-Poland,0,2017,POL
-Portugal,0,2015,PRT
-Portugal,50000,2016,PRT
-Portugal,0,2017,PRT
-Qatar,0,2015,QAT
-Qatar,0,2016,QAT
-Qatar,5000000,2017,QAT
-Romania,0,2015,ROU
-Romania,0,2016,ROU
-Romania,0,2017,ROU
-Russian Federation,2451600,2015,RUS
-Russian Federation,0,2016,RUS
-Russian Federation,335946,2017,RUS
-Rwanda,57803027,2015,RWA
-Rwanda,59560492,2016,RWA
-Rwanda,13140140,2017,RWA
-Saint Lucia,0,2015,LCA
-Saint Lucia,0,2016,LCA
-Saint Vincent and the Grenadines,325027,2015,VCT
-San Marino,0,2015,SMR
-Saudi Arabia,1000,2015,SAU
-Saudi Arabia,0,2016,SAU
-Saudi Arabia,0,2017,SAU
-Senegal,24898482,2015,SEN
-Senegal,11167778,2016,SEN
-Senegal,3499619,2017,SEN
-Serbia,22304411,2015,SRB
-Serbia,28574046,2016,SRB
-Serbia,17177160,2017,SRB
-Sierra Leone,38936192,2015,SLE
-Sierra Leone,26315011,2016,SLE
-Sierra Leone,4303706,2017,SLE
-Singapore,0,2015,SGP
-Singapore,0,2016,SGP
-Singapore,0,2017,SGP
-Slovakia,73500,2015,SVK
-Slovakia,0,2016,SVK
-Slovakia,0,2017,SVK
-Slovenia,0,2015,SVN
-Slovenia,1861034,2016,SVN
-Slovenia,0,2017,SVN
-Solomon Islands,822358,2015,SLB
-Solomon Islands,1739366,2016,SLB
-Solomon Islands,544278,2017,SLB
-Somalia,591838823,2015,SOM
-Somalia,670829366,2016,SOM
-Somalia,855681714,2017,SOM
-South Africa,0,2015,ZAF
-South Africa,5382412,2016,ZAF
-South Africa,1890027,2017,ZAF
-South Sudan,1359785973,2015,SSD
-South Sudan,1402655946,2016,SSD
-South Sudan,1047329740,2017,SSD
-Spain,0,2015,ESP
-Spain,0,2016,ESP
-Spain,0,2017,ESP
-Sri Lanka,9411497,2015,LKA
-Sri Lanka,13761766,2016,LKA
-Sri Lanka,9125968,2017,LKA
-Sudan,647284977,2015,SDN
-Sudan,641610240,2016,SDN
-Sudan,205745611,2017,SDN
-Swaziland,212089,2015,SWZ
-Swaziland,20772118,2016,SWZ
-Swaziland,2360045,2017,SWZ
-Sweden,0,2015,SWE
-Sweden,0,2016,SWE
-Sweden,223539,2017,SWE
-Switzerland,0,2015,CHE
-Switzerland,438944,2016,CHE
-Switzerland,0,2017,CHE
-Syrian Arab Republic,2366727664,2015,SYR
-Syrian Arab Republic,2632063264,2016,SYR
-Syrian Arab Republic,1445439006,2017,SYR
-"Taiwan, Province of China",1400000,2016,TWN
-Tajikistan,8211032,2015,TJK
-Tajikistan,18682680,2016,TJK
-Tajikistan,2402636,2017,TJK
-"Tanzania, United Republic of",77250413,2015,TZA
-"Tanzania, United Republic of",135059949,2016,TZA
-"Tanzania, United Republic of",31273830,2017,TZA
-Thailand,30447846,2015,THA
-Thailand,21204503,2016,THA
-Thailand,3377757,2017,THA
-Timor-Leste,2861487,2015,TLS
-Timor-Leste,5197991,2016,TLS
-Timor-Leste,2500000,2017,TLS
-Togo,184771,2015,TGO
-Togo,368528,2016,TGO
-Togo,283772,2017,TGO
-Tonga,525978,2015,TON
-Tonga,725573,2016,TON
-Tonga,1602,2017,TON
-Trinidad and Tobago,0,2015,TTO
-Trinidad and Tobago,0,2016,TTO
-Tunisia,7080155,2015,TUN
-Tunisia,2608249,2016,TUN
-Tunisia,2025494,2017,TUN
-Turkey,492321271,2015,TUR
-Turkey,631518891,2016,TUR
-Turkey,793995890,2017,TUR
-Turks and Caicos Islands,0,2016,TCA
-Tuvalu,681284,2015,TUV
-Uganda,133895274,2015,UGA
-Uganda,149339830,2016,UGA
-Uganda,250464864,2017,UGA
-Ukraine,286344904,2015,UKR
-Ukraine,257566949,2016,UKR
-Ukraine,73661891,2017,UKR
-United Arab Emirates,0,2015,ARE
-United Arab Emirates,700000,2016,ARE
-United Arab Emirates,0,2017,ARE
-United Kingdom,0,2015,GBR
-United Kingdom,0,2016,GBR
-United Kingdom,-2069468,2017,GBR
-United States,-6653389,2015,USA
-United States,0,2016,USA
-United States,0,2017,USA
-Uruguay,4406000,2015,URY
-Uruguay,50000,2016,URY
-Uzbekistan,387301,2015,UZB
-Uzbekistan,169875,2016,UZB
-Vanuatu,38081668,2015,VUT
-Vanuatu,3621309,2016,VUT
-Vanuatu,133032,2017,VUT
-"Venezuela, Bolivarian Republic of",1186124,2015,VEN
-"Venezuela, Bolivarian Republic of",2461802,2016,VEN
-"Venezuela, Bolivarian Republic of",107317,2017,VEN
-Viet Nam,3750215,2015,VNM
-Viet Nam,9676433,2016,VNM
-Viet Nam,1129348,2017,VNM
-"Virgin Islands, British",0,2016,VGB
-Western Sahara,919597,2015,ESH
-Western Sahara,4761029,2016,ESH
-Yemen,1803245193,2015,YEM
-Yemen,1791920860,2016,YEM
-Yemen,1219042325,2017,YEM
-Zambia,3300000,2015,ZMB
-Zambia,6129947,2016,ZMB
-Zambia,1811916,2017,ZMB
-Zimbabwe,12455861,2015,ZWE
-Zimbabwe,231355870,2016,ZWE
-Zimbabwe,8698739,2017,ZWE
-occupied Palestinian territory,610984674,2015,PSE
-occupied Palestinian territory,671099444,2016,PSE
-occupied Palestinian territory,256635382,2017,PSE
+#{"source_data": "2017-09-06", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-09-06", "source_url": "https://fts.unocha.org"}
+behavior,Country,totalFunding,year,countryCode
+single,Afghanistan,412529953,2015,AFG
+single,Afghanistan,528542976,2016,AFG
+single,Afghanistan,233773722,2017,AFG
+single,Albania,405335,2015,ALB
+single,Albania,60693,2016,ALB
+single,Albania,144690,2017,ALB
+single,Algeria,37909341,2015,DZA
+single,Algeria,26682970,2016,DZA
+single,Algeria,15054506,2017,DZA
+single,Andorra,0,2015,AND
+single,Andorra,0,2016,AND
+single,Andorra,0,2017,AND
+single,Angola,1280547,2015,AGO
+single,Angola,12710944,2016,AGO
+single,Angola,12467923,2017,AGO
+single,Antigua and Barbuda,0,2015,ATG
+single,Antigua and Barbuda,0,2016,ATG
+single,Antigua and Barbuda,1231263,2017,ATG
+single,Argentina,820880,2015,ARG
+single,Argentina,0,2016,ARG
+single,Argentina,644468,2017,ARG
+single,Armenia,1486223,2015,ARM
+single,Armenia,2993636,2016,ARM
+single,Armenia,886445,2017,ARM
+single,Australia,0,2015,AUS
+single,Australia,0,2016,AUS
+single,Australia,0,2017,AUS
+single,Austria,3699998,2015,AUT
+single,Austria,0,2016,AUT
+single,Austria,0,2017,AUT
+single,Azerbaijan,1098045,2015,AZE
+single,Azerbaijan,587130,2016,AZE
+single,Azerbaijan,1129433,2017,AZE
+single,Bahamas,50250,2015,BHS
+single,Bahamas,657114,2016,BHS
+single,Bahamas,15500,2017,BHS
+single,Bahrain,0,2015,BHR
+single,Bangladesh,40520300,2015,BGD
+single,Bangladesh,38306397,2016,BGD
+single,Bangladesh,29768532,2017,BGD
+single,Barbados,1374860,2015,BRB
+single,Barbados,0,2016,BRB
+single,Belarus,355502,2015,BLR
+single,Belarus,0,2016,BLR
+single,Belarus,335946,2017,BLR
+single,Belgium,0,2015,BEL
+single,Belgium,765027,2016,BEL
+single,Belgium,651466,2017,BEL
+single,Belize,80000,2016,BLZ
+single,Benin,2100806,2015,BEN
+single,Benin,1142705,2016,BEN
+single,Benin,140963,2017,BEN
+single,Bhutan,621449,2015,BTN
+single,Bhutan,332963,2016,BTN
+single,Bhutan,559910,2017,BTN
+single,"Bolivia, Plurinational State of",7570134,2015,BOL
+single,"Bolivia, Plurinational State of",6548812,2016,BOL
+single,"Bolivia, Plurinational State of",3023013,2017,BOL
+single,Bosnia and Herzegovina,2103494,2015,BIH
+single,Bosnia and Herzegovina,2362534,2016,BIH
+single,Bosnia and Herzegovina,1622047,2017,BIH
+single,Botswana,0,2016,BWA
+single,Botswana,0,2017,BWA
+single,Brazil,-2350620,2015,BRA
+single,Brazil,1322130,2016,BRA
+single,Brazil,33860,2017,BRA
+single,Bulgaria,0,2015,BGR
+single,Bulgaria,28351,2016,BGR
+single,Bulgaria,0,2017,BGR
+single,Burkina Faso,47217325,2015,BFA
+single,Burkina Faso,72759031,2016,BFA
+single,Burkina Faso,37565392,2017,BFA
+single,Burundi,16700464,2015,BDI
+single,Burundi,80989260,2016,BDI
+single,Burundi,43335615,2017,BDI
+single,Cambodia,1309752,2015,KHM
+single,Cambodia,11601730,2016,KHM
+single,Cambodia,2257477,2017,KHM
+single,Cameroon,168677889,2015,CMR
+single,Cameroon,189281030,2016,CMR
+single,Cameroon,120080030,2017,CMR
+single,Canada,-1966955,2015,CAN
+single,Canada,50000,2016,CAN
+single,Canada,50000,2017,CAN
+single,Cape Verde,92091,2015,CPV
+single,Cape Verde,5334,2016,CPV
+single,Cape Verde,1000000,2017,CPV
+single,Central African Republic,392982697,2015,CAF
+single,Central African Republic,273452120,2016,CAF
+single,Central African Republic,178931514,2017,CAF
+single,Chad,297072803,2015,TCD
+single,Chad,314218912,2016,TCD
+single,Chad,188423842,2017,TCD
+single,Chile,2125623,2015,CHL
+single,Chile,0,2016,CHL
+single,Chile,5436841,2017,CHL
+single,China,2720626,2015,CHN
+single,China,800000,2016,CHN
+single,China,91612,2017,CHN
+single,Colombia,48731164,2015,COL
+single,Colombia,57612507,2016,COL
+single,Colombia,34850120,2017,COL
+single,Comoros,693428,2015,COM
+single,Comoros,107227,2016,COM
+single,Congo,943755,2015,COG
+single,Congo,25528839,2016,COG
+single,Congo,9038418,2017,COG
+single,"Congo, The Democratic Republic of the",513794522,2015,COD
+single,"Congo, The Democratic Republic of the",479303581,2016,COD
+single,"Congo, The Democratic Republic of the",254878078,2017,COD
+single,Costa Rica,1802152,2016,CRI
+single,Costa Rica,10612245,2017,CRI
+single,Croatia,203163,2015,HRV
+single,Croatia,1075614,2016,HRV
+single,Cuba,3271825,2015,CUB
+single,Cuba,7509121,2016,CUB
+single,Cyprus,0,2015,CYP
+single,Cyprus,0,2016,CYP
+single,Cyprus,0,2017,CYP
+single,Czech Republic,0,2015,CZE
+single,Czech Republic,0,2016,CZE
+single,Czech Republic,0,2017,CZE
+single,Côte d'Ivoire,7618297,2015,CIV
+single,Côte d'Ivoire,17192580,2016,CIV
+single,Côte d'Ivoire,387160,2017,CIV
+single,Denmark,0,2015,DNK
+single,Denmark,10000000,2016,DNK
+single,Denmark,0,2017,DNK
+single,Djibouti,30273736,2015,DJI
+single,Djibouti,30892445,2016,DJI
+single,Djibouti,13903269,2017,DJI
+single,Dominica,1070825,2015,DMA
+single,Dominica,155701,2016,DMA
+single,Dominican Republic,4057341,2015,DOM
+single,Dominican Republic,2521591,2016,DOM
+single,Dominican Republic,901379,2017,DOM
+single,Ecuador,6870645,2015,ECU
+single,Ecuador,50542488,2016,ECU
+single,Ecuador,113132,2017,ECU
+single,Egypt,66388523,2015,EGY
+single,Egypt,68298593,2016,EGY
+single,Egypt,40174233,2017,EGY
+single,El Salvador,3275384,2015,SLV
+single,El Salvador,4955103,2016,SLV
+single,El Salvador,132554,2017,SLV
+single,Eritrea,6387706,2015,ERI
+single,Eritrea,8835723,2016,ERI
+single,Eritrea,1490629,2017,ERI
+single,Estonia,0,2015,EST
+single,Estonia,0,2016,EST
+single,Estonia,0,2017,EST
+single,Ethiopia,514667149,2015,ETH
+single,Ethiopia,1323668747,2016,ETH
+single,Ethiopia,466409318,2017,ETH
+single,Faroe Islands,0,2017,FRO
+single,Fiji,802985,2015,FJI
+single,Fiji,43741715,2016,FJI
+single,Fiji,844012,2017,FJI
+single,Finland,0,2015,FIN
+single,Finland,0,2016,FIN
+single,Finland,0,2017,FIN
+single,France,0,2015,FRA
+single,France,0,2016,FRA
+single,France,0,2017,FRA
+single,French Polynesia,0,2016,PYF
+single,Gambia,1859157,2015,GMB
+single,Gambia,2609392,2016,GMB
+single,Georgia,395758,2015,GEO
+single,Georgia,1566647,2016,GEO
+single,Germany,0,2015,DEU
+single,Germany,0,2016,DEU
+single,Germany,2754123,2017,DEU
+single,Ghana,8960979,2015,GHA
+single,Ghana,697992,2016,GHA
+single,Ghana,274383,2017,GHA
+single,Greece,2651180,2015,GRC
+single,Greece,449072329,2016,GRC
+single,Greece,320140801,2017,GRC
+single,Guatemala,11398855,2015,GTM
+single,Guatemala,19862247,2016,GTM
+single,Guatemala,3843373,2017,GTM
+single,Guinea,44644221,2015,GIN
+single,Guinea,14982638,2016,GIN
+single,Guinea,3375165,2017,GIN
+single,Guinea-Bissau,1426907,2016,GNB
+single,Guinea-Bissau,1220954,2017,GNB
+single,Guyana,0,2015,GUY
+single,Guyana,0,2016,GUY
+single,Haiti,60900844,2015,HTI
+single,Haiti,231845834,2016,HTI
+single,Haiti,96040168,2017,HTI
+single,Holy See (Vatican City State),0,2015,VAT
+single,Holy See (Vatican City State),0,2016,VAT
+single,Honduras,7505527,2015,HND
+single,Honduras,7847700,2016,HND
+single,Honduras,2736548,2017,HND
+single,Hungary,132045,2015,HUN
+single,Hungary,0,2016,HUN
+single,Hungary,0,2017,HUN
+single,Iceland,0,2015,ISL
+single,Iceland,0,2016,ISL
+single,Iceland,0,2017,ISL
+single,India,6092674,2015,IND
+single,India,20054770,2016,IND
+single,India,873702,2017,IND
+single,Indonesia,17670972,2015,IDN
+single,Indonesia,19847507,2016,IDN
+single,Indonesia,6488527,2017,IDN
+single,"Iran, Islamic Republic of",7769012,2015,IRN
+single,"Iran, Islamic Republic of",25526536,2016,IRN
+single,"Iran, Islamic Republic of",27934508,2017,IRN
+single,Iraq,1133526129,2015,IRQ
+single,Iraq,1913280094,2016,IRQ
+single,Iraq,706728436,2017,IRQ
+single,Ireland,0,2015,IRL
+single,Ireland,0,2016,IRL
+single,Ireland,357933,2017,IRL
+single,Israel,1962000,2015,ISR
+single,Israel,822368,2016,ISR
+single,Italy,2233882,2015,ITA
+single,Italy,34014,2016,ITA
+single,Italy,0,2017,ITA
+single,Jamaica,108155,2016,JAM
+single,Japan,0,2015,JPN
+single,Japan,0,2016,JPN
+single,Japan,0,2017,JPN
+single,Jordan,932264723,2015,JOR
+single,Jordan,901390458,2016,JOR
+single,Jordan,504894956,2017,JOR
+single,Kazakhstan,0,2015,KAZ
+single,Kazakhstan,4294504,2016,KAZ
+single,Kazakhstan,707944,2017,KAZ
+single,Kenya,207369374,2015,KEN
+single,Kenya,209677010,2016,KEN
+single,Kenya,190618001,2017,KEN
+single,Kiribati,250000,2015,KIR
+single,"Korea, Democratic People's Republic of",35694849,2015,PRK
+single,"Korea, Democratic People's Republic of",43778254,2016,PRK
+single,"Korea, Democratic People's Republic of",36814788,2017,PRK
+single,"Korea, Republic of",454207,2015,KOR
+single,"Korea, Republic of",379529,2016,KOR
+single,"Korea, Republic of",362730,2017,KOR
+single,Kuwait,0,2015,KWT
+single,Kuwait,-9809726,2016,KWT
+single,Kuwait,-7194047,2017,KWT
+single,Kyrgyzstan,2401772,2015,KGZ
+single,Kyrgyzstan,1967870,2016,KGZ
+single,Kyrgyzstan,561492,2017,KGZ
+single,Lao People's Democratic Republic,289768,2015,LAO
+single,Lao People's Democratic Republic,2157051,2016,LAO
+single,Lao People's Democratic Republic,181509,2017,LAO
+single,Latvia,0,2015,LVA
+single,Latvia,0,2016,LVA
+single,Lebanon,1280335542,2015,LBN
+single,Lebanon,1285763631,2016,LBN
+single,Lebanon,725934732,2017,LBN
+single,Lesotho,212089,2015,LSO
+single,Lesotho,27942430,2016,LSO
+single,Lesotho,1390155,2017,LSO
+single,Liberia,250651929,2015,LBR
+single,Liberia,18409803,2016,LBR
+single,Liberia,4371687,2017,LBR
+single,Libya,19956529,2015,LBY
+single,Libya,103960278,2016,LBY
+single,Libya,88485319,2017,LBY
+single,Liechtenstein,0,2015,LIE
+single,Liechtenstein,0,2016,LIE
+single,Liechtenstein,0,2017,LIE
+single,Lithuania,0,2015,LTU
+single,Lithuania,0,2016,LTU
+single,Lithuania,0,2017,LTU
+single,Luxembourg,0,2015,LUX
+single,Luxembourg,0,2016,LUX
+single,Luxembourg,0,2017,LUX
+single,"Macedonia, The Former Yugoslav Republic of",11120896,2015,MKD
+single,"Macedonia, The Former Yugoslav Republic of",45313406,2016,MKD
+single,"Macedonia, The Former Yugoslav Republic of",1098830,2017,MKD
+single,Madagascar,20498153,2015,MDG
+single,Madagascar,62936935,2016,MDG
+single,Madagascar,53804899,2017,MDG
+single,Malawi,63407982,2015,MWI
+single,Malawi,158670634,2016,MWI
+single,Malawi,12847996,2017,MWI
+single,Malaysia,2012652,2015,MYS
+single,Malaysia,575110,2016,MYS
+single,Malaysia,111433,2017,MYS
+single,Maldives,88333,2016,MDV
+single,Mali,207978215,2015,MLI
+single,Mali,205354473,2016,MLI
+single,Mali,101465760,2017,MLI
+single,Malta,0,2015,MLT
+single,Malta,254582,2016,MLT
+single,Malta,0,2017,MLT
+single,Marshall Islands,87146,2015,MHL
+single,Marshall Islands,2846987,2016,MHL
+single,Mauritania,60048989,2015,MRT
+single,Mauritania,37509447,2016,MRT
+single,Mauritania,30526795,2017,MRT
+single,Mauritius,0,2015,MUS
+single,Mexico,0,2015,MEX
+single,Mexico,0,2016,MEX
+single,Mexico,496524,2017,MEX
+single,"Micronesia, Federated States of",13906399,2015,FSM
+single,"Micronesia, Federated States of",26207039,2016,FSM
+single,"Micronesia, Federated States of",780540,2017,FSM
+single,"Moldova, Republic of",4381,2015,MDA
+single,Monaco,0,2015,MCO
+single,Monaco,0,2016,MCO
+single,Monaco,0,2017,MCO
+single,Mongolia,578207,2015,MNG
+single,Mongolia,8087671,2016,MNG
+single,Mongolia,3058066,2017,MNG
+single,Montenegro,44000,2015,MNE
+single,Montenegro,0,2016,MNE
+single,Montenegro,26069,2017,MNE
+single,Morocco,2983600,2015,MAR
+single,Morocco,1725731,2016,MAR
+single,Morocco,2671376,2017,MAR
+single,Mozambique,11956010,2015,MOZ
+single,Mozambique,75299913,2016,MOZ
+single,Mozambique,25392982,2017,MOZ
+single,Myanmar,196771888,2015,MMR
+single,Myanmar,191806388,2016,MMR
+single,Myanmar,94752697,2017,MMR
+single,Namibia,1000000,2016,NAM
+single,Namibia,250000,2017,NAM
+single,Nauru,0,2016,NRU
+single,Nepal,544143261,2015,NPL
+single,Nepal,20229337,2016,NPL
+single,Nepal,7488163,2017,NPL
+single,Netherlands,0,2015,NLD
+single,Netherlands,726075,2016,NLD
+single,Netherlands,0,2017,NLD
+single,New Zealand,25642,2015,NZL
+single,New Zealand,0,2016,NZL
+single,New Zealand,-11745,2017,NZL
+single,Nicaragua,2440112,2015,NIC
+single,Nicaragua,2674123,2016,NIC
+single,Niger,280930924,2015,NER
+single,Niger,196175261,2016,NER
+single,Niger,274311217,2017,NER
+single,Nigeria,158563431,2015,NGA
+single,Nigeria,469180090,2016,NGA
+single,Nigeria,673824204,2017,NGA
+single,Norway,0,2015,NOR
+single,Norway,0,2016,NOR
+single,Norway,0,2017,NOR
+single,Not specified,2307090019,2015,
+single,Not specified,2020930666,2016,
+single,Not specified,228401440,2017,
+single,Oman,6677,2015,OMN
+single,Pakistan,324681481,2015,PAK
+single,Pakistan,324044982,2016,PAK
+single,Pakistan,118341532,2017,PAK
+single,Palau,80000,2015,PLW
+single,Palau,363379,2016,PLW
+single,Palau,200000,2017,PLW
+single,Panama,625182,2015,PAN
+single,Panama,3584314,2016,PAN
+single,Panama,342183,2017,PAN
+single,Papua New Guinea,5878413,2015,PNG
+single,Papua New Guinea,17090961,2016,PNG
+single,Papua New Guinea,1500000,2017,PNG
+single,Paraguay,50000,2015,PRY
+single,Paraguay,3142484,2016,PRY
+single,Paraguay,477200,2017,PRY
+single,Peru,4907634,2015,PER
+single,Peru,1631924,2016,PER
+single,Peru,14718359,2017,PER
+single,Philippines,30066230,2015,PHL
+single,Philippines,22689116,2016,PHL
+single,Philippines,13362158,2017,PHL
+single,Poland,0,2015,POL
+single,Poland,0,2016,POL
+single,Poland,0,2017,POL
+single,Portugal,0,2015,PRT
+single,Portugal,50000,2016,PRT
+single,Portugal,0,2017,PRT
+single,Qatar,0,2015,QAT
+single,Qatar,0,2016,QAT
+single,Qatar,5000000,2017,QAT
+single,Romania,0,2015,ROU
+single,Romania,0,2016,ROU
+single,Romania,0,2017,ROU
+single,Russian Federation,2451600,2015,RUS
+single,Russian Federation,0,2016,RUS
+single,Russian Federation,335946,2017,RUS
+single,Rwanda,57803027,2015,RWA
+single,Rwanda,59560492,2016,RWA
+single,Rwanda,13140140,2017,RWA
+single,Saint Lucia,0,2015,LCA
+single,Saint Lucia,0,2016,LCA
+single,Saint Vincent and the Grenadines,325027,2015,VCT
+single,San Marino,0,2015,SMR
+single,Saudi Arabia,1000,2015,SAU
+single,Saudi Arabia,0,2016,SAU
+single,Saudi Arabia,0,2017,SAU
+single,Senegal,24898482,2015,SEN
+single,Senegal,11167778,2016,SEN
+single,Senegal,3499619,2017,SEN
+single,Serbia,22304411,2015,SRB
+single,Serbia,28574046,2016,SRB
+single,Serbia,17365160,2017,SRB
+single,Sierra Leone,38936192,2015,SLE
+single,Sierra Leone,26315011,2016,SLE
+single,Sierra Leone,4521466,2017,SLE
+single,Singapore,0,2015,SGP
+single,Singapore,0,2016,SGP
+single,Singapore,0,2017,SGP
+single,Slovakia,73500,2015,SVK
+single,Slovakia,0,2016,SVK
+single,Slovakia,0,2017,SVK
+single,Slovenia,0,2015,SVN
+single,Slovenia,1861034,2016,SVN
+single,Slovenia,0,2017,SVN
+single,Solomon Islands,822358,2015,SLB
+single,Solomon Islands,1739366,2016,SLB
+single,Solomon Islands,544278,2017,SLB
+single,Somalia,591838823,2015,SOM
+single,Somalia,671389904,2016,SOM
+single,Somalia,1009822797,2017,SOM
+single,South Africa,0,2015,ZAF
+single,South Africa,5382412,2016,ZAF
+single,South Africa,1890027,2017,ZAF
+single,South Sudan,1359785973,2015,SSD
+single,South Sudan,1402517180,2016,SSD
+single,South Sudan,1293053582,2017,SSD
+single,Spain,0,2015,ESP
+single,Spain,0,2016,ESP
+single,Spain,0,2017,ESP
+single,Sri Lanka,9411497,2015,LKA
+single,Sri Lanka,13761766,2016,LKA
+single,Sri Lanka,11571821,2017,LKA
+single,Sudan,647284977,2015,SDN
+single,Sudan,641410433,2016,SDN
+single,Sudan,259531598,2017,SDN
+single,Swaziland,212089,2015,SWZ
+single,Swaziland,20772118,2016,SWZ
+single,Swaziland,2360045,2017,SWZ
+single,Sweden,0,2015,SWE
+single,Sweden,0,2016,SWE
+single,Sweden,223539,2017,SWE
+single,Switzerland,0,2015,CHE
+single,Switzerland,438944,2016,CHE
+single,Switzerland,0,2017,CHE
+single,Syrian Arab Republic,2366727664,2015,SYR
+single,Syrian Arab Republic,2637445598,2016,SYR
+single,Syrian Arab Republic,1513065003,2017,SYR
+single,"Taiwan, Province of China",1400000,2016,TWN
+single,Tajikistan,8211032,2015,TJK
+single,Tajikistan,18682680,2016,TJK
+single,Tajikistan,2801157,2017,TJK
+single,"Tanzania, United Republic of",77250413,2015,TZA
+single,"Tanzania, United Republic of",135059949,2016,TZA
+single,"Tanzania, United Republic of",31352586,2017,TZA
+single,Thailand,30447846,2015,THA
+single,Thailand,21204503,2016,THA
+single,Thailand,4049649,2017,THA
+single,Timor-Leste,2861487,2015,TLS
+single,Timor-Leste,5197991,2016,TLS
+single,Timor-Leste,2500000,2017,TLS
+single,Togo,184771,2015,TGO
+single,Togo,368528,2016,TGO
+single,Togo,283772,2017,TGO
+single,Tonga,525978,2015,TON
+single,Tonga,725573,2016,TON
+single,Tonga,1602,2017,TON
+single,Trinidad and Tobago,0,2015,TTO
+single,Trinidad and Tobago,0,2016,TTO
+single,Tunisia,7080155,2015,TUN
+single,Tunisia,2608249,2016,TUN
+single,Tunisia,2025494,2017,TUN
+single,Turkey,492321271,2015,TUR
+single,Turkey,631518891,2016,TUR
+single,Turkey,329106189,2017,TUR
+single,Turks and Caicos Islands,0,2016,TCA
+single,Tuvalu,681284,2015,TUV
+single,Uganda,134231974,2015,UGA
+single,Uganda,149339830,2016,UGA
+single,Uganda,262448795,2017,UGA
+single,Ukraine,270573092,2015,UKR
+single,Ukraine,259743573,2016,UKR
+single,Ukraine,89897434,2017,UKR
+single,United Arab Emirates,0,2015,ARE
+single,United Arab Emirates,700000,2016,ARE
+single,United Arab Emirates,0,2017,ARE
+single,United Kingdom,0,2015,GBR
+single,United Kingdom,0,2016,GBR
+single,United Kingdom,-2069468,2017,GBR
+single,United States,-6653389,2015,USA
+single,United States,0,2016,USA
+single,United States,0,2017,USA
+single,Uruguay,4406000,2015,URY
+single,Uruguay,50000,2016,URY
+single,Uzbekistan,387301,2015,UZB
+single,Uzbekistan,169875,2016,UZB
+single,Vanuatu,37205968,2015,VUT
+single,Vanuatu,3621309,2016,VUT
+single,Vanuatu,133032,2017,VUT
+single,"Venezuela, Bolivarian Republic of",1186124,2015,VEN
+single,"Venezuela, Bolivarian Republic of",2461802,2016,VEN
+single,"Venezuela, Bolivarian Republic of",632312,2017,VEN
+single,Viet Nam,3750215,2015,VNM
+single,Viet Nam,9676433,2016,VNM
+single,Viet Nam,1129348,2017,VNM
+single,"Virgin Islands, British",0,2016,VGB
+single,Western Sahara,919597,2015,ESH
+single,Western Sahara,4761029,2016,ESH
+single,Yemen,1803245193,2015,YEM
+single,Yemen,1792097507,2016,YEM
+single,Yemen,1466452674,2017,YEM
+single,Zambia,3300000,2015,ZMB
+single,Zambia,6129947,2016,ZMB
+single,Zambia,1811916,2017,ZMB
+single,Zimbabwe,12455861,2015,ZWE
+single,Zimbabwe,231355870,2016,ZWE
+single,Zimbabwe,8798739,2017,ZWE
+single,occupied Palestinian territory,610984674,2015,PSE
+single,occupied Palestinian territory,664375302,2016,PSE
+single,occupied Palestinian territory,275228903,2017,PSE
