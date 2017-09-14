@@ -17,32 +17,32 @@
     },
     "Strand_01_Needs": {
         "Appeal funds committed to date": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Appeal funds requested": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Appeal funds still needed": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Appeal percent funded": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
@@ -180,32 +180,32 @@
     },
     "Strand_03_Aid": {
         "Appeal funds requested": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Appeal percent funded": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Humanitarian aid received": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
             "update_frequency": "Hourly"
         },
         "Rank of humanitarian aid received": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",
@@ -229,8 +229,8 @@
             "update_frequency": "Every six months"
         },
         "Top 5 donors of humanitarian aid": {
-            "extract_date": "2017-09-06",
-            "source_data": "2017-09-06",
+            "extract_date": "2017-09-14",
+            "source_data": "2017-09-14",
             "source_key": "FTS",
             "source_org": "UNOCHA: Financial Tracking Service",
             "source_url": "https://fts.unocha.org",

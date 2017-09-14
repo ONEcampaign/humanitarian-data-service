@@ -35,10 +35,10 @@
             },
             "Fragile State Index Rank": "9th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 181036016,
+                "Appeal funds committed to date": 182290465,
                 "Appeal funds requested": 550236457,
-                "Appeal funds still needed": 369200441,
-                "Appeal percent funded": 0.3290149420251883,
+                "Appeal funds still needed": 367945992,
+                "Appeal percent funded": 0.3312947782374951,
                 "Needs_Data": {
                     "People in need of health support": 6300000.0,
                     "People in need of protection": 3700000.0,
@@ -63,7 +63,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 550236457,
-                "Appeal percent funded": 0.3290149420251883,
+                "Appeal percent funded": 0.3312947782374951,
                 "Humanitarian aid received": 528542976,
                 "Rank of humanitarian aid received": "13th",
                 "Rank of total population of concern": "11th",
@@ -535,10 +535,10 @@
             },
             "Fragile State Index Rank": "17th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 34824868,
+                "Appeal funds committed to date": 34219019,
                 "Appeal funds requested": 73700000,
-                "Appeal funds still needed": 38875132,
-                "Appeal percent funded": 0.4725219538670285,
+                "Appeal funds still needed": 39480981,
+                "Appeal percent funded": 0.4643014789687924,
                 "Needs_Data": {
                     "Children in need of education": 582000.0,
                     "People in need of health support": 3100000.0,
@@ -564,7 +564,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 73700000,
-                "Appeal percent funded": 0.4725219538670285,
+                "Appeal percent funded": 0.4643014789687924,
                 "Humanitarian aid received": 80989260,
                 "Rank of humanitarian aid received": "32nd",
                 "Rank of total population of concern": "45th",
@@ -1248,10 +1248,10 @@
             },
             "Fragile State Index Rank": "3rd",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 146267992,
+                "Appeal funds committed to date": 147598586,
                 "Appeal funds requested": 497300000,
-                "Appeal funds still needed": 351032008,
-                "Appeal percent funded": 0.2941242549768751,
+                "Appeal funds still needed": 349701414,
+                "Appeal percent funded": 0.2967998914136336,
                 "Needs_Data": {
                     "Children in need of education": 400000.0,
                     "People in need of health support": 1300000.0,
@@ -1277,7 +1277,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 497300000,
-                "Appeal percent funded": 0.2941242549768751,
+                "Appeal percent funded": 0.2967998914136336,
                 "Humanitarian aid received": 273452120,
                 "Rank of humanitarian aid received": "19th",
                 "Rank of total population of concern": "30th",
@@ -1520,10 +1520,10 @@
             },
             "Fragile State Index Rank": "26th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 99585301,
+                "Appeal funds committed to date": 100885301,
                 "Appeal funds requested": 309643212,
-                "Appeal funds still needed": 210057911,
-                "Appeal percent funded": 0.3216130602598193,
+                "Appeal funds still needed": 208757911,
+                "Appeal percent funded": 0.3258114406848357,
                 "Needs_Data": {
                     "Children in need of education": 450000.0,
                     "People in need of health support": 1500000.0,
@@ -1549,14 +1549,14 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 309643212,
-                "Appeal percent funded": 0.3216130602598193,
-                "Humanitarian aid received": 189281030,
+                "Appeal percent funded": 0.3258114406848357,
+                "Humanitarian aid received": 188481030,
                 "Rank of humanitarian aid received": "27th",
                 "Rank of total population of concern": "26th",
                 "Top 5 donors of humanitarian aid": [
                     {
                         "organization_name": "United States of America, Government of",
-                        "totalFunding": 73016268
+                        "totalFunding": 72216268
                     },
                     {
                         "organization_name": "European Commission's Humanitarian Aid and Civil Protection Department",
@@ -1588,10 +1588,10 @@
             },
             "Fragile State Index Rank": "7th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 213956558,
+                "Appeal funds committed to date": 215868690,
                 "Appeal funds requested": 812614297,
-                "Appeal funds still needed": 598657739,
-                "Appeal percent funded": 0.2632941098746137,
+                "Appeal funds still needed": 596745607,
+                "Appeal percent funded": 0.2656471720925186,
                 "Needs_Data": {
                     "Children in need of education": 3000000.0,
                     "People in need of health support": 6400000.0,
@@ -1617,7 +1617,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 812614297,
-                "Appeal percent funded": 0.2632941098746137,
+                "Appeal percent funded": 0.2656471720925186,
                 "Humanitarian aid received": 479303581,
                 "Rank of humanitarian aid received": "14th",
                 "Rank of total population of concern": "4th",
@@ -1655,12 +1655,19 @@
                 "Appeal funds requested": 23700000,
                 "Appeal funds still needed": 15594582,
                 "Appeal percent funded": 0.34200075949367087,
-                "Needs_Data": {},
-                "Place with similar population as people in need": "",
-                "Population of place with similar population": "",
-                "Source of needs data": "",
-                "Source type of needs data": "",
-                "Total people in need": ""
+                "Needs_Data": {
+                    "Children in need of education": 16748.0,
+                    "People in need of health support": 166000.0,
+                    "People in need of protection": 166000.0,
+                    "People in need of shelter": 55000.0,
+                    "People in need of water, sanitization & hygiene": 166000.0,
+                    "People who are food insecure": 166000.0
+                },
+                "Place with similar population as people in need": "Isle of Man",
+                "Population of place with similar population": 87780.0,
+                "Source of needs data": "http://reliefweb.int/sites/reliefweb.int/files/resources/hrp_Congo_2017_francais.pdf",
+                "Source type of needs data": "Humanitarian Response Plan",
+                "Total people in need": 166000.0
             },
             "Strand_02_People": {
                 "Fragile State Index Score": 93.4,
@@ -2664,10 +2671,10 @@
             },
             "Fragile State Index Rank": "15th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 298791868,
-                "Appeal funds requested": 948634696,
-                "Appeal funds still needed": 649842828,
-                "Appeal percent funded": 0.3149704193404286,
+                "Appeal funds committed to date": 300421688,
+                "Appeal funds requested": 1259300000,
+                "Appeal funds still needed": 958878312,
+                "Appeal percent funded": 0.23856244580322403,
                 "Needs_Data": {
                     "Children in need of education": 2900000.0,
                     "People in need of health support": 4370000.0,
@@ -2692,8 +2699,8 @@
                 "Total refugees and asylum-seekers (origin)": 162020
             },
             "Strand_03_Aid": {
-                "Appeal funds requested": 948634696,
-                "Appeal percent funded": 0.3149704193404286,
+                "Appeal funds requested": 1259300000,
+                "Appeal percent funded": 0.23856244580322403,
                 "Humanitarian aid received": 1323668747,
                 "Rank of humanitarian aid received": "6th",
                 "Rank of total population of concern": "20th",
@@ -3315,13 +3322,13 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 449072329,
+                "Humanitarian aid received": 449354178,
                 "Rank of humanitarian aid received": "16th",
                 "Rank of total population of concern": "60th",
                 "Top 5 donors of humanitarian aid": [
                     {
                         "organization_name": "European Commission's Humanitarian Aid and Civil Protection Department",
-                        "totalFunding": 213177612
+                        "totalFunding": 213459461
                     },
                     {
                         "organization_name": "European Commission",
@@ -3700,10 +3707,10 @@
             },
             "Fragile State Index Rank": "11th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 59051773,
+                "Appeal funds committed to date": 65945385,
                 "Appeal funds requested": 291459691,
-                "Appeal funds still needed": 232407918,
-                "Appeal percent funded": 0.20260699789186284,
+                "Appeal funds still needed": 225514306,
+                "Appeal percent funded": 0.2262590232417422,
                 "Needs_Data": {
                     "Children in need of education": 300000.0,
                     "People in need of health support": 1800000.0,
@@ -3729,7 +3736,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 291459691,
-                "Appeal percent funded": 0.20260699789186284,
+                "Appeal percent funded": 0.2262590232417422,
                 "Humanitarian aid received": 231845834,
                 "Rank of humanitarian aid received": "21st",
                 "Rank of total population of concern": "131st",
@@ -4119,10 +4126,10 @@
             },
             "Fragile State Index Rank": "10th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 475998738,
+                "Appeal funds committed to date": 548386244,
                 "Appeal funds requested": 984647064,
-                "Appeal funds still needed": 508648326,
-                "Appeal percent funded": 0.48342066452350685,
+                "Appeal funds still needed": 436260820,
+                "Appeal percent funded": 0.5569368599671161,
                 "Needs_Data": {
                     "Children in need of education": 3700000.0,
                     "People in need of health support": 9700000.0,
@@ -4148,14 +4155,14 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 984647064,
-                "Appeal percent funded": 0.48342066452350685,
-                "Humanitarian aid received": 1913280094,
+                "Appeal percent funded": 0.5569368599671161,
+                "Humanitarian aid received": 1923682362,
                 "Rank of humanitarian aid received": "3rd",
                 "Rank of total population of concern": "3rd",
                 "Top 5 donors of humanitarian aid": [
                     {
                         "organization_name": "Germany, Government of",
-                        "totalFunding": 548972666
+                        "totalFunding": 559374934
                     },
                     {
                         "organization_name": "United States of America, Government of",
@@ -4338,7 +4345,7 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 901390458,
+                "Humanitarian aid received": 890746904,
                 "Rank of humanitarian aid received": "8th",
                 "Rank of total population of concern": "21st",
                 "Top 5 donors of humanitarian aid": [
@@ -4763,7 +4770,7 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 1285763631,
+                "Humanitarian aid received": 1273083164,
                 "Rank of humanitarian aid received": "7th",
                 "Rank of total population of concern": "17th",
                 "Top 5 donors of humanitarian aid": [
@@ -5392,10 +5399,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "55th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 10498086,
+                "Appeal funds committed to date": 17224433,
                 "Appeal funds requested": 20067549,
-                "Appeal funds still needed": 9569463,
-                "Appeal percent funded": 0.5231374294887732,
+                "Appeal funds still needed": 2843116,
+                "Appeal percent funded": 0.8583227079699668,
                 "Needs_Data": {
                     "Children in need of education": 100000.0,
                     "People in need of health support": 250000.0,
@@ -5419,7 +5426,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 20067549,
-                "Appeal percent funded": 0.5231374294887732,
+                "Appeal percent funded": 0.8583227079699668,
                 "Humanitarian aid received": 62936935,
                 "Rank of humanitarian aid received": "36th",
                 "Rank of total population of concern": "158th",
@@ -5641,10 +5648,10 @@
             },
             "Fragile State Index Rank": "31st",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 79192133,
+                "Appeal funds committed to date": 99407555,
                 "Appeal funds requested": 304734494,
-                "Appeal funds still needed": 225542361,
-                "Appeal percent funded": 0.2598725597503248,
+                "Appeal funds still needed": 205326939,
+                "Appeal percent funded": 0.32621037971500527,
                 "Needs_Data": {
                     "Children in need of education": 220000.0,
                     "People in need of health support": 1370000.0,
@@ -5670,7 +5677,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 304734494,
-                "Appeal percent funded": 0.2598725597503248,
+                "Appeal percent funded": 0.32621037971500527,
                 "Humanitarian aid received": 205354473,
                 "Rank of humanitarian aid received": "24th",
                 "Rank of total population of concern": "57th",
@@ -5738,10 +5745,10 @@
             },
             "Fragile State Index Rank": "35th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 73175622,
+                "Appeal funds committed to date": 76414620,
                 "Appeal funds requested": 150300000,
-                "Appeal funds still needed": 77124378,
-                "Appeal percent funded": 0.48686375249500996,
+                "Appeal funds still needed": 73885380,
+                "Appeal percent funded": 0.5084139720558882,
                 "Needs_Data": {
                     "Children in need of education": 141000.0,
                     "People in need of health support": 474000.0,
@@ -5767,7 +5774,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 150300000,
-                "Appeal percent funded": 0.48686375249500996,
+                "Appeal percent funded": 0.5084139720558882,
                 "Humanitarian aid received": 191806388,
                 "Rank of humanitarian aid received": "26th",
                 "Rank of total population of concern": "14th",
@@ -5959,10 +5966,10 @@
             },
             "Fragile State Index Rank": "28th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 25960989,
+                "Appeal funds committed to date": 27033950,
                 "Appeal funds requested": 74500000,
-                "Appeal funds still needed": 48539011,
-                "Appeal percent funded": 0.3484696510067114,
+                "Appeal funds still needed": 47466050,
+                "Appeal percent funded": 0.3628718120805369,
                 "Needs_Data": {
                     "People in need of health support": 203000.0,
                     "People in need of protection": 371000.0,
@@ -5986,7 +5993,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 74500000,
-                "Appeal percent funded": 0.3484696510067114,
+                "Appeal percent funded": 0.3628718120805369,
                 "Humanitarian aid received": 37509447,
                 "Rank of humanitarian aid received": "44th",
                 "Rank of total population of concern": "63rd",
@@ -6272,10 +6279,10 @@
             },
             "Fragile State Index Rank": "20th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 237250566,
+                "Appeal funds committed to date": 238394763,
                 "Appeal funds requested": 287273789,
-                "Appeal funds still needed": 50023223,
-                "Appeal percent funded": 0.8258691710993515,
+                "Appeal funds still needed": 48879026,
+                "Appeal percent funded": 0.8298521206193301,
                 "Needs_Data": {
                     "Children in need of education": 200000.0,
                     "People in need of health support": 800000.0,
@@ -6301,7 +6308,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 287273789,
-                "Appeal percent funded": 0.8258691710993515,
+                "Appeal percent funded": 0.8298521206193301,
                 "Humanitarian aid received": 196175261,
                 "Rank of humanitarian aid received": "25th",
                 "Rank of total population of concern": "37th",
@@ -6364,10 +6371,10 @@
             },
             "Fragile State Index Rank": "13th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 507921265,
+                "Appeal funds committed to date": 660776583,
                 "Appeal funds requested": 1054431494,
-                "Appeal funds still needed": 546510229,
-                "Appeal percent funded": 0.4817015310052945,
+                "Appeal funds still needed": 393654911,
+                "Appeal percent funded": 0.6266662052110519,
                 "Needs_Data": {
                     "Children in need of education": 2966802.0,
                     "People in need of health support": 12400000.0,
@@ -6393,7 +6400,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1054431494,
-                "Appeal percent funded": 0.4817015310052945,
+                "Appeal percent funded": 0.6266662052110519,
                 "Humanitarian aid received": 469180090,
                 "Rank of humanitarian aid received": "15th",
                 "Rank of total population of concern": "7th",
@@ -6823,10 +6830,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "104th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 6978317,
+                "Appeal funds committed to date": 7291143,
                 "Appeal funds requested": 39472408,
-                "Appeal funds still needed": 32494091,
-                "Appeal percent funded": 0.17678974639702752,
+                "Appeal funds still needed": 32181265,
+                "Appeal percent funded": 0.18471492795676414,
                 "Needs_Data": {
                     "Children in need of education": 1638000.0,
                     "People in need of health support": 737641.0,
@@ -6852,7 +6859,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 39472408,
-                "Appeal percent funded": 0.17678974639702752,
+                "Appeal percent funded": 0.18471492795676414,
                 "Humanitarian aid received": 1631924,
                 "Rank of humanitarian aid received": "99th",
                 "Rank of total population of concern": "115th",
@@ -7236,7 +7243,7 @@
                     },
                     {
                         "organization_name": "Germany, Government of",
-                        "totalFunding": 86225105
+                        "totalFunding": 74402124
                     },
                     {
                         "organization_name": "Japan, Government of",
@@ -7520,10 +7527,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "5th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 206891659,
+                "Appeal funds committed to date": 304348062,
                 "Appeal funds requested": 803966226,
-                "Appeal funds still needed": 597074567,
-                "Appeal percent funded": 0.2573387442272979,
+                "Appeal funds still needed": 499618164,
+                "Appeal percent funded": 0.37855826794395714,
                 "Needs_Data": {
                     "Children in need of education": 1700000.0,
                     "People in need of health support": 4300000.0,
@@ -7549,7 +7556,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 803966226,
-                "Appeal percent funded": 0.2573387442272979,
+                "Appeal percent funded": 0.37855826794395714,
                 "Humanitarian aid received": 641410433,
                 "Rank of humanitarian aid received": "11th",
                 "Rank of total population of concern": "9th",
@@ -7902,10 +7909,10 @@
             },
             "Fragile State Index Rank": "2nd",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 712197533,
+                "Appeal funds committed to date": 713956661,
                 "Appeal funds requested": 1508830247,
-                "Appeal funds still needed": 796632714,
-                "Appeal percent funded": 0.47201965523693534,
+                "Appeal funds still needed": 794873586,
+                "Appeal percent funded": 0.47318554384733247,
                 "Needs_Data": {
                     "Children in need of education": 3000000.0,
                     "People in need of health support": 3300000.0,
@@ -7931,7 +7938,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1508830247,
-                "Appeal percent funded": 0.47201965523693534,
+                "Appeal percent funded": 0.47318554384733247,
                 "Humanitarian aid received": 671389904,
                 "Rank of humanitarian aid received": "9th",
                 "Rank of total population of concern": "13th",
@@ -8063,10 +8070,10 @@
             },
             "Fragile State Index Rank": "1st",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 1077436253,
+                "Appeal funds committed to date": 1079094083,
                 "Appeal funds requested": 1639694893,
-                "Appeal funds still needed": 562258640,
-                "Appeal percent funded": 0.6570955716210797,
+                "Appeal funds still needed": 560600810,
+                "Appeal percent funded": 0.6581066316707739,
                 "Needs_Data": {
                     "Children in need of education": 1300000.0,
                     "People in need of health support": 5400000.0,
@@ -8092,7 +8099,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 1639694893,
-                "Appeal percent funded": 0.6570955716210797,
+                "Appeal percent funded": 0.6581066316707739,
                 "Humanitarian aid received": 1402517180,
                 "Rank of humanitarian aid received": "5th",
                 "Rank of total population of concern": "8th",
@@ -8413,10 +8420,10 @@
             },
             "Fragile State Index Rank": "5th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 1188873434,
-                "Appeal funds requested": 3349508300,
-                "Appeal funds still needed": 2160634866,
-                "Appeal percent funded": 0.35493968890896616,
+                "Appeal funds committed to date": 1213959456,
+                "Appeal funds requested": 3351303574,
+                "Appeal funds still needed": 2137344118,
+                "Appeal percent funded": 0.3622350017521868,
                 "Needs_Data": {
                     "Children in need of education": 6100000.0,
                     "People in need of health support": 12800000.0,
@@ -8441,9 +8448,9 @@
                 "Total refugees and asylum-seekers (origin)": 5708595
             },
             "Strand_03_Aid": {
-                "Appeal funds requested": 3349508300,
-                "Appeal percent funded": 0.35493968890896616,
-                "Humanitarian aid received": 2637445598,
+                "Appeal funds requested": 3351303574,
+                "Appeal percent funded": 0.3622350017521868,
+                "Humanitarian aid received": 2635763125,
                 "Rank of humanitarian aid received": "1st",
                 "Rank of total population of concern": "2nd",
                 "Top 5 donors of humanitarian aid": [
@@ -8453,7 +8460,7 @@
                     },
                     {
                         "organization_name": "Germany, Government of",
-                        "totalFunding": 473920543
+                        "totalFunding": 473682765
                     },
                     {
                         "organization_name": "United Kingdom, Government of",
@@ -8505,10 +8512,10 @@
             },
             "Fragile State Index Rank": "8th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 175397293,
+                "Appeal funds committed to date": 178796354,
                 "Appeal funds requested": 588608263,
-                "Appeal funds still needed": 413210970,
-                "Appeal percent funded": 0.29798646064878637,
+                "Appeal funds still needed": 409811909,
+                "Appeal percent funded": 0.30376120289021497,
                 "Needs_Data": {
                     "Children in need of education": 600000.0,
                     "People in need of health support": 1900000.0,
@@ -8534,7 +8541,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 588608263,
-                "Appeal percent funded": 0.29798646064878637,
+                "Appeal percent funded": 0.30376120289021497,
                 "Humanitarian aid received": 314218912,
                 "Rank of humanitarian aid received": "18th",
                 "Rank of total population of concern": "27th",
@@ -9038,7 +9045,7 @@
             "Strand_03_Aid": {
                 "Appeal funds requested": "",
                 "Appeal percent funded": "",
-                "Humanitarian aid received": 631518891,
+                "Humanitarian aid received": 631541411,
                 "Rank of humanitarian aid received": "12th",
                 "Rank of total population of concern": "6th",
                 "Top 5 donors of humanitarian aid": [
@@ -9060,7 +9067,7 @@
                     },
                     {
                         "organization_name": "Germany, Government of",
-                        "totalFunding": 54673735
+                        "totalFunding": 54696255
                     }
                 ]
             }
@@ -9228,10 +9235,10 @@
             },
             "Fragile State Index Rank": "90th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 49323647,
-                "Appeal funds requested": 214058212,
-                "Appeal funds still needed": 164734565,
-                "Appeal percent funded": 0.2304216527791982,
+                "Appeal funds committed to date": 49860407,
+                "Appeal funds requested": 203608611,
+                "Appeal funds still needed": 153748204,
+                "Appeal percent funded": 0.2448835869716728,
                 "Needs_Data": {
                     "Children in need of education": 600000.0,
                     "People in need of health support": 2200000.0,
@@ -9256,9 +9263,9 @@
                 "Total refugees and asylum-seekers (origin)": 266937
             },
             "Strand_03_Aid": {
-                "Appeal funds requested": 214058212,
-                "Appeal percent funded": 0.2304216527791982,
-                "Humanitarian aid received": 259743573,
+                "Appeal funds requested": 203608611,
+                "Appeal percent funded": 0.2448835869716728,
+                "Humanitarian aid received": 259757746,
                 "Rank of humanitarian aid received": "20th",
                 "Rank of total population of concern": "12th",
                 "Top 5 donors of humanitarian aid": [
@@ -9688,18 +9695,18 @@
         },
         "WORLD": {
             "Strand_01_Needs": {
-                "Count of current crises with people in need": 29,
+                "Count of current crises with people in need": 30,
                 "Needs_Data": {
-                    "Children in need of education": 33857802.0,
-                    "People in need of health support": 115443979.0,
-                    "People in need of protection": 76080588.0,
-                    "People in need of shelter": 33434918.0,
-                    "People in need of water, sanitization & hygiene": 93693828.0,
-                    "People who are food insecure": 101491775.0
+                    "Children in need of education": 33874550.0,
+                    "People in need of health support": 115609979.0,
+                    "People in need of protection": 76246588.0,
+                    "People in need of shelter": 33489918.0,
+                    "People in need of water, sanitization & hygiene": 93859828.0,
+                    "People who are food insecure": 101657775.0
                 },
                 "Place with similar population as people in need": "Russia",
                 "Population of place with similar population": 144096870.0,
-                "Total people in need": 152008055.0
+                "Total people in need": 152174055.0
             }
         },
         "WSM": {
@@ -9809,10 +9816,10 @@
             },
             "Fragile State Index Rank": "4th",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 974452915,
+                "Appeal funds committed to date": 1015291652,
                 "Appeal funds requested": 2338796140,
-                "Appeal funds still needed": 1364343225,
-                "Appeal percent funded": 0.4166472221901307,
+                "Appeal funds still needed": 1323504488,
+                "Appeal percent funded": 0.4341086572855384,
                 "Needs_Data": {
                     "Children in need of education": 2300000.0,
                     "People in need of health support": 14800000.0,
@@ -9838,7 +9845,7 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 2338796140,
-                "Appeal percent funded": 0.4166472221901307,
+                "Appeal percent funded": 0.4341086572855384,
                 "Humanitarian aid received": 1792097507,
                 "Rank of humanitarian aid received": "4th",
                 "Rank of total population of concern": "5th",
@@ -9999,10 +10006,10 @@
             "Displacement_story": {},
             "Fragile State Index Rank": "",
             "Strand_01_Needs": {
-                "Appeal funds committed to date": 336870254,
+                "Appeal funds committed to date": 354359813,
                 "Appeal funds requested": 690935692,
-                "Appeal funds still needed": 354065438,
-                "Appeal percent funded": 0.4875565959328093,
+                "Appeal funds still needed": 336575879,
+                "Appeal percent funded": 0.5128694567424373,
                 "Needs_Data": {},
                 "Place with similar population as people in need": "",
                 "Population of place with similar population": "",
@@ -10021,8 +10028,8 @@
             },
             "Strand_03_Aid": {
                 "Appeal funds requested": 690935692,
-                "Appeal percent funded": 0.4875565959328093,
-                "Humanitarian aid received": 2020930666,
+                "Appeal percent funded": 0.5128694567424373,
+                "Humanitarian aid received": 2042803834,
                 "Rank of humanitarian aid received": "2nd",
                 "Rank of total population of concern": "185th",
                 "Top 5 donors of humanitarian aid": []
@@ -10048,32 +10055,32 @@
         },
         "Strand_01_Needs": {
             "Appeal funds committed to date": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal funds requested": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal funds still needed": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal percent funded": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
@@ -10211,32 +10218,32 @@
         },
         "Strand_03_Aid": {
             "Appeal funds requested": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Appeal percent funded": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Humanitarian aid received": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
                 "update_frequency": "Hourly"
             },
             "Rank of humanitarian aid received": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",
@@ -10260,8 +10267,8 @@
                 "update_frequency": "Every six months"
             },
             "Top 5 donors of humanitarian aid": {
-                "extract_date": "2017-09-06",
-                "source_data": "2017-09-06",
+                "extract_date": "2017-09-14",
+                "source_data": "2017-09-14",
                 "source_key": "FTS",
                 "source_org": "UNOCHA: Financial Tracking Service",
                 "source_url": "https://fts.unocha.org",

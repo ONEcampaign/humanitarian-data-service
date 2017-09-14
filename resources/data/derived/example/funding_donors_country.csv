@@ -1,4 +1,4 @@
-#{"source_data": "2017-09-06", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-09-06", "source_url": "https://fts.unocha.org"}
+#{"source_data": "2017-09-14", "update_frequency": "Hourly", "source_key": "FTS", "extract_date": "2017-09-14", "source_url": "https://fts.unocha.org"}
 organization_name,totalFunding,year,countryCode,Country
 "United States of America, Government of",149722339,2016,AFG,Afghanistan
 "United Kingdom, Government of",54932340,2016,AFG,Afghanistan
@@ -64,7 +64,7 @@ World Food Programme,4451200,2016,BDI,Burundi
 "Japan, Government of",2141119,2016,KHM,Cambodia
 European Commission's Humanitarian Aid and Civil Protection Department,1247164,2016,KHM,Cambodia
 UNICEF National Committee/United Kingdom,39318,2016,KHM,Cambodia
-"United States of America, Government of",73016268,2016,CMR,Cameroon
+"United States of America, Government of",72216268,2016,CMR,Cameroon
 European Commission's Humanitarian Aid and Civil Protection Department,17157995,2016,CMR,Cameroon
 "Japan, Government of",12795056,2016,CMR,Cameroon
 "United Kingdom, Government of",12619763,2016,CMR,Cameroon
@@ -170,7 +170,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,316633,20
 Not specified,267026,2016,GHA,Ghana
 "Saudi Arabia (Kingdom of), Government of",88333,2016,GHA,Ghana
 United Nations Population Fund,26000,2016,GHA,Ghana
-European Commission's Humanitarian Aid and Civil Protection Department,213177612,2016,GRC,Greece
+European Commission's Humanitarian Aid and Civil Protection Department,213459461,2016,GRC,Greece
 European Commission,131326625,2016,GRC,Greece
 Private (individuals & organizations),50320589,2016,GRC,Greece
 "United Kingdom, Government of",23163645,2016,GRC,Greece
@@ -212,7 +212,7 @@ European Commission's Humanitarian Aid and Civil Protection Department,15207786,
 "Denmark, Government of",1590892,2016,IRN,"Iran, Islamic Republic of"
 "Norway, Government of",1512034,2016,IRN,"Iran, Islamic Republic of"
 "Sweden, Government of",939408,2016,IRN,"Iran, Islamic Republic of"
-"Germany, Government of",548972666,2016,IRQ,Iraq
+"Germany, Government of",559374934,2016,IRQ,Iraq
 "United States of America, Government of",538402186,2016,IRQ,Iraq
 European Commission's Humanitarian Aid and Civil Protection Department,156146451,2016,IRQ,Iraq
 "United Kingdom, Government of",122927534,2016,IRQ,Iraq
@@ -427,7 +427,7 @@ Central Emergency Response Fund,3141908,2016,SWZ,Swaziland
 "Italy, Government of",779757,2016,SWZ,Swaziland
 "Denmark, Government of",142794,2016,CHE,Switzerland
 "United States of America, Government of",756710853,2016,SYR,Syrian Arab Republic
-"Germany, Government of",473920543,2016,SYR,Syrian Arab Republic
+"Germany, Government of",473682765,2016,SYR,Syrian Arab Republic
 "United Kingdom, Government of",329324213,2016,SYR,Syrian Arab Republic
 European Commission's Humanitarian Aid and Civil Protection Department,224608757,2016,SYR,Syrian Arab Republic
 "Norway, Government of",93405871,2016,SYR,Syrian Arab Republic
@@ -465,7 +465,7 @@ World Food Programme,155422765,2016,TUR,Turkey
 "United States of America, Government of",114604782,2016,TUR,Turkey
 European Commission,83812133,2016,TUR,Turkey
 European Commission's Humanitarian Aid and Civil Protection Department,63408592,2016,TUR,Turkey
-"Germany, Government of",54673735,2016,TUR,Turkey
+"Germany, Government of",54696255,2016,TUR,Turkey
 "United States of America, Government of",59158919,2016,UGA,Uganda
 Central Emergency Response Fund,28297524,2016,UGA,Uganda
 European Commission's Humanitarian Aid and Civil Protection Department,17388793,2016,UGA,Uganda
@@ -510,7 +510,7 @@ Start Fund,152677,2016,ZMB,Zambia
 European Commission's Humanitarian Aid and Civil Protection Department,16676439,2016,ZWE,Zimbabwe
 "Canada, Government of",7496420,2016,ZWE,Zimbabwe
 "United States of America, Government of",263705863,2016,PSE,occupied Palestinian territory
-"Germany, Government of",86225105,2016,PSE,occupied Palestinian territory
+"Germany, Government of",74402124,2016,PSE,occupied Palestinian territory
 "Japan, Government of",71566837,2016,PSE,occupied Palestinian territory
 "Sweden, Government of",59173768,2016,PSE,occupied Palestinian territory
 European Commission's Humanitarian Aid and Civil Protection Department,28792435,2016,PSE,occupied Palestinian territory
