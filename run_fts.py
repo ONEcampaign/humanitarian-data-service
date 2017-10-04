@@ -101,9 +101,8 @@ def getDonorPlanFundingAmounts(plans):
         url = constants.FTS_API_BASE_URL + endpoint_str
         result = requests.get(url, auth=(constants.FTS_CLIENT_ID, constants.FTS_CLIENT_PASSWORD))
         result.raise_for_status()
-        result = result.json()['data']['report1']['fundingTotals']['objects'][0]['singleFundingObjects']
-        if result:
-            result = json_normalize(result)
+        if len(result.json()['data']['report1']['fundingTotals']['objects']) > 0:
+            result = json_normalize(result.json()['data']['report1']['fundingTotals']['objects'][0]['singleFundingObjects'])
             result['plan_id'] = plan_id
         else:
             print 'Empty data from this endpoint: {}'.format(url)
@@ -198,16 +197,18 @@ def getClusterFundingAmounts(plans):
             requirements = None
 
         #Get the actual funded amounts for each cluster
-        funding = result.json()['data']['report3']['fundingTotals']['objects'][0]['singleFundingObjects']
-        if funding:
-            funding = json_normalize(funding)
+        if len(result.json()['data']['report3']['fundingTotals']['objects']) > 0:
+            funding = json_normalize(result.json()['data']['report3']['fundingTotals']['objects'][0]['singleFundingObjects'])
             funding['plan_id'] = plan_id
         else:
             print ('Empty data from this endpoint: {}'.format(url))
             funding = None
 
         #Join required and actual funding amounts together
-        combined = requirements.merge(funding, how='outer', on=['name', 'plan_id'])
+        if funding is not None:
+            combined = requirements.merge(funding, how='outer', on=['name', 'plan_id'])
+        else:
+            combined = requirements
 
         return combined
 
@@ -305,115 +306,115 @@ def loadDataByDimension(dimension):
     return data
 
 
-def loadDataByCountryCode(country_code):
-    """
-    Given a country, load the data for each funding dimension.
-    Return a dict of funding dimension to pandas dataframe for the funding data for the given country.
-    """
-    if country_code not in constants.COUNTRY_CODES.keys():
-        if country_code not in constants.COUNTRY_CODES.values():
-            raise Exception('Not a valid country code for downloaded data from FTS: {}!'.format(country))
-        else:
-            # Convert country name to country code
-            country_code = constants.COUNTRY_CODES.values().index(country_code)
-
-    data_dir = os.path.join(constants.LATEST_RAW_DATA_PATH, constants.FTS_DIR)
-    date_str = date.today().isoformat()
-    with open(os.path.join(data_dir, constants.FTS_DOWNLOAD_DATE_FILE), 'r') as f:
-        date_str = f.read().strip()
-    data = {}
-    for dimension, schema in constants.FTS_SCHEMAS.iteritems():
-        file_name = '-'.join([constants.FTS_FILE_PREFIX, country_code, dimension, date_str])
-        file_path = os.path.join(data_dir, '{}.csv'.format(file_name))
-        df = pd.read_csv(file_path, encoding='utf-8')
-        data[dimension] = df
-    return data
-
-
-def combineData(data, column):
-    """
-    Combine given data across a particular column, where data is a dictionary from keys to dataframes,
-    and the given column corresponds to a column name for the keys of the data dict, e.g. 'Country' or 'Dimension'.
-    Returns a single dataframe that combines all the dataframes in the given data.
-    """
-    combined_df = pd.DataFrame()
-    for key, df in data.iteritems():
-        df[column] = key
-        combined_df = combined_df.append(df)
-    return combined_df
+# def loadDataByCountryCode(country_code):
+#     """
+#     Given a country, load the data for each funding dimension.
+#     Return a dict of funding dimension to pandas dataframe for the funding data for the given country.
+#     """
+#     if country_code not in constants.COUNTRY_CODES.keys():
+#         if country_code not in constants.COUNTRY_CODES.values():
+#             raise Exception('Not a valid country code for downloaded data from FTS: {}!'.format(country_code)
+#         else:
+#             # Convert country name to country code
+#             country_code = constants.COUNTRY_CODES.values().index(country_code)
+#
+#     data_dir = os.path.join(constants.LATEST_RAW_DATA_PATH, constants.FTS_DIR)
+#     date_str = date.today().isoformat()
+#     with open(os.path.join(data_dir, constants.FTS_DOWNLOAD_DATE_FILE), 'r') as f:
+#         date_str = f.read().strip()
+#     data = {}
+#     for dimension, schema in constants.FTS_SCHEMAS.iteritems():
+#         file_name = '-'.join([constants.FTS_FILE_PREFIX, country_code, dimension, date_str])
+#         file_path = os.path.join(data_dir, '{}.csv'.format(file_name))
+#         df = pd.read_csv(file_path, encoding='utf-8')
+#         data[dimension] = df
+#     return data
 
 
-def updateLatestDataDir(download_path, current_date_str):
-    """
-    Copies all files from the given download_path into the latest data directory configured in
-    `resources/constants.py`. Appends to the run_dates.txt file with the current run date.
-    """
-    if not download_path or not current_date_str:
-        print 'Could not copy latest data for this run to the latest data directory!'
-        return
-    dir_util.copy_tree(download_path, constants.LATEST_DERIVED_DATA_PATH)
-    with open(constants.LATEST_DERIVED_RUN_DATE_FILE, 'a') as run_file:
-        run_file.write('{}-fts\n'.format(current_date_str))
-    return
+# def combineData(data, column):
+#     """
+#     Combine given data across a particular column, where data is a dictionary from keys to dataframes,
+#     and the given column corresponds to a column name for the keys of the data dict, e.g. 'Country' or 'Dimension'.
+#     Returns a single dataframe that combines all the dataframes in the given data.
+#     """
+#     combined_df = pd.DataFrame()
+#     for key, df in data.iteritems():
+#         df[column] = key
+#         combined_df = combined_df.append(df)
+#     return combined_df
+#
+#
+# def updateLatestDataDir(download_path, current_date_str):
+#     """
+#     Copies all files from the given download_path into the latest data directory configured in
+#     `resources/constants.py`. Appends to the run_dates.txt file with the current run date.
+#     """
+#     if not download_path or not current_date_str:
+#         print 'Could not copy latest data for this run to the latest data directory!'
+#         return
+#     dir_util.copy_tree(download_path, constants.LATEST_DERIVED_DATA_PATH)
+#     with open(constants.LATEST_DERIVED_RUN_DATE_FILE, 'a') as run_file:
+#         run_file.write('{}-fts\n'.format(current_date_str))
+#     return
 
 
-def createCurrentDateDir(parent_dir):
-    """
-    Create a new directory with the current date (ISO format) under the given parent_dir.
-    Return whether it was successful, the full path for the new directory, and the current date string.
-    If the date directory already exists or is not successful, default to returning the parent_dir as the full path.
-    """
-    # Create a new directory of the current date under the given parent_dir if it doesn't already exist
-    current_date_str = date.today().isoformat()
-    dir_path = os.path.join(parent_dir, current_date_str)
-    success = data_utils.safely_mkdir(dir_path)
-    if not success:
-        # Safely default to returning the parent_dir if we cannot create the dir_path
-        print 'Could not create a new directory for the current date [{}], defaulting to existing parent dir: {}'.format(current_date_str, parent_dir)
-        dir_path = parent_dir
-    else:
-        print 'Created new derived data dir: {}'.format(dir_path)
-    return success, dir_path, current_date_str
-
-
-def saveDerivedData(data, dir_path):
-    """
-    Save the derived data into a new dated directory under the given parent_dir (defaults to DERIVED_DATA_PATH configured in `resources/constants.py`).
-    Return whether any data saving was successful.
-    """
-    # Save data to dated directory under the given parent_dir
-    success = False
-    for dimension, df in data.iteritems():
-        df_path = os.path.join(dir_path, 'fts-{}.csv'.format(dimension))
-        print 'Saving derived data for dimension [{}] to: {}'.format(dimension, df_path)
-        df.to_csv(df_path, index=False, encoding='utf-8')
-        success = True
-    return success
-
-
-def run_transformations_by_dimension():
-    """
-    This is an example of some data transformations we can do to go from raw data to derived data.
-    """
-    print 'Load and process downloaded data from FTS'
-    print 'Create current date directory as the download path...'
-    _, download_path, current_date_str = createCurrentDateDir(constants.DERIVED_DATA_PATH)
-    print 'Load data by dimension...'
-    data_by_dimension = {}
-    for dimension, schema in constants.FTS_SCHEMAS.iteritems():
-        data_for_dimension = loadDataByDimension(dimension)
-        print 'Combine data for dimension [{}] across all countries...'.format(dimension)
-        data_by_dimension[dimension] = combineData(data_for_dimension, constants.COUNTRY_COL)
-        print data_by_dimension[dimension]
-
-    success = saveDerivedData(data_by_dimension, download_path)
-    if success:
-        print 'Copy data from {} to {}...'.format(download_path, constants.LATEST_DERIVED_DATA_PATH)
-        updateLatestDataDir(download_path, current_date_str)
-    
-    #dir_util.copy_tree(download_path, constants.EXAMPLE_DERIVED_DATA_PATH)
-
-    print 'Done!'
+# def createCurrentDateDir(parent_dir):
+#     """
+#     Create a new directory with the current date (ISO format) under the given parent_dir.
+#     Return whether it was successful, the full path for the new directory, and the current date string.
+#     If the date directory already exists or is not successful, default to returning the parent_dir as the full path.
+#     """
+#     # Create a new directory of the current date under the given parent_dir if it doesn't already exist
+#     current_date_str = date.today().isoformat()
+#     dir_path = os.path.join(parent_dir, current_date_str)
+#     success = data_utils.safely_mkdir(dir_path)
+#     if not success:
+#         # Safely default to returning the parent_dir if we cannot create the dir_path
+#         print 'Could not create a new directory for the current date [{}], defaulting to existing parent dir: {}'.format(current_date_str, parent_dir)
+#         dir_path = parent_dir
+#     else:
+#         print 'Created new derived data dir: {}'.format(dir_path)
+#     return success, dir_path, current_date_str
+#
+#
+# def saveDerivedData(data, dir_path):
+#     """
+#     Save the derived data into a new dated directory under the given parent_dir (defaults to DERIVED_DATA_PATH configured in `resources/constants.py`).
+#     Return whether any data saving was successful.
+#     """
+#     # Save data to dated directory under the given parent_dir
+#     success = False
+#     for dimension, df in data.iteritems():
+#         df_path = os.path.join(dir_path, 'fts-{}.csv'.format(dimension))
+#         print 'Saving derived data for dimension [{}] to: {}'.format(dimension, df_path)
+#         df.to_csv(df_path, index=False, encoding='utf-8')
+#         success = True
+#     return success
+#
+#
+# def run_transformations_by_dimension():
+#     """
+#     This is an example of some data transformations we can do to go from raw data to derived data.
+#     """
+#     print 'Load and process downloaded data from FTS'
+#     print 'Create current date directory as the download path...'
+#     _, download_path, current_date_str = createCurrentDateDir(constants.DERIVED_DATA_PATH)
+#     print 'Load data by dimension...'
+#     data_by_dimension = {}
+#     for dimension, schema in constants.FTS_SCHEMAS.iteritems():
+#         data_for_dimension = loadDataByDimension(dimension)
+#         print 'Combine data for dimension [{}] across all countries...'.format(dimension)
+#         data_by_dimension[dimension] = combineData(data_for_dimension, constants.COUNTRY_COL)
+#         print data_by_dimension[dimension]
+#
+#     success = saveDerivedData(data_by_dimension, download_path)
+#     if success:
+#         print 'Copy data from {} to {}...'.format(download_path, constants.LATEST_DERIVED_DATA_PATH)
+#         updateLatestDataDir(download_path, current_date_str)
+#
+#     #dir_util.copy_tree(download_path, constants.EXAMPLE_DERIVED_DATA_PATH)
+#
+#     print 'Done!'
 
 
 def prepend_metadata(metadata, filepath):
